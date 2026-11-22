@@ -9,7 +9,7 @@
     "te": "పద్మం మరియు రక్షణ",
     "hi": "कमल और उद्धार"
   },
-  "status": "partial_scene_draft",
+  "status": "draft_for_table_read",
   "logline": "Moved by Gajendra's prayer, Hari arrives swiftly on Garuḍa. Seeing the Lord, Gajendra raises a lotus; Nārāyaṇa lifts both struggling creatures from the lake, ends the crocodile's animal life with His disc and saves Gajendra.",
   "target_runtime_seconds": {
     "min": 270,
@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 3, original Telugu/Hindi/English devotional retelling; copyrighted published English translation not reproduced",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.30–33",
-    "verification_notes": "SB 8.3.30: Gajendra appeals to Supreme rather than specific devas; Hari responds. 8.3.31: He reaches distressed Gajendra quickly mounted on Garuda with disc and other divine attributes, surrounded by praising devas. 8.3.32: only AFTER seeing Lord approaching on Garuda, Gajendra raises a lotus with trunk and offers a respectful address. 8.3.33: Hari alights, lifts Gajendra together WITH the crocodile from the lake, and severs the crocodile's mouth with His disc; the animal life ends and the elephant is saved. We use a non-graphic cutaway, not a changed outcome. Huhu's former Gandharva identity and Gajendra's sārūpya appear in 8.4 and later episodes. The six visual scenes extend just four verses through deliberate unmeasured art/camera holds, not fabricated incidents. S01: SB 8.3.30, 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S02: SB 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S03: SB 8.3.32 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S04: SB8.3.33 original safe visual editing is disclosed; the elephant+crocodile lift and the crocodile mouth-disc outcome remain accurate. S05: SB8.3.33 original safe visual editing is disclosed; the elephant+crocodile lift and the crocodile mouth-disc outcome remain accurate."
+    "verification_notes": "SB 8.3.30: Gajendra appeals to Supreme rather than specific devas; Hari responds. 8.3.31: He reaches distressed Gajendra quickly mounted on Garuda with disc and other divine attributes, surrounded by praising devas. 8.3.32: only AFTER seeing Lord approaching on Garuda, Gajendra raises a lotus with trunk and offers a respectful address. 8.3.33: Hari alights, lifts Gajendra together WITH the crocodile from the lake, and severs the crocodile's mouth with His disc; the animal life ends and the elephant is saved. We use a non-graphic cutaway, not a changed outcome. Huhu's former Gandharva identity and Gajendra's sārūpya appear in 8.4 and later episodes. The six visual scenes extend just four verses through deliberate unmeasured art/camera holds, not fabricated incidents. S01: SB 8.3.30, 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S02: SB 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S03: SB 8.3.32 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S04: SB8.3.33 original safe visual editing is disclosed; the elephant+crocodile lift and the crocodile mouth-disc outcome remain accurate. S05: SB8.3.33 original safe visual editing is disclosed; the elephant+crocodile lift and the crocodile mouth-disc outcome remain accurate. S06: SB8.3.33 original safe visual editing is disclosed; the elephant+crocodile lift and the crocodile mouth-disc outcome remain accurate."
   },
   "adaptation": {
     "core_preserved": [
@@ -40,7 +40,8 @@
       "S02: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events.",
       "S03: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events.",
       "S04 close safe imagery is editorial technique, never a new verse or a claim crocodile survived.",
-      "S05 close safe imagery is editorial technique, never a new verse or a claim crocodile survived."
+      "S05 close safe imagery is editorial technique, never a new verse or a claim crocodile survived.",
+      "S06 close safe imagery is editorial technique, never a new verse or a claim crocodile survived."
     ],
     "fidelity_note": "Source-checked 8.3.30–33 with separate screenplay staging. No invented mantra audio, pre-arrival lotus offering, natural crocodile survival, or premature Huhu/Gajendra liberated form. Family-safe render approach keeps the text factually correct."
   },
@@ -312,6 +313,49 @@
           "budget_seconds": 20,
           "action": "The crocodile's animal life ends and Gajendra is separated from its hold; narration L007–L008.",
           "camera": "16:9 return to calm riverbank/wide Gajendra, no explicit crocodile injury visible; Huhu restoration deferred to E05.",
+          "sound": "NARRATOR is only spoken owner; future soft original sound and controlled respectful visuals PLANNED, no produced media."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "Gajendra is freed",
+      "setting": "At the familiar lotus lake just after the Lord's disc rescued the elephant, approved Gajendra remains physically an elephant for the closing grace-filled moment; Huhu's restored form and Gajendra's four-armed liberation will be explained in following episodes, not quietly inserted here.",
+      "action": "Gajendra stands freed as Narayana's mercy saves him. The devas have witnessed the deliverance. End on gentle gratitude and an editorial transition to the later account of the former lives, without re-enacting any violence or transforming Gajendra prematurely.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Keep Gajendra as user-approved ordinary four-legged elephant with decorative cloth and expressive eye/trunk; liberated four-arm spiritual identity will be a distinct later scene.",
+        "The crocodile has already ended its animal life; do not put it back into the water or show it alive in the next shot.",
+        "Narayana remains in approved four-arm image; Garuda near shore. No invented mantra track or direct speaking mouth for elephant.",
+        "Narration states the Lord rescued Gajendra. A brief peaceful family/flower cutaway is original concluding cinematography, not a second original verse miracle.",
+        "Leave the cause and release of Huhu's curse and Gajendra's previous birth to E05; spiritual transformation sārūpya-mukti for E06."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.33",
+          "url": "https://vedabase.io/en/library/sb/8/3/33/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E04-S06-SH01",
+          "budget_seconds": 15,
+          "action": "Gajendra is finally free after Sudarshana breaks the crocodile's hold; narration L001–L002.",
+          "camera": "16:9 full-body Gajendra in stable shoreline view, no crocodile attached, no wound or human anatomy.",
+          "sound": "NARRATOR is only spoken owner; future soft original sound and controlled respectful visuals PLANNED, no produced media."
+        },
+        {
+          "id": "S01E04-S06-SH02",
+          "budget_seconds": 20,
+          "action": "The devas witness Hari's mercy and Gajendra's rescue; narration L003–L004.",
+          "camera": "16:9 Narayana beside Garuda, respectful distant observer composition, not a spectacle.",
+          "sound": "NARRATOR is only spoken owner; future soft original sound and controlled respectful visuals PLANNED, no produced media."
+        },
+        {
+          "id": "S01E04-S06-SH03",
+          "budget_seconds": 20,
+          "action": "The lake becomes quiet and the rescued Gajendra remains in present elephant form; narration L005–L007.",
+          "camera": "16:9 gentle lotus lake wide shot with completed rescue, no instant four-arm Gajendra; future revelation deferred.",
           "sound": "NARRATOR is only spoken owner; future soft original sound and controlled respectful visuals PLANNED, no produced media."
         }
       ]
@@ -1039,8 +1083,141 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.33"
       }
+    },
+    {
+      "id": "S01E04-S06-L001",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent, calm and clear",
+      "intent": "Gajendra was finally free of the crocodile's grip.",
+      "text": {
+        "te": "ఇప్పుడు గజేంద్రుడు మొసలి పట్టు నుంచి పూర్తిగా బయటపడ్డాడు.",
+        "hi": "अब गजेन्द्र मगरमच्छ की पकड़ से पूरी तरह मुक्त था।",
+        "en": "Gajendra was finally free of the crocodile's grip."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S06-L002",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft emphasis; no gore/horror",
+      "intent": "Narayana had saved him.",
+      "text": {
+        "te": "నారాయణుడు అతన్ని కాపాడాడు.",
+        "hi": "भगवान नारायण ने उसकी रक्षा की।",
+        "en": "Narayana had saved him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S06-L003",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Let original image pauses breathe",
+      "intent": "The devas witnessed this act of rescue.",
+      "text": {
+        "te": "దేవతలందరూ ఈ రక్షణను చూశారు.",
+        "hi": "देवताओं ने यह दिव्य रक्षा देखी।",
+        "en": "The devas witnessed this act of rescue."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S06-L004",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent, calm and clear",
+      "intent": "Hari's mercy brought Gajendra's ordeal to an end.",
+      "text": {
+        "te": "గజేంద్రుడి కష్టానికి హరి కరుణతో ముగింపు పలికాడు.",
+        "hi": "हरि की करुणा से गजेन्द्र का संकट समाप्त हुआ।",
+        "en": "Hari's mercy brought Gajendra's ordeal to an end."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S06-L005",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft emphasis; no gore/horror",
+      "intent": "The lakeshore gradually became peaceful again.",
+      "text": {
+        "te": "సరస్సు ఒడ్డున మెల్లగా నిశ్శబ్దం నెలకొంది.",
+        "hi": "झील के किनारे धीरे-धीरे शांति छा गई।",
+        "en": "The lakeshore gradually became peaceful again."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original calm lake atmosphere after the scripture's completed rescue, an editorial hold not an additional verse incident."
+      }
+    },
+    {
+      "id": "S01E04-S06-L006",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Let original image pauses breathe",
+      "intent": "For this closing view, Gajendra was still shown as an elephant.",
+      "text": {
+        "te": "గజేంద్రుడు ఇంకా తన సహజ ఏనుగు రూపంలోనే ఉన్నాడు.",
+        "hi": "गजेन्द्र अभी अपनी साधारण हाथी की देह में ही दिखाई दिया।",
+        "en": "For this closing view, Gajendra was still shown as an elephant."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Explicit editorial continuity choice to defer Gajendra's four-armed sārūpya-mukti (SB 8.4.6) to Episode 6; not a claim he remained an elephant after the complete scriptural deliverance."
+      }
+    },
+    {
+      "id": "S01E04-S06-L007",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent, calm and clear",
+      "intent": "The earlier lives behind this deliverance would be revealed next.",
+      "text": {
+        "te": "ఈ మహా రక్షణకు కారణమైన పూర్వజన్మల కథ తరువాత తెలుస్తుంది.",
+        "hi": "इस अद्भुत उद्धार के पीछे की पिछली जन्मों की कथा आगे सामने आएगी।",
+        "en": "The earlier lives behind this deliverance would be revealed next."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original narrator transition/hook to the already sourced earlier-life revelations of SB 8.4.3–12; scripture does not say this exact serial-story line."
+      }
     }
   ],
-  "performance_notes": "E04's all three-language scripture paraphrases are delivered by offscreen NARRATOR, not human mouth-sync animals. Deity and Garuda are visible after arrival; no accepted audio/TTS/character turnaround beyond owner-approved full-body cast overview in Library. Names/costumes stay matched. All original cutaway/metaphor actions explicitly distinguished from scripture events. S01: 6 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S02: 9 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S03: 7 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S04: only NARRATOR te/hi/en speech, no animal human mouth-sync, audio missing. S05: only NARRATOR te/hi/en speech, no animal human mouth-sync, audio missing.",
-  "timing_note": "E04 5/6 scenes authored, 245/300 provisional sec, 38 narration IDs, still partial_scene_draft."
+  "performance_notes": "E04's all three-language scripture paraphrases are delivered by offscreen NARRATOR, not human mouth-sync animals. Deity and Garuda are visible after arrival; no accepted audio/TTS/character turnaround beyond owner-approved full-body cast overview in Library. Names/costumes stay matched. All original cutaway/metaphor actions explicitly distinguished from scripture events. S01: 6 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S02: 9 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S03: 7 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S04: only NARRATOR te/hi/en speech, no animal human mouth-sync, audio missing. S05: only NARRATOR te/hi/en speech, no animal human mouth-sync, audio missing. S06: only NARRATOR te/hi/en speech, no animal human mouth-sync, audio missing.",
+  "timing_note": "Six E04 scenes fully authored: 30+55+45+55+60+55=300 seconds provisional, 45 aligned narrator IDs and 135 te/hi/en strings. Complete written DRAFT FOR FUTURE TABLE READ; no recorded human durations, cast/audio, video, production QC, or scene keyframes."
 }

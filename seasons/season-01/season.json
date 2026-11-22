@@ -19,7 +19,7 @@
     "preferred": 360,
     "max": 390
   },
-  "status": "four_episode_sources_two_missing_e02_e03_draft_e04_partial",
+  "status": "four_episode_sources_two_missing_e02_e03_e04_draft_unapproved",
   "source": "Srimad Bhagavatam Canto 8 Chapters 2–4",
   "episodes": [
     {
@@ -62,7 +62,7 @@
       "episode_id": "S01E04",
       "release_order": 4,
       "path": "episodes/s01e04-the-lotus-and-the-rescue",
-      "status": "partial_scene_draft",
+      "status": "draft_for_table_read",
       "title": {
         "en": "The Lotus and the Rescue",
         "te": "పద్మం మరియు రక్షణ",
