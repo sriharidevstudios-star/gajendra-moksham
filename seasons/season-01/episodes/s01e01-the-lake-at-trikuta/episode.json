@@ -10,7 +10,7 @@
     "en": "The Lake at Trikūṭa"
   },
   "status": "partial_scene_draft",
-  "logline": "On Trikūṭa, three great peaks rise above the Ocean of Milk. Below, Varuṇa's Ṛtumat garden surrounds a lotus lake; the mighty elephant leader Gajendra guides his herd toward its bank.",
+  "logline": "Trikūṭa rises above the Ocean of Milk. Below, Gajendra leads his herd through Ṛtumat garden to its lotus lake, where he drinks, bathes and helps the other elephants enjoy the cool water.",
   "target_runtime_seconds": {
     "min": 330,
     "preferred": 360,
@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam, Canto 8; passage checked against Vedabase verse pages (copyrighted translation not reused)",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.1–28",
-    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes. S02 paraphrases the separate bird-rich valleys and clear waters (8.2.7–8), Varuṇa's garden Ṛtumat with year-round fruit and flowers (8.2.9–13), and its golden-lotus lake with other water lilies, bees, water birds, fish, tortoises and flowering banks (8.2.14–19). Waterway and shoreline blocking are editorial staging, not claimed scripture; Gajendra and the crocodile are reserved for later scenes. S03 retells SB 8.2.20 (elephant leader and thorny forest), 8.2.21 (fierce animals flee from his scent), 8.2.22 (smaller animals roam without fear), and the combined 8.2.23–24 (female elephants, calves, heavy steps, heat, bees, thirst and lotus-pollen breeze leading to the lake bank). Each line is independently phrased and verse-attributed. No water entry or attack is moved into S03."
+    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes. S02 paraphrases the separate bird-rich valleys and clear waters (8.2.7–8), Varuṇa's garden Ṛtumat with year-round fruit and flowers (8.2.9–13), and its golden-lotus lake with other water lilies, bees, water birds, fish, tortoises and flowering banks (8.2.14–19). Waterway and shoreline blocking are editorial staging, not claimed scripture; Gajendra and the crocodile are reserved for later scenes. S03 retells SB 8.2.20 (elephant leader and thorny forest), 8.2.21 (fierce animals flee from his scent), 8.2.22 (smaller animals roam without fear), and the combined 8.2.23–24 (female elephants, calves, heavy steps, heat, bees, thirst and lotus-pollen breeze leading to the lake bank). Each line is independently phrased and verse-attributed. No water entry or attack is moved into S03. S04 paraphrases SB 8.2.25–26: Gajendra enters the clear, cool lotus-pollen lake, drinks with his trunk and bathes, then sprinkles female elephants and their young and helps them drink and bathe. Verse 26's reflection on attachment to his family/heedlessness of hardship is condensed to a gentle observation, without declaring love itself wrongful or inventing foreknowledge. The crocodile grips him in 8.2.27 and must not appear in S04."
   },
   "adaptation": {
     "core_preserved": [
@@ -32,7 +32,9 @@
       "The garden lake has golden lotuses, other water lilies, bees, swans, cranes, fish, tortoises and abundant flowering banks (SB 8.2.14–19).",
       "A powerful leader walks with female elephants through thorny, overgrown forest and breaks branches (SB 8.2.20).",
       "Lions, tigers, rhinoceroses and large snakes flee, but elsewhere deer, rabbits, monkeys and other small animals are not afraid (SB 8.2.21–22).",
-      "Female elephants and young follow the perspiring leader; bees circle near him, and the scent of lotus pollen travels from the lake as the thirsty herd reaches its bank (SB 8.2.23–24)."
+      "Female elephants and young follow the perspiring leader; bees circle near him, and the scent of lotus pollen travels from the lake as the thirsty herd reaches its bank (SB 8.2.23–24).",
+      "Gajendra bathes in the lotus-pollen-filled lake, drinks cool clear water with his trunk until satisfied, and is refreshed (SB 8.2.25).",
+      "Gajendra lifts and sprays lake water with his trunk and helps female elephants and their young drink and bathe, absorbed in his family and heedless of the effort (SB 8.2.26)."
     ],
     "changes": [
       "The narrator speaks an original accessible retelling rather than directly quoting Śukadeva or a modern published English translation.",
@@ -43,9 +45,12 @@
       "All S02 dialogue is original narrator paraphrase. Varuṇa is identified as owner but not depicted giving newly invented dialogue; Gajendra, the herd and the crocodile do not appear before their later scene.",
       "Gajendra is visually identified with the scriptural elephant leader; his narrated name is an identification, not a new incident. The full zoological lists are selectively condensed.",
       "The elephant and herd remain non-speaking. Forest positions, specific plants broken by the walk, Gajendra's trunk gesture at the breeze, and exact approach-bank blocking are production staging decisions, not verbatim verse facts.",
-      "The 60-second scene ends with the herd at the bank because 8.2.23–24 already places them there; entering the water, drinking, bathing and the crocodile attack are deliberately reserved for later scenes."
+      "The 60-second scene ends with the herd at the bank because 8.2.23–24 already places them there; entering the water, drinking, bathing and the crocodile attack are deliberately reserved for later scenes.",
+      "S04 presents the bathing, drinking and sharing of water as three continuous editorial shots at the same stable lake bank; shot order and exact blocking are cinematic staging decisions.",
+      "The source's reflection on Gajendra's attachment and disregard for hardship is conveyed gently without manufacturing a warning, malicious creature, divine punishment or spoken elephant dialogue.",
+      "No crocodile, threatening water shadow, attack or unseen predator is scripted in S04: the source first places the crocodile grip in 8.2.27, reserved for S06."
     ],
-    "fidelity_note": "S01–S03 use new, meaning-aligned Telugu, Hindi and English narration grounded in Śrīmad-Bhāgavatam 8.2.1–4, 8.2.7–19 and 8.2.20–24 respectively. Scenic geography, camera positions and sound effects are disclosed original staging; no new named animals or human-spoken elephant dialogue are invented."
+    "fidelity_note": "All S01–S04 narration is original Telugu/Hindi/English paraphrase of the verse-anchored geography, garden, herd approach and bathing/refreshment in SB 8.2.1–26; it is not a verbatim modern translation. No elephant speaks as a human, and staging/ambient sound are declared original screenplay directions."
   },
   "characters": [
     {
@@ -228,6 +233,54 @@
           "action": "Heat and thirst affect the moving herd. Bees circle near Gajendra's temples; the leader lifts his trunk to scent lotus pollen on a breeze and the elephants hurry to the established approach bank. Hold at the shore before water entry. Narration L009–L011.",
           "camera": "Medium close-up of natural trunk and head, then wide follow shot from behind toward the recognizable lotus lake. Preserve the S02 bank/center/lotus-zone relationship for S04.",
           "sound": "Bees near the elephant, warm breeze, approaching lake birds and gentle water ambience. Offscreen NARRATOR; end with a brief environmental tail before S04."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Thirst and Relief at the Water",
+      "setting": "The previously established near approach bank of the freshwater lotus lake in Varuṇa's Ṛtumat garden; clear cool water is flecked with lotus and water-lily pollen. This is not the Ocean of Milk shoreline. The same tree line, lotus band and deeper center remain consistently oriented.",
+      "action": "Gajendra enters the clear water at the near bank, bathes and lifts it with his trunk to drink until satisfied. With his fatigue eased, he draws up water to share with female elephants and calves, sprinkling and helping them drink and bathe. He remains absorbed in their comfort and does not reflect on possible hardship. No crocodile or hostile movement appears; the scriptural grip occurs only in verse 8.2.27, reserved for S06.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Match S03's final approach-bank camera direction and S02's one coherent freshwater lake; start with Gajendra's natural four legs entering at the near shoreline and retain stable tusks, ears and trunk.",
+        "Keep bathing and drinking distinct: Gajendra bathes, then uses his trunk to draw cool, clear, lotus-pollen water to drink; water behavior remains naturalistic, not human-style hand gestures.",
+        "Female elephants and calves remain visibly grouped near the shallower bank. Show water shared by the leader without inventing a conversation, laughter, a contest or human faces on animals.",
+        "Gajendra can spray water from his trunk onto nearby herd members and aid their drinking/bathing, as the account states. Give the calves safe scale relative to adults.",
+        "Close on Gajendra caring for the herd and an ordinary ripple with a brief contemplative narrator line. Do not show a lurking crocodile, shadow, incoming threat, supernatural warning or attack in this verse-25–26 scene.",
+        "All on-screen animal sounds and splashes are ambience/effects; none are spoken audio tracks or approved recordings."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.25",
+          "url": "https://vedabase.io/en/library/sb/8/2/25/"
+        },
+        {
+          "locator": "8.2.26",
+          "url": "https://vedabase.io/en/library/sb/8/2/26/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E01-S04-SH01",
+          "budget_seconds": 18,
+          "action": "Continue from S03's established bank as Gajendra steps into the lotus lake; the water is cold and clear with drifting pollen. He bathes naturally, showing fatigue easing; narration L001–L003. No crocodile visible.",
+          "camera": "16:9 medium-wide bank-to-water follow with a brief readable water-level angle; foreground bank stays the same as S02/S03 and body anatomy remains quadrupedal.",
+          "sound": "Continuous lake birds, light sloshing and water against the bank under the offscreen narrator. No animal speech or threat cue."
+        },
+        {
+          "id": "S01E01-S04-SH02",
+          "budget_seconds": 18,
+          "action": "Gajendra raises water with his trunk, drinks until satisfied, and bathes again to wash away the long walk's fatigue; narration L004–L007. Preserve trunk and tusks across shot reverses.",
+          "camera": "Natural-profile medium detail on trunk drawing water, followed by medium-wide bathing without crossing the pre-established lake geography.",
+          "sound": "Trunk suction/soft splash textures and calm water ambience. Keep narration clear and leave brief natural pauses."
+        },
+        {
+          "id": "S01E01-S04-SH03",
+          "budget_seconds": 24,
+          "action": "Female elephants and calves join Gajendra at the shallows. He lifts water in his trunk, sprinkles them and helps them drink and bathe, absorbed in caring for the herd; narration L008–L011. End on a calm family grouping, without an ominous underwater cut.",
+          "camera": "Stable 16:9 wide family group at the same shore, with a short medium view of Gajendra's natural trunk spray. Avoid humanlike gestures and animal mouth lip-sync.",
+          "sound": "Gentle trunk-water spray, calf splashes, birds, and a soft environmental tail. The narrator is the only spoken owner."
         }
       ]
     }
@@ -802,8 +855,217 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.23-24"
       }
+    },
+    {
+      "id": "S01E01-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Wonder and gentle relief",
+      "intent": "Gajendra enters the freshwater lake from the established bank",
+      "text": {
+        "te": "సరస్సు ఒడ్డుకు చేరుకున్న గజేంద్రుడు నీళ్లలోకి దిగాడు.",
+        "hi": "झील के किनारे से गजेन्द्र पानी में उतर गया।",
+        "en": "At the lake's edge, Gajendra stepped into the water."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.25"
+      }
+    },
+    {
+      "id": "S01E01-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft relief, measured pace",
+      "intent": "The cold clear lotus lake offers physical relief",
+      "text": {
+        "te": "చల్లగా, స్వచ్ఛంగా ఉన్న నీళ్లు అతని అలసిన ఒంటికి హాయినిచ్చాయి.",
+        "hi": "ठंडे, साफ़ पानी ने उसके थके शरीर को राहत दी।",
+        "en": "The cool, clear water soothed his tired body."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.25"
+      }
+    },
+    {
+      "id": "S01E01-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm nature detail",
+      "intent": "Show pollen of lotus and water lilies mixing with lake water",
+      "text": {
+        "te": "తామరపూల, కలువపూల పుప్పొడి ఆ నీటిలో కలిసింది.",
+        "hi": "कमल और जलकुमुदिनी के फूलों का पराग पानी में घुला था।",
+        "en": "Pollen from lotuses and water lilies floated in the water."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.25"
+      }
+    },
+    {
+      "id": "S01E01-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm physical clarity",
+      "intent": "Describe Gajendra using his trunk to drink",
+      "text": {
+        "te": "గజేంద్రుడు తొండంతో నీళ్లు తీసుకుని తాగాడు.",
+        "hi": "गजेन्द्र ने सूँड से पानी उठाकर पिया।",
+        "en": "Gajendra lifted water with his trunk and drank."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.25"
+      }
+    },
+    {
+      "id": "S01E01-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Relieved, without rushing",
+      "intent": "He drinks until satisfied",
+      "text": {
+        "te": "దాహం తీరేవరకు నీళ్లు తాగాడు.",
+        "hi": "उसने तब तक पानी पिया, जब तक उसकी प्यास बुझ नहीं गई।",
+        "en": "He drank until his thirst was gone."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.25"
+      }
+    },
+    {
+      "id": "S01E01-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle enjoyment",
+      "intent": "Gajendra bathes with the lake water",
+      "text": {
+        "te": "తర్వాత తొండంతో తన ఒంటిమీద నీళ్లు చల్లుకున్నాడు.",
+        "hi": "फिर उसने अपनी सूँड से शरीर पर पानी डाला।",
+        "en": "Then he poured water over himself with his trunk."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.25"
+      }
+    },
+    {
+      "id": "S01E01-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Easy, quiet pause",
+      "intent": "His long journey's fatigue fades",
+      "text": {
+        "te": "ఎంతోసేపు నడిచిన అలసట మెల్లగా తగ్గిపోయింది.",
+        "hi": "लंबी यात्रा की थकान धीरे-धीरे मिट गई।",
+        "en": "The tiredness from the long walk began to fade."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.25"
+      }
+    },
+    {
+      "id": "S01E01-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Affectionate but matter-of-fact",
+      "intent": "He includes the herd in the relief, not inventing speech",
+      "text": {
+        "te": "గజేంద్రుడు తన గుంపులోని ఏనుగులకూ నీళ్లు అందించాడు.",
+        "hi": "गजेन्द्र ने अपने झुंड के बाकी हाथियों को भी पानी दिया।",
+        "en": "Gajendra shared the water with the rest of his herd."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.26"
+      }
+    },
+    {
+      "id": "S01E01-S04-L009",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Lively naturalistic action",
+      "intent": "Sprinkle nearby females and calves with the trunk",
+      "text": {
+        "te": "తొండంతో నీళ్లు చల్లి ఆడ ఏనుగుల్నీ పిల్ల ఏనుగుల్నీ తడిపాడు.",
+        "hi": "उसने सूँड से हथिनियों और छोटे हाथियों पर पानी छिड़का।",
+        "en": "With his trunk, he sprinkled the female elephants and calves."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.26"
+      }
+    },
+    {
+      "id": "S01E01-S04-L010",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Simple and caring",
+      "intent": "Help the herd drink and bathe",
+      "text": {
+        "te": "వాళ్లు నీళ్లు తాగి స్నానం చేసేలా కూడా సాయపడ్డాడు.",
+        "hi": "उसने उन्हें पानी पीने और नहाने में भी मदद की।",
+        "en": "He helped them drink and bathe, too."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.26"
+      }
+    },
+    {
+      "id": "S01E01-S04-L011",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slightly reflective, not a scary threat reveal",
+      "intent": "Scriptural caution: attachment leads him not to consider hardship",
+      "text": {
+        "te": "వాటిని చూసుకోవడంలో మునిగిపోయి, తనకు ఎంత శ్రమ అవుతోందో కూడా అతను పట్టించుకోలేదు.",
+        "hi": "उनकी देखभाल में वह इतना मग्न था कि अपनी मेहनत की भी परवाह नहीं कर रहा था।",
+        "en": "So absorbed in caring for them, he gave little thought to his own effort."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.26"
+      }
     }
   ],
-  "performance_notes": "Thirty original trilingual lines across S01 (8), S02 (11) and S03 (11), all offscreen NARRATOR narration with explicit matching audio ownership and lip_sync_target=null. The visually present GAJENDRA has no voiced dialogue. Nature/animal calls are not TTS lines. Telugu/Hindi pronunciation and timing require independent native-language table reads; no voice IDs or recordings are selected or approved.",
-  "timing_note": "Three provisional 60-second editorial scenes now total 180 of the preferred 360 seconds. Shot splits: S01 18+18+24; S02 18+18+24; S03 18+20+22. S04–S06 are still unwritten. Timings have not been measured in recorded Telugu, Hindi or English; no audio, images or animation exist."
+  "performance_notes": "S01–S04 have 41 source-anchored, meaning-aligned narration lines (8 + 11 + 11 + 11) in Telugu, Hindi and English. Every line belongs to NARRATOR with performance_mode=narration and lip_sync_target=null. Gajendra and the herd are visibly acting animals with natural ambience/SFX only. No TTS voice IDs, recordings, lip-synced performances or image references have been approved; native-language table reads and timing checks remain pending.",
+  "timing_note": "Four authored scenes, each a provisional 60 seconds, total 240 seconds toward the season's preferred 360-second S01E01 plan. Per-scene shot budgets: S01 18+18+24; S02 18+18+24; S03 18+20+22; S04 18+18+24. These are not measured audio/video runtimes. S05 and S06 remain unwritten; E02–E06 are only planned."
 }

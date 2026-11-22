@@ -1,43 +1,43 @@
-# Work checkpoint — GM-STY-003
+# Work checkpoint — GM-STY-004
 
 **Date:** 2026-11-22  
-**Repo:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1 targeting `main`  
-**Verified starting head:** `1f69cac21fad4ce579997cc401e4f674a522acb4` (GM-STY-002)  
-**Batch:** GM-STY-003 only S01E01/S03; **next:** GM-STY-004 only S01E01/S04.
+**Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
+**Verified starting remote head:** `9d306cbb6d5365d61dec49957c69a67ca5dc582e` (GM-STY-003)  
+**This batch:** GM-STY-004 — `S01E01/S04` only. **Next:** GM-STY-005 — `S01E01/S05` only.
 
-## Bounded changes
+## Scoped delivery
 
-- Appended one scene **S01E01/S03 — Gajendra Leads the Herd**, grounded in [8.2.20](https://vedabase.io/en/library/sb/8/2/20/), [8.2.21](https://vedabase.io/en/library/sb/8/2/21/), [8.2.22](https://vedabase.io/en/library/sb/8/2/22/), and combined [8.2.23–24](https://vedabase.io/en/library/sb/8/2/23-24/).
-- Added **11 aligned, original Telugu/Hindi/English narration lines** with IDs `S01E01-S03-L001` through `L011`, all `speaker=NARRATOR`, `audio_owner=NARRATOR`, `performance_mode=narration`, `lip_sync_target=null`, each with an in-scene verse anchor. This is a child-friendly original retelling, not a quotation of a modern translation.
-- Added three editorial shots **18 + 20 + 22 = 60 seconds provisional**, visualizing thorny forest, contrasting wild-animal reactions, heat, female elephants and calves, bees, lotus fragrance and **arrival at the established lake bank**. Gajendra stays a natural elephant without human speech/lip-sync.
-- Added **GAJENDRA** as a visual-only cast member (no voice, no approved portrait), referencing the pre-existing character bible. All original S01/S02 scene, shot and line objects are unchanged. Only episode-level logline/source/adaptation/performance/timing annotations were extended.
-- Canonical episode now has **3/6 ordered scenes**, **30 trilingual lines**, **180 seconds of editorial scene budgets**. Bathing, water spraying and crocodile encounter remain to be written later. `season.json` stays untouched, `S01E01=partial_scene_draft`; all other episodes remain planned, no media exists.
+- Added **S04 — Thirst and Relief at the Water** to the existing `episode.json`, grounded in [ŚB 8.2.25](https://vedabase.io/en/library/sb/8/2/25/) and [ŚB 8.2.26](https://vedabase.io/en/library/sb/8/2/26/). Gajendra enters the clear lotus-water lake, bathes and drinks with his trunk, and helps female elephants and calves drink and bathe; narrator conveys his absorbed care and disregard of hardship without inventing danger.
+- Added **11 original narration lines**, `S01E01-S04-L001`–`L011`, each complete in natural modern **te/hi/en** with matching `NARRATOR` speaker/audio owner, `narration` performance mode, null lip-sync target and explicit verse attribution.
+- Added **three editorial shots (18 + 18 + 24 = 60 seconds)**, continuous with S02/S03's known freshwater lake, approach bank, lotus zone and near shallows. These are timing plans, not recorded timings or rendered stills.
+- Preserved every S01/S02/S03 scene, shot and spoken line object and every stable ID unchanged. Existing cast remains `NARRATOR` and visually present, non-speaking `GAJENDRA`.
+- Only episode-level descriptive, source-verification, adaptation and timing notes were expanded. `season.json` is unchanged; E01 remains **partial_scene_draft**, E02–E06 remain **planned_no_episode_source**. S05 and S06 are not authored.
+- Crucial source sequence: the crocodile's **first grip occurs in [8.2.27](https://vedabase.io/en/library/sb/8/2/27/)**. No crocodile shadow, approach, alarm or attack is attributed to 8.2.25–26. Any S05 nonverbal suspense would be declared cinematic interpretation rather than scripture.
 
-## Tests and provenance
+## Gates and honest completion state
 
 | Gate | Status |
-| --- | --- |
-| Verse check | **CHECKED**: SB 8.2.20–24. Fierce animals flee, smaller animals remain unafraid, and the thirsty herd reaches the bank in 8.2.23–24. |
-| In-process JS audit (GitHub canonical data) | **PASS**: prior S01/S02 objects unchanged; three ordered scenes; 30 unique line IDs; each new line te/hi/en, owned narrator audio and an in-range verse; three shots/scene and correct 180-second total; season planning status preserved. |
-| Regression unit tests | **24 PASS** with `python3 -m unittest discover -s tests -q` in isolated prior scaffold, whose validator/builder/test file Git blob SHAs match GitHub. Fixture tests are synthetic and do not validate the new canonical scene itself. |
-| Python compilation | **PASS** in isolated scaffold (`python3 -m compileall -q scripts`). |
-| Python scoped validation on new canonical `S03` | **UNRUN** in this batch; GitHub connector does not execute the remote checked-in scene. Run locally using commands below. |
-| Python deterministic build and --check on new `S03` | **UNRUN**; no text export committed, no TTS/audio created. |
-| Python whole-season command | **UNRUN**; expected `NOT_READY` because E01 has 3/6 scenes and E02–E06 lack canonical sources. |
-| JSON Schema package validation | **UNRUN**; in-process structural checks are not a substitute. |
-| Media/voices/references | **MISSING**; no image/audio/video calls or approvals. |
-| Guarded non-force remote commit | Verify branch head, PR #1, exactly three changed paths, and blob SHAs from the GitHub commit/branch after push. |
+|---|---|
+| Passage verification | **CHECKED** 8.2.25, 8.2.26, 8.2.27 directly against Vedabase; all S04 performed text newly written |
+| In-process structural checks | **PASS**: 4 ordered scenes, 41 unique IDs, te/hi/en per new line, explicit speaker/audio owner, null lip-sync, 3 correct shots in S04, 240 total planned seconds, source anchor and status checks |
+| S01–S03 preservation | **PASS**: prior scene, shot, cast and dialogue objects serially compared to previous GitHub source, unchanged |
+| `python3 -m unittest discover -s tests -v` | **UNRUN this batch**: GitHub access can read/write source; no execution of the checked-in Python package was possible in the tool runtime |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S04` | **UNRUN**; JS in-process audit does not replace Python scoped validator |
+| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S04` and `--check` | **UNRUN**; no text/audio media artifacts committed |
+| `python3 scripts/validate_content.py` (whole season) | **UNRUN**; expected **NOT_READY** because E01 has 4/6 scenes and E02–E06 are missing |
+| Actual voice, image, audio and animation | **MISSING** and unapproved; zero generation calls |
+| Remote commit/branch/PR/file identities | Verify after guarded non-force push; SHA is in live GitHub head, not self-referential in this file |
 
-### Run on a real checkout when available
+## Repeatable local Python checks
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S03
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S03
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S03 --check
-python3 scripts/validate_content.py  # expect NOT_READY / exit 2 until full season exists
+python3 scripts/validate_content.py --episode S01E01 --scene S04
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S04
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S04 --check
+python3 scripts/validate_content.py  # expected NOT_READY, exit 2
 ```
 
-## Next work item
+## Next bounded task
 
-**GM-STY-004:** Author **S01E01/S04** (first drinking/bathing/relief at the lake) using SB 8.2.25–26, preserving S01–S03 and letting S05/S06 handle any later danger. Read `docs/NEXT_CHAT_PROMPT.md`.
+**GM-STY-005:** Write only `S01E01/S05` ("The Calm Beneath the Surface"). Inspect 8.2.25–27 carefully: verse 26 already covers the herd's water play and verse 27 begins the crocodile attack. Do not falsely claim that scripture narrates a separate crocodile's approach, lurking shadow or surveillance. If a quiet transitional shot is needed, disclose it as staging rather than a new event. Preserve all S01–S04 objects/IDs and make no media calls. Exact prompt in `docs/NEXT_CHAT_PROMPT.md`.
