@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "job_id": "GM-KF-001",
-  "next_batch": "GM-PROD-003",
-  "state": "REFERENCE_PIXEL_COMPOSITE_CANDIDATE_NEEDS_REPOSE",
+  "next_batch": "GM-PROD-004",
+  "state": "TWO_POSE_STUDIES_UNAPPROVED_IDENTITY_AND_SEATING_GATE_OPEN",
   "shot": "S01E04-S02-SH01",
   "episode_path": "seasons/season-01/episodes/s01e04-the-lotus-and-the-rescue/episode.json",
   "episode_blob_sha": "2fff1273636d37e3684ba06a530de2170f9c5bc4",
@@ -62,7 +62,7 @@
     "seed": null,
     "prompt": null,
     "output_sha256": null,
-    "receipt": "assets/artwork/receipts/GM-PROD-002_GM-KF-001-F01-composite-candidate.json",
+    "receipt": "assets/artwork/receipts/GM-PROD-003_GM-KF-001-F01-pose-studies.json",
     "visual_qc": "NOT_REVIEWED",
     "motion": null,
     "layout_candidate": {
@@ -76,7 +76,27 @@
       "pose_qc": "NEEDS_REVISION",
       "human_qc": "NOT_REVIEWED",
       "accepted_as_start_frame": false
-    }
+    },
+    "pose_studies": [
+      {
+        "method": "generative_pose_study_unverified_refs",
+        "library_path": "/Gajendra Moksham/Artwork/Candidates/GM-KF-001-F01-PoseStudy-UNVERIFIED-IDENTITY.png",
+        "sha256": "ae77baf29db961cf5e7b4eb1e4340b2467a825d90ef414cd773f1449cf1c4f96",
+        "pose": "IMPROVED",
+        "identity": "FAIL_GARUDA_FACE_AND_STYLE",
+        "human_qc": "NOT_REVIEWED",
+        "accepted": false
+      },
+      {
+        "method": "approved_pixel_geometric_warp",
+        "library_path": "/Gajendra Moksham/Artwork/Candidates/GM-KF-001-F01-ApprovedPixels-WarpStudy-UNAPPROVED.png",
+        "sha256": "d3eb3ee7c5016017ec831b9fb01c9647b894d5cf7a86979611762549b72fe8fc",
+        "pose": "FAIL_NARAYANA_NOT_SEATED",
+        "identity": "REFERENCE_PIXEL_DERIVED",
+        "human_qc": "NOT_REVIEWED",
+        "accepted": false
+      }
+    ]
   },
   "gates": [
     "Source PNG byte hashes and source episode blob independently rechecked",
@@ -106,5 +126,5 @@
       "blocker": "Real accepted stills and temporal continuity first"
     }
   ],
-  "last_batch_note": "GM-PROD-002 produced and uploaded a real 1920x1080 pixel-derived layout candidate using exact verified owner-approved Narayana/Garuda panels. Human visual approval missing; mounting pose fails preliminary layout inspection. Actual accepted canonical start frame and F02 remain MISSING, GitHub PNG mirror absent; see receipt. Do not treat candidate as a deliverable final production frame."
+  "last_batch_note": "GM-PROD-003 produced 2 real durable 1920x1080 candidates in Library, independently roundtrip SHA verified. Image-gen pose study is seated correctly but its actual approved-reference conditioning is UNVERIFIED and the Garuda face deviates from locked golden humanoid identity. Direct pixel warp uses exact approved source pixels but leaves Narayana apparently standing on a wing. Neither meets both gates. F01/F02 accepted media MISSING; see receipt. No human visual reviewer signed off."
 }
