@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "style": "Original illustrated devotional Indian epic; family-friendly cinematic storybook art, readable 16:9 framing, no imitation of a named studio.",
+  "reference_status": "textual_design_briefs_only_no_approved_artwork",
+  "screen_geometry": "16:9, target 1920x1080, recognizable silhouettes on mobile.",
+  "global_rules": [
+    "Gajendra and crocodile are normal quadruped/low-slung animal bodies until the narratively explicit divine transformation; no human mouth motion.",
+    "Indradyumna is Gajendra's former human birth; Huhu is crocodile's former Gandharva birth. Keep separate physical identities and preserve narrative revelation.",
+    "Narayana's four-arm iconography and Gajendra's later four-arm spiritual form must not mix identities or creature anatomy.",
+    "Trikuta three-peak silhouette and one lake land/water master geography remain stable.",
+    "Portraits, voice auditions and image refs are not approved until actual media hashes and reviewer decisions exist.",
+    "No blood, visible wounds, grotesque violence or inaccurate new creature anatomy."
+  ],
+  "characters": {
+    "GAJENDRA": {
+      "design": "Royal Indian elephant; natural quadruped body, strong trunk, consistent tusks and smaller Indian-elephant ears; no crown or human hands; unique distinctive brow/marking to separate from herd.",
+      "performance": "Expresses effort/concern through natural behavior and prayer via inner voiceover, not lip-synced human mouth.",
+      "related_identity": "INDRADYUMNA (previous life)",
+      "approved_reference": null,
+      "approved": false
+    },
+    "CROCODILE": {
+      "design": "Large realistic crocodile with constant scale, jaw profile, tail and grasping position; no cartoon grin or human lips.",
+      "performance": "Wild animal sounds and behavior, not villain monologues.",
+      "related_identity": "HUHU (previous life)",
+      "approved_reference": null,
+      "approved": false
+    },
+    "NARAYANA": {
+      "design": "Reverent original four-armed screen depiction of Vishnu/Narayana in yellow garments with recognizable conch, chakra, mace and lotus; stable crown and ornaments.",
+      "performance": "Gracious, urgent compassion; distinguish divine presence from spectacle.",
+      "approved_reference": null,
+      "approved": false
+    },
+    "GARUDA": {
+      "design": "Majestic golden-brown bird carrier with stable wings, beak and body geometry; large enough to bear Narayana.",
+      "performance": "Noble flight and poised arrival; non-speaking unless source-reviewed adaptation later warrants narration.",
+      "approved_reference": null,
+      "approved": false
+    },
+    "HUHU": {
+      "design": "Gandharva king with consistent ornate attire and face; separate humanlike identity from CROCODILE body.",
+      "performance": "Playful and careless in flashback, then remorseful and grateful.",
+      "approved_reference": null,
+      "approved": false
+    },
+    "DEVALA": {
+      "design": "Sage in simple draped garment; mature face, hair and prayer-bead details stable.",
+      "performance": "Firm rebuke without grotesque anger.",
+      "approved_reference": null,
+      "approved": false
+    },
+    "INDRADYUMNA": {
+      "design": "Adult former king in hermitage: matted hair and austere forest attire; earlier kingship may appear only if scripted later.",
+      "performance": "Silent devotional concentration and later calm acceptance, not action villain.",
+      "approved_reference": null,
+      "approved": false
+    },
+    "AGASTYA": {
+      "design": "Distinguished sage visiting with disciples; recognizable form and modest ascetic garments.",
+      "performance": "Insulted at lack of greeting; clear separate identity from DEVALA.",
+      "approved_reference": null,
+      "approved": false
+    },
+    "GAJENDRA_LIBERATED": {
+      "design": "Four-armed spiritual associate in yellow garments following sārūpya-mukti; visually distinct from quadrupedal GAJENDRA and not a mere anthropomorphic elephant.",
+      "performance": "Devotional gratitude and spiritual resolution.",
+      "related_identity": "GAJENDRA",
+      "approved_reference": null,
+      "approved": false
+    }
+  }
+}

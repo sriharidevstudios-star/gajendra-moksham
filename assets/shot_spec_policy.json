@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0-planning",
+  "status": "policy_brief_not_compiler_schema",
+  "negative_prompt": [
+    "blood",
+    "gore",
+    "visible injury",
+    "extra animal limbs",
+    "human hands on elephants",
+    "human smiling mouths on crocodiles",
+    "duplicate trunks",
+    "extra tusks",
+    "extra wings",
+    "watermark",
+    "text overlay",
+    "modern objects",
+    "unrequested figures",
+    "misidentified deity"
+  ],
+  "identity_categories": {
+    "GAJENDRA": "elephant_quadruped",
+    "CROCODILE": "crocodilian",
+    "GARUDA": "large_bird",
+    "NARAYANA": "four_armed_divine",
+    "GAJENDRA_LIBERATED": "four_armed_spiritual",
+    "HUHU": "humanlike_gandharva",
+    "INDRADYUMNA": "human",
+    "DEVALA": "human",
+    "AGASTYA": "human"
+  },
+  "reference_policy": "A named required identity is not evidence that an approved reference image exists. Verify actual bytes, review and hash at render time.",
+  "location_guidance": {
+    "trikuta": "Recognizable three peaks: gold, silver and iron; valley garden distinct.",
+    "lake": "Maintain same entry bank, deep water, lotus area, elephant herd position and crocodile grip leg across shot reversals.",
+    "flashbacks": "Huhu/Devala water scene and Indradyumna/Agastya forest hermitage are separate time/place from present lake.",
+    "rescue": "Lord arrives on Garuda before lotus raised; elephant+croco lifted together, disc outcome non-graphic, distinct liberated spiritual form."
+  }
+}
