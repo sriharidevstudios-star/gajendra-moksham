@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 3, original Telugu/Hindi/English devotional retelling; copyrighted published English translation not reproduced",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.30–33",
-    "verification_notes": "SB 8.3.30: Gajendra appeals to Supreme rather than specific devas; Hari responds. 8.3.31: He reaches distressed Gajendra quickly mounted on Garuda with disc and other divine attributes, surrounded by praising devas. 8.3.32: only AFTER seeing Lord approaching on Garuda, Gajendra raises a lotus with trunk and offers a respectful address. 8.3.33: Hari alights, lifts Gajendra together WITH the crocodile from the lake, and severs the crocodile's mouth with His disc; the animal life ends and the elephant is saved. We use a non-graphic cutaway, not a changed outcome. Huhu's former Gandharva identity and Gajendra's sārūpya appear in 8.4 and later episodes. The six visual scenes extend just four verses through deliberate unmeasured art/camera holds, not fabricated incidents. S01: SB 8.3.30, 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S02: SB 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines."
+    "verification_notes": "SB 8.3.30: Gajendra appeals to Supreme rather than specific devas; Hari responds. 8.3.31: He reaches distressed Gajendra quickly mounted on Garuda with disc and other divine attributes, surrounded by praising devas. 8.3.32: only AFTER seeing Lord approaching on Garuda, Gajendra raises a lotus with trunk and offers a respectful address. 8.3.33: Hari alights, lifts Gajendra together WITH the crocodile from the lake, and severs the crocodile's mouth with His disc; the animal life ends and the elephant is saved. We use a non-graphic cutaway, not a changed outcome. Huhu's former Gandharva identity and Gajendra's sārūpya appear in 8.4 and later episodes. The six visual scenes extend just four verses through deliberate unmeasured art/camera holds, not fabricated incidents. S01: SB 8.3.30, 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S02: SB 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S03: SB 8.3.32 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines."
   },
   "adaptation": {
     "core_preserved": [
@@ -37,7 +37,8 @@
       "The disc's documented violent outcome is truthfully narrated but depicted by a tasteful bright cutaway, omitting gore, severed flesh and injury closeups.",
       "Huhu's Gandharva restoration and Gajendra's spiritual four-armed sārūpya are not moved into this rescue moment; the following chapters and episodes explain them.",
       "S01: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events.",
-      "S02: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events."
+      "S02: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events.",
+      "S03: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events."
     ],
     "fidelity_note": "Source-checked 8.3.30–33 with separate screenplay staging. No invented mantra audio, pre-arrival lotus offering, natural crocodile survival, or premature Huhu/Gajendra liberated form. Family-safe render approach keeps the text factually correct."
   },
@@ -180,6 +181,49 @@
           "budget_seconds": 20,
           "action": "Garuda carries Narayana down toward the same lotus lake and trapped Gajendra; L007–L009.",
           "camera": "16:9 wide descending shot matching bank-left/deeper-right lake geography, do not show lotus offering until S03.",
+          "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Gajendra raises a lotus",
+      "setting": "The same lake shore with Narayana on Garuda visibly arriving above Gajendra, crocodile still attached to the approved chosen left foreleg. Only NOW Gajendra takes a lotus into his trunk.",
+      "action": "Gajendra sees Hari carrying the chakra on Garuda, then with difficulty lifts a lotus in his trunk and respectfully greets Narayana, as SB 8.3.32 explicitly says.",
+      "duration_budget_seconds": 45,
+      "nonverbal_beats": [
+        "Absolute chronology: Gajendra sees Narayana on Garuda in the sky before reaching/raising any lotus offering.",
+        "Use the existing natural quadrupedal decorated Gajendra with a single trunk and one real lotus; no anthropomorphic arm or extra trunk.",
+        "The crocodile holds Gajendra's left foreleg until S05; even offering is physically difficult.",
+        "Gajendra's source words to Narayana are represented as a respectful narrator paraphrase only; do not fake an approved elephant-speaking portrait or a recited original mantra.",
+        "Visual glow and position of the single flower are editorial staging; no lotus summoning magic."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.32",
+          "url": "https://vedabase.io/en/library/sb/8/3/32/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E04-S03-SH01",
+          "budget_seconds": 15,
+          "action": "Gajendra sees four-armed Narayana arriving on Garuda above the lake; L001–L002.",
+          "camera": "16:9 bank-facing full-body Gajendra and sky, Narayana/Garuda clearly visible as approved identity, lotus not yet lifted.",
+          "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
+        },
+        {
+          "id": "S01E04-S03-SH02",
+          "budget_seconds": 15,
+          "action": "Only after seeing the Lord, Gajendra takes a single lotus with his trunk despite effort; L003–L005.",
+          "camera": "16:9 natural elephant trunk motion and flower at lake surface, no human hand; crocodile hold remains same leg.",
+          "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
+        },
+        {
+          "id": "S01E04-S03-SH03",
+          "budget_seconds": 15,
+          "action": "Gajendra lifts lotus and offers a respectful greeting, still physically trapped; L006–L007.",
+          "camera": "16:9 tender wide showing held lotus, four-armed Lord in sky, no early rescue or animal lip-sync.",
           "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
         }
       ]
@@ -470,8 +514,141 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.31"
       }
+    },
+    {
+      "id": "S01E04-S03-L001",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity, child-friendly",
+      "intent": "Gajendra saw Narayana approaching on Garuda.",
+      "text": {
+        "te": "ఆకాశంలో గరుడుడిపై వస్తున్న నారాయణుడిని గజేంద్రుడు చూశాడు.",
+        "hi": "गजेन्द्र ने आकाश में गरुड़ पर आते नारायण को देखा।",
+        "en": "Gajendra saw Narayana approaching on Garuda."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.32"
+      }
+    },
+    {
+      "id": "S01E04-S03-L002",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slow visual-read cadence",
+      "intent": "He saw the divine disc in the Lord's hand.",
+      "text": {
+        "te": "భగవంతుడి చేతిలో సుదర్శన చక్రం కనిపించింది.",
+        "hi": "भगवान के हाथ में सुदर्शन चक्र दिखाई दिया।",
+        "en": "He saw the divine disc in the Lord's hand."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.32"
+      }
+    },
+    {
+      "id": "S01E04-S03-L003",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle wonder without shrill urgency",
+      "intent": "Only then did Gajendra take a lotus in his trunk.",
+      "text": {
+        "te": "అప్పుడే గజేంద్రుడు తన తొండంతో ఒక తామర పువ్వును తీసుకున్నాడు.",
+        "hi": "तभी गजेन्द्र ने अपनी सूँड से एक कमल लिया।",
+        "en": "Only then did Gajendra take a lotus in his trunk."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.32"
+      }
+    },
+    {
+      "id": "S01E04-S03-L004",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity, child-friendly",
+      "intent": "Still held by the crocodile, he struggled to raise it.",
+      "text": {
+        "te": "మొసలి పట్టు వల్ల అది ఎత్తడం చాలా కష్టమైంది.",
+        "hi": "मगरमच्छ की पकड़ में रहते उसे उठाना बहुत कठिन था।",
+        "en": "Still held by the crocodile, he struggled to raise it."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.32"
+      }
+    },
+    {
+      "id": "S01E04-S03-L005",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slow visual-read cadence",
+      "intent": "Yet he lifted the flower toward the Lord.",
+      "text": {
+        "te": "అయినా ఆ పువ్వును భగవంతుడి వైపు పైకెత్తాడు.",
+        "hi": "फिर भी उसने फूल भगवान की ओर ऊपर उठाया।",
+        "en": "Yet he lifted the flower toward the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.32"
+      }
+    },
+    {
+      "id": "S01E04-S03-L006",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle wonder without shrill urgency",
+      "intent": "Gajendra offered Narayana his humble respects.",
+      "text": {
+        "te": "నారాయణుడికి గజేంద్రుడు వినయంగా నమస్కరించాడు.",
+        "hi": "गजेन्द्र ने विनम्रता से नारायण को प्रणाम किया।",
+        "en": "Gajendra offered Narayana his humble respects."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.32"
+      }
+    },
+    {
+      "id": "S01E04-S03-L007",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity, child-friendly",
+      "intent": "His heart was filled with devotion.",
+      "text": {
+        "te": "అతని మనసంతా భక్తితో నిండిపోయింది.",
+        "hi": "उसका मन गहरी भक्ति से भर गया।",
+        "en": "His heart was filled with devotion."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.32"
+      }
     }
   ],
-  "performance_notes": "E04's all three-language scripture paraphrases are delivered by offscreen NARRATOR, not human mouth-sync animals. Deity and Garuda are visible after arrival; no accepted audio/TTS/character turnaround beyond owner-approved full-body cast overview in Library. Names/costumes stay matched. All original cutaway/metaphor actions explicitly distinguished from scripture events. S01: 6 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S02: 9 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans.",
-  "timing_note": "E04 2/6 scenes authored; 85/300 provisional seconds, 15 trilingual narrator rows. Remaining scenes and actual time unmeasured, status partial_scene_draft."
+  "performance_notes": "E04's all three-language scripture paraphrases are delivered by offscreen NARRATOR, not human mouth-sync animals. Deity and Garuda are visible after arrival; no accepted audio/TTS/character turnaround beyond owner-approved full-body cast overview in Library. Names/costumes stay matched. All original cutaway/metaphor actions explicitly distinguished from scripture events. S01: 6 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S02: 9 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S03: 7 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans.",
+  "timing_note": "E04 3/6 scenes authored; 130/300 provisional seconds, 22 trilingual narrator rows. Remaining scenes and actual time unmeasured, status partial_scene_draft."
 }
