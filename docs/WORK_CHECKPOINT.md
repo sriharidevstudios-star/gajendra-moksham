@@ -1,42 +1,39 @@
-# Work checkpoint — GM-NATIVE-008
+# Work checkpoint — GM-NATIVE-009
 
-**Date:** 2026-11-22 · **Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
-**Verified starting commit/tree:** `0b534946ed959c209a938a6334eb495a16bb1f53` / `e09dc330f2a09af66f30973ee146c1dae748c619`  
-**Scope:** one docs-only human native-review **handoff and evidence-acceptance preparation**; next **GM-NATIVE-009**.
+**Date:** 2026-11-22 · **Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 to `main`  
+**Verified starting HEAD/tree:** `ca5544b4414ecdf628d0959e6752949c0d161a3e` / `ea0cfbc5ca423a2737a7d5f2a2c3d60d5bdd43bc`  
+**Task:** new **read-only** human-review evidence validator, focused synthetic regression tests and explicit evidence contract. **Next:** GM-NATIVE-010.
 
-## Completed
+## Bounded work
 
-- Created `docs/S01E01_HUMAN_REVIEW_HANDOFF.md` with ordered, individually linked S01E01/S01–S06 read packets and their exact Git blobs. Reverified canonical `seasons/season-01/episodes/s01e01-the-lake-at-trikuta/episode.json` blob **`885da53d89900aed431b541654971f997054b91d`** against **54 canonical lines, 162 exact te/hi/en texts, 54 delivery cues**, all line/shot owners and **18 editorial shots / 330s provisional**, across six source-locked packets.
-- Documented **six ordered scene counts: 8/11/11/11/4/9 lines**, provisional **60/60/60/60/30/60s**, all 18 shot boundaries, and differentiated the current source Git SHA from blank human-confirmed source SHA fields. No actual reading or time measurement.
-- Recorded required reviewer **roles only**: native te, native hi, natural en narration, qualified devotional/source, timing/continuity and distinct casting/audio/visual/rights reviewers. No person was named, assigned, contacted or scheduled, and no fictitious reviewer evidence was supplied.
-- Included blank evidence intake and acceptance rubric (name, review date, SHA checked by reviewer, line/shot language timings, source/meaning corrections, explicit version-locked decisions) and prioritized unresolved issue docket: S03/L009 Telugu bee diction, S04/L006 post-drinking self-splash order, S04/L011 attachment/māyā nuance, S05/L001 family-care repetition, S06/L008 deferred E02 failed rescue.
-- Rechecked six prepared packet states: **18 blank te/hi/en language sessions, six blank source/devotional sessions, 54 blank per-line duration/correction rows and 18 blank per-shot rows**, all **NOT REVIEWED / NOT APPROVED**. Native checklist remains entirely unchecked. No recorded audio, approved voices, art, motion, or masters; nontruncated tree had **46 blobs, no tracked media**.
-- Preserved all 54 canon source rows, 6 scenes, 18 shots, preferred 330s, all six read packets, reconciliation and coverage maps, root `partial_first_episode_draft_five_sources_missing`, E01 `partial_scene_draft`, five missing sources, `canonical_story_written=false`, and every media/approval record.
-- **No human performed the read**; no scheduling/notification, named reviewer, audition, TTS, image, audio, video/motion generation or source edit. Season remains **NOT_READY**.
+- Added `scripts/validate_native_review_evidence.py`: stdlib-only command `--root` / `--evidence`; reads the actual S01E01 canonical bytes and computes **Git blob SHA**; missing default future receipt returns **`NOT_REVIEWED`, `approved=false`**, without creating folders or files. Present but malformed, stale or missing receipts are `INVALID`. Even hypothetical structurally complete positive evidence returns `EVIDENCE_PRESENT_UNVERIFIED`, **never `approved=true`** or any production-readiness flag.
+- Evidence contract requires **four distinct** future roles (native te, hi, en, qualified devotional/source), non-placeholder reviewer identity, real ISO date, own source SHA confirmation, explicit decision/notes and a **pre-existing** evidence-file path plus verified SHA-256 under root. Native sessions must include all 54 source-exact text/ID and real positive line durations, 18 shot durations, pronunciation and meaning decisions/correction dispositions; source review must include exact 54 canonical attribution records and the four original disclosure notes. Rejects unresolved revision assertions within claimed approved sessions.
+- Added `tests/test_native_review_evidence.py` with **synthetic-only temporary data** for missing/valid-but-unverified receipts, wrong SHA, changed canonical, missing/duplicate line, wrong spoken text/original disclosure, invalid/missing timings, missing/tampered/traversal evidence refs, missing identity/date, pending correction under asserted approval and illicit approval override field. No production receipt or person was invented.
+- Added `docs/NATIVE_REVIEW_EVIDENCE_CONTRACT.md` documenting file/line/shot/specialist evidence shape, read-only semantics and why validation cannot authenticate a human or automatically advance narrator/voice/media/season gates.
+- Verified live tree `ea0cfbc5ca423a2737a7d5f2a2c3d60d5bdd43bc` at starting HEAD has **47 tracked blobs, no review receipts or tracked media**; source blob `885da53d89900aed431b541654971f997054b91d`, E01 `partial_scene_draft` (54 lines/6 scenes/18 shots/330s), E02–E06 absent, native listener NOT APPROVED, te/hi/en NARRATOR candidate/audio null and `approved=false`, tracker `canonical_story_written=false` and approval fields false, asset registry empty. All these source/production files **UNCHANGED**.
 
-## Validation
+## Validation and limits
 
-| Check | Outcome |
+| Gate | Result |
 |---|---|
-| Exact current source SHA and six packet blobs; 54/162/18/330 coverage | **PASS (in-process)** |
-| All human evidence blanks, roles not assigned; version/readiness differentiation | **PASS (in-process)** — no approvals |
-| Cast, tracker, asset registry and live tree | **CHECKED** — 0 media, 0 approved voices |
-| `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector cannot execute checked-in Python |
+| In-process read-only contract/type/edge-case review and exact allowed-file scope | **CHECKED** (not Python execution) |
+| Expected no-receipt status `NOT_REVIEWED` / approval false | **DESIGNED AND TESTED SYNTHETICALLY IN CODE; UNRUN** in Python |
+| `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector cannot execute checked-in repository Python |
+| `python3 scripts/validate_native_review_evidence.py` | **UNRUN** — expected NOT_REVIEWED/exit 2 from absent receipt |
 | `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**, no executed SCOPED_READY |
-| Text-only builder and `--check` | **UNRUN**, no exports generated |
-| Whole-season Python validator | **UNRUN**, expected NOT_READY |
-| Human native/devotional performance and approval | **NOT PERFORMED** |
-| Non-force commit/push + exact three paths/blob SHA/draft PR | Verify after push |
+| Whole-season `python3 scripts/validate_content.py` | **UNRUN**, expected NOT_READY |
+| Reviewer identity/signoff, actual durations, voice or media approval | **NOT PERFORMED / ABSENT** |
+| Guarded non-force commit, remote exact changed paths/blobs/PR | Verify after push |
 
-### Local Python commands if executed against a genuine checkout
+### Commands for an executable checkout
+
 ```bash
 python3 -m unittest discover -s tests -v
+python3 scripts/validate_native_review_evidence.py  # expected NOT_REVIEWED, exit 2
 python3 scripts/validate_content.py --episode S01E01 --scene S06
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
-python3 scripts/validate_content.py  # expected NOT_READY
+python3 scripts/validate_content.py  # expected NOT_READY, exit 2
 ```
 
-## Next bounded task
+## Next
 
-**GM-NATIVE-009:** conservative read-only human-review evidence intake validation with focused synthetic regression tests; ensure absent receipts mean NOT_REVIEWED without setting voice, script, media, native or devotional approval flags. Full instructions in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-NATIVE-010** — bounded *read-only validator hardening and explicit interface audit* of GM-NATIVE-009 (e.g. positive synthetic edge cases, date/source checks, receipt-path security), without introducing or falsely approving human evidence. Exact prompt in `docs/NEXT_CHAT_PROMPT.md`.
