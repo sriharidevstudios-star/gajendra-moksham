@@ -9,7 +9,7 @@
     "hi": "वह संघर्ष जिसे कोई जीत न सका",
     "en": "The Battle No One Could Win"
   },
-  "status": "partial_scene_draft",
+  "status": "draft_for_table_read",
   "logline": "The herd tries and fails to free Gajendra from the crocodile; the extraordinary struggle and his eventual spiritual decision follow in later scenes.",
   "target_runtime_seconds": {
     "min": 330,
@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 2; original trilingual paraphrase, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.27–33",
-    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04. S03: SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression. S04: The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events. S05: Only after the thousand-year scene, Gajendra loses physical, mental and sensory strength while the water-dwelling crocodile becomes stronger (SB 8.2.30). The first recognition and reflection of 8.2.31 leads to S06."
+    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04. S03: SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression. S04: The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events. S05: Only after the thousand-year scene, Gajendra loses physical, mental and sensory strength while the water-dwelling crocodile becomes stronger (SB 8.2.30). The first recognition and reflection of 8.2.31 leads to S06. S06: Gajendra's realization and decision (8.2.31–32) and confidence in the Supreme Lord as ultimate shelter (8.2.33) finish the episode; the exact prayer is reserved for S01E03. One disclosed original transitional line closes."
   },
   "adaptation": {
     "core_preserved": [
@@ -30,7 +30,8 @@
       "Gajendra exerts strength to escape his caught foot (8.2.27), and the elephant and crocodile pull against one another toward and away from the water (8.2.29).",
       "SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression.",
       "The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events.",
-      "Only after the thousand-year scene, Gajendra loses physical, mental and sensory strength while the water-dwelling crocodile becomes stronger (SB 8.2.30). The first recognition and reflection of 8.2.31 leads to S06."
+      "Only after the thousand-year scene, Gajendra loses physical, mental and sensory strength while the water-dwelling crocodile becomes stronger (SB 8.2.30). The first recognition and reflection of 8.2.31 leads to S06.",
+      "Gajendra's realization and decision (8.2.31–32) and confidence in the Supreme Lord as ultimate shelter (8.2.33) finish the episode; the exact prayer is reserved for S01E03. One disclosed original transitional line closes."
     ],
     "changes": [
       "Continue directly from E01/S06; no second new attack.",
@@ -305,6 +306,57 @@
           "budget_seconds": 20,
           "action": "Gajendra recognizes danger and begins sustained thought, without speaking like a human; narration L007–L009.",
           "camera": "16:9 stable dignified face/trunk reaction then wide lake hold; no animal lip-sync.",
+          "sound": "Future ambient lake and animal SFX only; NARRATOR is the only spoken owner; no recording/voice is present."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "A decision to seek refuge",
+      "setting": "Gajendra remains caught beside the unchanged freshwater lotus lake after the long trial; his physical body is still the locked approved Indian elephant, while the decision to seek divine refuge is conveyed solely through narrator and quiet visual reaction.",
+      "action": "Gajendra understands that even the herd cannot free him, reflects deeply and resolves to seek shelter in the Supreme Lord (8.2.31–32), recalling the Lord's power to protect those who surrender (8.2.33). End at the threshold of his extended prayer, which begins in Episode 3.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Do not reinterpret his affection for the herd as a sin or the crocodile attack as punishment; his loved ones tried honestly but could not save him.",
+        "Portray the turn inward through calm pauses, natural elephant eye/trunk gestures and a respectful offscreen narrator, never a talking humanoid elephant.",
+        "Source 8.2.31–33 reflects thoughtful realization and divine shelter. Do not introduce the full prayer or a magical on-screen mantra here; Episode 3 covers the remembered prayer of 8.3.",
+        "Keep crocodile grip and geography stable; do not show Narayana or Garuda rescuing him early.",
+        "A single closing quiet view of the lotus lake bridges to Episode 3 prayer without inventing a new scripture event."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.31",
+          "url": "https://vedabase.io/en/library/sb/8/2/31/"
+        },
+        {
+          "locator": "8.2.32",
+          "url": "https://vedabase.io/en/library/sb/8/2/32/"
+        },
+        {
+          "locator": "8.2.33",
+          "url": "https://vedabase.io/en/library/sb/8/2/33/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E02-S06-SH01",
+          "budget_seconds": 18,
+          "action": "Gajendra's sustained thought and remembrance of the unsuccessful herd rescue; narration L001–L003.",
+          "camera": "16:9 steady full-body Gajendra in lake, slight face/trunk change without lip-sync, helpers in established distance.",
+          "sound": "Future ambient lake and animal SFX only; NARRATOR is the only spoken owner; no recording/voice is present."
+        },
+        {
+          "id": "S01E02-S06-SH02",
+          "budget_seconds": 20,
+          "action": "Reflection on loved ones and his decision to seek the Supreme Lord's shelter; narration L004–L006.",
+          "camera": "16:9 restrained side medium-wide, stable held left foreleg and same waterline, no rescue vision.",
+          "sound": "Future ambient lake and animal SFX only; NARRATOR is the only spoken owner; no recording/voice is present."
+        },
+        {
+          "id": "S01E02-S06-SH03",
+          "budget_seconds": 22,
+          "action": "A reverent refuge thought ends in the moment just before formal prayer begins; narration L007–L009.",
+          "camera": "16:9 calm lotus/elephant framing with soft original environmental tail, no divine avatar or new named animal.",
           "sound": "Future ambient lake and animal SFX only; NARRATOR is the only spoken owner; no recording/voice is present."
         }
       ]
@@ -1146,8 +1198,179 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.31"
       }
+    },
+    {
+      "id": "S01E02-S06-L001",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle reflective clarity",
+      "intent": "Narrate precisely: After thinking deeply, Gajendra understood something important.",
+      "text": {
+        "te": "చాలా సేపు ఆలోచించిన తరువాత గజేంద్రుడికి ఒక విషయం అర్థమైంది.",
+        "hi": "बहुत सोचने के बाद गजेन्द्र को एक बात समझ आई।",
+        "en": "After thinking deeply, Gajendra understood something important."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.31"
+      }
+    },
+    {
+      "id": "S01E02-S06-L002",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured, child-safe empathy",
+      "intent": "Narrate precisely: His own strength alone could not free him.",
+      "text": {
+        "te": "తన బలంతో మాత్రమే ఈ ప్రమాదం నుంచి బయటపడలేనని తెలిసింది.",
+        "hi": "उसे समझ आया कि केवल अपनी ताकत से वह नहीं बच सकता।",
+        "en": "His own strength alone could not free him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.31"
+      }
+    },
+    {
+      "id": "S01E02-S06-L003",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural continuation; breathe at punctuation",
+      "intent": "Narrate precisely: He remembered that even his herd could not rescue him.",
+      "text": {
+        "te": "తనతో ఉన్న ఏనుగులూ అతన్ని రక్షించలేకపోయాయని గుర్తుచేసుకున్నాడు.",
+        "hi": "उसे याद आया कि साथ के हाथी भी उसे बचा नहीं पाए।",
+        "en": "He remembered that even his herd could not rescue him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.32"
+      }
+    },
+    {
+      "id": "S01E02-S06-L004",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle reflective clarity",
+      "intent": "Narrate precisely: Even those who loved him could not loosen the crocodile's grip.",
+      "text": {
+        "te": "తనను ప్రేమించే ఆడ ఏనుగులూ మొసలి పట్టు విడిపించలేకపోయాయి.",
+        "hi": "उससे प्रेम करने वाली हथिनियाँ भी मगरमच्छ की पकड़ न छुड़ा सकीं।",
+        "en": "Even those who loved him could not loosen the crocodile's grip."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.32"
+      }
+    },
+    {
+      "id": "S01E02-S06-L005",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured, child-safe empathy",
+      "intent": "Narrate precisely: Then a clear decision arose in his heart.",
+      "text": {
+        "te": "అప్పుడు అతని మనసులో ఒక స్పష్టమైన నిర్ణయం వచ్చింది.",
+        "hi": "तब उसके मन में एक साफ़ निर्णय आया।",
+        "en": "Then a clear decision arose in his heart."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.31"
+      }
+    },
+    {
+      "id": "S01E02-S06-L006",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural continuation; breathe at punctuation",
+      "intent": "Narrate precisely: He decided to seek shelter in the Supreme Lord.",
+      "text": {
+        "te": "అందరికీ ఆశ్రయమైన పరమాత్మను ఆశ్రయించాలని అనుకున్నాడు.",
+        "hi": "उसने सबके आश्रय परम भगवान की शरण लेने का निश्चय किया।",
+        "en": "He decided to seek shelter in the Supreme Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.32"
+      }
+    },
+    {
+      "id": "S01E02-S06-L007",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle reflective clarity",
+      "intent": "Narrate precisely: The Lord can protect those who sincerely seek His shelter.",
+      "text": {
+        "te": "భయపడినవారిని రక్షించగల శక్తి భగవంతుడికి ఉందని అతనికి తెలిసింది.",
+        "hi": "वह जानता था कि भगवान शरण लेने वालों की रक्षा कर सकते हैं।",
+        "en": "The Lord can protect those who sincerely seek His shelter."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.33"
+      }
+    },
+    {
+      "id": "S01E02-S06-L008",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured, child-safe empathy",
+      "intent": "Narrate precisely: That refuge reaches beyond even the fear of death.",
+      "text": {
+        "te": "మరణ భయానికి మించిన ఆశ్రయం ఆ భగవంతుడే.",
+        "hi": "मृत्यु के भय से भी परे वही भगवान सच्चा आश्रय हैं।",
+        "en": "That refuge reaches beyond even the fear of death."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.33"
+      }
+    },
+    {
+      "id": "S01E02-S06-L009",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural continuation; breathe at punctuation",
+      "intent": "Narrate precisely: With that hope, Gajendra turned his heart toward prayer.",
+      "text": {
+        "te": "ఈ నమ్మకంతో గజేంద్రుడు తన మనసును ప్రార్థన వైపు మళ్లించాడు.",
+        "hi": "इसी भरोसे गजेन्द्र ने अपना मन प्रार्थना की ओर लगाया।",
+        "en": "With that hope, Gajendra turned his heart toward prayer."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original brief devotional transition from Gajendra's scriptural decision to seek shelter (SB 8.2.31–33) toward the remembered prayer that begins in Episode 3; it does not claim a new audible prayer or divine appearance yet."
+      }
     }
   ],
-  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals. S03 adds 8 aligned narration lines (te/hi/en), no animal spoken mouth movement. S04 adds 9 aligned narration lines (te/hi/en), no animal spoken mouth movement. S05 adds 9 te/hi/en narrator rows; no live human/animal lip-sync or recorded voice.",
-  "timing_note": "Five of six scenes authored; 270/330 provisional seconds and 44 lines, S06 still missing. Status partial_scene_draft, no measured runtime."
+  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals. S03 adds 8 aligned narration lines (te/hi/en), no animal spoken mouth movement. S04 adds 9 aligned narration lines (te/hi/en), no animal spoken mouth movement. S05 adds 9 te/hi/en narrator rows; no live human/animal lip-sync or recorded voice. S06 adds 9 te/hi/en narrator rows; no live human/animal lip-sync or recorded voice.",
+  "timing_note": "All six S01E02 scenes authored: S01 60 + S02 45 + S03 45 + S04 60 + S05 60 + S06 60 = 330 seconds preferred as a PROVISIONAL editor allocation, not measured speech/video runtime. Script is a complete draft FOR future table read, not a language/voice/art/production approval."
 }
