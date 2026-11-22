@@ -1,5 +1,7 @@
-# Work checkpoint — GM-STY-013 / S01E03/S01
+# Work checkpoint — GM-STY-014 E03/S02
 
-Started the **prayer episode** immediately after completing E02. Authored `seasons/season-01/episodes/s01e03-the-prayer-from-the-heart/episode.json` for S01 alone, six canonical trilingual NARRATOR lines with 8.3.1 verse source, one disclosed original quiet staging line, three 16:9 shot records **15+15+15=45s** provisional, `docs/S01E03_S01_COVERAGE_MAP.md`. Exactly follows E02 final heartfelt decision: Gajendra remembers a prayer learned in an earlier life **by grace**, without human animal lipsync, invented Sanskrit recording or early Nārāyaṇa appearance. E03 `partial_scene_draft`; season index now shows E01 partial, E02 complete draft for table-read, E03 partial, E04–E06 missing. No media/reviewer approval. Structure in-process checked, Python unrun in this edit-only batch.
+**2026-11-22 · production-first · branch production-artwork, draft PR #1.**
 
-**Next GM-STY-014:** S01E03/S02 'A remembered mantra begins', source 8.3.2–4, narratorial paraphrase rather than invented Sanskrit chant.
+Added E03/S02 “A remembered prayer begins” with 9 exact aligned te/hi/en NARRATOR rows, 3 source anchors to SB 8.3.2, 8.3.3, 8.3.4, three 16:9 shot specs 20+20+20=60 provisional seconds and 3 full future start/end frame pairs. **SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision.** No audio, image, motion, actual Sanskrit chanting or performer voice generated; all animal mouths natural. E03 now 2 authored scenes/15 text rows, 105/330 planned seconds, `partial_scene_draft`; E01/E02 and approved visual identity metadata unchanged. GM-STY-014 checks in-process only; actual CI logs need verification if used.
+
+**Next GM-STY-015:** E03/S03, The Lord beyond fear/time (SB 8.3.5–9); continue actual scripts/shot work, not infrastructure.

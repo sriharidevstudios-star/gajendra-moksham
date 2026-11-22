@@ -20,11 +20,12 @@
     "edition": "Śrīmad-Bhāgavatam 8.3.1–29 original te/hi/en retelling; third-party modern translations not copied",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.1–29",
-    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22."
+    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision."
   },
   "adaptation": {
     "core_preserved": [
-      "Gajendra fixes mind and intelligence in his heart and remembers a mantra learned in a previous lifetime by the grace of the Lord (SB 8.3.1)."
+      "Gajendra fixes mind and intelligence in his heart and remembers a mantra learned in a previous lifetime by the grace of the Lord (SB 8.3.1).",
+      "SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision."
     ],
     "changes": [
       "Episode 3 continues from E02's decision without duplicating a new bite, release or millennium montage.",
@@ -107,6 +108,57 @@
           "action": "Divine grace allows remembered prayer to return; Gajendra holds the thought quietly while still caught; narration L005–L006. Prayer words begin in S02.",
           "camera": "16:9 warm lake surface and the established elephant silhouette in one stable bank-axis composition.",
           "sound": "NARRATOR only with future soft ambient tail; no audible Sanskrit claim."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "A remembered prayer begins",
+      "setting": "The same freshwater lotus lake and Gajendra's unchanged crocodile grip, with the prior-life prayer now expressed through original narrator paraphrase, not an unauthorized Sanskrit chanting track.",
+      "action": "Gajendra's inner prayer venerates the Supreme Person as the source, foundation and witness of life and creation, seeking protection. SB 8.3.2–4. No human animal lip-sync or early arrival of Lord Nārāyaṇa.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Continue from the divinely remembered prayer in S01; the script is a simple modern Telugu/Hindi/English prose paraphrase, not a copied published translation or literal Sanskrit chant.",
+        "Gajendra's lips stay naturally elephant-like and still; prayer thoughts are carried by NARRATOR audio owner.",
+        "Cosmic light/water reflections can symbolically suggest origin and consciousness as original cinematography, not an early physical appearance of Nārāyaṇa.",
+        "Do not place a lotus in Gajendra's trunk as an offering before the Lord arrives in E04 (SB 8.3.32).",
+        "Preserve approved Gajendra/crocodile identity and the same left-foreleg grip throughout."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.2",
+          "url": "https://vedabase.io/en/library/sb/8/3/2/"
+        },
+        {
+          "locator": "8.3.3",
+          "url": "https://vedabase.io/en/library/sb/8/3/3/"
+        },
+        {
+          "locator": "8.3.4",
+          "url": "https://vedabase.io/en/library/sb/8/3/4/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E03-S02-SH01",
+          "budget_seconds": 20,
+          "action": "Gajendra inwardly bows to the Supreme Person, source of life and inner presence; narrator L001–L003.",
+          "camera": "16:9 gentle elephant three-quarter with quiet eyes and lake reflection, no deity manifestation.",
+          "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
+        },
+        {
+          "id": "S01E03-S02-SH02",
+          "budget_seconds": 20,
+          "action": "Original slow water/cosmic light abstraction behind narrator on source of creation; L004–L006.",
+          "camera": "16:9 soft abstract cutaway clearly marked visual metaphor, never depict the Lord physically before 8.3.30.",
+          "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
+        },
+        {
+          "id": "S01E03-S02-SH03",
+          "budget_seconds": 20,
+          "action": "The universe under the Supreme witness and a hopeful appeal for protection; L007–L009.",
+          "camera": "16:9 return to consistent held-foreleg lake bank, full elephant silhouette, calm reaction.",
+          "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
         }
       ]
     }
@@ -225,8 +277,179 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.1"
       }
+    },
+    {
+      "id": "S01E03-S02-L001",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity",
+      "intent": "In his heart, Gajendra bowed to the Supreme Person.",
+      "text": {
+        "te": "మనసులో గజేంద్రుడు పరమాత్మకు నమస్కరించాడు.",
+        "hi": "मन ही मन गजेन्द्र ने परम भगवान को प्रणाम किया।",
+        "en": "In his heart, Gajendra bowed to the Supreme Person."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.2"
+      }
+    },
+    {
+      "id": "S01E03-S02-L002",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural pacing, gentle space",
+      "intent": "He remembered the Lord as the source of all life.",
+      "text": {
+        "te": "సమస్త జీవుల జీవానికి మూలం ఆయనే అని గుర్తుచేసుకున్నాడు.",
+        "hi": "उसे याद आया कि वही सब जीवों के जीवन का मूल हैं।",
+        "en": "He remembered the Lord as the source of all life."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.2"
+      }
+    },
+    {
+      "id": "S01E03-S02-L003",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Source-aware reverent emphasis",
+      "intent": "He meditated on the Lord present in every heart.",
+      "text": {
+        "te": "ప్రతి హృదయంలో ఉండే పరమాత్మను ధ్యానించాడు.",
+        "hi": "उसने सबके हृदय में रहने वाले परमात्मा का ध्यान किया।",
+        "en": "He meditated on the Lord present in every heart."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.2"
+      }
+    },
+    {
+      "id": "S01E03-S02-L004",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity",
+      "intent": "The whole creation rests upon the Lord.",
+      "text": {
+        "te": "సృష్టి అంతటికీ ఆధారం ఆ భగవంతుడే.",
+        "hi": "सारी सृष्टि का आधार वही भगवान हैं।",
+        "en": "The whole creation rests upon the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.3"
+      }
+    },
+    {
+      "id": "S01E03-S02-L005",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural pacing, gentle space",
+      "intent": "He is also its first cause.",
+      "text": {
+        "te": "ఆ సృష్టికి మొదటి కారణం కూడా ఆయనే.",
+        "hi": "उस सृष्टि का प्रथम कारण भी वही हैं।",
+        "en": "He is also its first cause."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.3"
+      }
+    },
+    {
+      "id": "S01E03-S02-L006",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Source-aware reverent emphasis",
+      "intent": "Yet the Lord remains beyond His creation.",
+      "text": {
+        "te": "అయినా ఆయన సృష్టికి అతీతంగా ఉంటాడు.",
+        "hi": "फिर भी वे सृष्टि से परे रहते हैं।",
+        "en": "Yet the Lord remains beyond His creation."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.3"
+      }
+    },
+    {
+      "id": "S01E03-S02-L007",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity",
+      "intent": "The power that reveals the world also comes from Him.",
+      "text": {
+        "te": "లోకం కనిపించేలా చేసే శక్తి కూడా ఆయనదే.",
+        "hi": "संसार को प्रकट करने की शक्ति भी उन्हीं की है।",
+        "en": "The power that reveals the world also comes from Him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.4"
+      }
+    },
+    {
+      "id": "S01E03-S02-L008",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural pacing, gentle space",
+      "intent": "He remains the witness of all that happens.",
+      "text": {
+        "te": "జరిగే ప్రతిదానికీ ఆయన సాక్షిగా ఉంటాడు.",
+        "hi": "वही हर घटना के साक्षी रहते हैं।",
+        "en": "He remains the witness of all that happens."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.4"
+      }
+    },
+    {
+      "id": "S01E03-S02-L009",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Source-aware reverent emphasis",
+      "intent": "Gajendra sought protection from that Supreme Lord.",
+      "text": {
+        "te": "ఆ సర్వోన్నతుడే తనను కాపాడాలని గజేంద్రుడు కోరుకున్నాడు.",
+        "hi": "गजेन्द्र ने उन्हीं सर्वोच्च भगवान से रक्षा की आशा की।",
+        "en": "Gajendra sought protection from that Supreme Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.4"
+      }
     }
   ],
-  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub.",
-  "timing_note": "Only E03/S01 is authored with three 15-second editorial shots (45 seconds provisional, not measured); S02–S06 remain unwritten. E03 preferred 330s and status partial_scene_draft."
+  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync.",
+  "timing_note": "E03 2/6 scenes and 15 narration lines authored, 105/330 provisional seconds. Native/spoken durations unknown. Not a reviewed recording draft."
 }
