@@ -20,12 +20,13 @@
     "edition": "Śrīmad-Bhāgavatam 8.3.1–29 original te/hi/en retelling; third-party modern translations not copied",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.1–29",
-    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision."
+    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision. S03: SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival."
   },
   "adaptation": {
     "core_preserved": [
       "Gajendra fixes mind and intelligence in his heart and remembers a mantra learned in a previous lifetime by the grace of the Lord (SB 8.3.1).",
-      "SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision."
+      "SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision.",
+      "SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival."
     ],
     "changes": [
       "Episode 3 continues from E02's decision without duplicating a new bite, release or millennium montage.",
@@ -158,6 +159,61 @@
           "budget_seconds": 20,
           "action": "The universe under the Supreme witness and a hopeful appeal for protection; L007–L009.",
           "camera": "16:9 return to consistent held-foreleg lake bank, full elephant silhouette, calm reaction.",
+          "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "The Lord beyond fear and time",
+      "setting": "Quiet inward prayer over the same trapped lake situation. Nature light and distance offer humble metaphors of the Lord beyond material creation; no new event is claimed in the ancient account.",
+      "action": "Paraphrase the Lord's transcendence beyond darkness, understanding and ordinary material birth, and the reverent devotion of compassionate sages (SB 8.3.5–9), without turning theological metaphors into literal creatures or scenes.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Use a visually distinct but subtle gentle-light metaphor for divine transcendence, not a fabricated physical audience with Narayana before E04.",
+        "Cinematic visual symbols are declared original; the words remain independent paraphrases tied to exact verses.",
+        "Sages discussed are conceptual and do not enter the lake as newly named characters or speakers.",
+        "Keep the Gajendra identity, zoological anatomy, left foreleg and crocodile hold stable; no automatic elephant mouth prayer synchronization.",
+        "End with recognition of a Supreme Lord greater than ordinary birth, not with an early rescue or lotus offering."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.5",
+          "url": "https://vedabase.io/en/library/sb/8/3/5/"
+        },
+        {
+          "locator": "8.3.6",
+          "url": "https://vedabase.io/en/library/sb/8/3/6/"
+        },
+        {
+          "locator": "8.3.7",
+          "url": "https://vedabase.io/en/library/sb/8/3/7/"
+        },
+        {
+          "locator": "8.3.8-9",
+          "url": "https://vedabase.io/en/library/sb/8/3/8-9/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E03-S03-SH01",
+          "budget_seconds": 20,
+          "action": "Prayer remembers refuge beyond darkness and change; L001–L003.",
+          "camera": "16:9 quiet lake vs soft abstract light; color harmony from approved Indian storybook, no deity closeup.",
+          "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
+        },
+        {
+          "id": "S01E03-S03-SH02",
+          "budget_seconds": 20,
+          "action": "The Lord's greatness surpasses full human explanation; Gajendra reveres Him; L004–L006.",
+          "camera": "16:9 simple child-readable metaphor and unchanged lake master; no invented sage speech.",
+          "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
+        },
+        {
+          "id": "S01E03-S03-SH03",
+          "budget_seconds": 20,
+          "action": "Compassionate sages seek divine feet; Gajendra's prayer praises the Lord's transcendence; L007–L009.",
+          "camera": "16:9 respectfully composed lake/warm sky, no physical deity/lotus offering before E04.",
           "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
         }
       ]
@@ -448,8 +504,179 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.4"
       }
+    },
+    {
+      "id": "S01E03-S03-L001",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity",
+      "intent": "Even as worlds change, the Lord remains beyond them.",
+      "text": {
+        "te": "లోకాలు మారినా భగవంతుడు అన్నిటికీ అతీతుడు.",
+        "hi": "संसार बदलता रहे, भगवान सबके परे रहते हैं।",
+        "en": "Even as worlds change, the Lord remains beyond them."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.5"
+      }
+    },
+    {
+      "id": "S01E03-S03-L002",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural pacing, gentle space",
+      "intent": "Beyond even deep darkness, His light remains.",
+      "text": {
+        "te": "గాఢమైన చీకటికీ అతీతంగా ఆయన వెలుగు ఉంటుంది.",
+        "hi": "गहरे अँधेरे से भी परे उनका प्रकाश रहता है।",
+        "en": "Beyond even deep darkness, His light remains."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.5"
+      }
+    },
+    {
+      "id": "S01E03-S03-L003",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Source-aware reverent emphasis",
+      "intent": "Gajendra longed for that refuge.",
+      "text": {
+        "te": "గజేంద్రుడు ఆ ఆశ్రయాన్నే కోరుకున్నాడు.",
+        "hi": "गजेन्द्र ने उसी शरण की इच्छा की।",
+        "en": "Gajendra longed for that refuge."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.5"
+      }
+    },
+    {
+      "id": "S01E03-S03-L004",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity",
+      "intent": "Even great sages cannot describe all the Lord's glory.",
+      "text": {
+        "te": "ఎంత గొప్ప ఋషులైనా ఆయన మహిమ అంతా చెప్పలేరు.",
+        "hi": "बड़े-बड़े ऋषि भी उनकी महिमा पूरी तरह नहीं कह सकते।",
+        "en": "Even great sages cannot describe all the Lord's glory."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.6"
+      }
+    },
+    {
+      "id": "S01E03-S03-L005",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural pacing, gentle space",
+      "intent": "His ways go beyond what we can fully understand.",
+      "text": {
+        "te": "ఆయన కార్యాలు మన ఆలోచనలకు అందనంత లోతైనవి.",
+        "hi": "उनके कार्य हमारी समझ से बहुत गहरे हैं।",
+        "en": "His ways go beyond what we can fully understand."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.6"
+      }
+    },
+    {
+      "id": "S01E03-S03-L006",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Source-aware reverent emphasis",
+      "intent": "Still, Gajendra turned to Him with devotion.",
+      "text": {
+        "te": "అయినా గజేంద్రుడు భక్తితో ఆయననే ఆశ్రయించాడు.",
+        "hi": "फिर भी गजेन्द्र ने भक्ति से उन्हीं की शरण ली।",
+        "en": "Still, Gajendra turned to Him with devotion."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.7"
+      }
+    },
+    {
+      "id": "S01E03-S03-L007",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity",
+      "intent": "Sages who care for all beings seek the Lord's feet.",
+      "text": {
+        "te": "అందరితో దయగా మెలిగే ఋషులు ఆయన పాదాలను ఆశ్రయిస్తారు.",
+        "hi": "सबके प्रति दया रखने वाले ऋषि उनके चरणों की शरण चाहते हैं।",
+        "en": "Sages who care for all beings seek the Lord's feet."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.7"
+      }
+    },
+    {
+      "id": "S01E03-S03-L008",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural pacing, gentle space",
+      "intent": "The Lord's birth is not like birth in this world.",
+      "text": {
+        "te": "భగవంతుడి పుట్టుక మనలాంటి జీవుల పుట్టుక కాదు.",
+        "hi": "भगवान का जन्म हमारे जैसा साधारण जन्म नहीं है।",
+        "en": "The Lord's birth is not like birth in this world."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.8-9"
+      }
+    },
+    {
+      "id": "S01E03-S03-L009",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Source-aware reverent emphasis",
+      "intent": "He can show compassion through many divine forms.",
+      "text": {
+        "te": "అనేక దివ్య రూపాల్లో ఆయన కరుణను చూపగలడు.",
+        "hi": "वे अनेक दिव्य रूपों में अपनी करुणा दिखा सकते हैं।",
+        "en": "He can show compassion through many divine forms."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.8-9"
+      }
     }
   ],
-  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync.",
-  "timing_note": "E03 2/6 scenes and 15 narration lines authored, 105/330 provisional seconds. Native/spoken durations unknown. Not a reviewed recording draft."
+  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S03 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync.",
+  "timing_note": "E03 3/6 scenes and 24 narration lines authored, 165/330 provisional seconds. Native/spoken durations unknown. Not a reviewed recording draft."
 }
