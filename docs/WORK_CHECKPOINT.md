@@ -1,46 +1,40 @@
-# Work checkpoint — GM-RET-001
+# Work checkpoint — GM-LANG-001
 
 **Date:** 2026-11-22  
 **Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 targeting `main`  
-**Starting remote head verified:** `3e5d4439b845ca2b95591527de4dcac18a55d393` (GM-STY-006).  
-**Batch:** One bounded editorial runtime/validation review; next GM-LANG-001.
+**Verified starting head:** `64f98a8eede1aae25196121b917239ba062bfd1a` (GM-RET-001).  
+**Batch:** one read-only canonical language/source audit; next GM-LANG-002 two-line P1 correction.
 
-## Editorial decision — first episode is 5:30 as a working target
+## Bounded work delivered
 
-The six authored S01E01 scene budgets are **S01=60, S02=60, S03=60, S04=60, S05=30, S06=60 seconds**, totaling **330 seconds (5:30)**. The reduced S05 is intentional: SB 8.2.26 moves immediately to the crocodile's first grip in 8.2.27, without an independent stalking scene. There is no source justification to invent another 30-second attack montage or repeat the lake play just to reach 360.
+- Created `docs/S01E01_LANGUAGE_AUDIT.md`, a 54-line **English/Hindi/Telugu** model-only audit with per-line disposition, cross-language source checks and original source links.
+- Findings: **2 P1**, **7 P2**, **7 P3**, **38 other lines without a model-observed issue**. Top factual discrepancies: **S01E01-S02-L002** (source's tiny real gems described as gem-like stones) and **S01E01-S02-L010** (fish/tortoise movements stirring pollen-filled water reduced to free-floating pollen in English). Full list includes natural Hindi/Telugu idiom, crane behavior, Gajendra's mercy in 8.2.22, verse-26 theological context, ambiguous Telugu reference and the 8.2.28 rescue handoff.
+- Verified **54 unique line IDs**, six ordered scene groups with counts **8/11/11/11/4/9**, all `te/hi/en`, speaker/audio owner `NARRATOR`, null lip-sync target, **50 verse-paraphrase + 4 original-dramatization** attribution records, and **330 planned seconds** of shot durations. No existing story wording or status was changed.
+- Provided scene-by-scene whitespace word counts and three exact shot-level narration-rate risks, explicitly **not** recorded performances or validated language-specific duration.
+- **No canonical source change**, no voice auditions, no native-language signoff, no audio, art, TTS, image, motion, captions or final video. E01 remains `partial_scene_draft`; E02–E06 remain `planned_no_episode_source`.
+- Next bounded task is **GM-LANG-002**, correcting only the **two P1** source-precision lines with unchanged IDs, source ownership, shot timings and all other script content. Read `docs/NEXT_CHAT_PROMPT.md`.
 
-- Kept all **six scenes**, **18 shot IDs**, **54 original trilingual line objects**, **three cast IDs**, **all source anchors**, original narration/voiceover ownership, current media registry/approvals, and all story text **unchanged**.
-- Changed only S01E01 `target_runtime_seconds.preferred: 360 -> 330`; `min=330`, `max=390` unchanged. The season-level `preferred=360` remains a general target for *other* episodes; episode-specific selection inside season bounds is allowed. **This is still a provisional shot budget, not measured speech or approved editorial runtime.**
-- **No runtime validator changes needed**: the preexisting strict six-scene equality rule now compares 330 to S01E01's own 330 preferred. The rule still rejects mismatched preferred values (such as 360 against a 330-second scene sum), incorrect shot totals, and invalid bounds.
-- Added `tests/test_runtime_budget.py`: eight synthetic-fixture/real-source regression tests covering the 330-second partial-scene scoped status, season-wide 360 preference, rejecting 330-vs-360 mismatches, bad shot sums/bounds, distinguishing a full table-read draft from complete-season status, deterministic text-only builder freshness, and canonical source scoped status. Existing regression tests were not modified.
-- Updated `docs/DATA_MODEL.md` to reflect the authored canonical episode, the episode-specific preference override and the remaining five missing episodes. No story additions, images, TTS, audio, motion, art or publication calls.
+## Validation/provenance
 
-## Validation and operational honesty
-
-| Gate | Status |
+| Check | Status |
 |---|---|
-| Live GitHub source/metadata inspection | **PASS** — previous canonical blob and draft PR #1 verified |
-| In-process structural comparison | **PASS** — unchanged scene/shot/dialogue/characters/source objects and 330 second scene budget |
-| JSON syntax of updated episode | **PASS** — parsed/serialized and reconfirmed structurally |
-| Python tests: `python3 -m unittest discover -s tests -v` | **UNRUN** — external GitHub connector does not execute repo code; direct public raw source download is unavailable in runtime |
-| Python canonical scoped check: `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**; with this metadata change and current validator, expected **SCOPED_READY**; must run before claiming gate PASS |
-| Python deterministic build/`--check` | **UNRUN**; 7 text-only outputs should be testable locally but none are represented as produced in GitHub |
-| Python whole-season check | **UNRUN**; expected **NOT_READY** because S01E01 status remains partial and E02–E06 lack canonical sources |
-| Third-party JSON Schema package | **UNRUN** — not installed/executed via GitHub; schema unchanged |
-| Media/voices/native-language listening | **MISSING/UNAPPROVED**; not part of this batch |
-| Remote non-force commit and three-way file verification | Verify after push via remote head, draft PR, changed files and blob identities |
+| GitHub branch, PR, canonical blob | **CHECKED** at `64f98a8eede1aae25196121b917239ba062bfd1a` |
+| Complete line coverage (54/54) and audit issue IDs | **PASS**, audited in-process |
+| Cross-language field completeness, audio ownership, source-kind/line identity | **PASS**, in-process source inspection, not a human-language approval |
+| Scripture grounding for high-priority issues | **CHECKED** at SB 8.2.8, 8.2.14–19 and corresponding documented source links |
+| Python test suite `python3 -m unittest discover -s tests -v` | **UNRUN** — no accessible checked-out Python runtime via GitHub connector; read-only scratch GitHub request failed DNS |
+| Scoped validator / builder / --check | **UNRUN**; do not claim `SCOPED_READY` as an executed result |
+| Whole-season validator | **UNRUN**; anticipated **NOT_READY** (five sources absent) |
+| Human native-speaker table read | **NOT PERFORMED** |
+| Media/voice/artwork/TTS | **MISSING / UNAPPROVED** |
+| Remote commit, exact 3-file diff and blob hashes | Check GitHub branch/PR after guarded non-force update |
 
-### Exact commands to run when Python is available
+## Local checks, when available
 
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/validate_content.py --episode S01E01 --scene S06
-python3 scripts/validate_content.py --episode S01E01 --scene S06 --require-complete  # expected NOT_READY
 python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
 python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
-python3 scripts/validate_content.py  # expected NOT_READY, exit 2
+python3 scripts/validate_content.py  # expect NOT_READY / exit 2
 ```
-
-## Next bounded task
-
-**GM-LANG-001:** Review first episode's 54 aligned Telugu/Hindi/English narration turns for naturalness, pronunciation, source meaning, and performing feasibility, documenting line-level findings before authoring new scripts. No voices or visual rendering. Follow the exact next-chat prompt in `docs/NEXT_CHAT_PROMPT.md`.
