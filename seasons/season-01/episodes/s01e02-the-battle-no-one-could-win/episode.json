@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 2; original trilingual paraphrase, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.27–33",
-    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04. S03: SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression."
+    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04. S03: SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression. S04: The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events."
   },
   "adaptation": {
     "core_preserved": [
@@ -28,7 +28,8 @@
       "Female elephants cry out in distress (SB 8.2.28).",
       "The unsuccessful rescue leaves Gajendra still trapped before the long struggle (8.2.28–29).",
       "Gajendra exerts strength to escape his caught foot (8.2.27), and the elephant and crocodile pull against one another toward and away from the water (8.2.29).",
-      "SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression."
+      "SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression.",
+      "The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events."
     ],
     "changes": [
       "Continue directly from E01/S06; no second new attack.",
@@ -37,7 +38,8 @@
       "No named herd character or human-spoken elephant/crocodile lines; no gore or fabricated rescue.",
       "Future S02–S06 contain the ongoing contest, thousand years, changing advantage and turn to divine refuge; none are authored yet.",
       "In S02, the exact near-bank foothold and raised-trunk gesture are original cinema staging; the thousand-year duration is reserved for S04.",
-      "S03 original shot pacing/light blocking is declared cinematic staging; all named scripture events remain verse-attributed."
+      "S03 original shot pacing/light blocking is declared cinematic staging; all named scripture events remain verse-attributed.",
+      "S04 original shot pacing/light blocking is declared cinematic staging; all named scripture events remain verse-attributed."
     ],
     "fidelity_note": "Independent simple child-friendly Telugu/Hindi/English paraphrase of SB 8.2.28. The physical failed pull from behind and female elephants' cries are source events; all water staging is clearly differentiated and unrecorded."
   },
@@ -212,6 +214,49 @@
           "budget_seconds": 15,
           "action": "Continue waterline tension and hold for passage of time next scene; narration L007–L008.",
           "camera": "Clean 16:9 distant full-body wide, conserve geographic continuity; no time-lapse yet.",
+          "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Many years pass",
+      "setting": "Same Trikūṭa garden freshwater lake as S01–S03, with a nonliteral long-time visual montage at the same shore/water geometry; no new location, age redesign or separate attack.",
+      "action": "The narrator explicitly states the contest between the elephant and crocodile lasts a thousand years (SB 8.2.29), with brief seasonal time-montage cues as original illustration. Devas observe in wonder without invented speech.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Begin with continuing struggle; seasonal light and passing years may be indicated through original editing transitions, not a single literal real-time endurance shot.",
+        "Say one thousand years explicitly and unambiguously as scripture, not a metaphorical ordinary-day fight.",
+        "Show the in/out-water back-and-forth from verse 29. Keep the same consistent approved elephant/crocodile identity and held leg across time.",
+        "Show distant, unnamed, respectful silhouettes of astonished devas only when future references have been approved. No new named deity or dialogue.",
+        "The long-term weakening of Gajendra and the crocodile's growing strength are narrated in the next scene S05 from SB 8.2.30, not prematurely altered by this montage."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.29",
+          "url": "https://vedabase.io/en/library/sb/8/2/29/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E02-S04-SH01",
+          "budget_seconds": 20,
+          "action": "First time-compression: same gripping pair, days and seasons suggested by ambient light/foliage changes; narration L001–L003.",
+          "camera": "16:9 fixed lake master with subtle symbolic seasonal dissolves; stable bank left and deeper water right.",
+          "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
+        },
+        {
+          "id": "S01E02-S04-SH02",
+          "budget_seconds": 20,
+          "action": "Explicit thousand-year passage over the prolonged contest, back-and-forth in and out of water; narration L004–L006.",
+          "camera": "16:9 wide montage preserving one leg-grip topology and full-body approved anatomy, no newly invented combat injuries.",
+          "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
+        },
+        {
+          "id": "S01E02-S04-SH03",
+          "budget_seconds": 20,
+          "action": "Enduring contest beneath distant observers; devas' astonishment noted without new named performers; narration L007–L009.",
+          "camera": "16:9 shore-facing wide with future celestial silhouettes only once separately designed/approved; no change to Gajendra and crocodile identity.",
           "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
         }
       ]
@@ -711,8 +756,179 @@
         "kind": "original_dramatization",
         "note": "Original transition observation about Gajendra's difficulty in the water, inferred from SB 8.2.30 without claiming the later years-long power shift has occurred yet."
       }
+    },
+    {
+      "id": "S01E02-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm physical continuity",
+      "intent": "Convey the source-backed scene meaning: Their struggle did not end that day.",
+      "text": {
+        "te": "వారి పోరాటం ఆ రోజుతో ముగియలేదు.",
+        "hi": "उनका संघर्ष उसी दिन समाप्त नहीं हुआ।",
+        "en": "Their struggle did not end that day."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle clarity",
+      "intent": "Convey the source-backed scene meaning: Days passed, yet the struggle went on.",
+      "text": {
+        "te": "రోజులు గడిచాయి. అయినా వారు పోరాడుతూనే ఉన్నారు.",
+        "hi": "दिन बीतते गए, फिर भी वे जूझते रहे।",
+        "en": "Days passed, yet the struggle went on."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured reflective emphasis",
+      "intent": "Convey the source-backed scene meaning: Seasons changed, but the contest by the lake continued.",
+      "text": {
+        "te": "ఋతువులు మారినా సరస్సు దగ్గర ఆ పోరాటం ఆగలేదు.",
+        "hi": "मौसम बदलते रहे, लेकिन झील के पास संघर्ष नहीं थमा।",
+        "en": "Seasons changed, but the contest by the lake continued."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original montage shorthand using changing seasons and light to visualize the scripture's explicit one-thousand-year duration; SB 8.2.29 does not prescribe seasonal shots."
+      }
+    },
+    {
+      "id": "S01E02-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm physical continuity",
+      "intent": "Convey the source-backed scene meaning: The years went by.",
+      "text": {
+        "te": "సంవత్సరాలు గడిచిపోయాయి.",
+        "hi": "साल बीतते गए।",
+        "en": "The years went by."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle clarity",
+      "intent": "Convey the source-backed scene meaning: In all, one thousand years passed.",
+      "text": {
+        "te": "అలా మొత్తం వెయ్యి సంవత్సరాలు గడిచాయి.",
+        "hi": "ऐसे ही पूरे एक हज़ार वर्ष बीत गए।",
+        "en": "In all, one thousand years passed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured reflective emphasis",
+      "intent": "Convey the source-backed scene meaning: Throughout those years, Gajendra and the crocodile pulled against each other.",
+      "text": {
+        "te": "అంత కాలం గజేంద్రుడు, మొసలి ఒకరినొకరు లాగుకుంటూనే ఉన్నారు.",
+        "hi": "उस सारे समय गजेन्द्र और मगरमच्छ एक-दूसरे को खींचते रहे।",
+        "en": "Throughout those years, Gajendra and the crocodile pulled against each other."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm physical continuity",
+      "intent": "Convey the source-backed scene meaning: Their struggle moved between the water and the shore.",
+      "text": {
+        "te": "నీళ్లలోపలికి, ఒడ్డువైపుకి ఆ పోరాటం సాగింది.",
+        "hi": "कभी पानी की ओर, कभी किनारे की ओर, उनका संघर्ष चलता रहा।",
+        "en": "Their struggle moved between the water and the shore."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle clarity",
+      "intent": "Convey the source-backed scene meaning: Even the devas watched the remarkable struggle in amazement.",
+      "text": {
+        "te": "దేవతలు కూడా ఈ ఆశ్చర్యకరమైన పోరాటాన్ని చూశారు.",
+        "hi": "देवताओं ने भी इस अनोखे संघर्ष को आश्चर्य से देखा।",
+        "en": "Even the devas watched the remarkable struggle in amazement."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S04-L009",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured reflective emphasis",
+      "intent": "Convey the source-backed scene meaning: Still, Gajendra had not escaped the crocodile's grip.",
+      "text": {
+        "te": "అయినా గజేంద్రుడు మొసలి పట్టు నుంచి బయటపడలేదు.",
+        "hi": "फिर भी गजेन्द्र मगरमच्छ की पकड़ से छूट नहीं सका।",
+        "en": "Still, Gajendra had not escaped the crocodile's grip."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
     }
   ],
-  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals. S03 adds 8 aligned narration lines (te/hi/en), no animal spoken mouth movement.",
-  "timing_note": "E02 3/6 scenes authored, 150/330 provisional seconds, 26 aligned trilingual lines. All future media and human review pending; partial_scene_draft."
+  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals. S03 adds 8 aligned narration lines (te/hi/en), no animal spoken mouth movement. S04 adds 9 aligned narration lines (te/hi/en), no animal spoken mouth movement.",
+  "timing_note": "E02 4/6 scenes authored, 210/330 provisional seconds, 35 aligned trilingual lines. All future media and human review pending; partial_scene_draft."
 }
