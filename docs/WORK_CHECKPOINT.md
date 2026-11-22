@@ -1,43 +1,44 @@
-# Work checkpoint — GM-COV-007
+# Work checkpoint — GM-SPC-001
 
 **Date:** 2026-11-22  
-**Repository:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1 into `main`  
-**Verified source head:** `772c866510eb07c0f6e60f18d66a4214b1ac8962`, tree `4b23764bf682c1ce5ba76ae9723a7cee9a9dad65`  
-**Batch:** docs-only six-scene picture/audio reconciliation; **next GM-SPC-001**.
+**Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 to `main`  
+**Verified starting head:** `e49a569ef4d92c1074d73eee5b20164e9c057bfd` (GM-COV-007)  
+**Scope:** source-fidelity correction to exactly **one** S01E01/S02 editorial shot action, followed by handoff for **GM-SPC-002**.
 
-## Completed
+## Exact correction performed
 
-- Created `docs/S01E01_COVERAGE_RECONCILIATION.md`; audited the canonical episode plus all six preexisting scene-specific coverage maps. **PASS in-process:** 54/54 unique narrator line IDs assigned once across 18/18 canonical shot IDs, exact source URLs/attribution, **50** scripture paraphrases + **4** complete original-dramatization disclosures.
-- All three languages of every line remain owned by `NARRATOR`, `performance_mode=narration`, `lip_sync_target=null`. **162 PLANNED language-line audio needs**, zero recorded tracks.
-- Scene/shot budgets reconcile to **60+60+60+60+30+60=330 seconds**; **36 PLANNED shot-boundary composition needs**, zero delivered image files.
-- Recorded unmodified source/shot mismatch: **S02/SH01 “gem-like shore stones”** vs real tiny gems in corrected S02/L002 and SB 8.2.8. Also flagged S04 “drifting pollen”, second-bath sequencing, S05 repetition, E02 failed rescue and thousand years, stale tracker/season root statuses. No editorial rewriting in this batch.
-- Continuity: Ocean of Milk ≠ Ṛtumat freshwater lake; elephant herd reaches bank in S03; S04 water play, S05 only source-disclosed calm, S06 first crocodile grip. **Left foreleg** is production choice, not verse; 8.2.28's failed herd pull and 8.2.29's long struggle belong to S01E02.
-- Confirmed the live `4b23764bf682c1ce5ba76ae9723a7cee9a9dad65` tree had **zero tracked media**; `asset_registry.json` `assets=[]`; narrator voices and Gajendra/crocodile references unapproved, tracker `media_files=[]`, shot-spec policy a brief, human listener checklist NOT APPROVED. Whole season NOT_READY: E01 partial, E02–E06 source missing.
-- **No canonical JSON, story, line, six coverage maps, voice, media, registry, schema, script, season or approval mutation.** Only reconciliation + two handoff documents changed.
+- Changed only `seasons/season-01/episodes/s01e01-the-lake-at-trikuta/episode.json` at `scenes[S02].shots[S01E01-S02-SH01].action`, replacing **`gem-like shore stones`** with **`shores studded with tiny genuine gems`**. The edited sentence now reads:
+  > Travel down into the green valley: trees, birds and small animals; glimmering clear streams and shores studded with tiny genuine gems. Narrator L001–L003 reveals the approach to Ṛtumat without entering the garden lake yet.
+- The result explicitly requires *real small gems* on clear-water shores, consistent with [Śrīmad-Bhāgavatam 8.2.8](https://vedabase.io/en/library/sb/8/2/8/) and existing `S01E01-S02-L002` in Telugu, Hindi and English. No words from a published modern English translation were copied into this shot.
+- **PASS in-process exact-change comparison:** after restoring the prior `action`, the complete parsed canonical JSON equals its original. **All 54 dialogue records** (text, IDs, verse attribution, owner, lip-sync and delivery) stayed identical, as did the other **17 shot objects**, all scene settings/actions/source anchors, 6 scenes, 18 shot IDs, 330-second preferred E01 budget and `partial_scene_draft` status. The S02 SH01 line ownership remains **L001–L003**, budget **18s**, camera and sound unchanged.
+- Previous six scene coverage maps, `docs/S01E01_COVERAGE_RECONCILIATION.md`, season index, listener checklist, character/voice/asset registers and production tracker were **not edited**. The reconciliation document is historical evidence of the formerly observed mismatch; the checkpoint is the current resolution record.
+- **Still open, intentionally untouched:** S04/SH01 description `drifting pollen` vs current S04/L003 `mingled` pollen, S04/SH02 `bathes again` sequencing and source nuance, S05/L001 repetition pending timed human review, S01E02 deferred elephant rescue/long struggle, and stale season/tracker state flags.
+- No new frame, image, media, voice, audio, TTS, video, motion, approval, receipt or file path has been fabricated. Media and native/devotional approvals remain **MISSING / NOT APPROVED**. E02–E06 source files remain missing and season remains **NOT_READY**.
 
-## Checks / limitations
+## Validation status
 
-| Gate | Result |
+| Gate | Outcome |
 |---|---|
-| In-process all-line/map/shot/citation/audio/330s reconciliation | **PASS** |
-| Live GitHub inventory and same-head tree | **CHECKED** — no media or approvals |
-| Python unit suite | **UNRUN** — GitHub connector has no Python runtime |
-| Python scoped source validator | **UNRUN** — not claiming executed SCOPED_READY |
-| Python deterministic builder / `--check` | **UNRUN** — no exports created |
-| Whole-season Python validator | **UNRUN** — expected NOT_READY |
-| Human Telugu/Hindi/English, devotional and visual signoff | **NOT PERFORMED** |
-| Guarded non-force push, exact 3 files, blobs and draft PR | Verify after commit |
+| Exact sole `S02-SH01.action` change and all other JSON objects identical | **PASS**, in-process |
+| Verse [8.2.8](https://vedabase.io/en/library/sb/8/2/8/) and corrected S02/L002 | **CHECKED**, genuine tiny gems like sand grains |
+| 54/54 unique lines, te/hi/en NARRATOR ownership, null lip-sync | **PASS**, in-process |
+| Six scenes, 18 shots, total 330s | **PASS**, in-process |
+| `python3 -m unittest discover -s tests -v` | **UNRUN** — connected GitHub does not execute repository Python |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S02` | **UNRUN**, do not assert executed `SCOPED_READY` |
+| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02` and `--check` | **UNRUN**; no new text exports |
+| `python3 scripts/validate_content.py` | **UNRUN**; expected NOT_READY with five missing episode sources |
+| Guarded non-force commit, remote diff and per-file blobs | Verify independently after push |
 
-### Commands to run where checked-out Python repository exists
+### Commands for an executable repository
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S06
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
-python3 scripts/validate_content.py  # expected NOT_READY
+python3 scripts/validate_content.py --episode S01E01 --scene S02
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02 --check
+python3 scripts/validate_content.py  # expected NOT_READY / exit 2
 ```
 
-## Next
+## Next bounded task
 
-**GM-SPC-001:** one source-faithful S01E01/S02/SH01 shot-action wording fix (actual gem grains rather than lookalike stones), preserving every other canonical scene/line/shot. Full handoff in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-SPC-002:** one S01E01/S04 two-shot textual continuity/source audit for SH01 pollen placement and SH02 post-drinking bathing sequence, without preemptive story changes, human-approval claims or media generation. Full operating prompt in `docs/NEXT_CHAT_PROMPT.md`.
