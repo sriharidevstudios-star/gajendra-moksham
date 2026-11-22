@@ -5,6 +5,7 @@ No test fixture is a real person, receipt, approved source or production media.
 from __future__ import annotations
 
 import copy
+from datetime import date, timedelta
 import hashlib
 import json
 from pathlib import Path
@@ -249,6 +250,64 @@ class SyntheticReviewEvidenceTests(unittest.TestCase):
         self.receipt["reviews"][0]["approved"] = True
         self.assert_invalid("expected exactly")
 
+
+    def test_explicit_missing_receipt_is_invalid_and_not_created(self):
+        self.assertFalse(self.receipt_path.exists())
+        result = self.result()
+        self.assertEqual(result["status"], "INVALID", result)
+        self.assertIs(result["approved"], False)
+        self.assertIn("explicitly specified evidence file is missing",
+                      " ".join(result["errors"]))
+        self.assertFalse(self.receipt_path.exists())
+
+    def test_explicit_relative_receipt_is_resolved_from_root(self):
+        self.write_receipt()
+        relative = Path("reviews/native/S01E01/evidence.json")
+        result = validate_review_evidence(self.root, relative)
+        self.assertEqual(result["status"], "EVIDENCE_PRESENT_UNVERIFIED", result)
+        self.assertIs(result["approved"], False)
+
+    def test_absolute_outside_root_receipt_rejected(self):
+        with tempfile.TemporaryDirectory() as outside:
+            outside_path = Path(outside) / "evidence.json"
+            outside_path.write_text("{}", encoding="utf-8")
+            result = validate_review_evidence(self.root, outside_path)
+            self.assertEqual(result["status"], "INVALID")
+            self.assertIs(result["approved"], False)
+            self.assertIn("unsafe path", " ".join(result["errors"]))
+
+    def test_explicit_receipt_symlink_rejected(self):
+        self.write_receipt()
+        alias = self.receipt_path.parent / "alias.json"
+        alias.symlink_to(self.receipt_path)
+        result = validate_review_evidence(self.root, alias)
+        self.assertEqual(result["status"], "INVALID")
+        self.assertIs(result["approved"], False)
+        self.assertIn("unsafe path", " ".join(result["errors"]))
+
+    def test_evidence_symlink_rejected_even_with_valid_sha(self):
+        original = self.root / "synthetic-only/native_te.txt"
+        alias = self.root / "synthetic-only/evidence-alias.txt"
+        alias.symlink_to(original)
+        self.receipt["reviews"][0]["evidence"]["path"] = (
+            "synthetic-only/evidence-alias.txt"
+        )
+        self.assert_invalid("unsafe evidence symlink")
+
+    def test_duplicate_shot_id_rejected(self):
+        shots = self.receipt["reviews"][0]["shots"]
+        shots[1]["shot_id"] = shots[0]["shot_id"]
+        self.assert_invalid("shot ID/order mismatch")
+
+    def test_future_review_date_rejected(self):
+        self.receipt["reviews"][0]["review_date"] = (
+            date.today() + timedelta(days=1)
+        ).isoformat()
+        self.assert_invalid("invalid review date")
+
+    def test_missing_review_evidence_proof_does_not_autoapprove(self):
+        self.receipt["reviews"][0]["evidence"]["sha256"] = None
+        self.assert_invalid("missing evidence path or SHA-256")
 
 if __name__ == "__main__":
     unittest.main()

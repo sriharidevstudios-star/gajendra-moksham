@@ -47,7 +47,8 @@ def _date(value):
     if not isinstance(value, str):
         return False
     try:
-        return date.fromisoformat(value).isoformat() == value
+        checked = date.fromisoformat(value)
+        return checked.isoformat() == value and checked <= date.today()
     except ValueError:
         return False
 
@@ -125,6 +126,8 @@ def _evidence_file(root, evidence, where):
     rel = Path(path)
     _require(not rel.is_absolute() and ".." not in rel.parts and "\\" not in path,
              f"{where}: unsafe evidence path")
+    _require(not (root / rel).is_symlink(),
+             f"{where}: unsafe evidence symlink")
     absolute = (root / rel).resolve()
     _require(absolute.is_relative_to(root.resolve()) and absolute.is_file(),
              f"{where}: evidence file not present inside repository")
@@ -223,17 +226,29 @@ def validate_review_evidence(root=ROOT, evidence_path=None):
         sha, lines, shots, owner = _source(root)
     except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
         return {"status": "INVALID", "approved": False, "errors": [str(exc)]}
-    if evidence_path is None:
-        evidence_path = root / DEFAULT_RECEIPT
-    else:
-        evidence_path = Path(evidence_path)
-    if not evidence_path.is_file():
+    explicit = evidence_path is not None
+    try:
+        requested = Path(evidence_path) if explicit else root / DEFAULT_RECEIPT
+        if explicit and not requested.is_absolute():
+            requested = root / requested
+        resolved = requested.resolve()
+        _require(resolved.is_relative_to(root.resolve())
+                 and not requested.is_symlink(),
+                 "receipt: unsafe path (outside repository or symlink)")
+    except (OSError, ValueError, TypeError, AttributeError) as exc:
+        return {"status": "INVALID", "approved": False,
+                "source_git_blob_sha": sha, "errors": [str(exc)]}
+    if not resolved.is_file():
+        if explicit:
+            return {"status": "INVALID", "approved": False,
+                    "source_git_blob_sha": sha,
+                    "errors": ["receipt: explicitly specified evidence file is missing"]}
         return {"status": "NOT_REVIEWED", "approved": False,
                 "source_git_blob_sha": sha,
                 "missing": ["human review receipt absent"],
                 "errors": [], "reviewed_roles": []}
     try:
-        receipt = json.loads(evidence_path.read_text(encoding="utf-8"))
+        receipt = json.loads(resolved.read_text(encoding="utf-8"))
         _keys(receipt, {"schema_version", "episode_id", "source_git_blob_sha",
                         "reviews"}, "receipt")
         _require(receipt["schema_version"] == "1.0"

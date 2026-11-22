@@ -35,3 +35,15 @@ python3 scripts/validate_content.py  # expected NOT_READY while other episodes a
 The new unit tests create **synthetic S01E01-shaped temporary fixtures and fake text evidence inside temporary directories only**. The synthetic all-positive fixture must still report `EVIDENCE_PRESENT_UNVERIFIED` with `approved=false`; negative tests reject stale SHA, missing/duplicate line IDs, incomplete measurements, wrong source notes, invalid dates, blank identities, non-existent/mismatched evidence files and inconsistent approvals. These tests are *not* a submitted human review. When the repository is accessible only through GitHub metadata tools, code/tests are authored but execution is **UNRUN**.
 
 **Copyright/media:** this contract needs no voice sample, music, narration recording, scripture publication text, image or rendered motion. Human-review notes and signed evidence, if acquired in a later authorized workflow, require privacy/rights consideration and actual reviewer consent.
+
+## GM-NATIVE-010 — bounded receipt-path/date hardening (2026-11-22)
+
+The original GM-NATIVE-009 interface was reviewed without changing its conservative **always `approved=false`** result. These clarifications are now enforced:
+
+- **Default absent future receipt:** `NOT_REVIEWED` / exit 2, with no file or directory created. By contrast, if a caller explicitly supplies `--evidence` and that file is missing, the result is **`INVALID` / exit 1**, not indistinguishable from a default unsubmitted review.
+- **Path containment:** a relative explicit `--evidence` path is now resolved **relative to `--root`**, not the caller's unrelated working directory. Absolute explicit paths are accepted **only when contained inside the resolved root**. Out-of-repository paths and final-path symlinks are rejected before reading. Referenced per-review evidence-file symlinks are rejected even if their targets are otherwise within root; intermediate paths resolving outside root remain rejected. These protections prevent accepting out-of-scope or aliased evidence; they do not authenticate a human.
+- **Temporal evidence:** `review_date` must be a valid canonical `YYYY-MM-DD` ISO date **not later than the validator's local current date**. A future-dated review cannot be an already completed human session.
+- **Synthetic regressions expanded:** eight additional test methods cover explicitly missing receipt, root-relative receipt, external absolute receipt, symlinked receipt, symlinked supporting evidence, duplicate shot ID, future date and absent SHA-256 proof. All fake reviewers and files are synthetic data in temporary directories; tests never set real approval flags.
+- **Review status remains conservative:** even a complete claimed all-positive receipt remains `EVIDENCE_PRESENT_UNVERIFIED`, `approved=false`, exit 2; actual human attestation remains external to this code. `SCOPED_READY` is not native-language, voice or release approval.
+
+GitHub-only source review can confirm the code contains these guards, but **cannot claim the Python tests ran or passed**. Execute the real test suite in an authorized Python runner before relying on it as a production gate.
