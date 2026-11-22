@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4 original child-friendly Telugu/Hindi/English retelling; no copied published translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.3–12",
-    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention."
+    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention."
   },
   "adaptation": {
     "core_preserved": [
@@ -37,7 +37,8 @@
       "The camera's visual storytelling and Huhu's reaction/movements are original staging, never claimed as specific verse wording.",
       "Indradyumna's silent vow does not justify portraying him as evil or Agastya as a grotesque monster.",
       "The spiritual final Gajendra four-armed form appears in E06, not during the narrated curse flashback. Characters remain identical to owner-approved nine-panel art.",
-      "S01: flashback camera and narrative background separated from exact verse statements, no invented character dialogue."
+      "S01: flashback camera and narrative background separated from exact verse statements, no invented character dialogue.",
+      "S02: flashback camera and narrative background separated from exact verse statements, no invented character dialogue."
     ],
     "fidelity_note": "Source-checked SB 8.4.3–12 and the chapter's historical summary. All scripture paraphrases are newly worded, and details only in the chapter's prose overview or invented camera staging are explicitly disclosed as original dramatization. The two curses remain historically distinct."
   },
@@ -152,6 +153,49 @@
           "id": "S01E05-S01-SH03",
           "budget_seconds": 18,
           "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4). Narration L007–L008; beat Keep Narayana four-armed and Garuda present as established in E04; no extra deity design.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Hūhū and Sage Devala: the earlier incident",
+      "setting": "Marked FLASHBACK to a DIFFERENT heavenly water place in Huhu's Gandharva past, not the Gajendra/Trikuta lotus lake; Devala bathes separately.",
+      "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "A clear visual flashback title/soft change in lighting, not silently the same present Gajendra lake. No crocodile mouth or Gajendra character in the earlier water place.",
+        "Huhu wears his approved Gandharva king look while Devala is his distinct elderly white-robed sage reference.",
+        "The playful grab is clearly inappropriate and disrespectful, not harm, gore or assault; do not encourage viewers to mimic it.",
+        "Chapter overview describes pulling the sage's leg but verse 3-4 identifies curse/result only. Disclose source-summary background exactly.",
+        "No new named companions, invented quoted words or song lyrics; all speakers stay narrator."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.3-4",
+          "url": "https://vedabase.io/en/library/sb/8/4/3-4/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S02-SH01",
+          "budget_seconds": 18,
+          "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event. Narration L001–L003; beat A clear visual flashback title/soft change in lighting, not silently the same present Gajendra lake. No crocodile mouth or Gajendra character in the earlier water place.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S02-SH02",
+          "budget_seconds": 19,
+          "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event. Narration L004–L006; beat Huhu wears his approved Gandharva king look while Devala is his distinct elderly white-robed sage reference.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S02-SH03",
+          "budget_seconds": 18,
+          "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event. Narration L007–L008; beat The playful grab is clearly inappropriate and disrespectful, not harm, gore or assault; do not encourage viewers to mimic it.",
           "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
           "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
         }
@@ -310,8 +354,160 @@
         "kind": "scripture_paraphrase",
         "locator": "8.4.3-4"
       }
+    },
+    {
+      "id": "S01E05-S02-L001",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Long ago, Huhu lived in Gandharvaloka.",
+      "text": {
+        "te": "హూహూ గంధర్వ లోకంలో జీవించేవాడు.",
+        "hi": "हूहू गंधर्व लोक में रहता था।",
+        "en": "Long ago, Huhu lived in Gandharvaloka."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S02-L002",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "One day he was enjoying himself in the water.",
+      "text": {
+        "te": "ఒకసారి అతను నీళ్లలో సరదాగా ఆడుకుంటున్నాడు.",
+        "hi": "एक दिन वह पानी में खेल रहा था।",
+        "en": "One day he was enjoying himself in the water."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L003",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "Sage Devala was bathing nearby.",
+      "text": {
+        "te": "అదే సమయంలో దేవల మహర్షి అక్కడ స్నానం చేస్తున్నారు.",
+        "hi": "उसी समय देवल ऋषि वहाँ स्नान कर रहे थे।",
+        "en": "Sage Devala was bathing nearby."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L004",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Huhu playfully pulled the sage's leg.",
+      "text": {
+        "te": "హూహూ సరదా పేరుతో మహర్షి కాలును లాగాడు.",
+        "hi": "हूहू ने मज़ाक में ऋषि का पैर खींच लिया।",
+        "en": "Huhu playfully pulled the sage's leg."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L005",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "Devala found this disrespectful.",
+      "text": {
+        "te": "అది దేవల మహర్షికి అవమానంగా అనిపించింది.",
+        "hi": "देवल ऋषि को यह अपमानजनक लगा।",
+        "en": "Devala found this disrespectful."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L006",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "A game that bothers someone else is not kind play.",
+      "text": {
+        "te": "ఇతరులకు ఇబ్బంది కలిగించే ఆట సరదా కాదు.",
+        "hi": "किसी को परेशान करने वाला खेल सही मज़ाक नहीं है।",
+        "en": "A game that bothers someone else is not kind play."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L007",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "The sage became angry at Huhu's action.",
+      "text": {
+        "te": "హూహూ చేసిన పని వల్ల మహర్షికి కోపం వచ్చింది.",
+        "hi": "हूहू की इस हरकत पर ऋषि क्रोधित हो गए।",
+        "en": "The sage became angry at Huhu's action."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L008",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "That incident changed Huhu's life.",
+      "text": {
+        "te": "ఆ సంఘటన అతని జీవితాన్ని మార్చేసింది.",
+        "hi": "उस घटना ने हूहू का जीवन बदल दिया।",
+        "en": "That incident changed Huhu's life."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
     }
   ],
-  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation.",
-  "timing_note": "E05 1/6 scenes authored, 8 narration IDs, 55/330 provisional seconds; other scenes missing."
+  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation.",
+  "timing_note": "E05 2/6 scenes authored, 16 narration IDs, 110/330 provisional seconds; other scenes missing."
 }
