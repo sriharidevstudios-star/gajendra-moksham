@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4 original child-friendly Telugu/Hindi/English retelling; no copied published translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.3–12",
-    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S03: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S04: source SB 8.4.7, 8.4.8; original adaptation staging explicitly distinguished from cited verse actions."
+    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S03: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S04: source SB 8.4.7, 8.4.8; original adaptation staging explicitly distinguished from cited verse actions. S05: source SB 8.4.9, 8.4.10; original adaptation staging explicitly distinguished from cited verse actions."
   },
   "adaptation": {
     "core_preserved": [
@@ -30,7 +30,8 @@
       "King Indradyumna of Pāṇḍya/Draviḍa was a devout Vaiṣṇava who retired to the Malaya Hills and observed a silent vow in worship (8.4.7–8).",
       "Agastya visited with disciples, interpreted silence as disrespect, cursed Indradyumna to an elephant body (8.4.9–10).",
       "The king accepted the curse, and due to devotion remembered prayer in the elephant life (8.4.11–12).",
-      "S04: The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8)."
+      "S04: The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8).",
+      "S05: Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty."
     ],
     "changes": [
       "Episode 5's flashbacks are editorial retelling of earlier lives AFTER the rescue; no crocodile appears alive in the present lake after its animal life ends.",
@@ -288,6 +289,53 @@
           "id": "S01E05-S04-SH03",
           "budget_seconds": 18,
           "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8). Narration L007–L008. Show small cottage, matted hair, forest and simple worship rather than fabricated temple rituals, modern objects, or new disciples.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Agastya arrives during the vow of silence",
+      "setting": "Indradyumna's peaceful Malaya Hills hermitage as already established S04; Agastya arrives with followers, distinct from sage Devala of Huhu's water backstory.",
+      "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Agastya is the owner's approved orange-robed white-bearded sage with staff; Devala is cream-robed, belongs to a different scene, and does not appear.",
+        "Agastya comes WITH pupils; unnamed visitors are generic and require later approved designs if rendered prominently.",
+        "Indradyumna continues silent meditation rather than purposefully ignoring a person out of malice; source records Agastya interpreted lack of reception as offense.",
+        "The curse is stated in the narration, not fabricated direct-quote dialogue from Agastya. Keep expression serious but no cartoon villain gore.",
+        "Do not turn the king physically into elephant in this scene; S06 carries the next birth and remembered devotion."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.9",
+          "url": "https://vedabase.io/en/library/sb/8/4/9/"
+        },
+        {
+          "locator": "8.4.10",
+          "url": "https://vedabase.io/en/library/sb/8/4/10/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S05-SH01",
+          "budget_seconds": 18,
+          "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty. Narration L001–L003. Agastya is the owner's approved orange-robed white-bearded sage with staff; Devala is cream-robed, belongs to a different scene, and does not appear.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S05-SH02",
+          "budget_seconds": 19,
+          "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty. Narration L004–L006. Agastya comes WITH pupils; unnamed visitors are generic and require later approved designs if rendered prominently.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S05-SH03",
+          "budget_seconds": 18,
+          "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty. Narration L007–L008. Indradyumna continues silent meditation rather than purposefully ignoring a person out of malice; source records Agastya interpreted lack of reception as offense.",
           "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
           "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
         }
@@ -902,8 +950,160 @@
         "kind": "scripture_paraphrase",
         "locator": "8.4.8"
       }
+    },
+    {
+      "id": "S01E05-S05-L001",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Then Sage Agastya arrived with his disciples.",
+      "text": {
+        "te": "అప్పుడు అగస్త్య మహర్షి తన శిష్యులతో అక్కడికి వచ్చారు.",
+        "hi": "उसी समय अगस्त्य ऋषि अपने शिष्यों के साथ वहाँ आए।",
+        "en": "Then Sage Agastya arrived with his disciples."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L002",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "Indradyumna was absorbed in meditation.",
+      "text": {
+        "te": "ఇంద్రద్యుమ్నుడు గాఢ ధ్యానంలో ఉన్నాడు.",
+        "hi": "इन्द्रद्युम्न गहरे ध्यान में थे।",
+        "en": "Indradyumna was absorbed in meditation."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L003",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "Because he remained silent, he did not greet them.",
+      "text": {
+        "te": "మౌనవ్రతం వల్ల అతను వారిని పలకరించలేదు.",
+        "hi": "मौन व्रत के कारण उसने उनका स्वागत नहीं किया।",
+        "en": "Because he remained silent, he did not greet them."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L004",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "The sage did not receive the customary welcome.",
+      "text": {
+        "te": "మహర్షికి తగిన స్వాగతం లభించలేదు.",
+        "hi": "ऋषि को उचित आदर-सत्कार नहीं मिला।",
+        "en": "The sage did not receive the customary welcome."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L005",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "Agastya took this as disrespect and became angry.",
+      "text": {
+        "te": "దీన్ని అవమానంగా భావించి అగస్త్యుడికి కోపం వచ్చింది.",
+        "hi": "इसे अपमान समझकर अगस्त्य क्रोधित हो गए।",
+        "en": "Agastya took this as disrespect and became angry."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L006",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "In anger he pronounced a curse on Indradyumna.",
+      "text": {
+        "te": "ఆ కోపంతో ఇంద్రద్యుమ్నుడికి శాపం ఇచ్చారు.",
+        "hi": "क्रोध में उन्होंने इन्द्रद्युम्न को श्राप दिया।",
+        "en": "In anger he pronounced a curse on Indradyumna."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.10"
+      }
+    },
+    {
+      "id": "S01E05-S05-L007",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "The curse was that he would take the body of an elephant.",
+      "text": {
+        "te": "తరువాతి జన్మలో ఏనుగు రూపం పొందాలని ఆ శాపం.",
+        "hi": "श्राप था कि अगले जन्म में वह हाथी बने।",
+        "en": "The curse was that he would take the body of an elephant."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.10"
+      }
+    },
+    {
+      "id": "S01E05-S05-L008",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "That moment changed the course of Indradyumna's life.",
+      "text": {
+        "te": "అది ఇంద్రద్యుమ్నుడి జీవితాన్ని మార్చిన ఘట్టం.",
+        "hi": "यह घटना इन्द्रद्युम्न के जीवन को बदलने वाली थी।",
+        "en": "That moment changed the course of Indradyumna's life."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original gentle closing observation for the scriptural Agastya curse of 8.4.10; narrator calls it a turning point, not an additional distinct incident."
+      }
     }
   ],
-  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation. S03 authored 8 narrator-only trilingual lines, no recorded voice/animation. S04 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement.",
-  "timing_note": "E05 4/6 scenes authored, 220/330 provisional seconds, 32 lines, further scenes missing."
+  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation. S03 authored 8 narrator-only trilingual lines, no recorded voice/animation. S04 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement. S05 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement.",
+  "timing_note": "E05 5/6 scenes authored, 275/330 provisional seconds, 40 lines, further scenes missing."
 }
