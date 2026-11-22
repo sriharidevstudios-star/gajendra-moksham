@@ -1,11 +1,21 @@
-# COPY INTO NEXT CHAT — GM-ARCH-001
+# COPY INTO NEXT CHAT — GM-STY-001
 
-Work on **sriharidevstudios-star/gajendra-moksham**, branch **production-artwork**, draft PR to main. This document is the complete operating prompt for the *next one bounded batch*.
+Work directly through GitHub on **sriharidevstudios-star/gajendra-moksham**, branch **production-artwork**, draft PR **#1** into `main`. Execute exactly this **single canonical scene** batch. No separate local checkout required.
 
-Read `docs/WORK_CHECKPOINT.md`, `docs/CHAT_WORKFLOW.md`, `docs/PRAHLADA_PARITY.md`, `docs/DATA_MODEL.md`, `docs/SOURCE_REGISTER.md`, `seasons/season-01/season.json` and current repository content. Inspect the actual portable schemas and offline build/validator code in `sriharidevstudios-star/prahlada-narasimha` on `production-artwork` via GitHub; do not require a separate local checkout.
+Read the live branch and draft PR, `docs/WORK_CHECKPOINT.md`, `docs/CHAT_WORKFLOW.md`, `docs/SOURCE_REGISTER.md`, `docs/SERIES_BIBLE.md`, `docs/SEASON_01_EPISODE_GUIDE.md`, `docs/DATA_MODEL.md`, `schemas/episode.schema.json`, and existing offline builder/validator. Inspect the actual verses in **Śrīmad Bhāgavatam 8.2.1–4** through the cited source. Do not copy copyrighted published English translations or commentary as screenplay dialogue.
 
-**Execute exactly GM-ARCH-001:** adapt the **minimum necessary** six-episode `S01E01–S01E06`, three-language (`te/hi/en`) episode/dialogue source schema and deterministic standard-library offline validation/build scaffolding. Add small synthetic test fixtures in tests (clearly marked **fixture, not canonical story**) and regression tests for episode ID range, unique stable line IDs, scene ownership, complete language mapping, animal narration/voiceover ownership, source citations, and explicit partial-season completeness. Ensure the current planning-only `season.json` does **not** falsely pass as a fully scripted season. Reuse general Prahlada design, not Prahlada story text, 12-episode assumptions, character assets or voice IDs.
+**GM-STY-001 scope:** create `seasons/season-01/episodes/s01e01-the-lake-at-trikuta/episode.json` as **status `partial_scene_draft`**, only scene **`S01`** (Trikūṭa's distinctive three peaks and setting; source-faithful and visually readable). Include source/explicit adaptation notes, scene source anchors with valid URL, original **natural modern Telugu, Hindi and English** aligned by stable `S01E01-S01-L###` IDs, appropriate narrator and speaker profiles, clear `audio_owner`, `performance_mode`, `lip_sync_target: null` for narrator/nonhuman voiceovers, and **exactly three editorial shots** with `S01E01-S01-SH01` … `SH03`, budgets totaling the S01 scene duration (working 60 seconds). Do not fabricate out-of-verse incidents or tack on unrelated morals. Use the source register to ensure continuity with S02 lake/garden action later; no crocodile attack in this opening geography scene unless source planning is deliberately and explicitly revised in a later approved batch.
 
-Allowed scope: essential `schemas/`, `scripts/`, `tests/`, limited `seasons/season-01/` metadata as necessary for compatibility, and docs checkpoint/handoff. Do **not** author a full canonical episode or change the six-episode plot in this batch; zero image calls and zero generated audio/video. Keep existing planning metadata and character design integrity.
+Change the **one** `season.json` episode entry from `planned_no_episode_source` to `partial_scene_draft` in the same commit. Leave E02–E06 and all other un-authored scenes missing. Do **not** write later scene lines, final full episode, voice IDs, TTS audio requests, images, motion or actual recording files. Do not mutate approved assets or Prahlada repository.
 
-Run Python/stdlib unit tests and source checks if actually runnable; otherwise label exact gates **UNRUN** and include commands for local verification. Make a guarded **non-force** GitHub commit/push, inspect remote files and confirm commit SHA. Update `docs/WORK_CHECKPOINT.md` and `docs/NEXT_CHAT_PROMPT.md` with the exact next bounded **GM-STY-001** story task for `S01E01/S01`. Stop with a short report and **ONE COPY INTO NEXT CHAT** prompt. No routine confirmation.
+Run actual Python gate commands if possible:
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/validate_content.py --episode S01E01 --scene S01
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S01
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S01 --check
+python3 scripts/validate_content.py   # EXPECT NOT_READY / exit 2
+```
+
+If Python or a gate is inaccessible, record **UNRUN** honestly; do not call it PASS. Regenerated scoped files under ignored `out/` are **text-only preview outputs**, not recorded audio/approved images. Update only `seasons/season-01/episodes/s01e01-the-lake-at-trikuta/episode.json`, the one `season.json` entry and essential checkpoint/handoff docs. Make guarded **non-force** commit/push on `production-artwork` and verify remote commit and files. Stop with concise report and **ONE COPY INTO NEXT CHAT** prompt handing off GM-STY-002 for S01E01/S02, without executing it. No routine confirmation.

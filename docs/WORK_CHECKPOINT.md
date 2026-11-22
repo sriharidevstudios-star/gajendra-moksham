@@ -1,30 +1,28 @@
-# Work checkpoint — GM-SETUP-001
+# Work checkpoint — GM-ARCH-001
 
-**Status:** initial setup documents and metadata prepared for `production-artwork`; story source/audio/artwork/pipeline not yet created.  
 **Date:** 2026-11-22  
-**Owner/repo:** `sriharidevstudios-star/gajendra-moksham`  
-**Original main head, verified:** `b2326ccabf2c4fef49ec6e61e3a18efd342baafc` (initial README commit).  
-**Reference Prahlada production-artwork head inspected:** `e7cdd9a8e51b9ed53e89be97d84ddeb0a326b137`.
+**Repo:** `sriharidevstudios-star/gajendra-moksham` · **Branch:** `production-artwork` · **PR:** draft #1 into `main`  
+**Starting remote branch head verified:** `5a413662e11e29ae9e33059acf6448cfafe0015e` (GM-SETUP-001).  
+**Prahlada reference:** `sriharidevstudios-star/prahlada-narasimha`, `production-artwork`; inspected its actual `episode.schema.json`, `build_season_dialogue.py`, `validate_content.py` and `S01E01/episode.json`. No Prahlada story/media was copied.
 
-## Batch deliverables
+## Bounded delivery — GM-ARCH-001
 
-- Project README, .gitignore and rights notes.
-- Requirements, source register (SB 8.2–8.4), original series bible, six-episode and six-scene planning, production and localization/style notes.
-- Six-episode `season.json` with paths marked `planned_no_episode_source` (no files invented).
-- Text-only character design briefs; all references unapproved; empty asset registry; empty/none voice-casting; all review gates false.
-- Prahlada parity matrix, single-batch GitHub workflow, next exact prompt.
+- Added `schemas/episode.schema.json`: **six-episode-only**, `te/hi/en`, one-to-six partial scenes and six-scene full table-read status.
+- Added `scripts/content_model.py`, `scripts/validate_content.py`: source-aware, stable line ID, scene/cast/audio owner, native-text presence, verse/anchor URL, animal voiceover and budget checks. Whole-season planning state is **NOT_READY**, not a false PASS.
+- Added `scripts/build_season_dialogue.py`: scoped-only partial draft markdown/JSONL outputs with source/generated SHA-256, no TTS/media/network/voice approval, and byte-for-byte `--check`.
+- Added explicitly synthetic source `tests/fixtures/S01E01_partial.fixture.json` and `tests/test_content_model.py` covering valid partial source, missing canonical episodes, duplicate IDs, speaker/scene ownership, missing translations, incorrect scripture anchors, animal lip-sync and deterministic/stale outputs.
+- Updated `docs/DATA_MODEL.md` and this checkpoint; next exact action remains one scene in `docs/NEXT_CHAT_PROMPT.md`.
 
-## Validation and truthful gaps
+## Validation evidence (isolated Python scratch harness, not a separate Git checkout)
 
-| Gate | Result |
-|---|---|
-| Source chapter/ranges | Checked against public 8.2, 8.3, 8.4 chapter text; stage is editorial planning |
-| JSON syntax and planned episode IDs | Validated in-memory before Git tree submission if the committing operation succeeds |
-| Remote commit / branch / draft PR | Verify in GitHub after applying this batch; use current branch/PR head, not an embedded self-referential SHA |
-| Python source validator | **UNRUN** — not yet implemented |
-| Character references, audio and motion | **MISSING** — no media produced |
-| Per-episode trilingual dialogue | **MISSING** — story outlines only |
+- `python3 -m unittest discover -s tests -v` → **24 tests PASS** under Python 3.13.5; fixtures were created only in temporary folders and never under canonical episode paths.
+- `python3 -m json.tool schemas/episode.schema.json` → **PASS** (JSON syntax).
+- Python compilation of three source scripts → **PASS**.
+- Test builder: valid synthetic `--episode S01E01 --scene S01` emitted seven deterministic text-only files, `--check` succeeded, then deliberately modified output was flagged stale (expected exit 2).
+- Real **repo** `season.json` has six `planned_no_episode_source` entries and no canonical `episode.json`. **Actual season remains NOT_READY**. No character refs, recordings, TTS, images or motion assets are claimed.
+- Source schema is draft 2020-12 JSON Schema; JSON Schema package validation was **UNRUN** (stdlib semantic validator/test checks are used; no third-party dependency required).
+- Commit/push branch and remote byte/blob verification: see GitHub branch head/PR after this batch; do not put a self-referential commit SHA in this file.
 
-## Next bounded action
+## Exact next bounded task
 
-**GM-ARCH-001**: adapt the Prahlada portable source schema, a minimal isolated scene fixture, a deterministic offline builder and a source validator; tests must cover line IDs/language/source ownership and partial-season state. Do not produce final scripts or claim assets. Full prompt: `docs/NEXT_CHAT_PROMPT.md`.
+**GM-STY-001:** author only **S01E01/S01** (Trikūṭa and three peaks) as a canonical partial-source `episode.json` with three-language spoken lines, three budgeted shots, source annotations tied to SB 8.2.1–4 and explicit voiceover ownership. Update only the matching `season.json` status, checkpoint and next prompt. Run scoped validator and draft builder; leave whole season NOT_READY. No images or audio. Full operating instructions: `docs/NEXT_CHAT_PROMPT.md`.
