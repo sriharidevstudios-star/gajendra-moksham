@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam, Canto 8; passage checked against Vedabase verse pages (copyrighted translation not reused)",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.1–28",
-    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes. S02 paraphrases the separate bird-rich valleys and clear waters (8.2.7–8), Varuṇa's garden Ṛtumat with year-round fruit and flowers (8.2.9–13), and its golden-lotus lake with other water lilies, bees, water birds, fish, tortoises and flowering banks (8.2.14–19). Waterway and shoreline blocking are editorial staging, not claimed scripture; Gajendra and the crocodile are reserved for later scenes. S03 retells SB 8.2.20 (elephant leader and thorny forest), 8.2.21 (fierce animals flee from his scent), 8.2.22 (smaller animals roam without fear), and the combined 8.2.23–24 (female elephants, calves, heavy steps, heat, bees, thirst and lotus-pollen breeze leading to the lake bank). Each line is independently phrased and verse-attributed. No water entry or attack is moved into S03. S04 paraphrases SB 8.2.25–26: Gajendra enters the clear, cool lotus-pollen lake, drinks with his trunk and bathes, then sprinkles female elephants and their young and helps them drink and bathe. Verse 26's reflection on attachment to his family/heedlessness of hardship is condensed to a gentle observation, without declaring love itself wrongful or inventing foreknowledge. The crocodile grips him in 8.2.27 and must not appear in S04."
+    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes. S02 paraphrases the separate bird-rich valleys and clear waters (8.2.7–8), Varuṇa's garden Ṛtumat with year-round fruit and flowers (8.2.9–13), and its golden-lotus lake with other water lilies, bees, water birds, fish, tortoises and flowering banks (8.2.14–19). Waterway and shoreline blocking are editorial staging, not claimed scripture; Gajendra and the crocodile are reserved for later scenes. S03 retells SB 8.2.20 (elephant leader and thorny forest), 8.2.21 (fierce animals flee from his scent), 8.2.22 (smaller animals roam without fear), and the combined 8.2.23–24 (female elephants, calves, heavy steps, heat, bees, thirst and lotus-pollen breeze leading to the lake bank). Each line is independently phrased and verse-attributed. No water entry or attack is moved into S03. S04 paraphrases SB 8.2.25–26: Gajendra enters the clear, cool lotus-pollen lake, drinks with his trunk and bathes, then sprinkles female elephants and their young and helps them drink and bathe. Verse 26's reflection on attachment to his family/heedlessness of hardship is condensed to a gentle observation, without declaring love itself wrongful or inventing foreknowledge. The crocodile grips him in 8.2.27 and must not appear in S04. S05 is a deliberately shortened 30-second original cinematic bridge rather than a distinct event described between verses 8.2.26 and 8.2.27. Its one scriptural-paraphrase line revisits Gajendra's absorption in the herd (8.2.26); subsequent calf placement, falling droplets, surface ripples and apparent stillness are explicitly original dramatization/atmosphere, not assertions about the source. Verse 8.2.27 begins the sudden crocodile foot-grip; S05 does not depict advance, shadow, underwater approach, warning or attack."
   },
   "adaptation": {
     "core_preserved": [
@@ -48,9 +48,12 @@
       "The 60-second scene ends with the herd at the bank because 8.2.23–24 already places them there; entering the water, drinking, bathing and the crocodile attack are deliberately reserved for later scenes.",
       "S04 presents the bathing, drinking and sharing of water as three continuous editorial shots at the same stable lake bank; shot order and exact blocking are cinematic staging decisions.",
       "The source's reflection on Gajendra's attachment and disregard for hardship is conveyed gently without manufacturing a warning, malicious creature, divine punishment or spoken elephant dialogue.",
-      "No crocodile, threatening water shadow, attack or unseen predator is scripted in S04: the source first places the crocodile grip in 8.2.27, reserved for S06."
+      "No crocodile, threatening water shadow, attack or unseen predator is scripted in S04: the source first places the crocodile grip in 8.2.27, reserved for S06.",
+      "S05 adds only an original, non-predatory 30-second closing-lake pause after the verse-26 water-sharing action; its mother/calf blocking, last droplets and fading surface ripples are clearly labeled original dramatization, not a new scriptural episode.",
+      "The S05 working title is metaphorical. It does not license a crocodile underwater POV, stealth approach, ominous eye or unseen shadow; the crocodile's first on-screen grip belongs only to verse 8.2.27 in S06.",
+      "The old uniform 60-second S05 editorial plan is reduced to 30 seconds to avoid duplicating verse-26 material or adding unsupported plot. The eventual episode timing/validator preferred total must be rebalanced by a separate reviewed editorial decision, not padded automatically."
     ],
-    "fidelity_note": "All S01–S04 narration is original Telugu/Hindi/English paraphrase of the verse-anchored geography, garden, herd approach and bathing/refreshment in SB 8.2.1–26; it is not a verbatim modern translation. No elephant speaks as a human, and staging/ambient sound are declared original screenplay directions."
+    "fidelity_note": "S01–S04 retain their original source-anchored three-language narrations unchanged. S05 has one original paraphrase of 8.2.26 and three clearly marked cinematic atmospheric lines (calf placement, droplets, ripples and calm) that are not independent scripture incidents. The source moves directly from the herd scene to the crocodile grip in 8.2.27, reserved for S06. No human animal speech or predator foreshadowing."
   },
   "characters": [
     {
@@ -281,6 +284,53 @@
           "action": "Female elephants and calves join Gajendra at the shallows. He lifts water in his trunk, sprinkles them and helps them drink and bathe, absorbed in caring for the herd; narration L008–L011. End on a calm family grouping, without an ominous underwater cut.",
           "camera": "Stable 16:9 wide family group at the same shore, with a short medium view of Gajendra's natural trunk spray. Avoid humanlike gestures and animal mouth lip-sync.",
           "sound": "Gentle trunk-water spray, calf splashes, birds, and a soft environmental tail. The narrator is the only spoken owner."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "The Calm Beneath the Surface",
+      "setting": "The same tree-lined shallow bank, surface lotus patch and wider freshwater lake established in S02–S04. The title names a reflective pause only: no underwater or predator-view shot is authored, and no new scriptural event is implied.",
+      "action": "A short, source-disclosed visual transition after Gajendra has helped the herd bathe and drink. His attention remains on the elephants (SB 8.2.26). The final droplets slip from his trunk while a calf stands beside its mother, and ordinary ripples settle among the lotus leaves. The calf's placement and the settling water are original screenplay staging, not separate incidents described in the source. End without a crocodile, a mysterious shadow, a threat cue, or an invented warning; the first grip is left to verse 8.2.27 and S06.",
+      "duration_budget_seconds": 30,
+      "nonverbal_beats": [
+        "S05 is deliberately shortened from the original 60-second planning allowance to a 30-second bridge. Verse 26 is brief and S04 already dramatized its substantive water-sharing action. Do not pad this passage with unrelated wildlife or repeated splash montages.",
+        "Continue directly from S04's last grouping: Gajendra with female elephants and calves in the established shallows, now with fewer large water splashes; quadruped anatomy stays natural.",
+        "A calf remains close to its mother while the last normal droplets fall from Gajendra's trunk. This precise visual blocking is original dramatization rather than a newly found scriptural beat.",
+        "Hold on ordinary surface ripples and golden lotus leaves from the same bank. Use no underwater camera, lurking eye, crocodile silhouette, camera stalk, ominous score, supernatural forewarning, or other suggestion that 8.2.25–26 depicts an approaching predator.",
+        "Use natural lake sound and a measured narrator pause. No spoken elephant voice, text on screen, approved artwork or recordings."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.25",
+          "url": "https://vedabase.io/en/library/sb/8/2/25/"
+        },
+        {
+          "locator": "8.2.26",
+          "url": "https://vedabase.io/en/library/sb/8/2/26/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E01-S05-SH01",
+          "budget_seconds": 10,
+          "action": "Resume S04's concluding herd composition. Gajendra looks toward the female elephants and calves as the vigorous splashing subsides; narration L001 reflects the source's focus on family. The pause is a cinematic continuation of 8.2.26, not a new plot event.",
+          "camera": "Fixed medium-wide 16:9 at the previously established near bank with the golden-lotus zone behind; avoid reversing the herd's direction or changing the shoreline.",
+          "sound": "Only existing natural shore ambience, water drops and offscreen NARRATOR. No animal dialogue or ominous cue."
+        },
+        {
+          "id": "S01E01-S05-SH02",
+          "budget_seconds": 10,
+          "action": "A calf stands close to its mother while the last small water droplets fall from Gajendra's trunk; narration L002. This small relational insert is explicitly original nonverbal staging drawn from the animals already present in 8.2.26.",
+          "camera": "Simple medium detail of natural elephant mother/calf spacing with Gajendra's trunk at frame edge; do not manufacture a new named calf or human expressions.",
+          "sound": "Quiet individual drops and natural herd movements; NARRATOR only. No lip-sync."
+        },
+        {
+          "id": "S01E01-S05-SH03",
+          "budget_seconds": 10,
+          "action": "On the same lake surface, small ripples fade around already established lotus leaves. Narration L003–L004 ends with a brief quiet pause. Stop before 8.2.27; no crocodile or attack image.",
+          "camera": "Shoreline-facing medium-wide cutaway that retains the prior bank and lotus geometry; no underwater shot, POV pursuit, shadows or threat foreshadowing.",
+          "sound": "Soft water and birds, then a brief quiet environmental tail without dramatic sting."
         }
       ]
     }
@@ -1064,8 +1114,84 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.26"
       }
+    },
+    {
+      "id": "S01E01-S05-L001",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle reflective cadence, with no ominous implication",
+      "intent": "Summarize Gajendra's attention to the family already described in the prior scene",
+      "text": {
+        "te": "గజేంద్రుడి దృష్టంతా తన గుంపులోని ఏనుగులపైనే ఉంది.",
+        "hi": "गजेन्द्र का सारा ध्यान अपने झुंड के हाथियों पर ही था।",
+        "en": "Gajendra's attention was still on the elephants around him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.26"
+      }
+    },
+    {
+      "id": "S01E01-S05-L002",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm observational tone; allow drops to be heard",
+      "intent": "Let the existing family tableau settle rather than introduce new action",
+      "text": {
+        "te": "గజేంద్రుడి తొండం నుంచి చివరి నీటి చుక్కలు జారుతుండగా, ఒక పిల్ల ఏనుగు తన తల్లి పక్కనే నిలిచింది.",
+        "hi": "गजेन्द्र की सूँड से आख़िरी बूँदें टपक रही थीं। एक छोटा हाथी अपनी माँ के पास खड़ा था।",
+        "en": "The last drops fell from Gajendra's trunk as a calf stayed close to its mother."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original visual continuity insert: a calf beside its mother and the last droplets from Gajendra's trunk are staged, not a separately narrated verse incident."
+      }
+    },
+    {
+      "id": "S01E01-S05-L003",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Quiet, descriptive, light pause",
+      "intent": "Return attention from the herd to the known lotus lake surface",
+      "text": {
+        "te": "తామరాకుల మధ్య అలలు మెల్లగా వ్యాపించి ఆగిపోయాయి.",
+        "hi": "कमल के पत्तों के बीच पानी की लहरें धीरे-धीरे थम गईं।",
+        "en": "Small ripples spread between the lotus leaves and slowly faded."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original atmospheric insert of normal water movement in the already established lotus lake; not a plot incident or a sign of a crocodile."
+      }
+    },
+    {
+      "id": "S01E01-S05-L004",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural closing observation, no sinister emphasis",
+      "intent": "End the transitional scene without a manufactured warning",
+      "text": {
+        "te": "ఆ క్షణంలో సరస్సు మళ్లీ ప్రశాంతంగా కనిపించింది.",
+        "hi": "उस पल झील फिर शांत दिखाई दे रही थी।",
+        "en": "For a moment, the lake looked peaceful again."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original brief scenic hold for editorial transition only; the source moves directly to the foot-grip in 8.2.27 and makes no claim of preceding calm or stalking."
+      }
     }
   ],
-  "performance_notes": "S01–S04 have 41 source-anchored, meaning-aligned narration lines (8 + 11 + 11 + 11) in Telugu, Hindi and English. Every line belongs to NARRATOR with performance_mode=narration and lip_sync_target=null. Gajendra and the herd are visibly acting animals with natural ambience/SFX only. No TTS voice IDs, recordings, lip-synced performances or image references have been approved; native-language table reads and timing checks remain pending.",
-  "timing_note": "Four authored scenes, each a provisional 60 seconds, total 240 seconds toward the season's preferred 360-second S01E01 plan. Per-scene shot budgets: S01 18+18+24; S02 18+18+24; S03 18+20+22; S04 18+18+24. These are not measured audio/video runtimes. S05 and S06 remain unwritten; E02–E06 are only planned."
+  "performance_notes": "S01–S05 now contain 45 meaning-aligned te/hi/en narrator lines: S01=8, S02=11, S03=11, S04=11 and S05=4. S05's single scripture paraphrase and three explicitly marked original-dramatization inserts all have matching NARRATOR speaker/audio ownership, narration mode and null lip-sync target. Animal behavior remains visual with natural SFX, never a synthesized speaking mouth. Native-language table-read, pronunciation, recorded runtime, voices and media approvals are still absent.",
+  "timing_note": "Scenes S01–S04 retain their previously planned 60 seconds apiece (240 total). S05 is deliberately limited to 30 seconds in three 10-second editorial shots, for 270 planned seconds across five scenes; S06 is not yet authored. If S06 later uses its previously proposed 60 seconds, the episode budget would be 330 seconds, inside the 330–390 target range but 30 seconds under the current preferred 360 seconds. The existing full-episode validator requires an exact 360-second budget, so leave `partial_scene_draft` and record that a separate editorial retiming/target decision will be required rather than artificially padding S05 or S06. No actual audio/video durations have been measured."
 }

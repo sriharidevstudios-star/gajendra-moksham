@@ -1,43 +1,47 @@
-# Work checkpoint — GM-STY-004
+# Work checkpoint — GM-STY-005
 
 **Date:** 2026-11-22  
-**Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
-**Verified starting remote head:** `9d306cbb6d5365d61dec49957c69a67ca5dc582e` (GM-STY-003)  
-**This batch:** GM-STY-004 — `S01E01/S04` only. **Next:** GM-STY-005 — `S01E01/S05` only.
+**Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 to `main`.  
+**Verified starting remote head:** `d7ef9739d698e986820db31466f2583e06ca3e0d` (GM-STY-004).  
+**Batch:** GM-STY-005, only S01E01/S05; **next:** GM-STY-006, only S01E01/S06.
 
-## Scoped delivery
+## Completed bounded story work
 
-- Added **S04 — Thirst and Relief at the Water** to the existing `episode.json`, grounded in [ŚB 8.2.25](https://vedabase.io/en/library/sb/8/2/25/) and [ŚB 8.2.26](https://vedabase.io/en/library/sb/8/2/26/). Gajendra enters the clear lotus-water lake, bathes and drinks with his trunk, and helps female elephants and calves drink and bathe; narrator conveys his absorbed care and disregard of hardship without inventing danger.
-- Added **11 original narration lines**, `S01E01-S04-L001`–`L011`, each complete in natural modern **te/hi/en** with matching `NARRATOR` speaker/audio owner, `narration` performance mode, null lip-sync target and explicit verse attribution.
-- Added **three editorial shots (18 + 18 + 24 = 60 seconds)**, continuous with S02/S03's known freshwater lake, approach bank, lotus zone and near shallows. These are timing plans, not recorded timings or rendered stills.
-- Preserved every S01/S02/S03 scene, shot and spoken line object and every stable ID unchanged. Existing cast remains `NARRATOR` and visually present, non-speaking `GAJENDRA`.
-- Only episode-level descriptive, source-verification, adaptation and timing notes were expanded. `season.json` is unchanged; E01 remains **partial_scene_draft**, E02–E06 remain **planned_no_episode_source**. S05 and S06 are not authored.
-- Crucial source sequence: the crocodile's **first grip occurs in [8.2.27](https://vedabase.io/en/library/sb/8/2/27/)**. No crocodile shadow, approach, alarm or attack is attributed to 8.2.25–26. Any S05 nonverbal suspense would be declared cinematic interpretation rather than scripture.
+- Added **S05 — The Calm Beneath the Surface**, a **30-second** transitional scene of **3 × 10-second** editorial shots; shortened from the original 60-second plan because the scripture does **not** describe a separate event between the herd's bathing and the crocodile's attack.
+- Verified [SB 8.2.25](https://vedabase.io/en/library/sb/8/2/25/), [SB 8.2.26](https://vedabase.io/en/library/sb/8/2/26/) and [SB 8.2.27](https://vedabase.io/en/library/sb/8/2/27/) using Vedabase. Verse 26 presents the family water-play/attachment, while verse 27 starts the crocodile's sudden foot-grip. **No stalking, pursuit, eye, underwater shadow, menace, fabricated warning, or separate predator approach is represented.**
+- New narration: `S01E01-S05-L001` through `L004` in original modern `te/hi/en`. L001 is a `scripture_paraphrase` of 8.2.26; L002–L004 are labeled `original_dramatization`, each with a precise disclaimer describing the mother/calf staging, the final water drops, and ordinary ripple/stillness shots. All have `speaker=audio_owner=NARRATOR`, `performance_mode=narration`, `lip_sync_target=null`. No extra named animal or human-speech mouth is introduced.
+- Preserved **every S01–S04 scene/shot/dialogue object and all 41 existing stable line IDs**. The prior character cast and season index are untouched. S01E01 remains `partial_scene_draft`; all other five episodes remain `planned_no_episode_source`.
+- Progress: **5 of 6** S01E01 scenes, **45** aligned trilingual narrator lines, **270 seconds** of provisional editorial budgets. S06 has not been written; no media, voices, images, recordings, approved references, or TTS files exist.
 
-## Gates and honest completion state
+## Timing caution (do not hide)
 
-| Gate | Status |
+S01–S04 total 240 seconds, with S05 adding 30. A future S06 of 60 seconds would make the first episode **330 seconds (5:30)**, inside the stated 330–390-second range but not the schema's `preferred=360` and not sufficient to satisfy the current validator's exact 360-second full-draft gate. The next batch should **not** pad S06 artificially just to meet the target; keep `partial_scene_draft` and plan a separate source-faithful editorial retiming review. The figures are shot budgets, not measured recording times.
+
+## Verification status
+
+| Gate | Outcome |
 |---|---|
-| Passage verification | **CHECKED** 8.2.25, 8.2.26, 8.2.27 directly against Vedabase; all S04 performed text newly written |
-| In-process structural checks | **PASS**: 4 ordered scenes, 41 unique IDs, te/hi/en per new line, explicit speaker/audio owner, null lip-sync, 3 correct shots in S04, 240 total planned seconds, source anchor and status checks |
-| S01–S03 preservation | **PASS**: prior scene, shot, cast and dialogue objects serially compared to previous GitHub source, unchanged |
-| `python3 -m unittest discover -s tests -v` | **UNRUN this batch**: GitHub access can read/write source; no execution of the checked-in Python package was possible in the tool runtime |
-| `python3 scripts/validate_content.py --episode S01E01 --scene S04` | **UNRUN**; JS in-process audit does not replace Python scoped validator |
-| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S04` and `--check` | **UNRUN**; no text/audio media artifacts committed |
-| `python3 scripts/validate_content.py` (whole season) | **UNRUN**; expected **NOT_READY** because E01 has 4/6 scenes and E02–E06 are missing |
-| Actual voice, image, audio and animation | **MISSING** and unapproved; zero generation calls |
-| Remote commit/branch/PR/file identities | Verify after guarded non-force push; SHA is in live GitHub head, not self-referential in this file |
+| Source verse sequence (8.2.25–27) | **CHECKED** from published verse pages; only paraphrase/dramatization authored |
+| In-process project structural checks | **PASS**: 5 contiguous scenes, 45 unique line IDs, 3 correct shots per scene, 270 seconds budgeted, 3-language S05 text, explicit speaker/audio owner/source attribution |
+| Preservation of S01–S04 | **PASS**: original scene/shot and 41 dialogue objects compared without changes |
+| `python3 -m unittest discover -s tests -v` | **UNRUN** this batch; Python couldn't execute the GitHub-connected working tree |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S05` | **UNRUN** (not a passing scoped validator claim) |
+| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05` and `--check` | **UNRUN**; no files generated or submitted |
+| `python3 scripts/validate_content.py` whole season | **UNRUN**; expected **NOT_READY** from known missing sources and draft status |
+| Third-party JSON Schema validation | **UNRUN**; in-process checks do not assert a formal schema-package PASS |
+| GitHub commit/branch/blob identity | Verify remote head, exactly 3 changed paths, and draft PR after non-force update |
+| Media and native language listening | **MISSING** |
 
-## Repeatable local Python checks
+Local verification commands when code can be executed:
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S04
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S04
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S04 --check
-python3 scripts/validate_content.py  # expected NOT_READY, exit 2
+python3 scripts/validate_content.py --episode S01E01 --scene S05
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05 --check
+python3 scripts/validate_content.py  # expect NOT_READY / exit 2
 ```
 
-## Next bounded task
+## Next item
 
-**GM-STY-005:** Write only `S01E01/S05` ("The Calm Beneath the Surface"). Inspect 8.2.25–27 carefully: verse 26 already covers the herd's water play and verse 27 begins the crocodile attack. Do not falsely claim that scripture narrates a separate crocodile's approach, lurking shadow or surveillance. If a quiet transitional shot is needed, disclose it as staging rather than a new event. Preserve all S01–S04 objects/IDs and make no media calls. Exact prompt in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-STY-006:** author only **S01E01/S06**, covering the first crocodile foot-grip in [8.2.27](https://vedabase.io/en/library/sb/8/2/27/) and immediate response in 8.2.28 if justified. Keep the attempted long struggle and thousand-year montage for S01E02, and do not force duration to make a false full-ready state. Exact prompt: `docs/NEXT_CHAT_PROMPT.md`.
