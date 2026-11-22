@@ -1,41 +1,42 @@
-# Work checkpoint — GM-COV-002
+# Work checkpoint — GM-COV-003
 
 **Date:** 2026-11-22  
-**Repo:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · open draft PR #1 into `main`  
-**Verified starting remote head:** `4411492f288c8e014c587d653a1d4b2faa1c7d54` (GM-COV-001)  
-**Batch:** Only S01E01/S02 picture/audio coverage; next GM-COV-003 (S01E01/S03).
+**Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · open draft PR #1 into `main`  
+**Verified starting remote head:** `41ce748a0c90fc72c9d1730db205c40071765e87` (GM-COV-002)  
+**Batch:** Only S01E01/S03 picture/audio ownership mapping. **Next:** GM-COV-004 for S01E01/S04.
 
 ## Bounded delivery
 
-- Created `docs/S01E01_S02_COVERAGE_MAP.md`: **11** canonical S02 narration lines mapped uniquely to existing shots `L001–L003 → SH01 (18s)`, `L004–L006 → SH02 (18s)`, `L007–L011 → SH03 (24s)`. Each line retains explicit `NARRATOR` te/hi/en audio ownership, `lip_sync_target=null`, `narration` mode and exact scripture attribution.
-- Recorded **6 planned start/end-frame requirements**, appropriate motion/camera and SFX, continuous geography from S01's **Ocean of Milk** shore to *inland Trikūṭa valley*, Varuṇa's **Ṛtumat garden** and its **separate freshwater lotus lake**. S03's herd and S04's bathing reuse one approach bank/lotus/deep-water map.
-- Flagged the **S02/SH01 “gem-like shore stones” stale shot wording** against corrected S02/L002 real tiny shore gems; no canonical story/shot edited.
-- Remote tree `b7d410fc2328cd8cbb20be6a61a18202746829cd` inspected: no tracked media blobs. `asset_registry.json` `2036bb5675635a81c8713b1b6c15ba38a46547bc` remains `assets=[]`, no voice approvals in `voice_cast.json` `d4d03e6bf72cdf7cc877e656acb1fbb81c3ce713`, no keyframe/audio/motion deliveries in `production_tracker.json` `e7e5a3a524846be8ed60a79d50e60f43dff77364`, and `shot_spec_policy.json` `c682d95dab2690e9b37921c6621b1cc9053d26a2` is a policy brief only. All actual stills, voices, recordings, sounds and motion **MISSING**, while boundary/track requirements are **PLANNED**.
-- Left previous S01 coverage map, all S01E01 canonical text/54 IDs/six scenes/18 shot budgets/episode 330s preferred, human listener checklist/approvals, season metadata, registries, tracker, tools and media untouched. `production_tracker.json` has a historical `canonical_story_written=false` despite the partial source; noted only, not modified. E02–E06 canonical sources still absent.
+- Created `docs/S01E01_S03_COVERAGE_MAP.md` for **11 source-authored, trilingual S03 narrator lines**. Each line maps once to the exact canonical shots: `L001–L004 → SH01` (**18s**), `L005–L008 → SH02` (**20s**), `L009–L011 → SH03` (**22s**). Explicit `speaker=audio_owner=NARRATOR`, `narration` mode, `lip_sync_target=null`, source anchor/URL and te/hi/en text ownership (33 future language-line narration requirements, no recordings).
+- Recorded **six PLANNED shot-boundary composition requirements**, elephant and herd physical identities, natural family/calf scale, source-grounded thorn/forest breaks, fierce animals departing versus small animals safe by Gajendra's mercy, heat/thirst/bees/lotus-pollen scent, motion/camera/SFX and end at the same S02 freshwater approach bank. Reserved first bathing for S04 and crocodile grip for S06.
+- Direct verse pages reviewed: [8.2.20](https://vedabase.io/en/library/sb/8/2/20/), [8.2.21](https://vedabase.io/en/library/sb/8/2/21/), [8.2.22](https://vedabase.io/en/library/sb/8/2/22/), [8.2.23–24](https://vedabase.io/en/library/sb/8/2/23-24/). Source exact meaning not quoted as a published translation.
+- Verified tree `4006eeae22f27d6fc6e83c5f64efc582ddee5ae5` has **no tracked media objects**, asset registry `2036bb5675635a81c8713b1b6c15ba38a46547bc` has `assets=[]`, `character_bible.json` `aa387fdeb136ce708ed9b9a905f14cca1ec98972` Gajendra image `approved=false` and null reference, `voice_cast.json` `d4d03e6bf72cdf7cc877e656acb1fbb81c3ce713` has no approved narrator te/hi/en voice, tracker `e7e5a3a524846be8ed60a79d50e60f43dff77364` lists zero media/approved shots, and shot-spec policy is `policy_brief_not_compiler_schema`. All actual images, audio and motion are **MISSING**; visuals/audio in map **PLANNED** only.
+- Preserved the complete 54-line canonical episode, all six scenes/18 shots and their budgets, prior S01/S02 coverage docs, human-listener review status, asset/voice/tracker/season metadata and all source IDs/words unchanged. S01E01 stays `partial_scene_draft`, preferred 330 seconds; five other episodes remain uncreated. `production_tracker.json`'s old `canonical_story_written=false` flag remains unchanged and is not proof of accepted script.
 
-## Validation and limits
+## Validation and limitations
 
 | Gate | Result |
 |---|---|
-| In-process ownership/source/shot audit | **PASS**: S02 11/11 unique lines, 3+3+5 allocation, actual shot IDs, 18+18+24 budget, 11 scripture anchors, all narrator-owned three languages |
-| Live registry/voice/tracker/tree media inventory | **CHECKED** and **MISSING** actual image/audio/motion |
-| Python `python3 -m unittest discover -s tests -v` | **UNRUN**, GitHub connector cannot execute repo Python |
-| Python `python3 scripts/validate_content.py --episode S01E01 --scene S02` | **UNRUN**, no executed SCOPED_READY claim |
-| Python `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02` and `--check` | **UNRUN**, no generated text outputs |
-| Python `python3 scripts/validate_content.py` | **UNRUN**, expected NOT_READY from missing E02–E06 |
-| Art, TTS, audio, video and approval | **NONE** |
-| Guarded non-force commit/PR/blob verification | Verify after push |
+| Canonical GitHub scene IDs, anchor/line and shot ownership | **PASS**: 11 unique S03 lines once; 4+4+3 across SH01/SH02/SH03, 18+20+22=60 seconds |
+| All te/hi/en `NARRATOR` audio ownership and no lip-sync | **PASS**: 11/11 lines, 33 future track requirements, 0 media |
+| Remote asset/voice/shot-spec/Git tree inventory | **CHECKED** as empty/unapproved, including no approved Gajendra reference |
+| `python3 -m unittest discover -s tests -v` | **UNRUN** — connector cannot execute repository Python |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S03` | **UNRUN** — no claimed executed `SCOPED_READY` |
+| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S03` / `--check` | **UNRUN** — no generated text files or approval |
+| `python3 scripts/validate_content.py` | **UNRUN** — expected `NOT_READY` (five missing episode sources) |
+| Actual image/TTS/audio/motion | **NONE** generated or approved |
+| Guarded non-force commit and remote verification | Verify post-push: head, exactly three paths, Git blob SHA, draft PR |
 
-### Local check commands
+### Local commands when canonical source is available to Python
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S02
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02 --check
-python3 scripts/validate_content.py  # expected NOT_READY / exit 2
+python3 scripts/validate_content.py --episode S01E01 --scene S03
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S03
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S03 --check
+python3 scripts/validate_content.py  # expected NOT_READY, exit 2
 ```
 
-## Next bounded batch
+## Next bounded work
 
-**GM-COV-003:** metadata-only S01E01/S03 map for 11 lines and three existing shots, no media generation or canonical story changes. Exact prompt saved in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-COV-004:** map only S01E01/S04's canonical line-to-three-shot ownership, preserving all media as missing and all previously written story/registries. Use the prompt in `docs/NEXT_CHAT_PROMPT.md`.
