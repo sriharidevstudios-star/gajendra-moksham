@@ -1,43 +1,42 @@
-# Work checkpoint — GM-COV-005
+# Work checkpoint — GM-COV-006
 
 **Date:** 2026-11-22  
-**Repo:** `sriharidevstudios-star/gajendra-moksham`, branch `production-artwork`, open draft PR #1 into `main`  
-**Verified starting head:** `6346a8b5c82b368ee65030941b4a71c9c4cc96fa` (GM-COV-004).  
-**Batch:** only S01E01/S05, metadata-only picture/audio coverage. **Next:** GM-COV-006 (S01E01/S06).
+**Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · open draft PR #1 into `main`  
+**Verified starting remote head:** `c7ddfa31cdf7b14cea64aea96d63e751552e83a0` (GM-COV-005)  
+**Bounded scope:** S01E01/S06 picture and audio ownership, metadata/documentation only. **Next:** GM-COV-007 six-scene reconciliation.
 
-## Bounded delivery
+## Work completed
 
-- Created `docs/S01E01_S05_COVERAGE_MAP.md`, mapping **4** S05 canonical `NARRATOR` lines exactly once: `S01E01-S05-L001 → SH01 (10s)`, `L002 → SH02 (10s)`, `L003–L004 → SH03 (10s)` (**30 seconds total**). Each line owns its exact te/hi/en source text and prospective narration, `performance_mode=narration`, `lip_sync_target=null` (**12 planned language-line tracks; 0 audio clips**).
-- Kept **one** `scripture_paraphrase` of [SB 8.2.26](https://vedabase.io/en/library/sb/8/2/26/) and **three** `original_dramatization` rows with all **three existing canonical disclosure notes** intact. [SB 8.2.27](https://vedabase.io/en/library/sb/8/2/27/) begins the sudden crocodile foot-grip (S06), **not** a separate lurking/stalking/warning scene.
-- Defined **six PLANNED start/end composition requirements** for the same S04 shoreline herd and shallow freshwater lake, a calf beside its mother, last trunk droplets, natural lotus-surface ripples, ambient bird/water tail and S06 clean cut. No crocodile or animal speaking-mouth performance in S05.
-- Checked live tree `b7d50310a0537f73fb5253800bba532d46c04d69` (**no tracked media**), empty asset registry blob `2036bb5675635a81c8713b1b6c15ba38a46547bc`, unapproved Gajendra reference `aa387fdeb136ce708ed9b9a905f14cca1ec98972`, narrator voice cast `d4d03e6bf72cdf7cc877e656acb1fbb81c3ce713` (te/hi/en null IDs, unapproved), S01E01 tracker `e7e5a3a524846be8ed60a79d50e60f43dff77364` (`media_files=[]`, no accepted media or motion), and shot-policy brief `c682d95dab2690e9b37921c6621b1cc9053d26a2` (not a validated compiler schema). Media/reference/voices/SFX/motion remain **MISSING**; only the requirements are **PLANNED**.
-- Preserved every canonical story text/ID/scene/shot/timing and all earlier S01–S04 coverage maps, native-listener checklist, season metadata, tools, asset/voice/production registries, and `partial_scene_draft` S01E01 with 330s preferred runtime. Five further episodes remain missing; whole season **NOT_READY**.
-- Noted, but did **not** change, old tracker `canonical_story_written=false` despite E01's six drafted scenes. The S05/L001 repeated family-focus line remains held for human editorial listening, not silently removed. Zero image, TTS, audio, video or motion calls.
+- Created `docs/S01E01_S06_COVERAGE_MAP.md` mapping **nine** canonical S06 narrator IDs **once each** to existing three shots: `L001–L002 → S01E01-S06-SH01` (**18s**), `L003–L006 → SH02` (**22s**), and `L007–L009 → SH03` (**20s**). Every line retains canonical te/hi/en `NARRATOR` audio ownership, `performance_mode=narration`, `lip_sync_target=null`; **27 planned voice-line requirements, zero files**.
+- Verified **8 `scripture_paraphrase`** lines from SB 8.2.27/28 and **1 `original_dramatization`**, `S01E01-S06-L006`, preserving its **exact water-splash disclosure**. SB 8.2.27 supplies the sudden leg-grip and Gajendra's first resistance; 8.2.28 supplies the female elephants' cries and others' attempts. The *failed rear-grasp rescue* will be staged in S01E02/S01, and the one-thousand-year conflict (8.2.29) is not in S06.
+- Documented **six PLANNED shot-boundary start/end compositions**, same freshwater bank/golden lotus/deep-water orientation from S02–S05, Gajendra's natural quadrupedal anatomy, crocodile's consistent body/jaws/tail, **left foreleg as editorial design (not verse)**, child-safe non-graphic visuals, motion/SFX and end with Gajendra still trapped. Zero earlier crocodile/underwater menace, no speaking animals.
+- Read the current non-truncated Git tree `f4a2c4313ba7436c540b509ab452616bcc3f23b7` (**36 blobs, zero tracked image/audio/video media**); verified empty registry `2036bb5675635a81c8713b1b6c15ba38a46547bc`, unapproved Gajendra and crocodile visual references in `aa387fdeb136ce708ed9b9a905f14cca1ec98972`, unapproved narrator te/hi/en voice in `d4d03e6bf72cdf7cc877e656acb1fbb81c3ce713`, empty media in tracker `e7e5a3a524846be8ed60a79d50e60f43dff77364`, and shot policy marked `policy_brief_not_compiler_schema`. Media and approvals **MISSING**; six boundary requirements merely PLANNED.
+- Preserved all five prior S01–S05 coverage maps, all 54 canonical lines, six scenes, 18 shot IDs/budgets, S01E01 `partial_scene_draft`, preferred 330s, native-listener review status and all registries/season/code. The historical tracker field `canonical_story_written=false` remains unchanged and is not an approval status.
 
-## Tests, verification and limitations
+## Verification
 
-| Gate | Outcome |
+| Gate | Result |
 |---|---|
-| In-process S05 line, shot, attribution and audio ownership | **PASS**: 4/4 unique IDs (1+1+2), 10+10+10=30 seconds, correct source kind/notes, 12 planned audio requirements |
-| Published source chronology (8.2.26→8.2.27) | **CHECKED** without copying its translation |
-| Live Git tree / registry / narrator voice / character reference / tracker | **CHECKED**: no delivered media or approvals |
-| `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector has no checked-in repository Python execution |
-| `python3 scripts/validate_content.py --episode S01E01 --scene S05` | **UNRUN**; do not claim an executed `SCOPED_READY` |
-| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05` and `--check` | **UNRUN**; generated exports not committed |
-| `python3 scripts/validate_content.py` | **UNRUN**; expected `NOT_READY` because E02–E06 sources are absent |
-| Native-language/devotional/audio/visual signoff | **NOT PERFORMED** |
-| GitHub guarded non-force push and exact paths/blobs/PR | Verify after commit |
+| In-process canonical coverage | **PASS**: 9 unique S06 IDs once; 2+4+3 across exactly 3 canonical shots; 18+22+20 = 60 seconds |
+| Audio/source provenance | **PASS**: 9 te/hi/en narrator owners, null lip-sync; 8 SB 8.2.27–28 paraphrases + 1 disclosed original dramatization |
+| Live remote media/tree/cast review | **CHECKED**: zero files/approved voices, characters or motion |
+| `python3 -m unittest discover -s tests -v` | **UNRUN** — remote connected GitHub cannot execute source Python |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN** — no executed `SCOPED_READY` claim |
+| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06` and `--check` | **UNRUN** — text exports not generated |
+| `python3 scripts/validate_content.py` | **UNRUN** — expected **NOT_READY** (five episode sources missing) |
+| Human native-language, cultural, voice and art signoff | **NOT PERFORMED** |
+| Guarded GitHub commit and remote branch/PR/diff | Verify remote head, exactly 3 docs and blob SHAs |
 
-### Local validation commands (when repository Python can be executed)
+### Local commands (in executable repository)
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S05
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05 --check
+python3 scripts/validate_content.py --episode S01E01 --scene S06
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
 python3 scripts/validate_content.py  # expected NOT_READY, exit 2
 ```
 
 ## Next bounded task
 
-**GM-COV-006:** map S01E01/S06's first crocodile foot-grip and immediate elephant response, exactly nine canonical narrator lines across its three shots (18+22+20s), ensuring honest still/audio/motion requirements and no media generation. Follow `docs/NEXT_CHAT_PROMPT.md`.
+**GM-COV-007** — one docs-only six-scene, 54-line/18-shot picture and audio ownership reconciliation, including source/original-dramatization distinctions, continuity across all six scenes, inventory truth and unresolved voice/image/validator gates. Full handoff in `docs/NEXT_CHAT_PROMPT.md`.
