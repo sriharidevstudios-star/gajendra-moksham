@@ -76,3 +76,28 @@ For another authorized checkout the commands above may be run manually, but do n
 **Current production truth (unchanged):** S01E01 `partial_scene_draft` contains **54 lines, six scenes, 18 shots, 330s preferred editorial budget**. E02–E06 canonical sources are missing; season status `partial_first_episode_draft_five_sources_missing`. Native te/hi/en and devotional sessions remain **NOT REVIEWED / NOT APPROVED**; narrator candidates absent; audio, keyframes, motion, video and media master **MISSING**; all relevant production tracker approval fields remain false. A green CI source check is not human or media approval.
 
 **Document-only commit caveat:** Adding this evidence section to the runbook, checkpoint and next prompt does **not** alter the passing workflow, tests or source files. The configured path filters do not by themselves require a new Actions run for these three documentation-only changes. The two success runs above refer strictly to `c06f03b59054449a84fb341d03214706f1e40da3` and should be cited with that SHA, not silently assigned to this later evidence-recording commit.
+
+## GM-NATIVE-013 — official Node.js 24 action-version migration (2026-11-22)
+
+**This section records a verified official-release decision and workflow edit; GitHub Actions passing status must be checked against the *new resulting commit* before it can be claimed.** No story, human-review, approval, validator or media change is part of this maintenance batch.
+
+### Evidence for supported new major versions
+
+- **GitHub's Node 20 retirement notice** ([2026-09-23 changelog](https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions/)) says hosted Actions now use **Node 24** for JavaScript actions; the temporary Node 20 opt-out has ended. The previous GM-NATIVE-011/012 logs showed Node 20 deprecation for the older versions, while the 53-test suite passed.
+- **Checkout:** official [`actions/checkout` releases](https://github.com/actions/checkout/releases/tag/v7.0.1) show v7.0.1 latest as checked on 2026-11-22 (published 2026-07-20), and the `v7` Git ref resolved to `3d3c42e5aac5ba805825da76410c181273ba90b1`. Official [`v7/action.yml`](https://github.com/actions/checkout/blob/v7/action.yml) states `runs.using: node24`.
+- **Setup Python:** official [`actions/setup-python` releases](https://github.com/actions/setup-python/releases/tag/v7.1.0) show v7.1.0 latest as checked on 2026-11-22 (published 2026-10-22), and the `v7` Git ref resolved to `6d4fd22b20465ccc0f7354476588e8df7c9ca0e0`. Official [`v7/action.yml`](https://github.com/actions/setup-python/blob/v7/action.yml) states `runs.using: node24`, while the [README](https://github.com/actions/setup-python#readme) retains `python-version` and documents the Node 24 major transition and runner minimum **v2.327.1**.
+
+### Exactly two changes to the CI workflow
+
+| Field | Prior | Updated |
+|---|---|---|
+| Checkout action | `actions/checkout@v4` | **`actions/checkout@v7`** |
+| Python action | `actions/setup-python@v5` | **`actions/setup-python@v7`** |
+
+No other YAML character or logic changed. The job remains **Python 3.10**, `contents: read`, full `python3 -m unittest discover -s tests -v`, and exact status/exit assertions for absent human evidence `NOT_REVIEWED`/2 with `approved=false`, S01E01/S06 text `SCOPED_READY`/0 and whole season `NOT_READY`/2. Upgrading Node-based action wrappers **does not upgrade Python** or authorize publishing.
+
+### Evidence gate still required after the edit
+
+The existing GM-NATIVE-012 evidence (push `45062106563`, PR `45062106660`, and later PR `45062666676`) proves older workflow revisions passed. **It does not prove the new v7 action references work.** Require a new run ID at the new source commit, completed-success job, 53/53 tests and three expected `CONFIRMED:` outputs from actual logs. Also verify the prior Node 20 deprecation warning is absent, or record any remaining warning precisely.
+
+Until independent post-push verification, call the new-run status **UNVERIFIED/UNRUN**, not PASS. Regardless of automated test outcome, **native-language/devotional review is NOT REVIEWED / NOT APPROVED, all casting/media absent, E01 remains partial and the six-episode season NOT_READY**.
