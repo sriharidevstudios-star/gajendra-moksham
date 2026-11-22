@@ -1,42 +1,27 @@
-# Work checkpoint — GM-NATIVE-010
+# Work checkpoint — GM-NATIVE-011
 
-**Date:** 2026-11-22 · **Repo:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1 to `main`  
-**Starting verified HEAD/tree:** `455d497b8466c00dc33c2c4af6aa3531ba63338b` / `5f7401afbea74877cd77d1be1a033e167231b894`  
-**Scope:** bounded read-only receipt gate hardening, regression additions and contract clarification. Next **GM-NATIVE-011**.
+**Date:** 2026-11-22 · **Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
+**Verified starting HEAD/tree:** `f290c72a0bb2ea71273a896f210c309f27d99572` / `0c63758cafa8defc8f968d5454de481af91f3d3c`  
+**Scope:** establish a tightly scoped Python CI execution gate, or document its execution limitations, without promoting human approvals.
 
-## Findings and corrections
+## Scoped implementation
 
-- **Confirmed issue 1 (explicit receipt path handling):** earlier `--evidence` paths used working-directory relative lookup and, if explicitly absent, returned the indistinguishable `NOT_REVIEWED`. Corrected to root-relative lookup, verified inside-root containment, refusal of final-path symlinks and `INVALID` for explicitly missing evidence. The *default* genuinely absent receipt still reports `NOT_REVIEWED` with `approved=false`.
-- **Confirmed issue 2 (evidence aliases):** a final symlink pointing to an otherwise valid supporting evidence file would previously satisfy the hash check. It is now rejected to avoid accepting aliased proof, in addition to existing SHA-256 and resolved-root containment.
-- **Confirmed issue 3 (future review dates):** valid ISO text for an event later than `date.today()` was previously accepted. Future-dated sessions now fail the read-date check. Existing synthetic `2026-04-15` remains in the past at this checkpoint.
-- **Regression coverage:** added eight entirely synthetic test methods to `tests/test_native_review_evidence.py` (**21 synthetic test methods total**), covering explicit missing/root-relative/external/symlinked receipt paths, supporting evidence symlink, duplicate shot ID, future date, and missing evidence SHA. Existing 13 test methods preserved. No real named reviewer, evidence, receipt, voice file or measured time created.
-- **Source/version integrity preserved:** SHA-1 Git blob comparison of canonical S01E01 source; all 54 ordered lines, 18 shot IDs and source attribution checks remain unchanged. Structural all-positive evidence **never grants approval** — still `EVIDENCE_PRESENT_UNVERIFIED`, `approved=false`, exit 2. No season/voice/media promotion or altered production status.
-- **Read-only gate:** no file creation/mutation in the validator; metadata and signed evidence remain human-produced external inputs. Changes confined to the authorized validator, synthetic tests, evidence contract and two handoff docs.
+- Added `.github/workflows/native-review-evidence.yml` with Python 3.10 on GitHub-hosted Ubuntu, `actions/checkout@v4`, `actions/setup-python@v5`, `permissions: contents: read` and no media-generation/casting/write steps.
+- The job runs `python3 -m unittest discover -s tests -v` (includes **21 authored synthetic native-review tests** plus existing source/budget tests), then checks three exact subprocess exit/JSON-status pairs: absent native evidence `2/NOT_REVIEWED` with `approved=false`, scoped S01E01/S06 `0/SCOPED_READY`, and the missing-five-sources season `2/NOT_READY`. These expected nonzero status codes are **not** bypassed; unexpected statuses fail the job.
+- Added `docs/NATIVE_REVIEW_CI_RUNBOOK.md` with triggers, evidence/log acceptance criteria and practical GitHub Actions verification. No workflow files existed in the baseline `0c63758cafa8defc8f968d5454de481af91f3d3c` tree. `actions/runs` returned **0 baseline runs**; direct Actions workflow/permissions endpoints were unsupported by the GitHub fetch interface, so execution availability had not been established at authoring time.
+- No genuine review receipt, voice ID/recording, image, audio, TTS, animation or source edit. All 54 canonical lines, 6 scenes/18 shots/330s preferred E01, native-read packets, previous reconciliations, native-listener checklist, season/voice/asset/tracker flags **unchanged**; human review **NOT REVIEWED / NOT APPROVED**, season **NOT_READY**.
 
-## Checks and honest limits
+## Execution honesty
 
-| Gate | Outcome |
+| Gate | Evidence at authoring time |
 |---|---|
-| Live GitHub source/branch/PR and baseline blob checks | **CHECKED** |
-| In-process exact patch construction / static guard and approval-output checks | **PASS (source/static)**, NOT a Python execution |
-| Existing 13 and new 8 regression test methods | **AUTHORED (21 total), UNRUN** |
-| `python3 -m unittest discover -s tests -v` | **UNRUN** — no executable checkout of connected GitHub repository; container GitHub DNS unavailable |
-| `python3 scripts/validate_native_review_evidence.py` | **UNRUN** — expected default `NOT_REVIEWED`, exit 2, not asserted as executed |
-| `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**, do not claim SCOPED_READY execution |
-| Whole-season `python3 scripts/validate_content.py` | **UNRUN**, expected NOT_READY with E02–E06 missing |
-| Human review, native/source signoff, casting, media | **NOT PERFORMED / NO PROOF** |
-| Non-force push, exact five changed files, remote blob/draft PR verification | Verify after commit |
+| Source/tree/PR, no prior workflow/CI runs | **CHECKED** through connected GitHub |
+| New YAML + Python expected-status assertions | **AUTHORED; not the same as a CI run** |
+| Unit suite + native evidence validator + scoped/whole-season validator | **UNRUN until GitHub Actions run and logs are actually observed** |
+| Genuine reviewer/casting/media signoff | **NOT PERFORMED** |
+| Guarded non-force push, exact paths/Git blobs/open draft PR | Verify after commit |
+| GitHub Actions run IDs/logs | Must be independently checked after push; do not infer success from a committed YAML file |
 
-### Commands for a trusted executable repository runner
+## Next bounded task
 
-```bash
-python3 -m unittest discover -s tests -p 'test_native_review_evidence.py' -v
-python3 -m unittest discover -s tests -v
-python3 scripts/validate_native_review_evidence.py  # expect NOT_REVIEWED, exit 2
-python3 scripts/validate_content.py --episode S01E01 --scene S06
-python3 scripts/validate_content.py  # expect NOT_READY, exit 2
-```
-
-## Next bounded handoff
-
-**GM-NATIVE-011:** a narrow GitHub Actions/Python-runner readiness gate for actual automated synthetic test execution (without approving humans, cast, scripts or media). If workflow permissions/execution are unavailable, document exactly which gates remained UNRUN and do not fabricate CI green statuses. Full prompt in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-NATIVE-012** — inspect GitHub workflow run status, actual test steps/logs and exact `head_sha` for GM-NATIVE-011. If no run is visible or Actions cannot execute, document the specific blocker honestly; if a run failed, triage only the evidence-backed cause. No production or native approval changes. Full prompt in `docs/NEXT_CHAT_PROMPT.md`.
