@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4 original child-friendly Telugu/Hindi/English retelling; no copied published translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.3–12",
-    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S03: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention."
+    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S03: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S04: source SB 8.4.7, 8.4.8; original adaptation staging explicitly distinguished from cited verse actions."
   },
   "adaptation": {
     "core_preserved": [
@@ -29,7 +29,8 @@
       "The chapter overview recounts the incident involving Hūhū, sage Devala and a playful pull on the sage's leg in water; this is a backstory, not a new event at Gajendra's lake.",
       "King Indradyumna of Pāṇḍya/Draviḍa was a devout Vaiṣṇava who retired to the Malaya Hills and observed a silent vow in worship (8.4.7–8).",
       "Agastya visited with disciples, interpreted silence as disrespect, cursed Indradyumna to an elephant body (8.4.9–10).",
-      "The king accepted the curse, and due to devotion remembered prayer in the elephant life (8.4.11–12)."
+      "The king accepted the curse, and due to devotion remembered prayer in the elephant life (8.4.11–12).",
+      "S04: The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8)."
     ],
     "changes": [
       "Episode 5's flashbacks are editorial retelling of earlier lives AFTER the rescue; no crocodile appears alive in the present lake after its animal life ends.",
@@ -242,6 +243,53 @@
           "action": "Devala's curse turned the Gandharva Huhu into crocodile form. The chapter summary reports Huhu regretted his action and sought pardon, and Devala compassionately promised eventual freedom by Lord's rescue. Return narration to present restored Huhu as a single clear cut. Narration L007–L008; beat A brief metamorphosis is story exposition, not a second animal killing or another crocodile attack.",
           "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
           "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "King Indradyumna's forest retreat",
+      "setting": "A DISTINCT flashback to the Pāṇḍya kingdom in ancient South India and the Malaya hills, far from the present Trikūṭa lotus lake. Approved Indradyumna human ascetic reference is used, never present elephant body.",
+      "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Flashback geography clearly differs from the Huhu-Devala water location and Trikuta present lake. Pāṇḍya/Draviḍa South India identity, no invented palace battle.",
+        "Indradyumna the former king must match owner's approved full-body prayerful hermit; no crown in this hermitage state unless source separately scripts coronation flashback.",
+        "Show small cottage, matted hair, forest and simple worship rather than fabricated temple rituals, modern objects, or new disciples.",
+        "He takes a vow of silence as he worships sincerely; do not make him intentionally mocking a sage who has not arrived.",
+        "End in reverent stillness ahead of Agastya's later unannounced arrival."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.7",
+          "url": "https://vedabase.io/en/library/sb/8/4/7/"
+        },
+        {
+          "locator": "8.4.8",
+          "url": "https://vedabase.io/en/library/sb/8/4/8/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S04-SH01",
+          "budget_seconds": 18,
+          "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8). Narration L001–L003. Flashback geography clearly differs from the Huhu-Devala water location and Trikuta present lake. Pāṇḍya/Draviḍa South India identity, no invented palace battle.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S04-SH02",
+          "budget_seconds": 19,
+          "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8). Narration L004–L006. Indradyumna the former king must match owner's approved full-body prayerful hermit; no crown in this hermitage state unless source separately scripts coronation flashback.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S04-SH03",
+          "budget_seconds": 18,
+          "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8). Narration L007–L008. Show small cottage, matted hair, forest and simple worship rather than fabricated temple rituals, modern objects, or new disciples.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
         }
       ]
     }
@@ -702,8 +750,160 @@
         "kind": "scripture_paraphrase",
         "locator": "8.4.3-4"
       }
+    },
+    {
+      "id": "S01E05-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Gajendra too had a story from an earlier life.",
+      "text": {
+        "te": "గజేంద్రుడికి ఇంకొక పూర్వజన్మ కథ కూడా ఉంది.",
+        "hi": "गजेन्द्र की भी एक पिछली जन्म की कथा थी।",
+        "en": "Gajendra too had a story from an earlier life."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "In that life he was called Indradyumna.",
+      "text": {
+        "te": "అప్పుడు అతని పేరు ఇంద్రద్యుమ్నుడు.",
+        "hi": "तब उसका नाम इन्द्रद्युम्न था।",
+        "en": "In that life he was called Indradyumna."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "He was a king of the Pandya country in South India.",
+      "text": {
+        "te": "అతను దక్షిణ భారతంలోని పాండ్య దేశానికి రాజు.",
+        "hi": "वह दक्षिण भारत के पाण्ड्य देश का राजा था।",
+        "en": "He was a king of the Pandya country in South India."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Indradyumna was devoted to Lord Vishnu.",
+      "text": {
+        "te": "ఇంద్రద్యుమ్నుడు విష్ణుభక్తుడు.",
+        "hi": "इन्द्रद्युम्न भगवान विष्णु के भक्त थे।",
+        "en": "Indradyumna was devoted to Lord Vishnu."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "He left royal life and went to the Malaya Hills.",
+      "text": {
+        "te": "ఒకప్పుడు రాజ్య జీవితాన్ని విడిచి మలయ పర్వతాలకు వెళ్లాడు.",
+        "hi": "कुछ समय बाद वह राजजीवन छोड़कर मलय पर्वतों में चले गए।",
+        "en": "He left royal life and went to the Malaya Hills."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
+    },
+    {
+      "id": "S01E05-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "There he lived in a small hermitage.",
+      "text": {
+        "te": "అక్కడ చిన్న ఆశ్రమంలో నివసించాడు.",
+        "hi": "वहाँ वह एक छोटी कुटिया में रहने लगे।",
+        "en": "There he lived in a small hermitage."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
+    },
+    {
+      "id": "S01E05-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "With matted hair and a simple life, he worshiped the Lord.",
+      "text": {
+        "te": "జటలతో, నిరాడంబరంగా భగవంతుని ఆరాధించాడు.",
+        "hi": "जटाधारी होकर सादगी से भगवान की पूजा करने लगे।",
+        "en": "With matted hair and a simple life, he worshiped the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
+    },
+    {
+      "id": "S01E05-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "One day, during a vow of silence, he meditated deeply.",
+      "text": {
+        "te": "ఒక రోజు మౌనవ్రతంతో ఎంతో ఏకాగ్రంగా ధ్యానించాడు.",
+        "hi": "एक दिन मौन व्रत में वह गहरे ध्यान में लीन थे।",
+        "en": "One day, during a vow of silence, he meditated deeply."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
     }
   ],
-  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation. S03 authored 8 narrator-only trilingual lines, no recorded voice/animation.",
-  "timing_note": "E05 3/6 scenes authored, 24 narration IDs, 165/330 provisional seconds; other scenes missing."
+  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation. S03 authored 8 narrator-only trilingual lines, no recorded voice/animation. S04 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement.",
+  "timing_note": "E05 4/6 scenes authored, 220/330 provisional seconds, 32 lines, further scenes missing."
 }
