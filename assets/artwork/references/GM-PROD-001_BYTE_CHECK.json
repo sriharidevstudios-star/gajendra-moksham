@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "batch": "GM-PROD-001",
+  "verified_date": "2026-11-22",
+  "scope": "Temporary analysis-workspace inspection of real user-owned Library bytes, NOT durable runner ingestion, NOT art acceptance",
+  "library_bundle": "/Gajendra Moksham/References/approved-character-references-v1.zip",
+  "zip_sha256": "97231bc30058dce3dff97a36e39c973182fce20ae0d7eb0a2c8e29d81deb8323",
+  "zip_bytes": 4795169,
+  "zip_hash_verified": true,
+  "manifest_sha256": "f6734a2870bab9ee126b05f8e0e38162eb52aaa28faab199b9578a9979044f44",
+  "overview": {
+    "sha256": "389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06",
+    "bytes": 2779513,
+    "width": 1536,
+    "height": 1024,
+    "verified": true
+  },
+  "panels": [
+    {
+      "character": "GAJENDRA",
+      "sha256": "e38a58f30ed258abe9d25f22fd3639fff86215fa26e25655d3bece90cac46c64",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "CROCODILE",
+      "sha256": "558b80797ff17bef8ed58a52933bc3719bddfcc6632bff546dd80431db1f6b74",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "NARAYANA",
+      "sha256": "40ae8b356f07ab1ebe22cbb4a6c05fa5c197174e7cf9f324bf0cedb858193060",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "GARUDA",
+      "sha256": "7dc73b27cb9672eddedd2d9e5c0829703e2f173fdcc8ecef2fc1584851089f59",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "HUHU",
+      "sha256": "f9627df8c0944e437bf5e1a3c5aa95e9050c9d0f58de0f8b72d04c5b30c0022b",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "DEVALA",
+      "sha256": "4989db447fb1efb84f973c8876c74b022d7b9d6e10c7cd6e49eb63afb7bd4018",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "INDRADYUMNA",
+      "sha256": "d83f8c1faa6b443a9779af4cce438d1fe54d95078edc243b6acedf89c66db5bc",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "AGASTYA",
+      "sha256": "659cc3d4781a70da4d49dfd9480110c8e11056f2692c703110683ecdf0dbacf5",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    },
+    {
+      "character": "GAJENDRA_LIBERATED",
+      "sha256": "b8d49f876817511f31d631362cb30325d9ef295caacec262ebb6efa199a484b1",
+      "hash_verified": true,
+      "pixels_equal_source_overview_region": true
+    }
+  ],
+  "method": "hashlib SHA-256 on actual ZIP and extracted bytes; zipfile inspection; PIL RGBA pixel equality of each archived crop to its manifest crop_box_xyxy on approved original",
+  "result": "PASS: 1 composite and nine crops exact registered hashes and 9/9 exact crops",
+  "github_binary_mirror": "MISSING",
+  "durable_renderer_reference_ingest": "NOT_PERFORMED",
+  "scene_images_created": 0,
+  "scene_media_approved": false
+}

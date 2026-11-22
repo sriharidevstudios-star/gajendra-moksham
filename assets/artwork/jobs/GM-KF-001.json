@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "job_id": "GM-KF-001",
+  "next_batch": "GM-PROD-002",
+  "state": "PLANNED_NO_MEDIA_GENERATED",
+  "shot": "S01E04-S02-SH01",
+  "episode_path": "seasons/season-01/episodes/s01e04-the-lotus-and-the-rescue/episode.json",
+  "episode_blob_sha": "2fff1273636d37e3684ba06a530de2170f9c5bc4",
+  "source": "SB 8.3.31",
+  "narration_lines": [
+    "S01E04-S02-L001",
+    "S01E04-S02-L002",
+    "S01E04-S02-L003"
+  ],
+  "narration_owner": "NARRATOR",
+  "languages": [
+    "te",
+    "hi",
+    "en"
+  ],
+  "budget_seconds_provisional": 20,
+  "aspect_ratio": "16:9",
+  "target_dimensions": [
+    1920,
+    1080
+  ],
+  "reference_sheet_sha256": "389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06",
+  "reference_inputs": [
+    {
+      "asset_id": "REF_GM_NARAYANA_FULL_BODY_V1",
+      "sha256": "40ae8b356f07ab1ebe22cbb4a6c05fa5c197174e7cf9f324bf0cedb858193060",
+      "library_path": "/Gajendra Moksham/References/narayana-approved-panel-crop-v1.png"
+    },
+    {
+      "asset_id": "REF_GM_GARUDA_FULL_BODY_V1",
+      "sha256": "7dc73b27cb9672eddedd2d9e5c0829703e2f173fdcc8ecef2fc1584851089f59",
+      "library_path": "/Gajendra Moksham/References/garuda-approved-panel-crop-v1.png"
+    }
+  ],
+  "start_frame_requirement": "Wide sky: the EXACT approved four-armed Nārāyaṇa rides ON the EXACT approved Garuḍa. Keep full Garuḍa wingspan and rider proportions clear; no other deities or text.",
+  "end_frame_requirement": "Same Lord, crown, four arms and conch/disc/mace/lotus on same Garuḍa in a nearer three-quarter sky view, unchanged gold feathers, beak, wing/arm counts and passenger placement. No dismounting or lotus offering yet.",
+  "hard_negative_constraints": [
+    "extra deity arms",
+    "extra wings or Garuda heads",
+    "duplicate rider",
+    "wrong rider position",
+    "identity/costume shift",
+    "unapproved new figures",
+    "human elephant mouth",
+    "watermarks",
+    "graphic violence"
+  ],
+  "input_ingestion_requirement": "Production image-to-image/reference renderer must receive actual decoded user-approved source pixels, independently SHA-verified. Library path alone or text prompt is NOT a valid reference image.",
+  "planned_outputs_only": [
+    "assets/artwork/keyframes/S01E04-S02-SH01-F01.png",
+    "assets/artwork/keyframes/S01E04-S02-SH01-F02.png"
+  ],
+  "actual_outputs": {
+    "start_frame": null,
+    "end_frame": null,
+    "model": null,
+    "seed": null,
+    "prompt": null,
+    "output_sha256": null,
+    "receipt": null,
+    "visual_qc": "NOT_REVIEWED",
+    "motion": null
+  },
+  "gates": [
+    "Source PNG byte hashes and source episode blob independently rechecked",
+    "Start candidate rendered from both exact reference pixels and logged",
+    "4-arm Narayana and Garuda identity/costume/wing/passenger QC",
+    "End candidate matches start identity and camera geography",
+    "Record model/version/seed/prompt/input/output hashes",
+    "Human visual decision required before marking still APPROVED or running motion"
+  ],
+  "later_hero_jobs": [
+    {
+      "job_id": "GM-KF-002",
+      "shot": "S01E02-S02-SH02",
+      "characters": [
+        "GAJENDRA",
+        "CROCODILE"
+      ],
+      "blocker": "Trikuta/Ritumat freshwater-lake environment master not approved yet"
+    },
+    {
+      "job_id": "GM-KF-003",
+      "shot": "S01E06-S03-SH03",
+      "characters": [
+        "GAJENDRA_LIBERATED",
+        "NARAYANA"
+      ],
+      "blocker": "Real accepted stills and temporal continuity first"
+    }
+  ]
+}
