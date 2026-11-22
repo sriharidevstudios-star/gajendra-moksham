@@ -9,7 +9,7 @@
     "hi": "हृदय से निकली प्रार्थना",
     "en": "The Prayer from the Heart"
   },
-  "status": "partial_scene_draft",
+  "status": "draft_for_table_read",
   "logline": "Still trapped after the thousand-year struggle, Gajendra remembers a prayer through divine grace and turns his mind to the Supreme Lord.",
   "target_runtime_seconds": {
     "min": 330,
@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam 8.3.1–29 original te/hi/en retelling; third-party modern translations not copied",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.1–29",
-    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision. S03: SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival. S04: SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor. S05: SB 8.3.16–24 stresses transcendent knowledge, mercy to surrendered Gajendra, pure devotional service without bargaining and Lord as source. L004's emotional staging is marked original; no blame of family love."
+    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision. S03: SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival. S04: SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor. S05: SB 8.3.16–24 stresses transcendent knowledge, mercy to surrendered Gajendra, pure devotional service without bargaining and Lord as source. L004's emotional staging is marked original; no blame of family love. S06: SB 8.3.25–29 completes Gajendra's plea for release from ignorance and respectful surrender to the transcendent protector. Lord/Garuda appear only in 8.3.30–33 in following episode."
   },
   "adaptation": {
     "core_preserved": [
@@ -28,7 +28,8 @@
       "SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision.",
       "SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival.",
       "SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor.",
-      "SB 8.3.16–24 stresses transcendent knowledge, mercy to surrendered Gajendra, pure devotional service without bargaining and Lord as source. L004's emotional staging is marked original; no blame of family love."
+      "SB 8.3.16–24 stresses transcendent knowledge, mercy to surrendered Gajendra, pure devotional service without bargaining and Lord as source. L004's emotional staging is marked original; no blame of family love.",
+      "SB 8.3.25–29 completes Gajendra's plea for release from ignorance and respectful surrender to the transcendent protector. Lord/Garuda appear only in 8.3.30–33 in following episode."
     ],
     "changes": [
       "Episode 3 continues from E02's decision without duplicating a new bite, release or millennium montage.",
@@ -342,6 +343,65 @@
           "budget_seconds": 20,
           "action": "Joy in remembering and serving, origin of all creatures and wish for real freedom; L007–L009.",
           "camera": "16:9 compassionate wide shoreline, stable grip and approved animal silhouettes.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "A heartfelt final appeal",
+      "setting": "Same lake and enduring grip; Gajendra's inward devotional prayer reaches surrender before the visible Lord's arrival, which belongs to Episode 4 (SB 8.3.30–33).",
+      "action": "Gajendra seeks liberation from ignorance as well as danger, respectfully addresses the creator and indwelling Supreme and asks for the Lord's protection, ending the prayer without an early rescue.",
+      "duration_budget_seconds": 45,
+      "nonverbal_beats": [
+        "The prayer's source asks release from ignorance, not only physical rescue; retain this devotional nuance in simple words.",
+        "The Lord is the ultimate shelter and giver of knowledge; do not introduce an alternative deity, fictional mantra or guarantee a miracle at this moment.",
+        "No animated speaking elephant mouth; the source-prayer is given as narrator paraphrase pending actor/native review.",
+        "No lotus is raised and no Nārāyaṇa/Garuḍa arrives until their proper 8.3.30–33 episode.",
+        "End on real surrender and a quiet nonverbal lake tail; the crocodile grip is still present."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.25",
+          "url": "https://vedabase.io/en/library/sb/8/3/25/"
+        },
+        {
+          "locator": "8.3.26",
+          "url": "https://vedabase.io/en/library/sb/8/3/26/"
+        },
+        {
+          "locator": "8.3.27",
+          "url": "https://vedabase.io/en/library/sb/8/3/27/"
+        },
+        {
+          "locator": "8.3.28",
+          "url": "https://vedabase.io/en/library/sb/8/3/28/"
+        },
+        {
+          "locator": "8.3.29",
+          "url": "https://vedabase.io/en/library/sb/8/3/29/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E03-S06-SH01",
+          "budget_seconds": 15,
+          "action": "Sincere wish for freedom from ignorance, not only immediate peril; L001–L002.",
+          "camera": "16:9 calm Gajendra natural eye/trunk close-medium plus full body held foreleg, no harm graphic.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        },
+        {
+          "id": "S01E03-S06-SH02",
+          "budget_seconds": 15,
+          "action": "Reverence to the Lord beyond material creation, the inner self known through devotion; L003–L004.",
+          "camera": "16:9 gentle distant lake surface and approved elephant silhouette, no premature divine apparition.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        },
+        {
+          "id": "S01E03-S06-SH03",
+          "budget_seconds": 15,
+          "action": "The Supreme protector receives the final surrender; L005–L006.",
+          "camera": "16:9 slow hold on Gajendra and still-trapped left foreleg, no lotus offering or rescue yet.",
           "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
         }
       ]
@@ -1145,8 +1205,122 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.19"
       }
+    },
+    {
+      "id": "S01E03-S06-L001",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "Gajendra sought freedom from ignorance, not only from danger.",
+      "text": {
+        "te": "గజేంద్రుడు ప్రమాదం నుంచి తప్పించుకోవడమే కాదు, అజ్ఞానం తొలగాలని కూడా కోరుకున్నాడు.",
+        "hi": "गजेन्द्र केवल खतरे से बचना नहीं, अज्ञान से मुक्ति भी चाहता था।",
+        "en": "Gajendra sought freedom from ignorance, not only from danger."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.25"
+      }
+    },
+    {
+      "id": "S01E03-S06-L002",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "He knew that time alone could not remove ignorance.",
+      "text": {
+        "te": "కాలం ఒక్కటే ఆ అజ్ఞానాన్ని తొలగించలేదని అతను గ్రహించాడు.",
+        "hi": "वह समझता था कि समय अकेले अज्ञान नहीं मिटा सकता।",
+        "en": "He knew that time alone could not remove ignorance."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.25"
+      }
+    },
+    {
+      "id": "S01E03-S06-L003",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "He bowed to the Lord, the source of creation.",
+      "text": {
+        "te": "సృష్టికి మూలమైన భగవంతుడికి నమస్కరించాడు.",
+        "hi": "उसने सृष्टि के मूल भगवान को प्रणाम किया।",
+        "en": "He bowed to the Lord, the source of creation."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.26"
+      }
+    },
+    {
+      "id": "S01E03-S06-L004",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "He remembered that devotion can reveal the Lord within a purified heart.",
+      "text": {
+        "te": "భక్తితో నిర్మలమైన హృదయంలో ఆయనను తెలుసుకోవచ్చని గుర్తుచేసుకున్నాడు.",
+        "hi": "उसे याद था कि भक्ति से निर्मल हुए हृदय में भगवान का अनुभव हो सकता है।",
+        "en": "He remembered that devotion can reveal the Lord within a purified heart."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.27"
+      }
+    },
+    {
+      "id": "S01E03-S06-L005",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "He prayed to the merciful Lord who protects the surrendered.",
+      "text": {
+        "te": "శరణు కోరినవారిని రక్షించే కరుణామయుడిని ప్రార్థించాడు.",
+        "hi": "उसने शरण लेने वालों के रक्षक करुणामय भगवान से प्रार्थना की।",
+        "en": "He prayed to the merciful Lord who protects the surrendered."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.28"
+      }
+    },
+    {
+      "id": "S01E03-S06-L006",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "Though the Lord's glory is beyond full understanding, Gajendra surrendered.",
+      "text": {
+        "te": "ఆయన మహిమ అంతా అర్థం కాకపోయినా, గజేంద్రుడు పూర్తిగా శరణు కోరుకున్నాడు.",
+        "hi": "उनकी महिमा पूरी समझ न आने पर भी गजेन्द्र ने पूरी शरण ली।",
+        "en": "Though the Lord's glory is beyond full understanding, Gajendra surrendered."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.29"
+      }
     }
   ],
-  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S03 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S04 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed. S05 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed.",
-  "timing_note": "E03 5/6 scenes authored, 285/330 provisional seconds, 42 narrator lines; S06 not authored yet, no recorded or measured runtime."
+  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S03 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S04 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed. S05 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed. S06 has 6 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed.",
+  "timing_note": "All E03 scenes authored, 45+60+60+60+60+45=330 PROVISIONAL seconds; 48 NARRATOR lines / 144 te/hi/en spoken strings. Complete DRAFT FOR FUTURE TABLE READ, not approved pronunciation, recorded mantra, imagery, TTS or media."
 }
