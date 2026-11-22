@@ -23,6 +23,26 @@ All **54 of 54** ordered S01E01 line IDs were examined across **Telugu (te), Hin
 
 **Historical P1 count:** 2 found in GM-LANG-001; **2 now applied**, none awaiting a written source correction within this P1 scope. Both remain **pending native Telugu/Hindi/English spoken review**. Unaddressed P2=7 and P3=7 remain proposed, **not approved**. The previous word counts and rate estimates below are a **GM-LANG-001 baseline snapshot before the six string corrections**, not new measured GM-LANG-002 narration timings. Recalculate and perform a listening check before audio casting.
 
+## GM-LANG-003 — P2 corrections and deferred continuity (2026-11-22)
+
+**This section supersedes only the prior open-P2 status, not the historical GM-LANG-001 findings or GM-LANG-002 P1 evidence.** Six of seven P2 items received supported spoken-text edits; one is deferred unchanged. These are model-level corrections, **not native Telugu/Hindi/English or devotional approval**. The historical word counts further below are pre-correction estimates; no audio timing was measured.
+
+| Canonical line ID | Status | Precise decision | Source |
+|---|---|---|---|
+| `S01E01-S02-L001` | **APPLIED — native signoff pending** | Telugu: name the lower valleys of Trikūṭa Mountain | [ŚB 8.2.7](https://vedabase.io/en/library/sb/8/2/8.2.7/) |
+| `S01E01-S02-L009` | **APPLIED — native signoff pending** | Hindi: swans swim, cranes call; no claim cranes swim | [ŚB 8.2.14-19](https://vedabase.io/en/library/sb/8/2/8.2.14-19/) |
+| `S01E01-S03-L007` | **APPLIED — native signoff pending** | te/hi/en: restore mercy as the reason small animals were unafraid | [ŚB 8.2.22](https://vedabase.io/en/library/sb/8/2/8.2.22/) |
+| `S01E01-S04-L003` | **APPLIED — native signoff pending** | te/hi/en: describe lotus/water-lily pollen mingled with lake water | [ŚB 8.2.25](https://vedabase.io/en/library/sb/8/2/8.2.25/) |
+| `S01E01-S04-L011` | **APPLIED — devotional nuance pending** | Telugu: clarify female elephants and calves; leave deeper māyā interpretation for a devotional reviewer | [ŚB 8.2.26](https://vedabase.io/en/library/sb/8/2/8.2.26/) |
+| `S01E01-S06-L006` | **APPLIED — native signoff pending** | Telugu: identify Gajendra's struggle behind the staged splashing; retain original_dramatization | [ŚB 8.2.27](https://vedabase.io/en/library/sb/8/2/8.2.27/) |
+| `S01E01-S06-L008` | **DEFERRED — S01E02 rescue dependency** | Unchanged: source 8.2.28 says other elephants grasp from behind but cannot rescue; must be shown in future S01E02/S01 | [ŚB 8.2.28](https://vedabase.io/en/library/sb/8/2/8.2.28/) |
+
+**Devotional hold:** S04/L011 now names the female elephants and calves plainly in Telugu; the passage's comparison involving familial attachment, spiritual knowledge and māyā still requires a source-aware devotional reviewer. No new theological claim was inserted.
+
+**Episode 2 hold:** S06/L008 is deliberately unchanged; the other elephants' unsuccessful pulling from behind in ŚB 8.2.28 must appear in S01E02/S01. Do not duplicate the outcome in Episode 1.
+
+**Remaining:** P1 corrections are preserved (two already applied); P3 issues remain seven; no native listener signoff, cast approval, audio, TTS, image or video. Episode status stays `partial_scene_draft`, 54 IDs, six scenes, 330 seconds of provisional budgets.
+
 ## Priority guide
 
 - **P1** — Source meaning/material detail should be corrected before recording.
@@ -36,13 +56,13 @@ All **54 of 54** ordered S01E01 line IDs were examined across **Telugu (te), Hin
 |---|---|---|---|
 | P1 — APPLIED (native signoff pending) | `S01E01-S02-L002` | 8.2.8 describes shores with actual tiny gems comparable to grains of sand, but all three scripts call them stones *like* jewels. This reverses the distinction between gems and ordinary stones. [Source](https://vedabase.io/en/library/sb/8/2/8/) | Propose true tiny gems on the shores in all three languages; keep child-friendly phrasing, e.g. English 'Tiny gems sparkled along the sandy shore.' Check Telugu/Hindi natural equivalents. |
 | P1 — APPLIED (native signoff pending) | `S01E01-S02-L010` | 8.2.17 describes fish and tortoises agitating the water carrying lotus pollen. English 'fallen pollen drifted' is less causal, Hindi presents pollen moving, and Telugu stresses fish/tortoise motion. The three versions should share a clear water-stirring cause. [Source](https://vedabase.io/en/library/sb/8/2/14-19/) | Align all three to fish/tortoise movement stirring pollen-mixed water; avoid the unsupported word 'fallen' and avoid treating lotus pollen as a separate floating prop. |
-| P2 | `S01E01-S02-L001` | 'త్రికూటం పచ్చని కొండల కింద' is awkward/ambiguous, as if Trikūṭa were multiple ordinary green hills rather than one mountain with lower slopes. [Source](https://vedabase.io/en/library/sb/8/2/7/) | Prefer a naturally spoken construction such as 'త్రికూట పర్వతం దిగువనున్న పచ్చని లోయల్లో...' in Telugu; retain the same meaning. |
-| P2 | `S01E01-S02-L009` | Hindi 'हंस और सारस पानी पर तैरते हुए' makes cranes swim with swans. Cranes are better represented calling/wading near water; Telugu and English do not require them to float. [Source](https://vedabase.io/en/library/sb/8/2/14-19/) | Separate actions in Hindi: swans on water and cranes calling at the water's edge; retain verse-supported bird species. |
-| P2 | `S01E01-S03-L007` | The scripts convey smaller animals living without fear, but 8.2.22 explicitly attributes this to the elephant's mercy/restraint. The absent causal idea weakens the contrast with fierce animals fleeing in L005–L006. [Source](https://vedabase.io/en/library/sb/8/2/22/) | Consider a short, source-grounded phrase recognizing Gajendra's forbearance toward smaller animals. Avoid an invented dialogue or sentimental incident. |
-| P2 | `S01E01-S04-L003` | English says pollen 'floated', Telugu says it mixed into water, and Hindi 'पानी में घुला' can imply it dissolved. Verse 8.2.25 describes pollen in the clear lake water. [Source](https://vedabase.io/en/library/sb/8/2/25/) | Choose one physical meaning (pollen mixed through the lake water) across te/hi/en; avoid different floating/dissolving claims. |
-| P2 | `S01E01-S04-L011` | Telugu 'వాటిని చూసుకోవడంలో' is less natural for female elephants and calves; verse 8.2.26 also contains a comment on family attachment/spiritual ignorance, simplified in all three languages as disregarding personal effort. [Source](https://vedabase.io/en/library/sb/8/2/26/) | Clarify Telugu referent and ask a devotional reviewer whether the simplified spiritual point is sufficient for a child-facing narrative. Do not imply affection itself is blameworthy. |
-| P2 | `S01E01-S06-L006` | 'వాటి కదలికలకు' has a vague antecedent for Gajendra and the crocodile. This line is correctly labeled original dramatization, not a verse quotation. [Source](https://vedabase.io/en/library/sb/8/2/27/) | Name the moving animals or their struggle explicitly in Telugu, preserving the original_dramatization note and no injury detail. |
-| P2 | `S01E01-S06-L008` | 8.2.28 already recounts other elephants' failed attempt to free Gajendra; S06 narrates only their approach, deliberately deferring the unsuccessful pull to S01E02. [Source](https://vedabase.io/en/library/sb/8/2/28/) | Retain current line in this audit, but require the future S01E02/S01 to show the attempted pulling and failure; avoid duplicate rescue dialogue or implying the help succeeded. |
+| P2 — APPLIED — native signoff pending | `S01E01-S02-L001` | 'త్రికూటం పచ్చని కొండల కింద' is awkward/ambiguous, as if Trikūṭa were multiple ordinary green hills rather than one mountain with lower slopes. [Source](https://vedabase.io/en/library/sb/8/2/7/) | Prefer a naturally spoken construction such as 'త్రికూట పర్వతం దిగువనున్న పచ్చని లోయల్లో...' in Telugu; retain the same meaning. |
+| P2 — APPLIED — native signoff pending | `S01E01-S02-L009` | Hindi 'हंस और सारस पानी पर तैरते हुए' makes cranes swim with swans. Cranes are better represented calling/wading near water; Telugu and English do not require them to float. [Source](https://vedabase.io/en/library/sb/8/2/14-19/) | Separate actions in Hindi: swans on water and cranes calling at the water's edge; retain verse-supported bird species. |
+| P2 — APPLIED — native signoff pending | `S01E01-S03-L007` | The scripts convey smaller animals living without fear, but 8.2.22 explicitly attributes this to the elephant's mercy/restraint. The absent causal idea weakens the contrast with fierce animals fleeing in L005–L006. [Source](https://vedabase.io/en/library/sb/8/2/22/) | Consider a short, source-grounded phrase recognizing Gajendra's forbearance toward smaller animals. Avoid an invented dialogue or sentimental incident. |
+| P2 — APPLIED — native signoff pending | `S01E01-S04-L003` | English says pollen 'floated', Telugu says it mixed into water, and Hindi 'पानी में घुला' can imply it dissolved. Verse 8.2.25 describes pollen in the clear lake water. [Source](https://vedabase.io/en/library/sb/8/2/25/) | Choose one physical meaning (pollen mixed through the lake water) across te/hi/en; avoid different floating/dissolving claims. |
+| P2 — APPLIED — devotional nuance pending | `S01E01-S04-L011` | Telugu 'వాటిని చూసుకోవడంలో' is less natural for female elephants and calves; verse 8.2.26 also contains a comment on family attachment/spiritual ignorance, simplified in all three languages as disregarding personal effort. [Source](https://vedabase.io/en/library/sb/8/2/26/) | Clarify Telugu referent and ask a devotional reviewer whether the simplified spiritual point is sufficient for a child-facing narrative. Do not imply affection itself is blameworthy. |
+| P2 — APPLIED — native signoff pending | `S01E01-S06-L006` | 'వాటి కదలికలకు' has a vague antecedent for Gajendra and the crocodile. This line is correctly labeled original dramatization, not a verse quotation. [Source](https://vedabase.io/en/library/sb/8/2/27/) | Name the moving animals or their struggle explicitly in Telugu, preserving the original_dramatization note and no injury detail. |
+| P2 — DEFERRED — S01E02 rescue dependency | `S01E01-S06-L008` | 8.2.28 already recounts other elephants' failed attempt to free Gajendra; S06 narrates only their approach, deliberately deferring the unsuccessful pull to S01E02. [Source](https://vedabase.io/en/library/sb/8/2/28/) | Retain current line in this audit, but require the future S01E02/S01 to show the attempted pulling and failure; avoid duplicate rescue dialogue or implying the help succeeded. |
 
 ## Smaller language/performance findings (P3)
 
@@ -70,7 +90,7 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S01 | `S01E01-S01-L006` | — |
 | S01 | `S01E01-S01-L007` | — |
 | S01 | `S01E01-S01-L008` | — |
-| S02 | `S01E01-S02-L001` | P2 |
+| S02 | `S01E01-S02-L001` | P2 — APPLIED — native signoff pending |
 | S02 | `S01E01-S02-L002` | P1 — APPLIED (native signoff pending) |
 | S02 | `S01E01-S02-L003` | — |
 | S02 | `S01E01-S02-L004` | — |
@@ -78,7 +98,7 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S02 | `S01E01-S02-L006` | P3 |
 | S02 | `S01E01-S02-L007` | — |
 | S02 | `S01E01-S02-L008` | P3 |
-| S02 | `S01E01-S02-L009` | P2 |
+| S02 | `S01E01-S02-L009` | P2 — APPLIED — native signoff pending |
 | S02 | `S01E01-S02-L010` | P1 — APPLIED (native signoff pending) |
 | S02 | `S01E01-S02-L011` | — |
 | S03 | `S01E01-S03-L001` | — |
@@ -87,14 +107,14 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S03 | `S01E01-S03-L004` | — |
 | S03 | `S01E01-S03-L005` | — |
 | S03 | `S01E01-S03-L006` | — |
-| S03 | `S01E01-S03-L007` | P2 |
+| S03 | `S01E01-S03-L007` | P2 — APPLIED — native signoff pending |
 | S03 | `S01E01-S03-L008` | — |
 | S03 | `S01E01-S03-L009` | P3 |
 | S03 | `S01E01-S03-L010` | — |
 | S03 | `S01E01-S03-L011` | — |
 | S04 | `S01E01-S04-L001` | — |
 | S04 | `S01E01-S04-L002` | — |
-| S04 | `S01E01-S04-L003` | P2 |
+| S04 | `S01E01-S04-L003` | P2 — APPLIED — native signoff pending |
 | S04 | `S01E01-S04-L004` | — |
 | S04 | `S01E01-S04-L005` | — |
 | S04 | `S01E01-S04-L006` | P3 |
@@ -102,7 +122,7 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S04 | `S01E01-S04-L008` | — |
 | S04 | `S01E01-S04-L009` | P3 |
 | S04 | `S01E01-S04-L010` | — |
-| S04 | `S01E01-S04-L011` | P2 |
+| S04 | `S01E01-S04-L011` | P2 — APPLIED — devotional nuance pending |
 | S05 | `S01E01-S05-L001` | P3 |
 | S05 | `S01E01-S05-L002` | — |
 | S05 | `S01E01-S05-L003` | — |
@@ -112,9 +132,9 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S06 | `S01E01-S06-L003` | — |
 | S06 | `S01E01-S06-L004` | — |
 | S06 | `S01E01-S06-L005` | — |
-| S06 | `S01E01-S06-L006` | P2 |
+| S06 | `S01E01-S06-L006` | P2 — APPLIED — native signoff pending |
 | S06 | `S01E01-S06-L007` | — |
-| S06 | `S01E01-S06-L008` | P2 |
+| S06 | `S01E01-S06-L008` | P2 — DEFERRED — S01E02 rescue dependency |
 | S06 | `S01E01-S06-L009` | — |
 
 ## Terminology and pronunciation hold points
@@ -154,7 +174,7 @@ All of these are **planning warnings**, not failures of recorded performances. M
 ## Acceptance and next-stage gates
 
 - **Authored source integrity:** all 54 IDs and three-language fields were checked; no structural speaker/lip-sync or missing-language issues observed.
-- **GM-LANG-002 P1 changes applied, native signoff pending:** `S01E01-S02-L002` and `S01E01-S02-L010` now contain source-corrected te/hi/en strings. Their original audit findings above remain retained as historical evidence. No remaining line or metadata was edited. The seven P2 and seven P3 findings are open for later batches.
+- **Current status after GM-LANG-003:** Both earlier P1 fixes are preserved. Six P2 text changes are APPLIED, S06/L008 is DEFERRED pending S01E02/S01, and all seven P3 items are OPEN. Native-language and devotional review are still pending. Original GM-LANG-001 findings remain as historical evidence.
 - **Native approval:** **NOT OBTAINED** for Telugu, Hindi or English; a fluent native-speaker review should record reviewer/date/line IDs, especially after proposed text changes.
 - **Audio/visual approval:** **NOT OBTAINED**. No voice casting, TTS, keyframes, artwork, recordings, captions or video were produced.
 - **Current project state:** S01E01 remains `partial_scene_draft`; S01E02–S01E06 still lack canonical episode sources, so the whole season remains **NOT_READY**.

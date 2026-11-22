@@ -562,7 +562,7 @@
       "delivery": "Quiet wonder; invite us down into the valley",
       "intent": "Locate the living valleys below Trikūṭa",
       "text": {
-        "te": "త్రికూటం పచ్చని కొండల కింద ఉన్న లోయల్లో పక్షుల కిలకిలలు వినిపించేవి.",
+        "te": "త్రికూట పర్వతం దిగువనున్న పచ్చని లోయల్లో పక్షుల కిలకిలలు వినిపించేవి.",
         "hi": "त्रिकूट की हरी ढलानों के नीचे घाटियों में पक्षियों की चहचहाहट गूँजती थी।",
         "en": "Below Trikūṭa's green slopes, birds sang throughout the valleys."
       },
@@ -715,7 +715,7 @@
       "intent": "Introduce bees and water birds without characters speaking",
       "text": {
         "te": "పూల చుట్టూ తేనెటీగలు గుయ్యుమనేవి. నీళ్లపై హంసలు, కొంగలు తిరుగుతూ కూసేవి.",
-        "hi": "फूलों के पास भँवरे गुनगुनाते थे। हंस और सारस पानी पर तैरते हुए पुकारते थे।",
+        "hi": "फूलों के पास भँवरे गुनगुनाते थे। झील में हंस तैर रहे थे और पास ही सारस पुकार रहे थे।",
         "en": "Bees hummed near the blossoms; swans and cranes called over the water."
       },
       "source_attribution": {
@@ -885,9 +885,9 @@
       "delivery": "Gentle contrast",
       "intent": "Keep smaller animals safe and unafraid elsewhere in the forest",
       "text": {
-        "te": "కానీ అడవిలో మరోవైపు జింకలు, కుందేళ్లు, కోతులు భయపడకుండా తిరిగేవి.",
-        "hi": "लेकिन जंगल की दूसरी ओर हिरन, खरगोश और बंदर बिना डरे घूमते रहे।",
-        "en": "Elsewhere, deer, rabbits and monkeys roamed without fear of him."
+        "te": "గజేంద్రుడు చిన్న జంతువులపై దయ చూపేవాడు. అందుకే అడవిలో మరోవైపు జింకలు, కుందేళ్లు, కోతులు భయం లేకుండా తిరిగేవి.",
+        "hi": "गजेन्द्र छोटे जानवरों पर दया करता था। इसलिए जंगल के दूसरे हिस्सों में हिरन, खरगोश और बंदर बिना डरे घूमते थे।",
+        "en": "Because Gajendra treated smaller animals kindly, deer, rabbits and monkeys roamed without fear elsewhere in the forest."
       },
       "source_attribution": {
         "kind": "scripture_paraphrase",
@@ -1018,9 +1018,9 @@
       "delivery": "Warm nature detail",
       "intent": "Show pollen of lotus and water lilies mixing with lake water",
       "text": {
-        "te": "తామరపూల, కలువపూల పుప్పొడి ఆ నీటిలో కలిసింది.",
-        "hi": "कमल और जलकुमुदिनी के फूलों का पराग पानी में घुला था।",
-        "en": "Pollen from lotuses and water lilies floated in the water."
+        "te": "తామర, కలువ పూల పుప్పొడి సరస్సు నీళ్లలో కలిసింది.",
+        "hi": "कमल और जलकुमुदिनी के फूलों का पराग झील के पानी में मिला हुआ था।",
+        "en": "Lotus and water-lily pollen mingled with the lake water."
       },
       "source_attribution": {
         "kind": "scripture_paraphrase",
@@ -1170,7 +1170,7 @@
       "delivery": "Slightly reflective, not a scary threat reveal",
       "intent": "Scriptural caution: attachment leads him not to consider hardship",
       "text": {
-        "te": "వాటిని చూసుకోవడంలో మునిగిపోయి, తనకు ఎంత శ్రమ అవుతోందో కూడా అతను పట్టించుకోలేదు.",
+        "te": "ఆడ ఏనుగుల్నీ పిల్ల ఏనుగుల్నీ చూసుకుంటూ, తనకు ఎంత శ్రమ అవుతోందో గజేంద్రుడు పట్టించుకోలేదు.",
         "hi": "उनकी देखभाल में वह इतना मग्न था कि अपनी मेहनत की भी परवाह नहीं कर रहा था।",
         "en": "So absorbed in caring for them, he gave little thought to his own effort."
       },
@@ -1360,7 +1360,7 @@
       "delivery": "Short visual narration over water effects",
       "intent": "Describe non-graphic water movement as original physical staging",
       "text": {
-        "te": "వాటి కదలికలకు సరస్సు నీళ్లు పైకి చిమ్మాయి.",
+        "te": "గజేంద్రుడు తన కాలును విడిపించుకోవడానికి పెనుగులాడుతుంటే, చుట్టూ సరస్సు నీళ్లు పైకి చిమ్మాయి.",
         "hi": "उनकी हलचल से झील का पानी उछलने लगा।",
         "en": "Water splashed around them as Gajendra struggled."
       },
