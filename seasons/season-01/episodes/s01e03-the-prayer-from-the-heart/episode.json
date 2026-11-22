@@ -20,13 +20,14 @@
     "edition": "Śrīmad-Bhāgavatam 8.3.1–29 original te/hi/en retelling; third-party modern translations not copied",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.1–29",
-    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision. S03: SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival."
+    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision. S03: SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival. S04: SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor."
   },
   "adaptation": {
     "core_preserved": [
       "Gajendra fixes mind and intelligence in his heart and remembers a mantra learned in a previous lifetime by the grace of the Lord (SB 8.3.1).",
       "SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision.",
-      "SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival."
+      "SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival.",
+      "SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor."
     ],
     "changes": [
       "Episode 3 continues from E02's decision without duplicating a new bite, release or millennium montage.",
@@ -215,6 +216,69 @@
           "action": "Compassionate sages seek divine feet; Gajendra's prayer praises the Lord's transcendence; L007–L009.",
           "camera": "16:9 respectfully composed lake/warm sky, no physical deity/lotus offering before E04.",
           "sound": "Future ambience/quiet only; offscreen NARRATOR owner; no recorded Sanskrit or sound generated."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "The Lord present in every heart",
+      "setting": "The same lake with Gajendra trapped, while narrator retells his inward reverence for the divine witness and light of every heart. The visual metaphors do not represent physical deity arrival.",
+      "action": "Paraphrase SB 8.3.10–15 about the Supreme witness in the heart, source of knowledge, genuine devotional relationship, and cause beyond causes; the Lord does not yet appear on Garuda.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Keep Gajendra and crocodile in approved storybook full-body identities and unchanged grip; no talking animal lips.",
+        "Use gentle reflection/lighting metaphor to explain the divine witness in hearts; abstract light is original cinematography, not a literal character entering the lake.",
+        "Do not introduce narrated quotations from modern published translations or unreviewed Sanskrit chant.",
+        "Mention divine forms reverently in narrator words, but do not visualize an unapproved extra incarnation on screen.",
+        "End on sincere inward remembrance and devotion; Narayana's visible arrival is reserved for E04."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.10",
+          "url": "https://vedabase.io/en/library/sb/8/3/10/"
+        },
+        {
+          "locator": "8.3.11",
+          "url": "https://vedabase.io/en/library/sb/8/3/11/"
+        },
+        {
+          "locator": "8.3.12",
+          "url": "https://vedabase.io/en/library/sb/8/3/12/"
+        },
+        {
+          "locator": "8.3.13",
+          "url": "https://vedabase.io/en/library/sb/8/3/13/"
+        },
+        {
+          "locator": "8.3.14",
+          "url": "https://vedabase.io/en/library/sb/8/3/14/"
+        },
+        {
+          "locator": "8.3.15",
+          "url": "https://vedabase.io/en/library/sb/8/3/15/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E03-S04-SH01",
+          "budget_seconds": 20,
+          "action": "Gentle contemplative prayer of the inner witness and light; L001–L003.",
+          "camera": "16:9 full-body Gajendra and softly reflected water, no deity face.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        },
+        {
+          "id": "S01E03-S04-SH02",
+          "budget_seconds": 20,
+          "action": "Devotion and divine compassionate forms narrated without unsupported manifestation; L004–L006.",
+          "camera": "16:9 subtle abstract lake/sky and natural Gajendra reaction, no unknown god model.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        },
+        {
+          "id": "S01E03-S04-SH03",
+          "budget_seconds": 20,
+          "action": "The Lord witnesses events, gives understanding and remains the original refuge; L007–L009.",
+          "camera": "16:9 restrained medium-to-wide established lakeshore, steady crocodile hold.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
         }
       ]
     }
@@ -675,8 +739,179 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.8-9"
       }
+    },
+    {
+      "id": "S01E03-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "The Supreme Lord is the witness in every heart.",
+      "text": {
+        "te": "ప్రతి జీవి హృదయంలో పరమాత్మ సాక్షిగా ఉంటాడు.",
+        "hi": "परमात्मा हर जीव के हृदय में साक्षी बनकर रहते हैं।",
+        "en": "The Supreme Lord is the witness in every heart."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.10"
+      }
+    },
+    {
+      "id": "S01E03-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "His wisdom brings light to the mind.",
+      "text": {
+        "te": "ఆయన జ్ఞానం మన మనసుకు వెలుగునిస్తుంది.",
+        "hi": "उनका ज्ञान हमारे मन को प्रकाश देता है।",
+        "en": "His wisdom brings light to the mind."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.10"
+      }
+    },
+    {
+      "id": "S01E03-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "Words alone cannot fully describe Him.",
+      "text": {
+        "te": "మాటలతో మాత్రమే ఆయనను పూర్తిగా తెలుసుకోలేం.",
+        "hi": "केवल शब्दों से हम उन्हें पूरी तरह नहीं समझ सकते।",
+        "en": "Words alone cannot fully describe Him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.10"
+      }
+    },
+    {
+      "id": "S01E03-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "Sincere devotion draws us toward Him.",
+      "text": {
+        "te": "నిజమైన భక్తి మనల్ని ఆయనకు దగ్గర చేస్తుంది.",
+        "hi": "सच्ची भक्ति हमें उनके निकट ले जाती है।",
+        "en": "Sincere devotion draws us toward Him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.11"
+      }
+    },
+    {
+      "id": "S01E03-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "He shows compassion through many divine forms.",
+      "text": {
+        "te": "ఆయన ఎన్నో దివ్య రూపాల్లో కరుణను చూపుతాడు.",
+        "hi": "वे कई दिव्य रूपों में अपनी करुणा प्रकट करते हैं।",
+        "en": "He shows compassion through many divine forms."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.12"
+      }
+    },
+    {
+      "id": "S01E03-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "He is the source of nature and living beings.",
+      "text": {
+        "te": "ప్రకృతికీ జీవులకీ మూలం ఆయనే.",
+        "hi": "प्रकृति और जीवों का मूल भी वही हैं।",
+        "en": "He is the source of nature and living beings."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.13"
+      }
+    },
+    {
+      "id": "S01E03-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "He knows what happens within each of us.",
+      "text": {
+        "te": "మనలో జరిగే ప్రతిదీ ఆయనకు తెలుసు.",
+        "hi": "हमारे भीतर होने वाली हर बात वे जानते हैं।",
+        "en": "He knows what happens within each of us."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.13"
+      }
+    },
+    {
+      "id": "S01E03-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "He can guide us when we are uncertain.",
+      "text": {
+        "te": "సందేహంలో ఉన్న మనకు దారి చూపగలడు.",
+        "hi": "संदेह में पड़े लोगों को वे मार्ग दिखा सकते हैं।",
+        "en": "He can guide us when we are uncertain."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.14"
+      }
+    },
+    {
+      "id": "S01E03-S04-L009",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "He is the great refuge for knowledge and liberation.",
+      "text": {
+        "te": "జ్ఞానానికీ విముక్తికీ ఆయనే గొప్ప ఆశ్రయం.",
+        "hi": "ज्ञान और मुक्ति के लिए वे ही महान आश्रय हैं।",
+        "en": "He is the great refuge for knowledge and liberation."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.15"
+      }
     }
   ],
-  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S03 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync.",
-  "timing_note": "E03 3/6 scenes and 24 narration lines authored, 165/330 provisional seconds. Native/spoken durations unknown. Not a reviewed recording draft."
+  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S03 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S04 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed.",
+  "timing_note": "E03 4/6 scenes authored, 225/330 provisional seconds, 33 narrator lines; S06 not authored yet, no recorded or measured runtime."
 }

@@ -1,7 +1,9 @@
-# Work checkpoint — GM-STY-015 E03/S03
+# Work checkpoint — GM-STY-016 / E03/S04
 
-**2026-11-22 · production-first · branch production-artwork, draft PR #1.**
+**2026-11-22 · production-first; `sriharidevstudios-star/gajendra-moksham` `production-artwork`, draft PR #1. Initial HEAD `2edc15fca1eacda4613bad3a522788b09c689da2`.**
 
-Added E03/S03 “The Lord beyond fear and time” with 9 exact aligned te/hi/en NARRATOR rows, 4 source anchors to SB 8.3.5, 8.3.6, 8.3.7, 8.3.8-9, three 16:9 shot specs 20+20+20=60 provisional seconds and 3 full future start/end frame pairs. **SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival.** No audio, image, motion, actual Sanskrit chanting or performer voice generated; all animal mouths natural. E03 now 3 authored scenes/24 text rows, 165/330 planned seconds, `partial_scene_draft`; E01/E02 and approved visual identity metadata unchanged. GM-STY-015 checks in-process only; actual CI logs need verification if used.
+Authored E03/S04 “The Lord present in every heart”, 9 new source-aligned te/hi/en NARRATOR rows, 8.3.10, 8.3.11, 8.3.12, 8.3.13, 8.3.14, 8.3.15 verse links, three planned 16:9 shots totaling 60 unmeasured editorial seconds. SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor. Added `docs/S01E03_S04_COVERAGE_MAP.md` with exact line ownership, frame/audio still MISSING.
 
-**Next GM-STY-016:** E03/S04, The Lord as witness present in every heart (SB 8.3.10–15); continue actual scripts/shot work, not infrastructure.
+Episode 3 now 4 scenes, 33 canonical narration lines, 225/330 seconds; status `partial_scene_draft`. E03 remains partial; future scenes not approved. Human theistic/Sanskrit/native review and voice/audio/art/motion absent, approved cast Library source not yet binary-mirrored to GitHub. Do not divert into generic CI polish.
+
+**Next GM-STY-017 / S01E03/S05:** Devotion beyond bargaining, SB 8.3.16–24, keep faithful source/modern three-language phrasing.
