@@ -20,14 +20,15 @@
     "edition": "Śrīmad-Bhāgavatam 8.3.1–29 original te/hi/en retelling; third-party modern translations not copied",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.1–29",
-    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision. S03: SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival. S04: SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor."
+    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22. S02: SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision. S03: SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival. S04: SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor. S05: SB 8.3.16–24 stresses transcendent knowledge, mercy to surrendered Gajendra, pure devotional service without bargaining and Lord as source. L004's emotional staging is marked original; no blame of family love."
   },
   "adaptation": {
     "core_preserved": [
       "Gajendra fixes mind and intelligence in his heart and remembers a mantra learned in a previous lifetime by the grace of the Lord (SB 8.3.1).",
       "SB 8.3.2–4, simple narration of reverence to Supreme, source and witness of creation, protection. No unapproved Sanskrit mantra recording or a fabricated earlier physical deity vision.",
       "SB 8.3.5–9: Lord beyond annihilation/darkness, hard even for sages to grasp, revered by compassionate sages, not bound by ordinary material birth. No new action or divine arrival.",
-      "SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor."
+      "SB 8.3.10–15 praises the witness in every heart, enlightenment, bhakti, divine forms, origin and source of liberation; the depicted glow is only an original non-personal visual metaphor.",
+      "SB 8.3.16–24 stresses transcendent knowledge, mercy to surrendered Gajendra, pure devotional service without bargaining and Lord as source. L004's emotional staging is marked original; no blame of family love."
     ],
     "changes": [
       "Episode 3 continues from E02's decision without duplicating a new bite, release or millennium montage.",
@@ -278,6 +279,69 @@
           "budget_seconds": 20,
           "action": "The Lord witnesses events, gives understanding and remains the original refuge; L007–L009.",
           "camera": "16:9 restrained medium-to-wide established lakeshore, steady crocodile hold.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Devotion beyond bargaining",
+      "setting": "Same lotus lake, elephant still caught, no physical rescue. Gajendra's attention remains on the Supreme through narrator paraphrase.",
+      "action": "Condense SB 8.3.16–24 to a child-accessible prayer that stresses the Lord's closeness, mercy for surrendered beings, bhakti without bargaining, and the Lord as source of all creatures.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "S16–S17's subtle Lord and compassion need simple language, not a fabricated speech directly delivered by visible Gajendra.",
+        "S18–S21 distinguishes devotion from craving rewards or judging family love; do not teach children that caring for loved ones is bad.",
+        "No literal animated invisible souls, suns or spirit bodies used as guaranteed scripture scenes: ambient cutaways are editorial metaphors.",
+        "The sea of bliss and service themes should feel reverent, with space for natural pauses rather than action combat.",
+        "No premature lotus offering/visible Nārāyaṇa until the rescue story's later episode."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.16",
+          "url": "https://vedabase.io/en/library/sb/8/3/16/"
+        },
+        {
+          "locator": "8.3.17",
+          "url": "https://vedabase.io/en/library/sb/8/3/17/"
+        },
+        {
+          "locator": "8.3.18",
+          "url": "https://vedabase.io/en/library/sb/8/3/18/"
+        },
+        {
+          "locator": "8.3.19",
+          "url": "https://vedabase.io/en/library/sb/8/3/19/"
+        },
+        {
+          "locator": "8.3.20-21",
+          "url": "https://vedabase.io/en/library/sb/8/3/20-21/"
+        },
+        {
+          "locator": "8.3.22-24",
+          "url": "https://vedabase.io/en/library/sb/8/3/22-24/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E03-S05-SH01",
+          "budget_seconds": 20,
+          "action": "Gajendra reflects that divine mercy is near despite his helplessness; L001–L003.",
+          "camera": "16:9 tranquil elephant face/trunk in established lake, natural anatomy and no voice-mouth sync.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        },
+        {
+          "id": "S01E03-S05-SH02",
+          "budget_seconds": 20,
+          "action": "Devotees seek the Lord beyond possessions, not only rewards; L004–L006.",
+          "camera": "16:9 gentle symbolic lotus leaves/water without offering a flower to an absent deity.",
+          "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
+        },
+        {
+          "id": "S01E03-S05-SH03",
+          "budget_seconds": 20,
+          "action": "Joy in remembering and serving, origin of all creatures and wish for real freedom; L007–L009.",
+          "camera": "16:9 compassionate wide shoreline, stable grip and approved animal silhouettes.",
           "sound": "Future calm environmental sound only; offscreen NARRATOR owns all script, no recorded voice or copyrighted chant."
         }
       ]
@@ -910,8 +974,179 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.15"
       }
+    },
+    {
+      "id": "S01E03-S05-L001",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "The Lord knows what our senses cannot grasp.",
+      "text": {
+        "te": "మన ఇంద్రియాలకు అందని జ్ఞానం కూడా భగవంతుడికి తెలుసు.",
+        "hi": "हमारी इंद्रियों से परे की बात भी भगवान जानते हैं।",
+        "en": "The Lord knows what our senses cannot grasp."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.16"
+      }
+    },
+    {
+      "id": "S01E03-S05-L002",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "Though unseen, the Lord is not far from the heart.",
+      "text": {
+        "te": "కంటికి కనిపించకపోయినా ఆయన హృదయానికి దూరం కాదు.",
+        "hi": "आँखों से न दिखें, फिर भी वे हृदय से दूर नहीं हैं।",
+        "en": "Though unseen, the Lord is not far from the heart."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.16"
+      }
+    },
+    {
+      "id": "S01E03-S05-L003",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "His mercy can protect Gajendra, who seeks refuge in danger.",
+      "text": {
+        "te": "కష్టంలో శరణు కోరిన గజేంద్రుడిని ఆయన కరుణ రక్షించగలదు.",
+        "hi": "कष्ट में शरण माँगने वाले गजेन्द्र की रक्षा उनकी करुणा कर सकती है।",
+        "en": "His mercy can protect Gajendra, who seeks refuge in danger."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.17"
+      }
+    },
+    {
+      "id": "S01E03-S05-L004",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "Gajendra offered both his fear and hope with humility.",
+      "text": {
+        "te": "గజేంద్రుడు భయంతో పాటు తన ఆశనూ ఆయన ముందుంచాడు.",
+        "hi": "गजेन्द्र ने अपने भय के साथ अपनी आशा भी भगवान के सामने रखी।",
+        "en": "Gajendra offered both his fear and hope with humility."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-facing reflective phrasing of Gajendra's vulnerability and faith, based on the source's surrender theme; SB 8.3.16–19 does not specify a separate 'fear and hope placed before God' narrative action."
+      }
+    },
+    {
+      "id": "S01E03-S05-L005",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "Devotees value the Lord's love above possessions.",
+      "text": {
+        "te": "భక్తులు సంపదలకంటే భగవంతుని ప్రేమనే ఎక్కువగా కోరుకుంటారు.",
+        "hi": "भक्त धन से बढ़कर भगवान का प्रेम चाहते हैं।",
+        "en": "Devotees value the Lord's love above possessions."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.18"
+      }
+    },
+    {
+      "id": "S01E03-S05-L006",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "They do not pray only to receive rewards.",
+      "text": {
+        "te": "వారు బహుమతుల కోసం మాత్రమే ప్రార్థించరు.",
+        "hi": "वे केवल वरदान पाने के लिए प्रार्थना नहीं करते।",
+        "en": "They do not pray only to receive rewards."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.20-21"
+      }
+    },
+    {
+      "id": "S01E03-S05-L007",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle devotion, child-clear",
+      "intent": "They find joy in remembering and serving Him.",
+      "text": {
+        "te": "ఆయనను స్మరించడం, సేవ చేయడం వారికి ఆనందం.",
+        "hi": "उनका स्मरण और सेवा करना ही उन्हें आनंद देता है।",
+        "en": "They find joy in remembering and serving Him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.20-21"
+      }
+    },
+    {
+      "id": "S01E03-S05-L008",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Softly emphatic without preaching",
+      "intent": "The Lord is the source of all living beings.",
+      "text": {
+        "te": "సమస్త జీవులకు ఆ పరమాత్మే మూలం.",
+        "hi": "सभी जीवों का मूल वही परम भगवान हैं।",
+        "en": "The Lord is the source of all living beings."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.22-24"
+      }
+    },
+    {
+      "id": "S01E03-S05-L009",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried reflective cadence",
+      "intent": "Gajendra sought true freedom, not merely escape from danger.",
+      "text": {
+        "te": "గజేంద్రుడు ప్రమాదం నుంచి తప్పించుకోవడానికే కాదు, నిజమైన విముక్తినీ కోరుకున్నాడు.",
+        "hi": "गजेन्द्र केवल खतरे से बचना नहीं, सच्ची मुक्ति भी चाहता था।",
+        "en": "Gajendra sought true freedom, not merely escape from danger."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.19"
+      }
     }
   ],
-  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S03 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S04 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed.",
-  "timing_note": "E03 4/6 scenes authored, 225/330 provisional seconds, 33 narrator lines; S06 not authored yet, no recorded or measured runtime."
+  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub. S02 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S03 contains nine original te/hi/en narrator paraphrases, no produced Sanskrit or animal mouth lip-sync. S04 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed. S05 has 9 aligned narrator paraphrases with null lip-sync; no source Sanskrit recording or human performance has been performed.",
+  "timing_note": "E03 5/6 scenes authored, 285/330 provisional seconds, 42 narrator lines; S06 not authored yet, no recorded or measured runtime."
 }
