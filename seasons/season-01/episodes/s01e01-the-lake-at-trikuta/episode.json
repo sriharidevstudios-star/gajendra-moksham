@@ -13,7 +13,7 @@
   "logline": "On Trikūṭa, Gajendra leads the herd to the lotus lake, where they enjoy the cool water—until a powerful crocodile suddenly seizes his leg.",
   "target_runtime_seconds": {
     "min": 330,
-    "preferred": 360,
+    "preferred": 330,
     "max": 390
   },
   "source": {
