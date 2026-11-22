@@ -20,14 +20,15 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 2; original trilingual paraphrase, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.27–33",
-    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04."
+    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04. S03: SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression."
   },
   "adaptation": {
     "core_preserved": [
       "Other elephants grasp Gajendra from behind but cannot rescue him from the strong crocodile (SB 8.2.28).",
       "Female elephants cry out in distress (SB 8.2.28).",
       "The unsuccessful rescue leaves Gajendra still trapped before the long struggle (8.2.28–29).",
-      "Gajendra exerts strength to escape his caught foot (8.2.27), and the elephant and crocodile pull against one another toward and away from the water (8.2.29)."
+      "Gajendra exerts strength to escape his caught foot (8.2.27), and the elephant and crocodile pull against one another toward and away from the water (8.2.29).",
+      "SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression."
     ],
     "changes": [
       "Continue directly from E01/S06; no second new attack.",
@@ -35,7 +36,8 @@
       "L003 surface ripples are original staging, not another scripture event.",
       "No named herd character or human-spoken elephant/crocodile lines; no gore or fabricated rescue.",
       "Future S02–S06 contain the ongoing contest, thousand years, changing advantage and turn to divine refuge; none are authored yet.",
-      "In S02, the exact near-bank foothold and raised-trunk gesture are original cinema staging; the thousand-year duration is reserved for S04."
+      "In S02, the exact near-bank foothold and raised-trunk gesture are original cinema staging; the thousand-year duration is reserved for S04.",
+      "S03 original shot pacing/light blocking is declared cinematic staging; all named scripture events remain verse-attributed."
     ],
     "fidelity_note": "Independent simple child-friendly Telugu/Hindi/English paraphrase of SB 8.2.28. The physical failed pull from behind and female elephants' cries are source events; all water staging is clearly differentiated and unrecorded."
   },
@@ -160,6 +162,57 @@
           "action": "Crocodile draws Gajendra slightly back toward deeper water; elephant braces and lifts trunk; grip unchanged; narration L007–L009. Trunk gesture is disclosed original blocking.",
           "camera": "16:9 stable full-body wide side; maintain existing left-bank/deeper-right geography and scale.",
           "sound": "NARRATOR only, gentle water movement and brief unmeasured hold."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "The crocodile holds in the water",
+      "setting": "Same Ṛtumat freshwater lotus lake: the approved olive crocodile in its natural water habitat retains Gajendra's editorial left foreleg, near bank left and deeper water right. Only physical contest now, not the thousand-year passage.",
+      "action": "The crocodile remains active in the lake while Gajendra, a land animal, finds resistance difficult. Water is the crocodile's home (8.2.30); keep the long-term weakening/strengthening outcome for S05, after S04's explicit thousand-year montage.",
+      "duration_budget_seconds": 45,
+      "nonverbal_beats": [
+        "Continue seamlessly from S02's shoreward back-and-forth pull; do not replay a new leg grab or group rescue.",
+        "Show water as the crocodile's natural habitat without prematurely asserting it has gained strength over centuries.",
+        "Gajendra remains naturally quadrupedal with user-approved red-gold blanket and headpiece; keep the same held left foreleg, riverbank and lotus geometry.",
+        "No graphic injury or human animal voices; any balancing movement is original staging, not verse footage.",
+        "End poised for the next scene's explicitly time-compressed thousand-year struggle."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.27",
+          "url": "https://vedabase.io/en/library/sb/8/2/27/"
+        },
+        {
+          "locator": "8.2.29",
+          "url": "https://vedabase.io/en/library/sb/8/2/29/"
+        },
+        {
+          "locator": "8.2.30",
+          "url": "https://vedabase.io/en/library/sb/8/2/30/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E02-S03-SH01",
+          "budget_seconds": 15,
+          "action": "Water-level full-body profile of olive crocodile secure in lake, contrasting with Gajendra trying to stand; narration L001–L003.",
+          "camera": "Stable 16:9 medium-wide, both animal silhouettes and chosen leg contact, bank left, deeper water right.",
+          "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
+        },
+        {
+          "id": "S01E02-S03-SH02",
+          "budget_seconds": 15,
+          "action": "Gajendra struggles for footing, crocodile still grips, pulls remain near the same waterline; narration L004–L006.",
+          "camera": "Steady 16:9 natural side view, no leg swap or animal mouth animation.",
+          "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
+        },
+        {
+          "id": "S01E02-S03-SH03",
+          "budget_seconds": 15,
+          "action": "Continue waterline tension and hold for passage of time next scene; narration L007–L008.",
+          "camera": "Clean 16:9 distant full-body wide, conserve geographic continuity; no time-lapse yet.",
+          "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
         }
       ]
     }
@@ -506,8 +559,160 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.27"
       }
+    },
+    {
+      "id": "S01E02-S03-L001",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm physical continuity",
+      "intent": "Convey the source-backed scene meaning: The crocodile moved easily through the water.",
+      "text": {
+        "te": "నీటిలో మొసలి చురుగ్గా కదిలింది.",
+        "hi": "पानी में मगरमच्छ आसानी से आगे बढ़ रहा था।",
+        "en": "The crocodile moved easily through the water."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S03-L002",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle clarity",
+      "intent": "Convey the source-backed scene meaning: The lake was its natural home.",
+      "text": {
+        "te": "ఆ నీళ్లే దానికి సహజమైన నివాసం.",
+        "hi": "पानी उसका अपना स्वाभाविक घर था।",
+        "en": "The lake was its natural home."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S03-L003",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured reflective emphasis",
+      "intent": "Convey the source-backed scene meaning: Gajendra was powerful, but he belonged on land.",
+      "text": {
+        "te": "గజేంద్రుడు మాత్రం నేలపై బలంగా నడిచే ఏనుగు.",
+        "hi": "लेकिन गजेन्द्र ज़मीन पर चलने वाला शक्तिशाली हाथी था।",
+        "en": "Gajendra was powerful, but he belonged on land."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S03-L004",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm physical continuity",
+      "intent": "Convey the source-backed scene meaning: It was harder for him to find firm footing in the water.",
+      "text": {
+        "te": "నీళ్లలో కాళ్లు గట్టిగా నిలబెట్టుకోవడం అతనికి కష్టంగా మారింది.",
+        "hi": "पानी में पैर मज़बूती से जमाना उसके लिए कठिन था।",
+        "en": "It was harder for him to find firm footing in the water."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "An original physical-footing cinematic illustration of the crocodile's aquatic habitat; scripture does not describe this exact step or camera position."
+      }
+    },
+    {
+      "id": "S01E02-S03-L005",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle clarity",
+      "intent": "Convey the source-backed scene meaning: The crocodile did not loosen its hold.",
+      "text": {
+        "te": "మొసలి తన పట్టు మాత్రం విడవలేదు.",
+        "hi": "मगरमच्छ ने अपनी पकड़ ढीली नहीं की।",
+        "en": "The crocodile did not loosen its hold."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.27"
+      }
+    },
+    {
+      "id": "S01E02-S03-L006",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured reflective emphasis",
+      "intent": "Convey the source-backed scene meaning: Gajendra pulled shoreward; the crocodile pulled lakeward.",
+      "text": {
+        "te": "గజేంద్రుడు ఒడ్డువైపు లాగితే, మొసలి సరస్సులోకి లాగింది.",
+        "hi": "गजेन्द्र किनारे की ओर खींचता, मगरमच्छ झील की ओर।",
+        "en": "Gajendra pulled shoreward; the crocodile pulled lakeward."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S03-L007",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm physical continuity",
+      "intent": "Convey the source-backed scene meaning: The struggle continued across the waterline.",
+      "text": {
+        "te": "ఇలా నీళ్ల దగ్గర వారి పోరాటం కొనసాగింది.",
+        "hi": "इसी तरह पानी के किनारे उनका संघर्ष चलता रहा।",
+        "en": "The struggle continued across the waterline."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S03-L008",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle clarity",
+      "intent": "Convey the source-backed scene meaning: Even mighty Gajendra found this watery battle difficult.",
+      "text": {
+        "te": "బలమైన గజేంద్రుడికీ ఆ నీళ్లలో పోరాటం సులువు కాదు.",
+        "hi": "इतने बलवान गजेन्द्र के लिए भी पानी में जूझना आसान नहीं था।",
+        "en": "Even mighty Gajendra found this watery battle difficult."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original transition observation about Gajendra's difficulty in the water, inferred from SB 8.2.30 without claiming the later years-long power shift has occurred yet."
+      }
     }
   ],
-  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals.",
-  "timing_note": "S01 60s + S02 45s = 105 provisional seconds authored; later S03–S06 missing. Full preferred 330s, unmeasured and unapproved."
+  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals. S03 adds 8 aligned narration lines (te/hi/en), no animal spoken mouth movement.",
+  "timing_note": "E02 3/6 scenes authored, 150/330 provisional seconds, 26 aligned trilingual lines. All future media and human review pending; partial_scene_draft."
 }

@@ -1,9 +1,7 @@
-# Work checkpoint — GM-STY-008
+# Work checkpoint — GM-STY-009 / E02/S03
 
-**2026-11-22 · production first; `sriharidevstudios-star/gajendra-moksham` `production-artwork` draft PR #1.**
+**2026-11-22 · production first · draft PR #1 · prior HEAD 4eb230ebc3ad7fe3ac583f3aefd311343158ef39**.
 
-Added **S01E02/S02** (“Gajendra strains toward land”) with nine te/hi/en aligned narrator lines, 3 shot specs of **15+15+15=45 provisional seconds**, SB 8.2.27 and 8.2.29 source anchors, and two disclosed original shore/trunk blocking lines. The previous S01 actual failed herd rescue remains unchanged. No century/millennium jump occurs in S02, no graphic violence, no speaking animal, no new cast identity. New `docs/S01E02_S02_COVERAGE_MAP.md` maps each shot to three lines and 6 MISSING start/end media needs.
+Authored `S01E02/S03` (“The crocodile holds in the water”): 8 exact te/hi/en NARRATOR lines, 8.2.27, 8.2.29, 8.2.30 source anchors, 15+15+15=45 seconds provisional, 3 original continuity-aware 16:9 shot specs. SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression. Source text has 3 scenes and 26 narration objects totaling 150/330 provisional seconds, still `partial_scene_draft` and NOT human-approved. Added `docs/S01E02_S03_COVERAGE_MAP.md` with 8 line ownership entries, 3 shots and six planned start/end frames (all media missing). Locked user-approved cast is reference identity; no generated keyframes/TTS/audio/motion. Structural checks in-process only; not claiming Python or human review result.
 
-Episode E02 now has 2 scenes, 18 narration rows, 105 provisional seconds; preferred 330 and status `partial_scene_draft`. E01, locked asset registry, no human approvals and E03–E06 remain unchanged. In-process line/shot/anchor checks PASS; local Python not run, actual GitHub PR CI must be verified from run logs before claiming pass.
-
-**Next GM-STY-009:** S01E02/S03 — crocodile at home in the water (8.2.29–30), without prematurely claiming a thousand-year passage. Then S04 will state the thousand years (8.2.29).
+**Next GM-STY-010 S01E02/S04:** Many years pass: explicitly state exactly a thousand years (8.2.29) and devas' astonishment; 60 seconds 3 shot groups; no prematurely changing Gajendra's strength until S05 Do not switch to CI polish.
