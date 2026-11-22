@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4; originally worded contemporary Telugu/Hindi/English child-friendly narration, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.1–2,5–6,13–26",
-    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture."
+    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture. S04 source SB 8.4.16, 8.4.17-24, 8.4.25; The Lord's blessings and remembrance; specific gestures/camera notes attributed original."
   },
   "adaptation": {
     "core_preserved": [
@@ -39,7 +39,8 @@
       "No fabricated direct speech from Huhu, Gajendra or Narayana in the sourced narrator-only script; optional later direct speaking portraits would need new authorized lines.",
       "S01: title Flowers and songs of praise; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
       "S02: title Hūhū's gratitude and departure; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
-      "S03: title Gajendra's spiritual transformation; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses."
+      "S03: title Gajendra's spiritual transformation; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
+      "S04: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval."
     ],
     "fidelity_note": "Original trilingual paraphrase retains mercy, freedom from ignorance, sārūpya-mukti, morning remembrance and departure order. Chronology of divine touch is not rewritten by the editorial flashback/reveal sequence."
   },
@@ -236,6 +237,57 @@
           "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6). Narration L007–L008. The spiritual associate must not look like an elephant with extra hands; not the same face/body as Narayana, keep distinguishable owner-approved character.",
           "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
           "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "The Lord's blessings and remembrance",
+      "setting": "With liberated four-armed Gajendra as His associate, Hari addresses Gajendra and those assembled. The original chapter lists divine names, symbols, and sites to remember; the narration gives a child-accessible summary instead of a literal chant.",
+      "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Narayana in approved distinct four-arm divine form blesses Gajendra as a spiritual companion; do not accidentally use the ordinary quadrupedal Gajendra where the liberated form is now correct.",
+        "The Bhagavatam gives a LONG list in SB 8.4.17–24. This script condenses it for children, not claims to replace an exact Sanskrit prayer or recitation.",
+        "Trikūṭa with gold/silver/iron peaks and lotus lake already established in E01 can be returned to through a quick gentle visual memory, not a new location.",
+        "Do not draw unapproved named Narada, Prahlada or other listed historical personalities to fill the crowd; can mention source summary by narrator.",
+        "Blessing on morning remembrance and spiritual welfare (8.4.24–25) should not be misrepresented as automatic wishes/certain physical rewards for viewers."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.16",
+          "url": "https://vedabase.io/en/library/sb/8/4/16/"
+        },
+        {
+          "locator": "8.4.17-24",
+          "url": "https://vedabase.io/en/library/sb/8/4/17-24/"
+        },
+        {
+          "locator": "8.4.25",
+          "url": "https://vedabase.io/en/library/sb/8/4/25/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S04-SH01",
+          "budget_seconds": 18,
+          "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer. Narration L001–L003. Narayana in approved distinct four-arm divine form blesses Gajendra as a spiritual companion; do not accidentally use the ordinary quadrupedal Gajendra where the liberated form is now correct.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S04-SH02",
+          "budget_seconds": 19,
+          "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer. Narration L004–L006. The Bhagavatam gives a LONG list in SB 8.4.17–24. This script condenses it for children, not claims to replace an exact Sanskrit prayer or recitation.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S04-SH03",
+          "budget_seconds": 18,
+          "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer. Narration L007–L008. Trikūṭa with gold/silver/iron peaks and lotus lake already established in E01 can be returned to through a quick gentle visual memory, not a new location.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
         }
       ]
     }
@@ -696,8 +748,160 @@
         "kind": "scripture_paraphrase",
         "locator": "8.4.6"
       }
+    },
+    {
+      "id": "S01E06-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "Hari, pleased with Gajendra, spoke blessings.",
+      "text": {
+        "te": "హరి సంతోషించి గజేంద్రుడిని ఆశీర్వదించాడు.",
+        "hi": "हरि प्रसन्न होकर गजेन्द्र को आशीर्वाद देने लगे।",
+        "en": "Hari, pleased with Gajendra, spoke blessings."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.16"
+      }
+    },
+    {
+      "id": "S01E06-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "He spoke of remembering His form, Gajendra and the lake.",
+      "text": {
+        "te": "తన దివ్య రూపాన్ని, గజేంద్రుడిని, ఆ సరస్సును స్మరించమని చెప్పారు.",
+        "hi": "उन्होंने अपने रूप, गजेन्द्र और उस झील को स्मरण करने को कहा।",
+        "en": "He spoke of remembering His form, Gajendra and the lake."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "He recalled Trikuta and its three great peaks.",
+      "text": {
+        "te": "త్రికూట పర్వతాన్ని, దాని మూడు శిఖరాలను కూడా గుర్తు చేశారు.",
+        "hi": "उन्होंने त्रिकूट पर्वत और उसकी तीन चोटियों का स्मरण कराया।",
+        "en": "He recalled Trikuta and its three great peaks."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The divine remembrance also included Sudarshana, Panchajanya and Garuda.",
+      "text": {
+        "te": "సుదర్శన చక్రం, పాంచజన్య శంఖం, గరుడుడి పేర్లు కూడా ఆయన దివ్య స్మరణలో ఉన్నాయి.",
+        "hi": "उन्होंने सुदर्शन चक्र, पाञ्चजन्य शंख और गरुड़ का भी स्मरण कराया।",
+        "en": "The divine remembrance also included Sudarshana, Panchajanya and Garuda."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "It also included devoted people, sages and sacred places.",
+      "text": {
+        "te": "అనేక భక్తులు, మహర్షులు, పవిత్ర స్థలాలు కూడా ఆ స్మరణలో ఉన్నాయి.",
+        "hi": "उस स्मरण में अनेक भक्त, ऋषि और पवित्र स्थान भी आते हैं।",
+        "en": "It also included devoted people, sages and sacred places."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "He spoke of the blessing of remembering Him attentively in the morning.",
+      "text": {
+        "te": "తెల్లవారుజామున మనసు నిలిపి భగవంతుడిని స్మరించడం పుణ్యమని చెప్పారు.",
+        "hi": "उन्होंने कहा कि प्रातः मन लगाकर भगवान को याद करना पवित्र है।",
+        "en": "He spoke of the blessing of remembering Him attentively in the morning."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "He blessed such devotees with a spiritual destination.",
+      "text": {
+        "te": "అలాంటి భక్తులకు దివ్యమైన గతి లభిస్తుందని ఆశీర్వదించారు.",
+        "hi": "उन्होंने ऐसे भक्तों को अंत में दिव्य गति का आशीर्वाद दिया।",
+        "en": "He blessed such devotees with a spiritual destination."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.25"
+      }
+    },
+    {
+      "id": "S01E06-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Gajendra received those blessings with devotion.",
+      "text": {
+        "te": "గజేంద్రుడు ఆ కరుణామయమైన ఆశీర్వాదాలను భక్తితో స్వీకరించాడు.",
+        "hi": "गजेन्द्र ने उन करुणामय आशीर्वादों को श्रद्धा से ग्रहण किया।",
+        "en": "Gajendra received those blessings with devotion."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original natural reaction for the already scripted Lord-given blessings in 8.4.16–25; the numbered verses do not require a separate visible gesture or line by Gajendra."
+      }
     }
   ],
-  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio.",
-  "timing_note": "E06 3/6 scenes authored, 24 narrator records, 165/330 provisional seconds; no reading or media files."
+  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S04: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio.",
+  "timing_note": "E06 4/6 scenes authored and 220/330 unmeasured seconds, 32 lines, S06 not complete yet, partial_scene_draft."
 }
