@@ -10,7 +10,7 @@
     "en": "The Lake at Trikūṭa"
   },
   "status": "partial_scene_draft",
-  "logline": "Before the elephants reach the lake, the sacred account opens on Trikūṭa, a vast mountain in the Ocean of Milk with gold, silver and iron peaks.",
+  "logline": "On Trikūṭa, gold, silver and iron peaks rise above the Ocean of Milk; in a valley below lies Varuṇa's Ṛtumat garden and its golden-lotus lake.",
   "target_runtime_seconds": {
     "min": 330,
     "preferred": 360,
@@ -20,20 +20,26 @@
     "edition": "Śrīmad-Bhāgavatam, Canto 8; passage checked against Vedabase verse pages (copyrighted translation not reused)",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.1–28",
-    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes."
+    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes. S02 paraphrases the separate bird-rich valleys and clear waters (8.2.7–8), Varuṇa's garden Ṛtumat with year-round fruit and flowers (8.2.9–13), and its golden-lotus lake with other water lilies, bees, water birds, fish, tortoises and flowering banks (8.2.14–19). Waterway and shoreline blocking are editorial staging, not claimed scripture; Gajendra and the crocodile are reserved for later scenes."
   },
   "adaptation": {
     "core_preserved": [
       "Śukadeva addresses a king while describing Trikūṭa, a large mountain surrounded by the Ocean of Milk (SB 8.2.1).",
       "Trikūṭa has three principal peaks of gold, silver and iron, plus mineral- and jewel-rich secondary peaks, trees, vines, shrubs and waterfalls (SB 8.2.2–3).",
-      "Waves of the Ocean of Milk wash the foot of the mountain where emeralds make the ground green (SB 8.2.4)."
+      "Waves of the Ocean of Milk wash the foot of the mountain where emeralds make the ground green (SB 8.2.4).",
+      "The wooded valleys and clear, gem-edged waters below Trikūṭa are described before Ṛtumat garden (SB 8.2.7–8).",
+      "Ṛtumat belongs to Varuṇa and includes trees that fruit and flower across seasons, including mango, coconut, aśoka and campaka (SB 8.2.9–13).",
+      "The garden lake has golden lotuses, other water lilies, bees, swans, cranes, fish, tortoises and abundant flowering banks (SB 8.2.14–19)."
     ],
     "changes": [
       "The narrator speaks an original accessible retelling rather than directly quoting Śukadeva or a modern published English translation.",
       "The gold-left, silver-center, iron-right arrangement, aerial camera moves, ambient sound and transitions are original visual staging decisions; scripture does not assign peak positions.",
-      "The cosmic scale is conveyed pictorially without asserting a literal real-world map. No later garden, animals, lake or crocodile events are moved into S01."
+      "The cosmic scale is conveyed pictorially without asserting a literal real-world map. No later garden, animals, lake or crocodile events are moved into S01.",
+      "S02 condenses the long scriptural plant and bird lists into a few representative species; it does not invent an incident or named animal character.",
+      "The camera path from the previously established emerald foothills into the valley garden, the approach bank and the lake's on-screen geography are original staging decisions rather than stated map directions.",
+      "All S02 dialogue is original narrator paraphrase. Varuṇa is identified as owner but not depicted giving newly invented dialogue; Gajendra, the herd and the crocodile do not appear before their later scene."
     ],
-    "fidelity_note": "Scripture-grounded geographic prologue with no dialogue ascribed to the king, Gajendra or a deity. All eight spoken lines are newly phrased paraphrases of cited verses. No new plot incident or moral has been added."
+    "fidelity_note": "S01 and S02 contain original, meaning-aligned narrator paraphrases grounded in SB 8.2.1–4 and 8.2.7–19 respectively. Screen positions, sound and shot transitions are declared original staging, not textual quotations. The crocodile encounter and Gajendra's later arrival are not moved into these scenes."
   },
   "characters": [
     {
@@ -95,6 +101,61 @@
           "action": "Move past smaller gem-bearing peaks, trees, vines, shrubs and waterfalls, ending at emerald-green foothills touched by Ocean of Milk waves; narration L005–L008. No lake, elephant, crocodile or invented incident.",
           "camera": "Slow descending travel shot with gentle cut to shoreline; do not treat the ocean as the freshwater lake.",
           "sound": "Distinct waterfall wash, then waves; leave a brief wordless tail for the transition to later S02."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Ṛtumat Garden and the Lotus Lake",
+      "setting": "One valley below Trikūṭa, moving from living forest and clear gem-edged waters to Varuṇa's year-round flowering Ṛtumat garden and its immense freshwater lotus lake. This is separate from the Ocean of Milk shoreline seen in S01.",
+      "action": "A narrated descent finds bird-rich wooded valleys, then passes through Ṛtumat's evergreen flowers and fruits into a wide, water-level reveal of the golden-lotus lake, its bees, swans, cranes, fish, tortoises and flowering banks. The elephants have not reached the lake in the story yet.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Begin the first shot as a continuous descent from the emerald foothills at the end of S01; birds and forest sounds take over gradually.",
+        "Keep Ṛtumat in the valley below Trikūṭa. Varuṇa is identified by narration only; he is not put on-screen as an invented visitor.",
+        "In the seasonal garden show mango and coconut trees alongside aśoka/campaka blossoms; do not turn the species list into an unrelated montage.",
+        "Reveal one coherent lake with a recognizable tree-lined approach bank, broad golden-lotus zone and deeper center; all placement within the lake is original shot staging, not a claim about the source's compass directions.",
+        "Keep waterfowl above and fish/tortoises below the waterline; do not show Gajendra, elephant herd, crocodile or attack in S02."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.7",
+          "url": "https://vedabase.io/en/library/sb/8/2/7/"
+        },
+        {
+          "locator": "8.2.8",
+          "url": "https://vedabase.io/en/library/sb/8/2/8/"
+        },
+        {
+          "locator": "8.2.9-13",
+          "url": "https://vedabase.io/en/library/sb/8/2/9-13/"
+        },
+        {
+          "locator": "8.2.14-19",
+          "url": "https://vedabase.io/en/library/sb/8/2/14-19/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E01-S02-SH01",
+          "budget_seconds": 18,
+          "action": "Travel down into the green valley: trees, birds and small animals; glimmering clear streams and gem-like shore stones. Narrator L001–L003 reveals the approach to Ṛtumat without entering the garden lake yet.",
+          "camera": "Cinematic 16:9 wide descending glide, matching S01's emerald-foot transition; favor an open valley sightline rather than unrelated landscapes.",
+          "sound": "Continuous birdsong and distant stream; understated original score. NARRATOR offscreen only."
+        },
+        {
+          "id": "S01E01-S02-SH02",
+          "budget_seconds": 18,
+          "action": "Enter Varuṇa's Ṛtumat garden: year-round fruit and blossoms, mango, coconut, aśoka and campaka. Narrator L004–L006 names Varuṇa and shows the garden before the lake reveal.",
+          "camera": "Medium-wide garden-path tracking with botanical foreground and coherent trees from wide to close views; avoid adding named figures.",
+          "sound": "Garden birds, delicate bees and foliage breeze; narration stays intelligible, no character voices."
+        },
+        {
+          "id": "S01E01-S02-SH03",
+          "budget_seconds": 24,
+          "action": "Reveal the broad freshwater lake covered with golden lotuses and other water lilies; track bees above the flowers, swans and cranes across the surface, and fish/tortoises disturbing pollen below. Narrator L007–L011; end on stable approach-bank geography for S03 and S04.",
+          "camera": "Wide lake opening to water-level medium inserts without changing the bank/center relationship. Fish/tortoise shots are separate intentional inserts when frames are authored later.",
+          "sound": "Bees, swans/cranes, soft rippling water and a short wordless closing tail; no elephant, crocodile or speaking-face lip-sync."
         }
       ]
     }
@@ -251,8 +312,217 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.4"
       }
+    },
+    {
+      "id": "S01E01-S02-L001",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Quiet wonder; invite us down into the valley",
+      "intent": "Locate the living valleys below Trikūṭa",
+      "text": {
+        "te": "త్రికూటం పచ్చని కొండల కింద ఉన్న లోయల్లో పక్షుల కిలకిలలు వినిపించేవి.",
+        "hi": "त्रिकूट की हरी ढलानों के नीचे घाटियों में पक्षियों की चहचहाहट गूँजती थी।",
+        "en": "Below Trikūṭa's green slopes, birds sang throughout the valleys."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.7"
+      }
+    },
+    {
+      "id": "S01E01-S02-L002",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, flowing description",
+      "intent": "Show clear water and jewel-like shorelines",
+      "text": {
+        "te": "అక్కడ స్వచ్ఛమైన నీళ్లు మెరిసేవి. వాటి ఒడ్డున చిన్న రత్నాల్లా కనిపించే రాళ్లు ఉండేవి.",
+        "hi": "वहाँ साफ़ पानी चमकता था, और उसके किनारे छोटे रत्नों जैसे पत्थर बिखरे थे।",
+        "en": "Clear water shone nearby, with little stones like jewels along its banks."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.8"
+      }
+    },
+    {
+      "id": "S01E01-S02-L003",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Introduce the name gently, with a pause",
+      "intent": "Name the valley garden without adding new events",
+      "text": {
+        "te": "ఆ లోయల్లో ఒక అందమైన తోట ఉండేది. దాని పేరు ఋతుమత్.",
+        "hi": "उन्हीं घाटियों में एक सुंदर बगीचा था। उसका नाम था ऋतुमत।",
+        "en": "In one valley was a beautiful garden called Ṛtumat."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.9-13"
+      }
+    },
+    {
+      "id": "S01E01-S02-L004",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Simple, respectful",
+      "intent": "Identify the garden's owner",
+      "text": {
+        "te": "ఆ తోట వరుణదేవుడిది.",
+        "hi": "यह बगीचा वरुण देव का था।",
+        "en": "The garden belonged to Varuṇa."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.9-13"
+      }
+    },
+    {
+      "id": "S01E01-S02-L005",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Light and cheerful without rushing",
+      "intent": "Establish year-round flowers and fruit",
+      "text": {
+        "te": "అక్కడ ఏ కాలమైనా పూలు పూసేవి, పండ్లు కాసేవి.",
+        "hi": "वहाँ हर मौसम में फूल खिलते और फल लगते थे।",
+        "en": "Flowers bloomed and fruit grew there in every season."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.9-13"
+      }
+    },
+    {
+      "id": "S01E01-S02-L006",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Give the tree names time to land",
+      "intent": "Show a few representative tree species listed in scripture",
+      "text": {
+        "te": "మామిడి, కొబ్బరి చెట్ల మధ్య అశోక, సంపెంగ పూల చెట్లు కూడా ఉండేవి.",
+        "hi": "आम और नारियल के पेड़ों के बीच अशोक और चंपा के फूल भी खिले रहते थे।",
+        "en": "Mango and coconut trees stood near flowering aśoka and campaka trees."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.9-13"
+      }
+    },
+    {
+      "id": "S01E01-S02-L007",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Open with spacious wonder",
+      "intent": "Reveal the central lake and golden lotuses",
+      "text": {
+        "te": "ఆ తోటలో ఒక పెద్ద సరస్సు ఉండేది. అందులో బంగారు తామరపూలు మెరిసేవి.",
+        "hi": "उसी बगीचे में एक विशाल झील थी, जिसमें सुनहरे कमल चमकते थे।",
+        "en": "In that garden stretched a broad lake, shining with golden lotuses."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.14-19"
+      }
+    },
+    {
+      "id": "S01E01-S02-L008",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft continuation",
+      "intent": "Distinguish other water lilies from golden lotus",
+      "text": {
+        "te": "ఆ తామరల మధ్య ఎన్నో రకాల కలువపూలు వికసించేవి.",
+        "hi": "उन कमलों के बीच कई तरह के जल-फूल खिले थे।",
+        "en": "Other kinds of water lilies bloomed between the lotus leaves."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.14-19"
+      }
+    },
+    {
+      "id": "S01E01-S02-L009",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "A little livelier; preserve a natural pause",
+      "intent": "Introduce bees and water birds without characters speaking",
+      "text": {
+        "te": "పూల చుట్టూ తేనెటీగలు గుయ్యుమనేవి. నీళ్లపై హంసలు, కొంగలు తిరుగుతూ కూసేవి.",
+        "hi": "फूलों के पास भँवरे गुनगुनाते थे। हंस और सारस पानी पर तैरते हुए पुकारते थे।",
+        "en": "Bees hummed near the blossoms; swans and cranes called over the water."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.14-19"
+      }
+    },
+    {
+      "id": "S01E01-S02-L010",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm, observant",
+      "intent": "Describe fish, turtles and moving lotus pollen",
+      "text": {
+        "te": "నీళ్లలో చేపలు, తాబేళ్లు కదులుతుంటే, తామర పుప్పొడి నీటిపై తేలుతూ కదిలేది.",
+        "hi": "नीचे मछलियाँ और कछुए चलते तो कमल का पराग पानी पर धीरे-धीरे हिलता।",
+        "en": "As fish and tortoises moved below, fallen lotus pollen drifted on the water."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.14-19"
+      }
+    },
+    {
+      "id": "S01E01-S02-L011",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm close and ambient pause",
+      "intent": "Hold on the full ring of blooming lakeshore trees",
+      "text": {
+        "te": "సరస్సు చుట్టూ పూలు, పండ్లు ఇచ్చే చెట్లు నిండుగా పెరిగేవి.",
+        "hi": "झील के चारों ओर फूलों और फलों से भरे पेड़ थे।",
+        "en": "Flowering and fruit-bearing trees surrounded the lake on every side."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.14-19"
+      }
     }
   ],
-  "performance_notes": "Eight original narration lines with 1:1 Telugu/Hindi/English meaning and stable IDs. NARRATOR owns every line; offscreen narration has lip_sync_target null. No character or animal vocalization in this scene. Pronunciation and natural language pacing require native-speaker table reads; no voices or recordings are approved.",
-  "timing_note": "Scene 1 is a provisional 60 seconds split into three editorial shots of 18, 18 and 24 seconds. Eight English narration lines have a combined length appropriate for a scenic opening with pauses, but actual durations in Telugu/Hindi/English have not been recorded or measured. Five later scenes (S02–S06) remain unwritten; the 360-second episode target is not a measured runtime."
+  "performance_notes": "Nineteen ordered, original narrator lines: S01 L001–L008 unchanged and S02 L001–L011 new, each with aligned natural Telugu, Hindi and English. All audio_owner values are NARRATOR and all offscreen lip_sync_target values are null. Pronunciation of Ṛtumat, Varuṇa, aśoka and campaka and per-language pacing need native-speaker table-read approval; no voice IDs or recordings are approved.",
+  "timing_note": "Two provisional 60-second scenes currently authored, totaling 120 of the preferred 360 seconds; S01 shot budgets remain 18+18+24 and S02 uses 18+18+24. These are editorial timing budgets, not measured spoken/audio runtimes. S03–S06 and a complete episode remain unwritten, and other episodes remain planned-only."
 }
