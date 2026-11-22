@@ -1,27 +1,25 @@
-# Work checkpoint — GM-NATIVE-011
+# Work checkpoint — GM-NATIVE-012
 
-**Date:** 2026-11-22 · **Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
-**Verified starting HEAD/tree:** `f290c72a0bb2ea71273a896f210c309f27d99572` / `0c63758cafa8defc8f968d5454de481af91f3d3c`  
-**Scope:** establish a tightly scoped Python CI execution gate, or document its execution limitations, without promoting human approvals.
+**Date:** 2026-11-22 · **Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 to `main`  
+**Verified starting HEAD/tree:** `c06f03b59054449a84fb341d03214706f1e40da3` / `37e775aece0b3e5b746f29a0baf4807c9a664348`  
+**Task:** record genuine GitHub Actions execution results for GM-NATIVE-011, **docs-only**. **Next:** GM-NATIVE-013.
 
-## Scoped implementation
+## GitHub Actions evidence independently verified
 
-- Added `.github/workflows/native-review-evidence.yml` with Python 3.10 on GitHub-hosted Ubuntu, `actions/checkout@v4`, `actions/setup-python@v5`, `permissions: contents: read` and no media-generation/casting/write steps.
-- The job runs `python3 -m unittest discover -s tests -v` (includes **21 authored synthetic native-review tests** plus existing source/budget tests), then checks three exact subprocess exit/JSON-status pairs: absent native evidence `2/NOT_REVIEWED` with `approved=false`, scoped S01E01/S06 `0/SCOPED_READY`, and the missing-five-sources season `2/NOT_READY`. These expected nonzero status codes are **not** bypassed; unexpected statuses fail the job.
-- Added `docs/NATIVE_REVIEW_CI_RUNBOOK.md` with triggers, evidence/log acceptance criteria and practical GitHub Actions verification. No workflow files existed in the baseline `0c63758cafa8defc8f968d5454de481af91f3d3c` tree. `actions/runs` returned **0 baseline runs**; direct Actions workflow/permissions endpoints were unsupported by the GitHub fetch interface, so execution availability had not been established at authoring time.
-- No genuine review receipt, voice ID/recording, image, audio, TTS, animation or source edit. All 54 canonical lines, 6 scenes/18 shots/330s preferred E01, native-read packets, previous reconciliations, native-listener checklist, season/voice/asset/tracker flags **unchanged**; human review **NOT REVIEWED / NOT APPROVED**, season **NOT_READY**.
+- [Push run 45062106563](https://github.com/sriharidevstudios-star/gajendra-moksham/actions/runs/45062106563) — event `push`, exact `head_sha=c06f03b59054449a84fb341d03214706f1e40da3`, **completed / success**, job `137330104938` success.
+- [PR run 45062106660](https://github.com/sriharidevstudios-star/gajendra-moksham/actions/runs/45062106660) — event `pull_request`, same exact `head_sha`, **completed / success**, job `137330104680` success. Both first attempts, created 2026-11-22 19:40:41 UTC. Job steps for regression and explicit status checks each completed successfully.
+- Independently retrieved **both full GitHub job logs**, not merely run status: Python **3.10.22**; each showed **`Ran 53 tests ... OK`**, with **24 source/content-model + 21 synthetic native-evidence + 8 runtime-budget tests** all logged `ok`. Push test elapsed 0.207s; PR elapsed 0.584s.
+- Both actual stdout logs confirm default human evidence `NOT_REVIEWED` / `approved=false` / exit **2**, scoped E01/S06 source `SCOPED_READY` / exit **0**, whole season `NOT_READY` / exit **2**, followed by `NO HUMAN APPROVAL inferred`. The expected exit-2 results are *not* test failures or native signoff.
+- **Nonblocking maintenance issue:** the runner warns `actions/checkout@v4` and `actions/setup-python@v5` use deprecated Node.js 20, forced to Node.js 24. Both runs nevertheless passed. Leave the workflow intact; version update is a separate scoped task.
+- Full exact job IDs, run links, timestamps, counts and limitations are appended under **GM-NATIVE-012** in `docs/NATIVE_REVIEW_CI_RUNBOOK.md`.
 
-## Execution honesty
+## File/change scope and readiness
 
-| Gate | Evidence at authoring time |
-|---|---|
-| Source/tree/PR, no prior workflow/CI runs | **CHECKED** through connected GitHub |
-| New YAML + Python expected-status assertions | **AUTHORED; not the same as a CI run** |
-| Unit suite + native evidence validator + scoped/whole-season validator | **UNRUN until GitHub Actions run and logs are actually observed** |
-| Genuine reviewer/casting/media signoff | **NOT PERFORMED** |
-| Guarded non-force push, exact paths/Git blobs/open draft PR | Verify after commit |
-| GitHub Actions run IDs/logs | Must be independently checked after push; do not infer success from a committed YAML file |
+- Changed **only** `docs/NATIVE_REVIEW_CI_RUNBOOK.md`, `docs/WORK_CHECKPOINT.md`, `docs/NEXT_CHAT_PROMPT.md`; GitHub workflow, Python code/tests, S01E01 canonical source and six prepared native-read packets **unchanged**.
+- **CI PASS only at commit `c06f03b59054449a84fb341d03214706f1e40da3`** on the two run IDs above; this docs-only evidence commit does not automatically inherit an executed CI conclusion. Do not fabricate a new run.
+- Human native Telugu/Hindi/English/scripture review **NOT REVIEWED / NOT APPROVED**. No reviewer identity, timings, source signoff, voice casting, recordings or media. S01E01 `partial_scene_draft`, E02–E06 sources missing, whole season **NOT_READY**, production approvals false.
+- This batch did **not** execute a local Python runner or trigger media generation; validation evidence came from real successful GitHub Actions jobs and logs. Remote guarded non-force commit, exact three paths and per-file Git blobs to be verified after push.
 
-## Next bounded task
+## Next single bounded batch
 
-**GM-NATIVE-012** — inspect GitHub workflow run status, actual test steps/logs and exact `head_sha` for GM-NATIVE-011. If no run is visible or Actions cannot execute, document the specific blocker honestly; if a run failed, triage only the evidence-backed cause. No production or native approval changes. Full prompt in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-NATIVE-013 — CI action-runtime compatibility maintenance.** Verify authoritative currently supported GitHub `checkout` and `setup-python` action major versions for Node.js 24, narrowly upgrade only when supported, require real post-update CI logs before calling it passed, and preserve all human/production nonapproval status. Exact scope in `docs/NEXT_CHAT_PROMPT.md`.

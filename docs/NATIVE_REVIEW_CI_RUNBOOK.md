@@ -42,3 +42,37 @@ For another authorized checkout the commands above may be run manually, but do n
 - No images, TTS, audio, video, motion or actual reviewer receipts have been generated or approved in this batch.
 
 **Next candidate bounded task:** GM-NATIVE-012 — verify an actual GitHub Actions run/steps/logs for the new workflow and triage any observed failure only; do not automatically advance human-review or production readiness.
+
+## GM-NATIVE-012 — verified execution evidence (2026-11-22)
+
+**Evidence source:** independently re-read GitHub's repository Actions run list, both completed job/step summaries, and the **full remote job logs** for the **same exact workflow/source commit `c06f03b59054449a84fb341d03214706f1e40da3`**. These are real executed results, unlike the pre-run predictions in the original sections above. **Draft PR #1 remains open**. No workflow or code was edited in this documentation batch.
+
+| GitHub Actions run | Trigger | Job ID / job name | Workflow `head_sha` | Final run and job conclusion |
+|---|---|---|---|---|
+| [45062106563](https://github.com/sriharidevstudios-star/gajendra-moksham/actions/runs/45062106563) | `push` | `137330104938` — Python 3.10 synthetic and source gates | `c06f03b59054449a84fb341d03214706f1e40da3` | **completed / success** |
+| [45062106660](https://github.com/sriharidevstudios-star/gajendra-moksham/actions/runs/45062106660) | `pull_request` | `137330104680` — Python 3.10 synthetic and source gates | `c06f03b59054449a84fb341d03214706f1e40da3` | **completed / success** |
+
+**Run metadata:** Both are first attempts (`run_attempt=1`), created **2026-11-22 19:40:41 UTC**. Push run completed by **19:40:54 UTC**; PR run completed by **19:40:57 UTC**. GitHub recorded successful checkout, setup-python, regression and explicit-status assertion steps in both jobs. Python environment log includes **Python 3.10.22**.
+
+### Actual test output and exact expected status pairs
+
+| Observed evidence (both job logs) | Push run | PR run |
+|---|---|---|
+| `python3 -m unittest discover -s tests -v` | **53/53 tests, OK**, 0.207 seconds | **53/53 tests, OK**, 0.584 seconds |
+| `test_content_model` source tests | **24/24** logged `ok` | **24/24** logged `ok` |
+| `test_native_review_evidence` synthetic tests | **21/21** logged `ok` | **21/21** logged `ok` |
+| `test_runtime_budget` tests | **8/8** logged `ok` | **8/8** logged `ok` |
+| `scripts/validate_native_review_evidence.py` | JSON `NOT_REVIEWED`, `approved=false`, exit **2** | Same, exit **2** |
+| Scoped `S01E01/S06` content validator | JSON `SCOPED_READY`, exit **0** | Same, exit **0** |
+| Whole-season content validator | JSON `NOT_READY`, exit **2** | Same, exit **2** |
+| Explicit assertion-step conclusion | **success**, `NO HUMAN APPROVAL inferred` | **success**, `NO HUMAN APPROVAL inferred` |
+
+**Independent log verification:** Both full logs include actual `Ran 53 tests ... OK` output and all three **`CONFIRMED:`** lines with the exact expected exit/status pairs. The validator's JSON includes `approved: false` and no recorded reviewer roles. The exit code **2** is expected for missing real human-review receipts and an unfinished season; the workflow deliberately verifies these conditions rather than treating them as a full episode or season-ready signoff.
+
+**Verified nonblocking runner warning, not a failed gate:** Both logs report **“Node.js 20 is deprecated”**; the runner forces `actions/checkout@v4` and `actions/setup-python@v5` to Node.js 24. The warning did **not** fail either run. A separately scoped, source-verified action-version maintenance task is appropriate; GM-NATIVE-012 does not change working CI based on warning text alone.
+
+**What this proves:** The Python tests and three explicit source/evidence checks **executed and passed for commit `c06f03b59054449a84fb341d03214706f1e40da3`**, on two real jobs with run IDs and logs. The results must **not** be automatically generalized to a later commit, a new workflow version, a human-read performance, a reviewed translation, an approved narrator, artwork, motion, a finished episode, or publication.
+
+**Current production truth (unchanged):** S01E01 `partial_scene_draft` contains **54 lines, six scenes, 18 shots, 330s preferred editorial budget**. E02–E06 canonical sources are missing; season status `partial_first_episode_draft_five_sources_missing`. Native te/hi/en and devotional sessions remain **NOT REVIEWED / NOT APPROVED**; narrator candidates absent; audio, keyframes, motion, video and media master **MISSING**; all relevant production tracker approval fields remain false. A green CI source check is not human or media approval.
+
+**Document-only commit caveat:** Adding this evidence section to the runbook, checkpoint and next prompt does **not** alter the passing workflow, tests or source files. The configured path filters do not by themselves require a new Actions run for these three documentation-only changes. The two success runs above refer strictly to `c06f03b59054449a84fb341d03214706f1e40da3` and should be cited with that SHA, not silently assigned to this later evidence-recording commit.
