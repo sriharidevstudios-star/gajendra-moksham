@@ -1,43 +1,42 @@
-# Work checkpoint — GM-NATIVE-007
+# Work checkpoint — GM-NATIVE-008
 
-**Date:** 2026-11-22 · **Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1  
-**Verified starting source:** HEAD `58d0560dd5eda8023874c093c6b7983492354c33`, tree `e903827d26cde794bad5a595d60c86dec15b1c04`, canonical blob `885da53d89900aed431b541654971f997054b91d`  
-**Task:** docs-only six-scene native-read packet reconciliation. **Next: GM-NATIVE-008**.
+**Date:** 2026-11-22 · **Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
+**Verified starting commit/tree:** `0b534946ed959c209a938a6334eb495a16bb1f53` / `e09dc330f2a09af66f30973ee146c1dae748c619`  
+**Scope:** one docs-only human native-review **handoff and evidence-acceptance preparation**; next **GM-NATIVE-009**.
 
-## Completed bounded audit
+## Completed
 
-- Added `docs/S01E01_NATIVE_READ_RECONCILIATION.md` based on **actual current canonical JSON and all six exact GitHub packet files**: **54/54** stable unique narration IDs, **162/162** exact te/hi/en strings, **54/54** existing `delivery` cues, **54/54** correct source locators/URLs or original-attribution disclosures, and **four complete original notes** all match. All rows remain `NARRATOR`, `narration`, `lip_sync_target=null`.
-- All **18 existing shot IDs** and source-described line groups match packet sections; **60+60+60+60+30+60=330s** provisional, **not** measured audio. All six packets cite the same current canonical source blob `885da53d89900aed431b541654971f997054b91d`. Each packet's preparation commit SHA differs but is not a stale source blob.
-- Reviewer evidence remains blank: **18** te/hi/en session rows, **6** devotional/source session rows, **54** per-line timing/correction rows and **18** per-shot timing rows. Every decision **NOT REVIEWED / NOT APPROVED**. **No human has read, listened, timed or approved** these packets.
-- **No substantive source/translation, shot, delivery or acceptance-field discrepancy** detected. S01 uses the alternate header `Delivery cue (existing source)`, while S02–S06 use `Existing canonical delivery cue`; all actual values are exact and no unnecessary edit was made.
-- Recorded pending genuine **human** review issues: S03/L009 Telugu bee phonetics, S04/L006 post-drinking water sequence, S04/L011 family-care/māyā, S05/L001 repetition, and S06/L008 continuation into E02's failed rescue; preserve all six packets/canonical sources.
-- Inspected complete nontruncated live tree `e903827d26cde794bad5a595d60c86dec15b1c04`, **45 blobs, no image/audio/video media**; asset registry empty, narrator cast te/hi/en not approved, production tracker media empty and approvals false. E01 `partial_scene_draft`, E02–E06 sources missing, root `partial_first_episode_draft_five_sources_missing`, season **NOT_READY**.
-- Allowed changes confined to new reconciliation and two handoff documents. **No canonical text, previous read packet, native checklist, coverage maps, asset/cast/tracker, tests, schema or media changed.**
+- Created `docs/S01E01_HUMAN_REVIEW_HANDOFF.md` with ordered, individually linked S01E01/S01–S06 read packets and their exact Git blobs. Reverified canonical `seasons/season-01/episodes/s01e01-the-lake-at-trikuta/episode.json` blob **`885da53d89900aed431b541654971f997054b91d`** against **54 canonical lines, 162 exact te/hi/en texts, 54 delivery cues**, all line/shot owners and **18 editorial shots / 330s provisional**, across six source-locked packets.
+- Documented **six ordered scene counts: 8/11/11/11/4/9 lines**, provisional **60/60/60/60/30/60s**, all 18 shot boundaries, and differentiated the current source Git SHA from blank human-confirmed source SHA fields. No actual reading or time measurement.
+- Recorded required reviewer **roles only**: native te, native hi, natural en narration, qualified devotional/source, timing/continuity and distinct casting/audio/visual/rights reviewers. No person was named, assigned, contacted or scheduled, and no fictitious reviewer evidence was supplied.
+- Included blank evidence intake and acceptance rubric (name, review date, SHA checked by reviewer, line/shot language timings, source/meaning corrections, explicit version-locked decisions) and prioritized unresolved issue docket: S03/L009 Telugu bee diction, S04/L006 post-drinking self-splash order, S04/L011 attachment/māyā nuance, S05/L001 family-care repetition, S06/L008 deferred E02 failed rescue.
+- Rechecked six prepared packet states: **18 blank te/hi/en language sessions, six blank source/devotional sessions, 54 blank per-line duration/correction rows and 18 blank per-shot rows**, all **NOT REVIEWED / NOT APPROVED**. Native checklist remains entirely unchecked. No recorded audio, approved voices, art, motion, or masters; nontruncated tree had **46 blobs, no tracked media**.
+- Preserved all 54 canon source rows, 6 scenes, 18 shots, preferred 330s, all six read packets, reconciliation and coverage maps, root `partial_first_episode_draft_five_sources_missing`, E01 `partial_scene_draft`, five missing sources, `canonical_story_written=false`, and every media/approval record.
+- **No human performed the read**; no scheduling/notification, named reviewer, audition, TTS, image, audio, video/motion generation or source edit. Season remains **NOT_READY**.
 
 ## Validation
 
-| Gate | Outcome |
+| Check | Outcome |
 |---|---|
-| In-process six-scene exact ID/text/delivery/source/shot/budget audit | **PASS** — 54 IDs, 162 strings, 54 cues/attributions, 18 shots, 330 provisional seconds |
-| Review fields and approvals | **CHECKED** — all blank or NOT REVIEWED/NOT APPROVED |
-| GitHub remote tree/asset/cast/tracker evidence | **CHECKED**, no delivered media |
-| `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector cannot execute repository Python |
-| `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN** — no executed SCOPED_READY |
-| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06` and `--check` | **UNRUN** — no exports made |
-| Whole-season `python3 scripts/validate_content.py` | **UNRUN**, expected NOT_READY |
-| Human reading/source review, voice and media approvals | **NOT PERFORMED** |
-| Guarded non-force push, remote exact three paths/blobs/draft PR | Verify after commit |
+| Exact current source SHA and six packet blobs; 54/162/18/330 coverage | **PASS (in-process)** |
+| All human evidence blanks, roles not assigned; version/readiness differentiation | **PASS (in-process)** — no approvals |
+| Cast, tracker, asset registry and live tree | **CHECKED** — 0 media, 0 approved voices |
+| `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector cannot execute checked-in Python |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**, no executed SCOPED_READY |
+| Text-only builder and `--check` | **UNRUN**, no exports generated |
+| Whole-season Python validator | **UNRUN**, expected NOT_READY |
+| Human native/devotional performance and approval | **NOT PERFORMED** |
+| Non-force commit/push + exact three paths/blob SHA/draft PR | Verify after push |
 
-### Commands for an executable repository
-
+### Local Python commands if executed against a genuine checkout
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/validate_content.py --episode S01E01 --scene S06
 python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
 python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
-python3 scripts/validate_content.py  # expected NOT_READY; not run here
+python3 scripts/validate_content.py  # expected NOT_READY
 ```
 
-## Next
+## Next bounded task
 
-**GM-NATIVE-008** — a single docs-only human reviewer handoff/read-order plus acceptance evidence checklist for S01E01, with all six packets and unresolved issue docket. No contacting/scheduling a reviewer or claiming human signoff; exact scope in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-NATIVE-009:** conservative read-only human-review evidence intake validation with focused synthetic regression tests; ensure absent receipts mean NOT_REVIEWED without setting voice, script, media, native or devotional approval flags. Full instructions in `docs/NEXT_CHAT_PROMPT.md`.
