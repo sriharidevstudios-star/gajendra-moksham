@@ -1,41 +1,42 @@
-# Work checkpoint — GM-NATIVE-001
+# Work checkpoint — GM-NATIVE-002
 
 **Date:** 2026-11-22  
-**Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · open draft PR #1 targeting `main`  
-**Verified starting head:** `32c9f8ce00273e446a9ef480cf74ef8c88fdf7ce` · tree `2f901e2810f636f8f92952c38680b074c57db72a`  
-**Scope:** prepare S01E01/S01's trilingual **human table-read packet only**, next GM-NATIVE-002.
+**Repository:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1 to `main`  
+**Verified starting remote head:** `5db1ad51ecf326b2c33ee02ad7c382aa59c7f2df` · Git tree `abc0121d4dbf6be9f0cee4aabea7f450d529e447`  
+**Bounded batch:** S01E01/S02 **trilingual human narration read-packet preparation only**. **Next:** GM-NATIVE-003.
 
-## Delivered within bounds
+## Completed, without executing human review
 
-- Created `docs/S01E01_S01_NATIVE_READ_PACKET.md` with **exactly eight canonical** S01 narration IDs `S01E01-S01-L001–L008`. The packet copies their **eight exact te / eight exact hi / eight exact en spoken strings**, preserves source verse locators (8.2.1 / 8.2.2–3 / 8.2.4) and canonical delivery cues, and does not change any script words.
-- Explicit S01 shot-to-line grouping: `S01E01-S01-SH01` L001–L002 **18s**, `SH02` L003–L004 **18s**, `SH03` L005–L008 **24s**; total **60 seconds provisional**. The packet includes future human line/shot duration blanks, blank reviewer/date/source-SHA/correction fields, devotional/source/translation checks, and the original ocean/waterfall/wind ambience planning constraints.
-- Provisional pronunciation notes address **Śukadeva/Śuka Maharṣi**, **Trikūṭa**, **Ocean of Milk/Kṣīrasāgara**, and gold/silver/iron peaks. They are **instructions for eventual human verification, not approved pronunciations**.
-- All session/line/shot review states **NOT REVIEWED / NOT APPROVED**; no named reviewer, human listening, recorded voice, timing measurement, audio/TTS, image, video, motion or asset/rights acceptance occurred.
-- **Unchanged** live `episode.json` (Git blob `885da53d89900aed431b541654971f997054b91d`), all six scenes/54 lines/18 shots/330s preferred E01; root season status `partial_first_episode_draft_five_sources_missing`; `production_tracker.json.canonical_story_written=false`, te/hi/en NARRATOR voice approval false; native-listener checklist, source register, older six coverage maps and all assets. Overall **NOT_READY**.
+- Created `docs/S01E01_S02_NATIVE_READ_PACKET.md`, including **all 11 exact canonical S02 narrator IDs**, **11 Telugu + 11 Hindi + 11 English spoken strings**, unchanged punctuation and `delivery` cues, and scripture locator/URL per line: 8.2.7, 8.2.8, 8.2.9–13 and 8.2.14–19. Each line is `scripture_paraphrase`, `speaker=audio_owner=NARRATOR`, `narration`, `lip_sync_target=null`.
+- Confirmed existing shot ownership and budgets: `L001–L003 → S01E01-S02-SH01` **18s**, `L004–L006 → SH02` **18s**, `L007–L011 → SH03` **24s**; **60s scene budget only**, not measured speech.
+- Included blank te/hi/en reviewer name, date, personally checked source SHA, line/shot durations, correction notes and separate devotional verification; all states **NOT REVIEWED / NOT APPROVED**. Particularly flagged SH03's **five lines in 24s** for eventual native timed reading.
+- Provisional pronunciation/meaning notes include Trikūṭa/Ṛtumat/Varuṇa, genuine tiny gems, mango/coconut and flowering aśoka/campaka, golden lotus vs other water lilies, bee/swans/cranes distinctions, fish/tortoises agitating pollen-bearing water and continuous *freshwater* lake vs S01's Ocean of Milk. S02/SH01's genuine gem fix is preserved.
+- Canonical source `seasons/season-01/episodes/s01e01-the-lake-at-trikuta/episode.json` blob `885da53d89900aed431b541654971f997054b91d`, S01 read packet, older coverage maps, native-listener checklist, asset/voice/tracker flags, 54 dialogue IDs, 6 scenes, 18 shot IDs and E01 **330s preferred** were left **UNCHANGED**. Season `partial_first_episode_draft_five_sources_missing`; tracker story written remains false/ambiguous, approvals false, E02–E06 sources missing.
+- **No human listened, timed, reviewed, pronounced or approved anything. No voice, TTS, recordings, image/audio/video/motion or exported scripts produced.** Overall season **NOT_READY**.
 
-## Checks and limits
+## Checks and honest limits
 
 | Gate | Result |
 |---|---|
-| In-process exact 8 stable S01 IDs, 24 canonical spoken strings, three real shots, source URLs/ownership | **PASS** |
-| 18 + 18 + 24 = 60 S01 budget and 330-second episode budget | **PASS** |
-| No claimed human review, recording, pronunciation acceptance, missing media approval | **CHECKED / PRESERVED** |
-| `python3 -m unittest discover -s tests -v` | **UNRUN** — connected GitHub cannot execute checked-in repository Python |
-| `python3 scripts/validate_content.py --episode S01E01 --scene S01` | **UNRUN**, no executed SCOPED_READY claimed |
-| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S01` / `--check` | **UNRUN**, no exports built |
+| In-process 11 canonical S02 IDs, 33 source strings, source URLs, 3 real shot IDs/ownership | **PASS** |
+| 18+18+24 = 60 seconds; episode preferred 330s, 54 lines unchanged | **PASS** |
+| Native language/reviewer/timing or voice acceptance | **NOT PERFORMED / NOT APPROVED** |
+| `python3 -m unittest discover -s tests -v` | **UNRUN** — connected GitHub cannot execute repository Python |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S02` | **UNRUN** — no executed SCOPED_READY claim |
+| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02` and `--check` | **UNRUN** — no exports |
 | Whole-season `python3 scripts/validate_content.py` | **UNRUN**, expected NOT_READY due five missing episode sources |
-| Guarded non-force commit, remote head, exact three paths and Git blob identities | Verify after push |
+| GitHub guarded non-force push, exact three docs and blob hashes | Verify post-push |
 
-### Commands to run in an executable repository
+### Commands where executable Python repository is available
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S01
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S01
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S01 --check
+python3 scripts/validate_content.py --episode S01E01 --scene S02
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02 --check
 python3 scripts/validate_content.py  # expected NOT_READY / exit 2
 ```
 
-## Next
+## Next task
 
-**GM-NATIVE-002:** one **S01E01/S02-only** trilingual narrator table-read packet with 11 source IDs, 3 shot budgets and unfilled human signoffs. Exact next instructions in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-NATIVE-003:** prepare S01E01/S03's 11-line native narrator table-read packet only, unreviewed and unapproved. Exact scope in `docs/NEXT_CHAT_PROMPT.md`.
