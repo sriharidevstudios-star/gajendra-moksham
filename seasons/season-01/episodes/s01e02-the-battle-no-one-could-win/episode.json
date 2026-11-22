@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 2; original trilingual paraphrase, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.27–33",
-    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04. S03: SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression. S04: The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events."
+    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04. S03: SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression. S04: The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events. S05: Only after the thousand-year scene, Gajendra loses physical, mental and sensory strength while the water-dwelling crocodile becomes stronger (SB 8.2.30). The first recognition and reflection of 8.2.31 leads to S06."
   },
   "adaptation": {
     "core_preserved": [
@@ -29,7 +29,8 @@
       "The unsuccessful rescue leaves Gajendra still trapped before the long struggle (8.2.28–29).",
       "Gajendra exerts strength to escape his caught foot (8.2.27), and the elephant and crocodile pull against one another toward and away from the water (8.2.29).",
       "SB 8.2.30 establishes the crocodile's water habitat. This short scene introduces only that fact; no years or physical power shift is narrated until the canonical S04/S05 progression.",
-      "The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events."
+      "The thousand-year duration and startled devas are both explicitly stated in SB 8.2.29. Time montage is cinematic original, not invented historical events.",
+      "Only after the thousand-year scene, Gajendra loses physical, mental and sensory strength while the water-dwelling crocodile becomes stronger (SB 8.2.30). The first recognition and reflection of 8.2.31 leads to S06."
     ],
     "changes": [
       "Continue directly from E01/S06; no second new attack.",
@@ -258,6 +259,53 @@
           "action": "Enduring contest beneath distant observers; devas' astonishment noted without new named performers; narration L007–L009.",
           "camera": "16:9 shore-facing wide with future celestial silhouettes only once separately designed/approved; no change to Gajendra and crocodile identity.",
           "sound": "PLANNED natural water/animal/ambience only, offscreen NARRATOR sole spoken owner; no media generated."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Strength ebbs and concern grows",
+      "setting": "The same lotus lake after SB 8.2.29's explicit one-thousand-year struggle: the elephant remains caught on the editorial left foreleg and the crocodile remains in its own lake, with no new attack or altered creature identity.",
+      "action": "Describe the exact long-term asymmetry in SB 8.2.30: Gajendra loses mental/physical strength in water while the aquatic crocodile gains strength. Lead carefully into his recognition of mortal danger (8.2.31), not to a fabricated divine punishment.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Allow the posture of Gajendra to look tired after the thousand years, without changing his essential approved face, tusks, four-leg anatomy or decorative identity.",
+        "The crocodile's aquatic confidence increases in the scripture, but do not invent extra predators, new teeth, gore, or magical form changes.",
+        "Show same left-foreleg grip, shoreline direction and water level throughout; maintain safe family-oriented storytelling.",
+        "Gajendra's fatigue includes mental energy, not grotesque emaciation. Natural subdued sound and slower camera beats are future SFX/film design.",
+        "End in reflective worry, and save the decision to seek the Supreme Lord for S06."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.30",
+          "url": "https://vedabase.io/en/library/sb/8/2/30/"
+        },
+        {
+          "locator": "8.2.31",
+          "url": "https://vedabase.io/en/library/sb/8/2/31/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E02-S05-SH01",
+          "budget_seconds": 20,
+          "action": "After long montage Gajendra's posture and effort noticeably tire; narration L001–L003.",
+          "camera": "16:9 full-body three-quarter of approved Gajendra, consistent tusks, trunk and jewelry; no severe injury.",
+          "sound": "Future ambient lake and animal SFX only; NARRATOR is the only spoken owner; no recording/voice is present."
+        },
+        {
+          "id": "S01E02-S05-SH02",
+          "budget_seconds": 20,
+          "action": "Crocodile remains efficient in its home water as the balance shifts; narration L004–L006.",
+          "camera": "16:9 clear lake depth and held left foreleg, same crocodile scales/jaw/tail, no horror closeup.",
+          "sound": "Future ambient lake and animal SFX only; NARRATOR is the only spoken owner; no recording/voice is present."
+        },
+        {
+          "id": "S01E02-S05-SH03",
+          "budget_seconds": 20,
+          "action": "Gajendra recognizes danger and begins sustained thought, without speaking like a human; narration L007–L009.",
+          "camera": "16:9 stable dignified face/trunk reaction then wide lake hold; no animal lip-sync.",
+          "sound": "Future ambient lake and animal SFX only; NARRATOR is the only spoken owner; no recording/voice is present."
         }
       ]
     }
@@ -927,8 +975,179 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.29"
       }
+    },
+    {
+      "id": "S01E02-S05-L001",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle reflective clarity",
+      "intent": "Narrate precisely: Through the long struggle, Gajendra began to lose strength.",
+      "text": {
+        "te": "ఈ సుదీర్ఘ పోరాటంలో గజేంద్రుడి బలం తగ్గసాగింది.",
+        "hi": "लंबे संघर्ष में गजेन्द्र की ताकत कम होने लगी।",
+        "en": "Through the long struggle, Gajendra began to lose strength."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S05-L002",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured, child-safe empathy",
+      "intent": "Narrate precisely: His great body was no longer as strong as before.",
+      "text": {
+        "te": "అతని శరీరం మునుపటిలా బలంగా లేదు.",
+        "hi": "उसका शरीर पहले जितना शक्तिशाली नहीं रहा।",
+        "en": "His great body was no longer as strong as before."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S05-L003",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural continuation; breathe at punctuation",
+      "intent": "Narrate precisely: Even his energy and spirit began to fade.",
+      "text": {
+        "te": "అతని ఉత్సాహం కూడా మెల్లగా తగ్గింది.",
+        "hi": "उसका उत्साह भी धीरे-धीरे कम हो गया।",
+        "en": "Even his energy and spirit began to fade."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S05-L004",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle reflective clarity",
+      "intent": "Narrate precisely: The crocodile stayed in its own watery home.",
+      "text": {
+        "te": "మొసలి మాత్రం తనకు అలవాటైన నీళ్లలోనే ఉంది.",
+        "hi": "लेकिन मगरमच्छ पानी में ही बना रहा, जो उसका अपना घर था।",
+        "en": "The crocodile stayed in its own watery home."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S05-L005",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured, child-safe empathy",
+      "intent": "Narrate precisely: In the water, the crocodile grew stronger.",
+      "text": {
+        "te": "నీళ్లలో ఉండడంతో దాని బలం పెరుగుతూ వచ్చింది.",
+        "hi": "पानी में रहने से उसकी ताकत बढ़ती गई।",
+        "en": "In the water, the crocodile grew stronger."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.30"
+      }
+    },
+    {
+      "id": "S01E02-S05-L006",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural continuation; breathe at punctuation",
+      "intent": "Narrate precisely: However hard Gajendra tried, he could not free his leg.",
+      "text": {
+        "te": "గజేంద్రుడు ఎంత ప్రయత్నించినా కాలును విడిపించుకోలేకపోయాడు.",
+        "hi": "गजेन्द्र कितनी भी कोशिश करता, अपना पैर छुड़ा नहीं पाता।",
+        "en": "However hard Gajendra tried, he could not free his leg."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.31"
+      }
+    },
+    {
+      "id": "S01E02-S05-L007",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle reflective clarity",
+      "intent": "Narrate precisely: He knew his life was in danger.",
+      "text": {
+        "te": "తన ప్రాణం ప్రమాదంలో ఉందని అతనికి తెలిసింది.",
+        "hi": "उसे समझ आ गया कि उसका जीवन संकट में था।",
+        "en": "He knew his life was in danger."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.31"
+      }
+    },
+    {
+      "id": "S01E02-S05-L008",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured, child-safe empathy",
+      "intent": "Narrate precisely: Though afraid, Gajendra began to think.",
+      "text": {
+        "te": "భయం వేసినా, గజేంద్రుడు ఆలోచించడం మొదలుపెట్టాడు.",
+        "hi": "डर लगने पर भी गजेन्द्र सोचने लगा।",
+        "en": "Though afraid, Gajendra began to think."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.31"
+      }
+    },
+    {
+      "id": "S01E02-S05-L009",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural continuation; breathe at punctuation",
+      "intent": "Narrate precisely: He thought deeply about what to do in this danger.",
+      "text": {
+        "te": "ఈ కష్టంలో ఏమి చేయాలో అతను చాలా సేపు ఆలోచించాడు.",
+        "hi": "इस कठिन समय में क्या करना चाहिए, वह बहुत देर तक सोचता रहा।",
+        "en": "He thought deeply about what to do in this danger."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.31"
+      }
     }
   ],
-  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals. S03 adds 8 aligned narration lines (te/hi/en), no animal spoken mouth movement. S04 adds 9 aligned narration lines (te/hi/en), no animal spoken mouth movement.",
-  "timing_note": "E02 4/6 scenes authored, 210/330 provisional seconds, 35 aligned trilingual lines. All future media and human review pending; partial_scene_draft."
+  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals. S03 adds 8 aligned narration lines (te/hi/en), no animal spoken mouth movement. S04 adds 9 aligned narration lines (te/hi/en), no animal spoken mouth movement. S05 adds 9 te/hi/en narrator rows; no live human/animal lip-sync or recorded voice.",
+  "timing_note": "Five of six scenes authored; 270/330 provisional seconds and 44 lines, S06 still missing. Status partial_scene_draft, no measured runtime."
 }
