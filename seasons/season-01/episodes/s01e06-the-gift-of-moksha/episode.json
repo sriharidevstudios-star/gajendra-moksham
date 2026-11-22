@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4; originally worded contemporary Telugu/Hindi/English child-friendly narration, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.1–2,5–6,13–26",
-    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture. S04 source SB 8.4.16, 8.4.17-24, 8.4.25; The Lord's blessings and remembrance; specific gestures/camera notes attributed original."
+    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture. S04 source SB 8.4.16, 8.4.17-24, 8.4.25; The Lord's blessings and remembrance; specific gestures/camera notes attributed original. S05 source SB 8.4.26, 8.4.1, 8.4.2; The Pāñcajanya conch; specific gestures/camera notes attributed original."
   },
   "adaptation": {
     "core_preserved": [
@@ -40,7 +40,8 @@
       "S01: title Flowers and songs of praise; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
       "S02: title Hūhū's gratitude and departure; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
       "S03: title Gajendra's spiritual transformation; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
-      "S04: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval."
+      "S04: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval.",
+      "S05: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval."
     ],
     "fidelity_note": "Original trilingual paraphrase retains mercy, freedom from ignorance, sārūpya-mukti, morning remembrance and departure order. Chronology of divine touch is not rewritten by the editorial flashback/reveal sequence."
   },
@@ -286,6 +287,57 @@
           "id": "S01E06-S04-SH03",
           "budget_seconds": 18,
           "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer. Narration L007–L008. Trikūṭa with gold/silver/iron peaks and lotus lake already established in E01 can be returned to through a quick gentle visual memory, not a new location.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "The Pāñcajanya conch",
+      "setting": "After the Lord's blessings, Narayana at the lake with liberated Gajendra, nearby Garuda, and distant joyful devas; His approved conch is named Panchajanya. The user-approved divine look remains exact.",
+      "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "The conch blow is explicitly in scripture 8.4.26, AFTER the Lord's blessing and BEFORE remounting Garuda.",
+        "Narayana needs exactly four arms and the Pāñcajanya conch in the correct approved hand, without duplicated weapons. The approved portrait should be used as identity anchor.",
+        "The listening devas' happiness is scripture; musical waveform, sound design and animated air/flower swirls are original staging and remain unproduced.",
+        "Do not insert a Sanskrit mantra into the conch sound or pretend there is a licensed/contributed recorded conch track.",
+        "End with Garuda calmly waiting for the Lord's remount; don't start the return journey until S06."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.26",
+          "url": "https://vedabase.io/en/library/sb/8/4/26/"
+        },
+        {
+          "locator": "8.4.1",
+          "url": "https://vedabase.io/en/library/sb/8/4/1/"
+        },
+        {
+          "locator": "8.4.2",
+          "url": "https://vedabase.io/en/library/sb/8/4/2/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S05-SH01",
+          "budget_seconds": 18,
+          "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files. Narration L001–L003. The conch blow is explicitly in scripture 8.4.26, AFTER the Lord's blessing and BEFORE remounting Garuda.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S05-SH02",
+          "budget_seconds": 19,
+          "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files. Narration L004–L006. Narayana needs exactly four arms and the Pāñcajanya conch in the correct approved hand, without duplicated weapons. The approved portrait should be used as identity anchor.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S05-SH03",
+          "budget_seconds": 18,
+          "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files. Narration L007–L008. The listening devas' happiness is scripture; musical waveform, sound design and animated air/flower swirls are original staging and remain unproduced.",
           "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
           "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
         }
@@ -900,8 +952,160 @@
         "kind": "original_dramatization",
         "note": "Original natural reaction for the already scripted Lord-given blessings in 8.4.16–25; the numbered verses do not require a separate visible gesture or line by Gajendra."
       }
+    },
+    {
+      "id": "S01E06-S05-L001",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "After the blessings, Hari lifted His conch.",
+      "text": {
+        "te": "ఆశీర్వాదాలు ఇచ్చిన తరువాత హరి తన శంఖాన్ని తీసుకున్నాడు.",
+        "hi": "आशीर्वाद देकर हरि ने अपना शंख उठाया।",
+        "en": "After the blessings, Hari lifted His conch."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L002",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "That conch was called Panchajanya.",
+      "text": {
+        "te": "ఆ శంఖం పేరు పాంచజన్యం.",
+        "hi": "उस शंख का नाम पाञ्चजन्य था।",
+        "en": "That conch was called Panchajanya."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L003",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "Narayana sounded Panchajanya.",
+      "text": {
+        "te": "నారాయణుడు పాంచజన్యాన్ని ఊదాడు.",
+        "hi": "नारायण ने पाञ्चजन्य शंख बजाया।",
+        "en": "Narayana sounded Panchajanya."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L004",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The divine sound delighted the devas.",
+      "text": {
+        "te": "దాని దివ్య నాదంతో దేవతలు సంతోషించారు.",
+        "hi": "उस दिव्य ध्वनि से देवता प्रसन्न हुए।",
+        "en": "The divine sound delighted the devas."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L005",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Those gathered praised the Lord's rescue once more.",
+      "text": {
+        "te": "అక్కడ ఉన్నవారు భగవంతుని కార్యాన్ని మరోసారి స్తుతించారు.",
+        "hi": "वहाँ उपस्थित सबने भगवान के कार्य की फिर स्तुति की।",
+        "en": "Those gathered praised the Lord's rescue once more."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S05-L006",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "The celebration of flowers and praise filled the scene.",
+      "text": {
+        "te": "పూల వర్షం, స్తుతుల ఆనందం ఇంకా ఆ ప్రదేశంలో కనిపించింది.",
+        "hi": "फूलों और स्तुति का उत्सव उस स्थान पर जारी था।",
+        "en": "The celebration of flowers and praise filled the scene."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S05-L007",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "Garuda gently opened his wings.",
+      "text": {
+        "te": "గరుడుడు తన రెక్కలను నెమ్మదిగా విప్పాడు.",
+        "hi": "गरुड़ ने धीरे से अपने पंख फैलाए।",
+        "en": "Garuda gently opened his wings."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original natural wing-opening anticipation before the scripture's remount (8.4.26), not a separately asserted verse event or audio recording."
+      }
+    },
+    {
+      "id": "S01E06-S05-L008",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "The Lord was ready to mount Garuda again.",
+      "text": {
+        "te": "ఇప్పుడు భగవంతుడు గరుడుడిపై తిరిగి ఎక్కబోతున్నాడు.",
+        "hi": "अब भगवान फिर गरुड़ पर चढ़ने वाले थे।",
+        "en": "The Lord was ready to mount Garuda again."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
     }
   ],
-  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S04: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio.",
-  "timing_note": "E06 4/6 scenes authored and 220/330 unmeasured seconds, 32 lines, S06 not complete yet, partial_scene_draft."
+  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S04: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio. S05: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio.",
+  "timing_note": "E06 5/6 scenes authored and 275/330 unmeasured seconds, 40 lines, S06 not complete yet, partial_scene_draft."
 }
