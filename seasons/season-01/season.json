@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "season_id": "S01",
+  "series_title": {
+    "en": "Gajendra Moksham",
+    "te": "గజేంద్ర మోక్షం",
+    "hi": "गजेन्द्र मोक्ष"
+  },
+  "working_subtitle": "The Elephant King's Deliverance",
+  "studio": "Sri Hari Dev Studio",
+  "recommended_channel": "Gita Nagari (editorial suggestion; not configured)",
+  "language_order": [
+    "te",
+    "hi",
+    "en"
+  ],
+  "target_runtime_seconds": {
+    "min": 330,
+    "preferred": 360,
+    "max": 390
+  },
+  "status": "six_episode_sources_five_full_drafts_e01_partial_all_media_unapproved",
+  "source": "Srimad Bhagavatam Canto 8 Chapters 2–4",
+  "episodes": [
+    {
+      "episode_id": "S01E01",
+      "release_order": 1,
+      "path": "episodes/s01e01-the-lake-at-trikuta",
+      "status": "partial_scene_draft",
+      "title": {
+        "en": "The Lake at Trikūṭa",
+        "te": "త్రికూట పర్వతంలోని సరస్సు",
+        "hi": "त्रिकूट पर्वत की झील"
+      },
+      "source_locator": "SB 8.2.1–28"
+    },
+    {
+      "episode_id": "S01E02",
+      "release_order": 2,
+      "path": "episodes/s01e02-the-battle-no-one-could-win",
+      "status": "draft_for_table_read",
+      "title": {
+        "en": "The Battle No One Could Win",
+        "te": "ఎవ్వరూ గెలవలేని పోరాటం",
+        "hi": "वह संघर्ष जिसे कोई जीत न सका"
+      },
+      "source_locator": "SB 8.2.27–33"
+    },
+    {
+      "episode_id": "S01E03",
+      "release_order": 3,
+      "path": "episodes/s01e03-the-prayer-from-the-heart",
+      "status": "draft_for_table_read",
+      "title": {
+        "en": "The Prayer from the Heart",
+        "te": "హృదయం నుంచి వచ్చిన ప్రార్థన",
+        "hi": "हृदय से निकली प्रार्थना"
+      },
+      "source_locator": "SB 8.3.1–29"
+    },
+    {
+      "episode_id": "S01E04",
+      "release_order": 4,
+      "path": "episodes/s01e04-the-lotus-and-the-rescue",
+      "status": "draft_for_table_read",
+      "title": {
+        "en": "The Lotus and the Rescue",
+        "te": "పద్మం మరియు రక్షణ",
+        "hi": "कमल और उद्धार"
+      },
+      "source_locator": "SB 8.3.30–33"
+    },
+    {
+      "episode_id": "S01E05",
+      "release_order": 5,
+      "path": "episodes/s01e05-two-lives-before-the-lake",
+      "status": "draft_for_table_read",
+      "title": {
+        "en": "Two Lives Before the Lake",
+        "te": "సరస్సుకు ముందు రెండు జీవితాలు",
+        "hi": "झील से पहले के दो जीवन"
+      },
+      "source_locator": "SB 8.4.3–12"
+    },
+    {
+      "episode_id": "S01E06",
+      "release_order": 6,
+      "path": "episodes/s01e06-the-gift-of-moksha",
+      "status": "draft_for_table_read",
+      "title": {
+        "en": "The Gift of Moksha",
+        "te": "మోక్షం అనే దివ్య వరం",
+        "hi": "मोक्ष का दिव्य वरदान"
+      },
+      "source_locator": "SB 8.4.1–2,5–6,13–26"
+    }
+  ]
+}

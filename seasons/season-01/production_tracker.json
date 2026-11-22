@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "status": "planning_only",
+  "episodes": {
+    "S01E01": {
+      "canonical_story_written": false,
+      "te_script_approved": false,
+      "hi_script_approved": false,
+      "en_script_approved": false,
+      "voices_approved": false,
+      "recorded_audio_complete": false,
+      "visual_references_approved": false,
+      "shot_specs_validated": false,
+      "keyframes_verified": false,
+      "motion_complete": false,
+      "final_master_approved": false,
+      "media_files": []
+    },
+    "S01E02": {
+      "canonical_story_written": false,
+      "te_script_approved": false,
+      "hi_script_approved": false,
+      "en_script_approved": false,
+      "voices_approved": false,
+      "recorded_audio_complete": false,
+      "visual_references_approved": false,
+      "shot_specs_validated": false,
+      "keyframes_verified": false,
+      "motion_complete": false,
+      "final_master_approved": false,
+      "media_files": []
+    },
+    "S01E03": {
+      "canonical_story_written": false,
+      "te_script_approved": false,
+      "hi_script_approved": false,
+      "en_script_approved": false,
+      "voices_approved": false,
+      "recorded_audio_complete": false,
+      "visual_references_approved": false,
+      "shot_specs_validated": false,
+      "keyframes_verified": false,
+      "motion_complete": false,
+      "final_master_approved": false,
+      "media_files": []
+    },
+    "S01E04": {
+      "canonical_story_written": false,
+      "te_script_approved": false,
+      "hi_script_approved": false,
+      "en_script_approved": false,
+      "voices_approved": false,
+      "recorded_audio_complete": false,
+      "visual_references_approved": false,
+      "shot_specs_validated": false,
+      "keyframes_verified": false,
+      "motion_complete": false,
+      "final_master_approved": false,
+      "media_files": []
+    },
+    "S01E05": {
+      "canonical_story_written": false,
+      "te_script_approved": false,
+      "hi_script_approved": false,
+      "en_script_approved": false,
+      "voices_approved": false,
+      "recorded_audio_complete": false,
+      "visual_references_approved": false,
+      "shot_specs_validated": false,
+      "keyframes_verified": false,
+      "motion_complete": false,
+      "final_master_approved": false,
+      "media_files": []
+    },
+    "S01E06": {
+      "canonical_story_written": false,
+      "te_script_approved": false,
+      "hi_script_approved": false,
+      "en_script_approved": false,
+      "voices_approved": false,
+      "recorded_audio_complete": false,
+      "visual_references_approved": false,
+      "shot_specs_validated": false,
+      "keyframes_verified": false,
+      "motion_complete": false,
+      "final_master_approved": false,
+      "media_files": []
+    }
+  }
+}

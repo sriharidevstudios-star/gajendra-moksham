@@ -1,0 +1,1305 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E05",
+  "episode_number": 5,
+  "slug": "two-lives-before-the-lake",
+  "title": {
+    "en": "Two Lives Before the Lake",
+    "te": "సరస్సుకు ముందు రెండు జీవితాలు",
+    "hi": "झील से पहले के दो जीवन"
+  },
+  "status": "draft_for_table_read",
+  "logline": "After the rescue, Hūhū regains his Gandharva form. The narrator reveals how Devala's curse led him to the crocodile body and how King Indradyumna, cursed by Agastya while absorbed in worship, became Gajendra.",
+  "target_runtime_seconds": {
+    "min": 330,
+    "preferred": 330,
+    "max": 390
+  },
+  "source": {
+    "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4 original child-friendly Telugu/Hindi/English retelling; no copied published translation",
+    "url": "https://vedabase.io/en/library/sb/8/4/",
+    "source_locator": "SB 8.4.3–12",
+    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S03: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S04: source SB 8.4.7, 8.4.8; original adaptation staging explicitly distinguished from cited verse actions. S05: source SB 8.4.9, 8.4.10; original adaptation staging explicitly distinguished from cited verse actions. S06: source SB 8.4.11-12; original adaptation staging explicitly distinguished from cited verse actions."
+  },
+  "adaptation": {
+    "core_preserved": [
+      "Hūhū's crocodile existence ended in the Lord's rescue; Devala's curse is broken as he regains original Gandharva form (8.4.3–4).",
+      "Hūhū honors the Lord, but the exact aftermath departure is reserved to E06 (8.4.5).",
+      "The chapter overview recounts the incident involving Hūhū, sage Devala and a playful pull on the sage's leg in water; this is a backstory, not a new event at Gajendra's lake.",
+      "King Indradyumna of Pāṇḍya/Draviḍa was a devout Vaiṣṇava who retired to the Malaya Hills and observed a silent vow in worship (8.4.7–8).",
+      "Agastya visited with disciples, interpreted silence as disrespect, cursed Indradyumna to an elephant body (8.4.9–10).",
+      "The king accepted the curse, and due to devotion remembered prayer in the elephant life (8.4.11–12).",
+      "S04: The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8).",
+      "S05: Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty.",
+      "S06: After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12)."
+    ],
+    "changes": [
+      "Episode 5's flashbacks are editorial retelling of earlier lives AFTER the rescue; no crocodile appears alive in the present lake after its animal life ends.",
+      "Hūhū and Devala's former water interaction is separate in time/place from Gajendra's lake attack; original shot continuity with no manufactured companions or human speech.",
+      "The camera's visual storytelling and Huhu's reaction/movements are original staging, never claimed as specific verse wording.",
+      "Indradyumna's silent vow does not justify portraying him as evil or Agastya as a grotesque monster.",
+      "The spiritual final Gajendra four-armed form appears in E06, not during the narrated curse flashback. Characters remain identical to owner-approved nine-panel art.",
+      "S01: flashback camera and narrative background separated from exact verse statements, no invented character dialogue.",
+      "S02: flashback camera and narrative background separated from exact verse statements, no invented character dialogue.",
+      "S03: flashback camera and narrative background separated from exact verse statements, no invented character dialogue."
+    ],
+    "fidelity_note": "Source-checked SB 8.4.3–12 and the chapter's historical summary. All scripture paraphrases are newly worded, and details only in the chapter's prose overview or invented camera staging are explicitly disclosed as original dramatization. The two curses remain historically distinct."
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": {
+        "te": "కథకుడు",
+        "hi": "कथावाचक",
+        "en": "Narrator"
+      },
+      "description": "Offscreen storyteller delivering all original te/hi/en narration in present restoration and past flashbacks.",
+      "voice_direction": "Respectful and child-clear in all languages, no casting or native review yet."
+    },
+    {
+      "id": "HUHU",
+      "name": {
+        "te": "హూహూ",
+        "hi": "हूहू",
+        "en": "Huhu"
+      },
+      "description": "Approved full-body bright-costumed Gandharva king with ornate purple-gold dress and expressive face; former cursed crocodile, distinguish body identity from the animal.",
+      "voice_direction": "No directly written spoken lines; narrated description only."
+    },
+    {
+      "id": "DEVALA",
+      "name": {
+        "te": "దేవల మహర్షి",
+        "hi": "देवल ऋषि",
+        "en": "Sage Devala"
+      },
+      "description": "Approved pale-robed older bearded sage with staff, distinct from Agastya's orange robes; involved only in Huhu's past water incident.",
+      "voice_direction": "No invented directly quoted curse/dialogue; narrator carries it."
+    },
+    {
+      "id": "INDRADYUMNA",
+      "name": {
+        "te": "ఇంద్రద్యుమ్నుడు",
+        "hi": "इन्द्रद्युम्न",
+        "en": "Indradyumna"
+      },
+      "description": "Approved dark-haired former king in humble ascetic forest dress and natural prayer posture, distinct from ordinary elephant Gajendra.",
+      "voice_direction": "Silent vow is honored; no invented dialogue."
+    },
+    {
+      "id": "AGASTYA",
+      "name": {
+        "te": "అగస్త్య మహర్షి",
+        "hi": "अगस्त्य ऋषि",
+        "en": "Sage Agastya"
+      },
+      "description": "Approved orange-robed, white-bearded older sage with staff, clearly separate from Devala.",
+      "voice_direction": "A formal curse is paraphrased by narrator rather than invented mouth-synced words."
+    },
+    {
+      "id": "GAJENDRA",
+      "name": {
+        "te": "గజేంద్రుడు",
+        "hi": "गजेन्द्र",
+        "en": "Gajendra"
+      },
+      "description": "Owner-approved decorated grey Indian elephant, physically an elephant until future distinct spiritual transformation, no human lip-sync.",
+      "voice_direction": "Natural nonverbal future calls only; remembered prayer as narrator."
+    },
+    {
+      "id": "CROCODILE",
+      "name": {
+        "te": "మొసలి",
+        "hi": "मगरमच्छ",
+        "en": "Crocodile"
+      },
+      "description": "Locked olive-green fierce but stylized former cursed animal form of Huhu, used only in retrospective brief continuity; not shown surviving Lord's disc.",
+      "voice_direction": "No speaking animal."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "A Gandharva emerges: Hūhū",
+      "setting": "Immediately after the non-graphic crocodile ending, present-day lake and compassionate Lord; Huhu's released Gandharva identity appears distinct from his dead crocodile form.",
+      "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Keep chronology: the crocodile did not survive as a natural crocodile; its Gandharva previous identity is released after divine intervention.",
+        "Use owner-approved young humanlike Huhu with jewel-toned purple/gold dress, NOT an anthropomorphic crocodile wearing clothes.",
+        "Keep Narayana four-armed and Garuda present as established in E04; no extra deity design.",
+        "Transformation effect is illustrated as restrained light/cutaway, an original visual staging decision rather than a gruesome detail.",
+        "The flashback explanation follows after the restored Huhu first appears; do not start the flashback with the present attack a second time."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.3-4",
+          "url": "https://vedabase.io/en/library/sb/8/4/3-4/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S01-SH01",
+          "budget_seconds": 18,
+          "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4). Narration L001–L003; beat Keep chronology: the crocodile did not survive as a natural crocodile; its Gandharva previous identity is released after divine intervention.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S01-SH02",
+          "budget_seconds": 19,
+          "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4). Narration L004–L006; beat Use owner-approved young humanlike Huhu with jewel-toned purple/gold dress, NOT an anthropomorphic crocodile wearing clothes.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S01-SH03",
+          "budget_seconds": 18,
+          "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4). Narration L007–L008; beat Keep Narayana four-armed and Garuda present as established in E04; no extra deity design.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Hūhū and Sage Devala: the earlier incident",
+      "setting": "Marked FLASHBACK to a DIFFERENT heavenly water place in Huhu's Gandharva past, not the Gajendra/Trikuta lotus lake; Devala bathes separately.",
+      "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "A clear visual flashback title/soft change in lighting, not silently the same present Gajendra lake. No crocodile mouth or Gajendra character in the earlier water place.",
+        "Huhu wears his approved Gandharva king look while Devala is his distinct elderly white-robed sage reference.",
+        "The playful grab is clearly inappropriate and disrespectful, not harm, gore or assault; do not encourage viewers to mimic it.",
+        "Chapter overview describes pulling the sage's leg but verse 3-4 identifies curse/result only. Disclose source-summary background exactly.",
+        "No new named companions, invented quoted words or song lyrics; all speakers stay narrator."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.3-4",
+          "url": "https://vedabase.io/en/library/sb/8/4/3-4/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S02-SH01",
+          "budget_seconds": 18,
+          "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event. Narration L001–L003; beat A clear visual flashback title/soft change in lighting, not silently the same present Gajendra lake. No crocodile mouth or Gajendra character in the earlier water place.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S02-SH02",
+          "budget_seconds": 19,
+          "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event. Narration L004–L006; beat Huhu wears his approved Gandharva king look while Devala is his distinct elderly white-robed sage reference.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S02-SH03",
+          "budget_seconds": 18,
+          "action": "The chapter overview recalls that Huhu, enjoying water play, pulled Devala's leg during bathing, disrespecting the sage. Narration labels exact prank choreography as source-chapter background/staging rather than a detailed numbered-verse event. Narration L007–L008; beat The playful grab is clearly inappropriate and disrespectful, not harm, gore or assault; do not encourage viewers to mimic it.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "The sage's curse and a hoped-for release",
+      "setting": "Continuation of Huhu-Devala flashback in the separate water place; no current lake attack or Lord's disc sequence repeated.",
+      "action": "Devala's curse turned the Gandharva Huhu into crocodile form. The chapter summary reports Huhu regretted his action and sought pardon, and Devala compassionately promised eventual freedom by Lord's rescue. Return narration to present restored Huhu as a single clear cut.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Keep Devala (cream robe) and Huhu (ornate purple/gold) as user-approved identities; sage's firmness must not become violent rage.",
+        "The curse's *result* in a crocodile body is scripture; source chapter overview describes repentance, forgiveness and eventual release. Mark any exact location/gesture as editorial visual staging.",
+        "A brief metamorphosis is story exposition, not a second animal killing or another crocodile attack.",
+        "Do not falsely narrate Devala as Agastya or Huhu as Indradyumna; the other pair is introduced in S04.",
+        "Close on Huhu's ultimate release from curse through Hari; his departure to Gandharvaloka remains E06/S02."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.3-4",
+          "url": "https://vedabase.io/en/library/sb/8/4/3-4/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S03-SH01",
+          "budget_seconds": 18,
+          "action": "Devala's curse turned the Gandharva Huhu into crocodile form. The chapter summary reports Huhu regretted his action and sought pardon, and Devala compassionately promised eventual freedom by Lord's rescue. Return narration to present restored Huhu as a single clear cut. Narration L001–L003; beat Keep Devala (cream robe) and Huhu (ornate purple/gold) as user-approved identities; sage's firmness must not become violent rage.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S03-SH02",
+          "budget_seconds": 19,
+          "action": "Devala's curse turned the Gandharva Huhu into crocodile form. The chapter summary reports Huhu regretted his action and sought pardon, and Devala compassionately promised eventual freedom by Lord's rescue. Return narration to present restored Huhu as a single clear cut. Narration L004–L006; beat The curse's *result* in a crocodile body is scripture; source chapter overview describes repentance, forgiveness and eventual release. Mark any exact location/gesture as editorial visual staging.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S03-SH03",
+          "budget_seconds": 18,
+          "action": "Devala's curse turned the Gandharva Huhu into crocodile form. The chapter summary reports Huhu regretted his action and sought pardon, and Devala compassionately promised eventual freedom by Lord's rescue. Return narration to present restored Huhu as a single clear cut. Narration L007–L008; beat A brief metamorphosis is story exposition, not a second animal killing or another crocodile attack.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "King Indradyumna's forest retreat",
+      "setting": "A DISTINCT flashback to the Pāṇḍya kingdom in ancient South India and the Malaya hills, far from the present Trikūṭa lotus lake. Approved Indradyumna human ascetic reference is used, never present elephant body.",
+      "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Flashback geography clearly differs from the Huhu-Devala water location and Trikuta present lake. Pāṇḍya/Draviḍa South India identity, no invented palace battle.",
+        "Indradyumna the former king must match owner's approved full-body prayerful hermit; no crown in this hermitage state unless source separately scripts coronation flashback.",
+        "Show small cottage, matted hair, forest and simple worship rather than fabricated temple rituals, modern objects, or new disciples.",
+        "He takes a vow of silence as he worships sincerely; do not make him intentionally mocking a sage who has not arrived.",
+        "End in reverent stillness ahead of Agastya's later unannounced arrival."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.7",
+          "url": "https://vedabase.io/en/library/sb/8/4/7/"
+        },
+        {
+          "locator": "8.4.8",
+          "url": "https://vedabase.io/en/library/sb/8/4/8/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S04-SH01",
+          "budget_seconds": 18,
+          "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8). Narration L001–L003. Flashback geography clearly differs from the Huhu-Devala water location and Trikuta present lake. Pāṇḍya/Draviḍa South India identity, no invented palace battle.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S04-SH02",
+          "budget_seconds": 19,
+          "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8). Narration L004–L006. Indradyumna the former king must match owner's approved full-body prayerful hermit; no crown in this hermitage state unless source separately scripts coronation flashback.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S04-SH03",
+          "budget_seconds": 18,
+          "action": "The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8). Narration L007–L008. Show small cottage, matted hair, forest and simple worship rather than fabricated temple rituals, modern objects, or new disciples.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "Agastya arrives during the vow of silence",
+      "setting": "Indradyumna's peaceful Malaya Hills hermitage as already established S04; Agastya arrives with followers, distinct from sage Devala of Huhu's water backstory.",
+      "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Agastya is the owner's approved orange-robed white-bearded sage with staff; Devala is cream-robed, belongs to a different scene, and does not appear.",
+        "Agastya comes WITH pupils; unnamed visitors are generic and require later approved designs if rendered prominently.",
+        "Indradyumna continues silent meditation rather than purposefully ignoring a person out of malice; source records Agastya interpreted lack of reception as offense.",
+        "The curse is stated in the narration, not fabricated direct-quote dialogue from Agastya. Keep expression serious but no cartoon villain gore.",
+        "Do not turn the king physically into elephant in this scene; S06 carries the next birth and remembered devotion."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.9",
+          "url": "https://vedabase.io/en/library/sb/8/4/9/"
+        },
+        {
+          "locator": "8.4.10",
+          "url": "https://vedabase.io/en/library/sb/8/4/10/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S05-SH01",
+          "budget_seconds": 18,
+          "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty. Narration L001–L003. Agastya is the owner's approved orange-robed white-bearded sage with staff; Devala is cream-robed, belongs to a different scene, and does not appear.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S05-SH02",
+          "budget_seconds": 19,
+          "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty. Narration L004–L006. Agastya comes WITH pupils; unnamed visitors are generic and require later approved designs if rendered prominently.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S05-SH03",
+          "budget_seconds": 18,
+          "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty. Narration L007–L008. Indradyumna continues silent meditation rather than purposefully ignoring a person out of malice; source records Agastya interpreted lack of reception as offense.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "An elephant birth and devotion remembered",
+      "setting": "Flashback transitions from the Malaya Hills into the next elephant birth, then returns to known Trikuta lake memory of devotion (no crocodile return from death or physical re-enactment of the long fight).",
+      "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Agastya departs with the same disciples, no added revenge dialogue or cruelty. Indradyumna as king stays spiritually devoted.",
+        "An editorial dissolve links old Indradyumna hermit to newly born elephant, but source states a next BIRTH rather than an instant live magical morph.",
+        "The elephant identity in the present story is the exact approved Gajendra full-body animal, not an elephant head attached to the human Indradyumna.",
+        "Source says prior worldly memory was lost but memory of worship remained; depict Gajendra's remembered prayer with respectful atmospheric cues only.",
+        "Return to source context of rescue, not an impossible claim the crocodile lives after the disc. Four-arm sārūpya and spiritual departure belong to E06."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.11-12",
+          "url": "https://vedabase.io/en/library/sb/8/4/11-12/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S06-SH01",
+          "budget_seconds": 18,
+          "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12). Narration L001–L003. Agastya departs with the same disciples, no added revenge dialogue or cruelty. Indradyumna as king stays spiritually devoted.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S06-SH02",
+          "budget_seconds": 19,
+          "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12). Narration L004–L006. An editorial dissolve links old Indradyumna hermit to newly born elephant, but source states a next BIRTH rather than an instant live magical morph.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S06-SH03",
+          "budget_seconds": 18,
+          "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12). Narration L007–L008. The elephant identity in the present story is the exact approved Gajendra full-body animal, not an elephant head attached to the human Indradyumna.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "S01E05-S01-L001",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "The crocodile had once been a Gandharva.",
+      "text": {
+        "te": "ఆ మొసలి పూర్వజన్మలో ఒక గంధర్వుడు.",
+        "hi": "वह मगरमच्छ पहले एक गंधर्व था।",
+        "en": "The crocodile had once been a Gandharva."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L002",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "His name was Huhu.",
+      "text": {
+        "te": "అతని పేరు హూహూ.",
+        "hi": "उसका नाम हूहू था।",
+        "en": "His name was Huhu."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L003",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "He had been a king among the Gandharvas.",
+      "text": {
+        "te": "అతను గంధర్వులలో ఒక రాజు.",
+        "hi": "वह गंधर्वों में एक राजा था।",
+        "en": "He had been a king among the Gandharvas."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L004",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Sage Devala's curse had given him crocodile form.",
+      "text": {
+        "te": "దేవల మహర్షి శాపం వల్ల అతనికి మొసలి రూపం వచ్చింది.",
+        "hi": "देवल ऋषि के श्राप से वह मगरमच्छ बना था।",
+        "en": "Sage Devala's curse had given him crocodile form."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L005",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "By Narayana's mercy, the curse was lifted.",
+      "text": {
+        "te": "నారాయణుడి కృపతో ఆ శాపం తొలగిపోయింది.",
+        "hi": "नारायण की कृपा से वह श्राप समाप्त हुआ।",
+        "en": "By Narayana's mercy, the curse was lifted."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L006",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "Huhu regained his original Gandharva form.",
+      "text": {
+        "te": "హూహూ తన అసలు గంధర్వ రూపాన్ని తిరిగి పొందాడు.",
+        "hi": "हूहू को अपना असली गंधर्व रूप वापस मिला।",
+        "en": "Huhu regained his original Gandharva form."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L007",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "He stood respectfully near the lake.",
+      "text": {
+        "te": "గజేంద్రుడి సరస్సు దగ్గర అతను భక్తితో నిలిచాడు.",
+        "hi": "गजेन्द्र की झील के पास वह श्रद्धा से खड़ा हुआ।",
+        "en": "He stood respectfully near the lake."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original simple blocking of restored Huhu beside the established lake during his source-described honor to Hari. SB 8.4.3-4 does not define this precise standing position or camera."
+      }
+    },
+    {
+      "id": "S01E05-S01-L008",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "He bowed his head to Hari.",
+      "text": {
+        "te": "హరికి తల వంచి నమస్కరించాడు.",
+        "hi": "उसने हरि को सिर झुकाकर प्रणाम किया।",
+        "en": "He bowed his head to Hari."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S02-L001",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Long ago, Huhu lived in Gandharvaloka.",
+      "text": {
+        "te": "హూహూ గంధర్వ లోకంలో జీవించేవాడు.",
+        "hi": "हूहू गंधर्व लोक में रहता था।",
+        "en": "Long ago, Huhu lived in Gandharvaloka."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S02-L002",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "One day he was enjoying himself in the water.",
+      "text": {
+        "te": "ఒకసారి అతను నీళ్లలో సరదాగా ఆడుకుంటున్నాడు.",
+        "hi": "एक दिन वह पानी में खेल रहा था।",
+        "en": "One day he was enjoying himself in the water."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L003",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "Sage Devala was bathing nearby.",
+      "text": {
+        "te": "అదే సమయంలో దేవల మహర్షి అక్కడ స్నానం చేస్తున్నారు.",
+        "hi": "उसी समय देवल ऋषि वहाँ स्नान कर रहे थे।",
+        "en": "Sage Devala was bathing nearby."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L004",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Huhu playfully pulled the sage's leg.",
+      "text": {
+        "te": "హూహూ సరదా పేరుతో మహర్షి కాలును లాగాడు.",
+        "hi": "हूहू ने मज़ाक में ऋषि का पैर खींच लिया।",
+        "en": "Huhu playfully pulled the sage's leg."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L005",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "Devala found this disrespectful.",
+      "text": {
+        "te": "అది దేవల మహర్షికి అవమానంగా అనిపించింది.",
+        "hi": "देवल ऋषि को यह अपमानजनक लगा।",
+        "en": "Devala found this disrespectful."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L006",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "A game that bothers someone else is not kind play.",
+      "text": {
+        "te": "ఇతరులకు ఇబ్బంది కలిగించే ఆట సరదా కాదు.",
+        "hi": "किसी को परेशान करने वाला खेल सही मज़ाक नहीं है।",
+        "en": "A game that bothers someone else is not kind play."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L007",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "The sage became angry at Huhu's action.",
+      "text": {
+        "te": "హూహూ చేసిన పని వల్ల మహర్షికి కోపం వచ్చింది.",
+        "hi": "हूहू की इस हरकत पर ऋषि क्रोधित हो गए।",
+        "en": "The sage became angry at Huhu's action."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S02-L008",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "That incident changed Huhu's life.",
+      "text": {
+        "te": "ఆ సంఘటన అతని జీవితాన్ని మార్చేసింది.",
+        "hi": "उस घटना ने हूहू का जीवन बदल दिया।",
+        "en": "That incident changed Huhu's life."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original child-friendly flashback narration and blocking derived from the SB 8.4 chapter overview describing Huhu's water prank toward Devala; numbered verses 8.4.3-4 establish the curse and later Gandharva restoration but do not independently give this exact action or moral wording. No invented direct character dialogue."
+      }
+    },
+    {
+      "id": "S01E05-S03-L001",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Sage Devala cursed Huhu.",
+      "text": {
+        "te": "దేవల మహర్షి హూహూకు శాపం ఇచ్చారు.",
+        "hi": "देवल ऋषि ने हूहू को श्राप दिया।",
+        "en": "Sage Devala cursed Huhu."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S03-L002",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "Because of that curse, he was born as a crocodile.",
+      "text": {
+        "te": "ఆ శాపం వల్ల అతను మొసలి రూపంలో జన్మించాడు.",
+        "hi": "उस श्राप से वह मगरमच्छ के रूप में जन्मा।",
+        "en": "Because of that curse, he was born as a crocodile."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S03-L003",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "Huhu understood his mistake and asked forgiveness.",
+      "text": {
+        "te": "తన తప్పు తెలిసిన హూహూ క్షమించమని కోరాడు.",
+        "hi": "गलती समझकर हूहू ने क्षमा माँगी।",
+        "en": "Huhu understood his mistake and asked forgiveness."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "The chapter introduction for SB 8.4 recounts Huhu's regret and plea for forgiveness, beyond the text of numbered verses 3–4; narratorial staging/idiom is original."
+      }
+    },
+    {
+      "id": "S01E05-S03-L004",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "In compassion, Devala gave him hope.",
+      "text": {
+        "te": "దేవల మహర్షి కరుణతో అతనికి ఆశ ఇచ్చారు.",
+        "hi": "देवल ऋषि ने करुणा से उसे आशा दी।",
+        "en": "In compassion, Devala gave him hope."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "The chapter overview says Devala gave compassionate reassurance of eventual release; original accessible paraphrase not itself a separately quoted verse 3–4."
+      }
+    },
+    {
+      "id": "S01E05-S03-L005",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "He would one day be freed through the Lord's mercy.",
+      "text": {
+        "te": "భగవంతుడి కృపతో ఒక రోజు శాపం తొలగుతుందని చెప్పారు.",
+        "hi": "उन्होंने बताया कि एक दिन भगवान की कृपा से श्राप दूर होगा।",
+        "en": "He would one day be freed through the Lord's mercy."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "The chapter overview specifies release when Gajendra was delivered; presented as an original retelling of background, not an independent numbered verse statement."
+      }
+    },
+    {
+      "id": "S01E05-S03-L006",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "Much later, that crocodile caught Gajendra.",
+      "text": {
+        "te": "ఎన్నో రోజుల తరువాత ఆ మొసలి గజేంద్రుడిని పట్టుకుంది.",
+        "hi": "बहुत समय बाद वही मगरमच्छ गजेन्द्र को पकड़ बैठा।",
+        "en": "Much later, that crocodile caught Gajendra."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S03-L007",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Narayana's rescue restored Huhu's original form.",
+      "text": {
+        "te": "నారాయణుడి రక్షణతో హూహూ తన అసలు రూపాన్ని తిరిగి పొందాడు.",
+        "hi": "नारायण के उद्धार से हूहू ने अपना मूल रूप पाया।",
+        "en": "Narayana's rescue restored Huhu's original form."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S03-L008",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "Thus this curse ended in deliverance.",
+      "text": {
+        "te": "అలా ఆ శాప కథకు విముక్తి వచ్చింది.",
+        "hi": "इस प्रकार उस श्राप की कथा का अंत मुक्ति में हुआ।",
+        "en": "Thus this curse ended in deliverance."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Gajendra too had a story from an earlier life.",
+      "text": {
+        "te": "గజేంద్రుడికి ఇంకొక పూర్వజన్మ కథ కూడా ఉంది.",
+        "hi": "गजेन्द्र की भी एक पिछली जन्म की कथा थी।",
+        "en": "Gajendra too had a story from an earlier life."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "In that life he was called Indradyumna.",
+      "text": {
+        "te": "అప్పుడు అతని పేరు ఇంద్రద్యుమ్నుడు.",
+        "hi": "तब उसका नाम इन्द्रद्युम्न था।",
+        "en": "In that life he was called Indradyumna."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "He was a king of the Pandya country in South India.",
+      "text": {
+        "te": "అతను దక్షిణ భారతంలోని పాండ్య దేశానికి రాజు.",
+        "hi": "वह दक्षिण भारत के पाण्ड्य देश का राजा था।",
+        "en": "He was a king of the Pandya country in South India."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Indradyumna was devoted to Lord Vishnu.",
+      "text": {
+        "te": "ఇంద్రద్యుమ్నుడు విష్ణుభక్తుడు.",
+        "hi": "इन्द्रद्युम्न भगवान विष्णु के भक्त थे।",
+        "en": "Indradyumna was devoted to Lord Vishnu."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.7"
+      }
+    },
+    {
+      "id": "S01E05-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "He left royal life and went to the Malaya Hills.",
+      "text": {
+        "te": "ఒకప్పుడు రాజ్య జీవితాన్ని విడిచి మలయ పర్వతాలకు వెళ్లాడు.",
+        "hi": "कुछ समय बाद वह राजजीवन छोड़कर मलय पर्वतों में चले गए।",
+        "en": "He left royal life and went to the Malaya Hills."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
+    },
+    {
+      "id": "S01E05-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "There he lived in a small hermitage.",
+      "text": {
+        "te": "అక్కడ చిన్న ఆశ్రమంలో నివసించాడు.",
+        "hi": "वहाँ वह एक छोटी कुटिया में रहने लगे।",
+        "en": "There he lived in a small hermitage."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
+    },
+    {
+      "id": "S01E05-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "With matted hair and a simple life, he worshiped the Lord.",
+      "text": {
+        "te": "జటలతో, నిరాడంబరంగా భగవంతుని ఆరాధించాడు.",
+        "hi": "जटाधारी होकर सादगी से भगवान की पूजा करने लगे।",
+        "en": "With matted hair and a simple life, he worshiped the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
+    },
+    {
+      "id": "S01E05-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "One day, during a vow of silence, he meditated deeply.",
+      "text": {
+        "te": "ఒక రోజు మౌనవ్రతంతో ఎంతో ఏకాగ్రంగా ధ్యానించాడు.",
+        "hi": "एक दिन मौन व्रत में वह गहरे ध्यान में लीन थे।",
+        "en": "One day, during a vow of silence, he meditated deeply."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.8"
+      }
+    },
+    {
+      "id": "S01E05-S05-L001",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Then Sage Agastya arrived with his disciples.",
+      "text": {
+        "te": "అప్పుడు అగస్త్య మహర్షి తన శిష్యులతో అక్కడికి వచ్చారు.",
+        "hi": "उसी समय अगस्त्य ऋषि अपने शिष्यों के साथ वहाँ आए।",
+        "en": "Then Sage Agastya arrived with his disciples."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L002",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "Indradyumna was absorbed in meditation.",
+      "text": {
+        "te": "ఇంద్రద్యుమ్నుడు గాఢ ధ్యానంలో ఉన్నాడు.",
+        "hi": "इन्द्रद्युम्न गहरे ध्यान में थे।",
+        "en": "Indradyumna was absorbed in meditation."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L003",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "Because he remained silent, he did not greet them.",
+      "text": {
+        "te": "మౌనవ్రతం వల్ల అతను వారిని పలకరించలేదు.",
+        "hi": "मौन व्रत के कारण उसने उनका स्वागत नहीं किया।",
+        "en": "Because he remained silent, he did not greet them."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L004",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "The sage did not receive the customary welcome.",
+      "text": {
+        "te": "మహర్షికి తగిన స్వాగతం లభించలేదు.",
+        "hi": "ऋषि को उचित आदर-सत्कार नहीं मिला।",
+        "en": "The sage did not receive the customary welcome."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L005",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "Agastya took this as disrespect and became angry.",
+      "text": {
+        "te": "దీన్ని అవమానంగా భావించి అగస్త్యుడికి కోపం వచ్చింది.",
+        "hi": "इसे अपमान समझकर अगस्त्य क्रोधित हो गए।",
+        "en": "Agastya took this as disrespect and became angry."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.9"
+      }
+    },
+    {
+      "id": "S01E05-S05-L006",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "In anger he pronounced a curse on Indradyumna.",
+      "text": {
+        "te": "ఆ కోపంతో ఇంద్రద్యుమ్నుడికి శాపం ఇచ్చారు.",
+        "hi": "क्रोध में उन्होंने इन्द्रद्युम्न को श्राप दिया।",
+        "en": "In anger he pronounced a curse on Indradyumna."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.10"
+      }
+    },
+    {
+      "id": "S01E05-S05-L007",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "The curse was that he would take the body of an elephant.",
+      "text": {
+        "te": "తరువాతి జన్మలో ఏనుగు రూపం పొందాలని ఆ శాపం.",
+        "hi": "श्राप था कि अगले जन्म में वह हाथी बने।",
+        "en": "The curse was that he would take the body of an elephant."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.10"
+      }
+    },
+    {
+      "id": "S01E05-S05-L008",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "That moment changed the course of Indradyumna's life.",
+      "text": {
+        "te": "అది ఇంద్రద్యుమ్నుడి జీవితాన్ని మార్చిన ఘట్టం.",
+        "hi": "यह घटना इन्द्रद्युम्न के जीवन को बदलने वाली थी।",
+        "en": "That moment changed the course of Indradyumna's life."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original gentle closing observation for the scriptural Agastya curse of 8.4.10; narrator calls it a turning point, not an additional distinct incident."
+      }
+    },
+    {
+      "id": "S01E05-S06-L001",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Agastya and his disciples departed.",
+      "text": {
+        "te": "అగస్త్య మహర్షి శిష్యులతో ఆశ్రమాన్ని విడిచి వెళ్లారు.",
+        "hi": "अगस्त्य ऋषि शिष्यों के साथ आश्रम से चले गए।",
+        "en": "Agastya and his disciples departed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L002",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "Indradyumna accepted what had happened with a calm heart.",
+      "text": {
+        "te": "ఇంద్రద్యుమ్నుడు జరిగినదాన్ని ప్రశాంతంగా అంగీకరించాడు.",
+        "hi": "इन्द्रद्युम्न ने हुई बात को शांत मन से स्वीकार किया।",
+        "en": "Indradyumna accepted what had happened with a calm heart."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L003",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "His devotion to the Lord did not fade.",
+      "text": {
+        "te": "భగవంతుడిపై అతని భక్తి మాత్రం తగ్గలేదు.",
+        "hi": "भगवान में उसकी भक्ति कम नहीं हुई।",
+        "en": "His devotion to the Lord did not fade."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L004",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "In his next life, he was born as an elephant.",
+      "text": {
+        "te": "తరువాతి జన్మలో అతను ఏనుగుగా జన్మించాడు.",
+        "hi": "अगले जन्म में वह हाथी बनकर जन्मा।",
+        "en": "In his next life, he was born as an elephant."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L005",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "He lost his ordinary memories of that earlier life.",
+      "text": {
+        "te": "అప్పుడు తన పాత జీవితం గురించి జ్ఞాపకం కోల్పోయాడు.",
+        "hi": "तब वह अपने पिछले जीवन की स्मृतियाँ भूल गया।",
+        "en": "He lost his ordinary memories of that earlier life."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L006",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "Yet the effect of his worship of Hari remained within him.",
+      "text": {
+        "te": "కానీ హరి ఆరాధన ఫలితంగా అతనిలో భక్తి జ్ఞాపకం మిగిలింది.",
+        "hi": "लेकिन हरि की आराधना के प्रभाव से भक्ति की स्मृति बनी रही।",
+        "en": "Yet the effect of his worship of Hari remained within him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L007",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "In danger from the crocodile, Gajendra remembered that prayer.",
+      "text": {
+        "te": "మొసలి కష్టంలో ఉన్నప్పుడు ఆ ప్రార్థన గజేంద్రుడికి గుర్తొచ్చింది.",
+        "hi": "मगरमच्छ के संकट में गजेन्द्र को वही प्रार्थना याद आई।",
+        "en": "In danger from the crocodile, Gajendra remembered that prayer."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L008",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "So the two earlier lives were linked to Gajendra's deliverance.",
+      "text": {
+        "te": "ఈ విధంగా రెండు పూర్వజన్మల కథలకు గజేంద్ర మోక్షంతో సంబంధం ఉంది.",
+        "hi": "इस तरह दोनों पिछली जन्मों की कथाएँ गजेन्द्र के उद्धार से जुड़ी थीं।",
+        "en": "So the two earlier lives were linked to Gajendra's deliverance."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original serial-narrative summary connecting the distinct Huhu-Devala and Indradyumna-Agastya histories already explained; not an extra quoted verse."
+      }
+    }
+  ],
+  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation. S03 authored 8 narrator-only trilingual lines, no recorded voice/animation. S04 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement. S05 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement. S06 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement.",
+  "timing_note": "Full E05 source draft: 6 scenes, 18 planned shots, 48 aligned NARRATOR lines in te/hi/en, 330 unmeasured provisional editorial seconds (6x55). A complete written source draft FOR future table read; not pronunciation/script/native/voice/visual/motion/media approved."
+}

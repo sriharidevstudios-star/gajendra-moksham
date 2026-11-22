@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E01",
+  "episode_number": 1,
+  "slug": "the-lake-at-trikuta",
+  "title": {"te": "పరీక్ష కథ", "hi": "परीक्षण कहानी", "en": "Synthetic Fixture Only"},
+  "status": "partial_scene_draft",
+  "logline": "TEST FIXTURE ONLY — fabricated lines to exercise the schema, not a scripture adaptation.",
+  "target_runtime_seconds": {"min": 330, "preferred": 360, "max": 390},
+  "source": {
+    "edition": "Reference index for synthetic test only",
+    "url": "https://vedabase.io/en/library/sb/8/2/",
+    "source_locator": "SB 8.2.1–28",
+    "verification_notes": "Only identifier and URL matching is tested; these spoken sentences are invented test data."
+  },
+  "adaptation": {
+    "core_preserved": ["No actual story content is being asserted in this test."],
+    "changes": ["All text is synthetic fixture text, not scriptural dialogue."],
+    "fidelity_note": "TEST FIXTURE — never publish or include in canonical episode sources."
+  },
+  "characters": [
+    {"id": "NARRATOR", "name": {"te": "వ్యాఖ్యాత", "hi": "वाचक", "en": "Narrator"}, "description": "Synthetic narrator", "voice_direction": "Test-only neutral delivery"},
+    {"id": "GAJENDRA", "name": {"te": "గజేంద్రుడు", "hi": "गजेन्द्र", "en": "Gajendra"}, "description": "Synthetic elephant voice-over only", "voice_direction": "No animated mouth"}
+  ],
+  "scenes": [{
+    "id": "S01", "title": "SCENE TEST ONLY", "setting": "Test setting", "action": "A placeholder fixture scene for validation tests.",
+    "duration_budget_seconds": 60,
+    "nonverbal_beats": ["Placeholder camera pause"],
+    "source_anchors": [{"locator": "8.2.1", "url": "https://vedabase.io/en/library/sb/8/2/"}],
+    "shots": [
+      {"id": "S01E01-S01-SH01", "budget_seconds": 20, "action": "Fixture shot 1", "camera": "Wide", "sound": "None"},
+      {"id": "S01E01-S01-SH02", "budget_seconds": 20, "action": "Fixture shot 2", "camera": "Medium", "sound": "None"},
+      {"id": "S01E01-S01-SH03", "budget_seconds": 20, "action": "Fixture shot 3", "camera": "Close", "sound": "None"}
+    ]
+  }],
+  "dialogue": [
+    {
+      "id": "S01E01-S01-L001", "scene_id": "S01", "speaker": "NARRATOR", "audio_owner": "NARRATOR",
+      "performance_mode": "narration", "lip_sync_target": null,
+      "delivery": "Test narration", "intent": "Prove narrator ownership",
+      "text": {"te": "ఇది ఒక పరీక్ష మాత్రమే.", "hi": "यह केवल एक परीक्षा है।", "en": "This is only a test."},
+      "source_attribution": {"kind": "original_dramatization", "note": "Invented test dialogue, not scripture."}
+    },
+    {
+      "id": "S01E01-S01-L002", "scene_id": "S01", "speaker": "GAJENDRA", "audio_owner": "GAJENDRA",
+      "performance_mode": "inner_prayer_voiceover", "lip_sync_target": null,
+      "delivery": "Quiet test thought", "intent": "Prove a voice-over does not require elephant lips",
+      "text": {"te": "ఇది గజేంద్రుని పరీక్ష స్వరం.", "hi": "यह गजेन्द्र की परीक्षण आवाज़ है।", "en": "This is synthetic elephant voice-over."},
+      "source_attribution": {"kind": "original_dramatization", "note": "Invented test voiceover; not a scriptural utterance."}
+    },
+    {
+      "id": "S01E01-S01-L003", "scene_id": "S01", "speaker": "NARRATOR", "audio_owner": "NARRATOR",
+      "performance_mode": "narration", "lip_sync_target": null,
+      "delivery": "Test citation", "intent": "Exercise source locator checking",
+      "text": {"te": "ఇది మూల ప్రస్తావన పరీక్ష.", "hi": "यह स्रोत जाँच का उदाहरण है।", "en": "Synthetic fixture sentence for citation validation."},
+      "source_attribution": {"kind": "scripture_paraphrase", "locator": "8.2.1"}
+    }
+  ],
+  "performance_notes": "Fixture only; no audio to generate.",
+  "timing_note": "Fixture's 60 seconds do not establish any real episode duration."
+}

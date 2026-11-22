@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "style": "Use the user-approved 2026-11-22 Gajendra Moksham full-body nine-character cast sheet exactly: warm painted Prahlada-style Indian devotional storybook art, gently simplified anatomy, bright but restrained colors; crocodile visibly firm/fierce without gore or horror. This project-specific identity set is approved; do not redesign it.",
+  "reference_status": "owner_approved_locked_cast_sheet_in_library_github_binary_mirror_pending",
+  "screen_geometry": "16:9, target 1920x1080, recognizable silhouettes on mobile.",
+  "global_rules": [
+    "Gajendra and crocodile are normal quadruped/low-slung animal bodies until the narratively explicit divine transformation; no human mouth motion.",
+    "Indradyumna is Gajendra's former human birth; Huhu is crocodile's former Gandharva birth. Keep separate physical identities and preserve narrative revelation.",
+    "Narayana's four-arm iconography and Gajendra's later four-arm spiritual form must not mix identities or creature anatomy.",
+    "Trikuta three-peak silhouette and one lake land/water master geography remain stable.",
+    "Portraits, voice auditions and image refs are not approved until actual media hashes and reviewer decisions exist.",
+    "No blood, visible wounds, grotesque violence or inaccurate new creature anatomy.",
+    "Nine approved full-body character identities are source-locked to the owner-approved composite PNG SHA-256 389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06 and its lossless crops stored in the project's ChatGPT Library. Existing text descriptions yield to approved image identity for approved costume/styling details; never infer additional generated views.",
+    "An approved cast overview does not mean episode scene stills, 3-view turnarounds, environment masters, TTS, or motion have been produced or approved. Cropped panels are derivatives of the one approved image."
+  ],
+  "characters": {
+    "GAJENDRA": {
+      "design": "Approved full-body stylized Indian elephant: natural four legs, raised trunk, two stable tusks, friendly expressive eyes, soft grey-lavender skin, decorative red-gold patterned saddle cloth, small ceremonial gold headband and ornaments. Keep exactly his sheet identity, scale, ears, trunk, tusks and four legs; no human hands, no realistic skin photo-texture.",
+      "performance": "Expresses effort/concern through natural behavior and prayer via inner voiceover, not lip-synced human mouth.",
+      "related_identity": "INDRADYUMNA (previous life)",
+      "approved_reference": "library:/Gajendra Moksham/References/gajendra-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_GAJENDRA_FULL_BODY_V1"
+    },
+    "CROCODILE": {
+      "design": "Approved stylized moss-green olive crocodile: low four-legged body, ridged back and curled tail, large readable jaws, small sharp teeth, narrowed watchful eyes and a fiercer expression than a baby cartoon. Retain the painted Prahlada storybook aesthetic; dramatic but child-safe, not photorealistic, grotesque or smiling like a human.",
+      "performance": "Wild animal sounds and behavior, not villain monologues.",
+      "related_identity": "HUHU (previous life)",
+      "approved_reference": "library:/Gajendra Moksham/References/crocodile-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_CROCODILE_FULL_BODY_V1"
+    },
+    "NARAYANA": {
+      "design": "Reverent original four-armed screen depiction of Vishnu/Narayana in yellow garments with recognizable conch, chakra, mace and lotus; stable crown and ornaments.",
+      "performance": "Gracious, urgent compassion; distinguish divine presence from spectacle.",
+      "approved_reference": "library:/Gajendra Moksham/References/narayana-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_NARAYANA_FULL_BODY_V1"
+    },
+    "GARUDA": {
+      "design": "Majestic golden-brown bird carrier with stable wings, beak and body geometry; large enough to bear Narayana.",
+      "performance": "Noble flight and poised arrival; non-speaking unless source-reviewed adaptation later warrants narration.",
+      "approved_reference": "library:/Gajendra Moksham/References/garuda-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_GARUDA_FULL_BODY_V1"
+    },
+    "HUHU": {
+      "design": "Gandharva king with consistent ornate attire and face; separate humanlike identity from CROCODILE body.",
+      "performance": "Playful and careless in flashback, then remorseful and grateful.",
+      "approved_reference": "library:/Gajendra Moksham/References/huhu-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_HUHU_FULL_BODY_V1"
+    },
+    "DEVALA": {
+      "design": "Sage in simple draped garment; mature face, hair and prayer-bead details stable.",
+      "performance": "Firm rebuke without grotesque anger.",
+      "approved_reference": "library:/Gajendra Moksham/References/devala-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_DEVALA_FULL_BODY_V1"
+    },
+    "INDRADYUMNA": {
+      "design": "Adult former king in hermitage: matted hair and austere forest attire; earlier kingship may appear only if scripted later.",
+      "performance": "Silent devotional concentration and later calm acceptance, not action villain.",
+      "approved_reference": "library:/Gajendra Moksham/References/indradyumna-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_INDRADYUMNA_FULL_BODY_V1"
+    },
+    "AGASTYA": {
+      "design": "Distinguished sage visiting with disciples; recognizable form and modest ascetic garments.",
+      "performance": "Insulted at lack of greeting; clear separate identity from DEVALA.",
+      "approved_reference": "library:/Gajendra Moksham/References/agastya-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_AGASTYA_FULL_BODY_V1"
+    },
+    "GAJENDRA_LIBERATED": {
+      "design": "Four-armed spiritual associate in yellow garments following sārūpya-mukti; visually distinct from quadrupedal GAJENDRA and not a mere anthropomorphic elephant.",
+      "performance": "Devotional gratitude and spiritual resolution.",
+      "related_identity": "GAJENDRA",
+      "approved_reference": "library:/Gajendra Moksham/References/gajendra_liberated-approved-panel-crop-v1.png",
+      "approved": true,
+      "approval_scope": "User-approved visual character identity from single full-body composite 2026-11-22; not separate turnaround or production image QC",
+      "reference_art_asset_id": "REF_GM_GAJENDRA_LIBERATED_FULL_BODY_V1"
+    }
+  }
+}

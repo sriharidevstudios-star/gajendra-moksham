@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "status": "not_auditioned_no_voice_ids_selected",
+  "provider": null,
+  "languages": [
+    "te",
+    "hi",
+    "en"
+  ],
+  "speaker_ids": [
+    "NARRATOR",
+    "GAJENDRA",
+    "NARAYANA",
+    "HUHU",
+    "DEVALA",
+    "INDRADYUMNA",
+    "AGASTYA"
+  ],
+  "notes": [
+    "GAJENDRA uses inner_prayer_voiceover not human lip-sync.",
+    "CROCODILE and GARUDA have no canonical human-speech roles; animal sounds are sound effects unless a source-justified screenplay decision is explicitly approved.",
+    "Voice candidates, actual recordings and all language approvals remain absent."
+  ],
+  "voices": {
+    "te": {
+      "NARRATOR": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "GAJENDRA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "NARAYANA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "HUHU": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "DEVALA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "INDRADYUMNA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "AGASTYA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      }
+    },
+    "hi": {
+      "NARRATOR": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "GAJENDRA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "NARAYANA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "HUHU": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "DEVALA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "INDRADYUMNA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "AGASTYA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      }
+    },
+    "en": {
+      "NARRATOR": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "GAJENDRA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "NARAYANA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "HUHU": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "DEVALA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "INDRADYUMNA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      },
+      "AGASTYA": {
+        "candidate_id": null,
+        "approved": false,
+        "audio_reference": null
+      }
+    }
+  }
+}

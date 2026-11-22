@@ -1,0 +1,1315 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E06",
+  "episode_number": 6,
+  "slug": "the-gift-of-moksha",
+  "title": {
+    "en": "The Gift of Moksha",
+    "te": "మోక్షం అనే దివ్య వరం",
+    "hi": "मोक्ष का दिव्य वरदान"
+  },
+  "status": "draft_for_table_read",
+  "logline": "The devas celebrate Gajendra's deliverance; Huhu returns home, Gajendra receives four-armed sārūpya-mukti through Hari's touch, and after speaking blessings the Lord sounds Pāñcajanya and departs on Garuḍa with Gajendra.",
+  "target_runtime_seconds": {
+    "min": 330,
+    "preferred": 330,
+    "max": 390
+  },
+  "source": {
+    "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4; originally worded contemporary Telugu/Hindi/English child-friendly narration, not copied English translation",
+    "url": "https://vedabase.io/en/library/sb/8/4/",
+    "source_locator": "SB 8.4.1–2,5–6,13–26",
+    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture. S04 source SB 8.4.16, 8.4.17-24, 8.4.25; The Lord's blessings and remembrance; specific gestures/camera notes attributed original. S05 source SB 8.4.26, 8.4.1, 8.4.2; The Pāñcajanya conch; specific gestures/camera notes attributed original. S06 source SB 8.4.13, 8.4.26, 8.4.14; Garuda carries the Lord and Gajendra home; specific gestures/camera notes attributed original."
+  },
+  "adaptation": {
+    "core_preserved": [
+      "All devas/sages/Gandharvas praise Hari, shower flowers and play celestial music (8.4.1–2).",
+      "Huhu, already restored to Gandharva identity by 8.4.3–4, bows and returns to Gandharvaloka (8.4.5).",
+      "By Lord's touch Gajendra immediately receives sārūpya-mukti, four arms and yellow garments, released from material ignorance (8.4.6).",
+      "Hari grants blessings and describes remembrance of His divine forms and sites in morning devotion (8.4.14–25).",
+      "The Lord blows the Pāñcajanya conch, mounts Garuda and leaves; Gajendra accompanies Him to His divine abode (8.4.13,26)."
+    ],
+    "changes": [
+      "The chapter's immediate sārūpya after rescue is visually shown in E06 because E05 first explains the backstories. This is editorial reveal order ONLY, not a new event in time; scene text discloses this.",
+      "The current visual identity approved by owner includes a distinct four-armed yellow-garbed spiritual associate for liberated Gajendra; do not make ordinary elephant grow human arms.",
+      "No copyrighted published verse translations, exact Sanskrit recitation, existing recorded kirtan or commercial music are introduced.",
+      "Celestial flowers, praise and drums are verse-grounded but voice/musical performances are not generated/approved; any original score cues remain future plans.",
+      "Source lists many sacred names/locations at 8.4.17–24; age-accessible condensed narrator wording explicitly not a literal mantra or a replacement for exact recitation.",
+      "No fabricated direct speech from Huhu, Gajendra or Narayana in the sourced narrator-only script; optional later direct speaking portraits would need new authorized lines.",
+      "S01: title Flowers and songs of praise; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
+      "S02: title Hūhū's gratitude and departure; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
+      "S03: title Gajendra's spiritual transformation; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
+      "S04: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval.",
+      "S05: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval.",
+      "S06: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval."
+    ],
+    "fidelity_note": "Original trilingual paraphrase retains mercy, freedom from ignorance, sārūpya-mukti, morning remembrance and departure order. Chronology of divine touch is not rewritten by the editorial flashback/reveal sequence."
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": {
+        "te": "కథకుడు",
+        "hi": "कथावाचक",
+        "en": "Narrator"
+      },
+      "description": "Offscreen only spoken owner across all E06 te/hi/en story lines.",
+      "voice_direction": "Devotional, celebratory but restrained modern language; real voice and native source approvals pending."
+    },
+    {
+      "id": "NARAYANA",
+      "name": {
+        "te": "నారాయణుడు",
+        "hi": "नारायण",
+        "en": "Narayana"
+      },
+      "description": "Owner-approved four-armed blue-faced golden-crowned divine Lord, consistent chakra, conch, lotus and mace; never double the figure.",
+      "voice_direction": "His historical blessing is carried by NARRATOR; no invented voice sample."
+    },
+    {
+      "id": "GARUDA",
+      "name": {
+        "te": "గరుడుడు",
+        "hi": "गरुड़",
+        "en": "Garuda"
+      },
+      "description": "Approved golden bird-bodied crowned carrier with grand wings, beak and stable anatomy, supporting Lord's departure.",
+      "voice_direction": "Non-speaking, natural wing sounds only future SFX."
+    },
+    {
+      "id": "HUHU",
+      "name": {
+        "te": "హూహూ",
+        "hi": "हूहू",
+        "en": "Huhu"
+      },
+      "description": "Owner-approved ornate purple-gold Gandharva king returned from crocodile form; now offering respect and departing, no remaining crocodile body.",
+      "voice_direction": "Sourced gratitude and praise paraphrased by narrator only."
+    },
+    {
+      "id": "GAJENDRA",
+      "name": {
+        "te": "గజేంద్రుడు",
+        "hi": "गजेन्द्र",
+        "en": "Gajendra"
+      },
+      "description": "Original owner-approved decorated grey quadrupedal Indian elephant shown in brief memory only, not mixed with four-armed spiritual avatar.",
+      "voice_direction": "No human lip-sync on animal."
+    },
+    {
+      "id": "GAJENDRA_LIBERATED",
+      "name": {
+        "te": "ముక్తి పొందిన గజేంద్రుడు",
+        "hi": "मुक्त गजेन्द्र",
+        "en": "Liberated Gajendra"
+      },
+      "description": "Owner-approved SEPARATE yellow-clad four-armed spiritual associate with divine ornaments, NOT elephant-human hybrid nor Narayana duplicate; visual difference must remain clear.",
+      "voice_direction": "No directly scripted speaking lines; gratitude carried by narrator."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "Flowers and songs of praise",
+      "setting": "At the real Trikuta freshwater lotus lake immediately after Hari rescues Gajendra, divine beings praise the Lord while petals fall. Recognizable Gajendra remains briefly the ordinary elephant prior to later editorial spiritual-form reveal.",
+      "action": "Devas, sages and Gandharvas shower flowers, rejoice, praise Hari; heavenly drums and dance accompany the deliverance according to 8.4.1–2, but no actual soundtrack exists.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Do not place the prior slain crocodile alive in the lake. The next scene addresses restored Huhu as a Gandharva.",
+        "Flower shower and heavenly drums are literally described by scripture. Specific note timing/flower trajectories are original animation choices, not performed audio.",
+        "Distant unnamed celestial beings should not be drawn as approved named characters without future reference; keep small silhouettes and approved Narayana/Garuda/Gajendra in foreground.",
+        "Gajendra's spiritual transformation happened by divine touch in the account (8.4.6); a recap of rescue is not a claim that he remained elephant afterward.",
+        "Do not represent any new recorded choir/kirtan or actual musical rights approval."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.1",
+          "url": "https://vedabase.io/en/library/sb/8/4/1/"
+        },
+        {
+          "locator": "8.4.2",
+          "url": "https://vedabase.io/en/library/sb/8/4/2/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S01-SH01",
+          "budget_seconds": 18,
+          "action": "Devas, sages and Gandharvas shower flowers, rejoice, praise Hari; heavenly drums and dance accompany the deliverance according to 8.4.1–2, but no actual soundtrack exists. Narration L001–L003. Do not place the prior slain crocodile alive in the lake. The next scene addresses restored Huhu as a Gandharva.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S01-SH02",
+          "budget_seconds": 19,
+          "action": "Devas, sages and Gandharvas shower flowers, rejoice, praise Hari; heavenly drums and dance accompany the deliverance according to 8.4.1–2, but no actual soundtrack exists. Narration L004–L006. Flower shower and heavenly drums are literally described by scripture. Specific note timing/flower trajectories are original animation choices, not performed audio.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S01-SH03",
+          "budget_seconds": 18,
+          "action": "Devas, sages and Gandharvas shower flowers, rejoice, praise Hari; heavenly drums and dance accompany the deliverance according to 8.4.1–2, but no actual soundtrack exists. Narration L007–L008. Distant unnamed celestial beings should not be drawn as approved named characters without future reference; keep small silhouettes and approved Narayana/Garuda/Gajendra in foreground.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Hūhū's gratitude and departure",
+      "setting": "Present-day sacred lake immediately after Huhu regains his previously humanlike Gandharva form as told in E05; no present living crocodile remains. Owner-approved Huhu faces approved Narayana respectfully.",
+      "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Huhu's restored original Gandharva form and relationship to Devala were already fully explained in E05; do not re-stage the curse or the slaying of the crocodile.",
+        "Depict user-approved Huhu's purple/gold outfit and same youthful Gandharva face/crown exactly, no crocodile head on human body.",
+        "He circumambulates the Lord and bows, then returns to Gandharvaloka; do not portray him permanently trapped or morally monstrous.",
+        "Any visual dissolving transition to distant Gandharva sky is original cutaway, not a new escape incident.",
+        "Narayana's four-arm costume and Garuda remain consistent; no new voiced duet or actor."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.5",
+          "url": "https://vedabase.io/en/library/sb/8/4/5/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S02-SH01",
+          "budget_seconds": 18,
+          "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5). Narration L001–L003. Huhu's restored original Gandharva form and relationship to Devala were already fully explained in E05; do not re-stage the curse or the slaying of the crocodile.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S02-SH02",
+          "budget_seconds": 19,
+          "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5). Narration L004–L006. Depict user-approved Huhu's purple/gold outfit and same youthful Gandharva face/crown exactly, no crocodile head on human body.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S02-SH03",
+          "budget_seconds": 18,
+          "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5). Narration L007–L008. He circumambulates the Lord and bows, then returns to Gandharvaloka; do not portray him permanently trapped or morally monstrous.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Gajendra's spiritual transformation",
+      "setting": "The rescued Gajendra's liberation is now shown as a distinct spiritual event in an explanatory sequence, chronologically tied to the Lord's touch at the rescue (8.4.6), even though the present episode follows E05's flashback narration.",
+      "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Be explicit in narration this occurred THROUGH HARI'S TOUCH at rescue (not suddenly after weeks spent as an elephant following E05). E05 was a retrospective flashback, not a gap in his liberation.",
+        "Start with a brief visual recall of approved quadrupedal Gajendra being touched; transition non-graphically to approved SEPARATE GAJENDRA_LIBERATED full-body identity, four arms, yellow garments.",
+        "The spiritual associate must not look like an elephant with extra hands; not the same face/body as Narayana, keep distinguishable owner-approved character.",
+        "Conch, chakra, mace, lotus on spiritual form are iconographic details already approved only in concept; check four-arm count, head and crown.",
+        "No physical injury, no magical duplicate Narayana emerging, and no animal speaking lip-sync."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.6",
+          "url": "https://vedabase.io/en/library/sb/8/4/6/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S03-SH01",
+          "budget_seconds": 18,
+          "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6). Narration L001–L003. Be explicit in narration this occurred THROUGH HARI'S TOUCH at rescue (not suddenly after weeks spent as an elephant following E05). E05 was a retrospective flashback, not a gap in his liberation.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S03-SH02",
+          "budget_seconds": 19,
+          "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6). Narration L004–L006. Start with a brief visual recall of approved quadrupedal Gajendra being touched; transition non-graphically to approved SEPARATE GAJENDRA_LIBERATED full-body identity, four arms, yellow garments.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S03-SH03",
+          "budget_seconds": 18,
+          "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6). Narration L007–L008. The spiritual associate must not look like an elephant with extra hands; not the same face/body as Narayana, keep distinguishable owner-approved character.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "The Lord's blessings and remembrance",
+      "setting": "With liberated four-armed Gajendra as His associate, Hari addresses Gajendra and those assembled. The original chapter lists divine names, symbols, and sites to remember; the narration gives a child-accessible summary instead of a literal chant.",
+      "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Narayana in approved distinct four-arm divine form blesses Gajendra as a spiritual companion; do not accidentally use the ordinary quadrupedal Gajendra where the liberated form is now correct.",
+        "The Bhagavatam gives a LONG list in SB 8.4.17–24. This script condenses it for children, not claims to replace an exact Sanskrit prayer or recitation.",
+        "Trikūṭa with gold/silver/iron peaks and lotus lake already established in E01 can be returned to through a quick gentle visual memory, not a new location.",
+        "Do not draw unapproved named Narada, Prahlada or other listed historical personalities to fill the crowd; can mention source summary by narrator.",
+        "Blessing on morning remembrance and spiritual welfare (8.4.24–25) should not be misrepresented as automatic wishes/certain physical rewards for viewers."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.16",
+          "url": "https://vedabase.io/en/library/sb/8/4/16/"
+        },
+        {
+          "locator": "8.4.17-24",
+          "url": "https://vedabase.io/en/library/sb/8/4/17-24/"
+        },
+        {
+          "locator": "8.4.25",
+          "url": "https://vedabase.io/en/library/sb/8/4/25/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S04-SH01",
+          "budget_seconds": 18,
+          "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer. Narration L001–L003. Narayana in approved distinct four-arm divine form blesses Gajendra as a spiritual companion; do not accidentally use the ordinary quadrupedal Gajendra where the liberated form is now correct.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S04-SH02",
+          "budget_seconds": 19,
+          "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer. Narration L004–L006. The Bhagavatam gives a LONG list in SB 8.4.17–24. This script condenses it for children, not claims to replace an exact Sanskrit prayer or recitation.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S04-SH03",
+          "budget_seconds": 18,
+          "action": "The Lord offers blessings, recounting mindful remembrance of His forms, the lake, Trikūṭa peaks, Sudarshana, conch, Garuda and noble devotion (8.4.16–25), including spiritual benefit of sincere morning prayer. Narration L007–L008. Trikūṭa with gold/silver/iron peaks and lotus lake already established in E01 can be returned to through a quick gentle visual memory, not a new location.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "The Pāñcajanya conch",
+      "setting": "After the Lord's blessings, Narayana at the lake with liberated Gajendra, nearby Garuda, and distant joyful devas; His approved conch is named Panchajanya. The user-approved divine look remains exact.",
+      "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "The conch blow is explicitly in scripture 8.4.26, AFTER the Lord's blessing and BEFORE remounting Garuda.",
+        "Narayana needs exactly four arms and the Pāñcajanya conch in the correct approved hand, without duplicated weapons. The approved portrait should be used as identity anchor.",
+        "The listening devas' happiness is scripture; musical waveform, sound design and animated air/flower swirls are original staging and remain unproduced.",
+        "Do not insert a Sanskrit mantra into the conch sound or pretend there is a licensed/contributed recorded conch track.",
+        "End with Garuda calmly waiting for the Lord's remount; don't start the return journey until S06."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.26",
+          "url": "https://vedabase.io/en/library/sb/8/4/26/"
+        },
+        {
+          "locator": "8.4.1",
+          "url": "https://vedabase.io/en/library/sb/8/4/1/"
+        },
+        {
+          "locator": "8.4.2",
+          "url": "https://vedabase.io/en/library/sb/8/4/2/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S05-SH01",
+          "budget_seconds": 18,
+          "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files. Narration L001–L003. The conch blow is explicitly in scripture 8.4.26, AFTER the Lord's blessing and BEFORE remounting Garuda.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S05-SH02",
+          "budget_seconds": 19,
+          "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files. Narration L004–L006. Narayana needs exactly four arms and the Pāñcajanya conch in the correct approved hand, without duplicated weapons. The approved portrait should be used as identity anchor.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S05-SH03",
+          "budget_seconds": 18,
+          "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files. Narration L007–L008. The listening devas' happiness is scripture; musical waveform, sound design and animated air/flower swirls are original staging and remain unproduced.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "Garuda carries the Lord and Gajendra home",
+      "setting": "The same Trikūṭa lotus-lake shore with approved four-armed Nārāyaṇa, approved winged Garuda and distinct liberated four-armed Gajendra; spiritually resolved Huhu already returned to Gandharvaloka.",
+      "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "On Garuda, the approved Narayana remains clearly identifiable, exactly four arms, stable crown and emblems, bird/head anatomy coherent. Distinct Gajendra liberated form accompanies, not an ordinary elephant or duplicate Vishnu.",
+        "SB 8.4.13 says the Lord returns to His abode riding Garuda and TAKES Gajendra. The precise seating/flight blocking is editorial; use a physically readable composition.",
+        "Huhu already returned to Gandharvaloka in S02; do not include him as a fourth passenger or another crocodile.",
+        "End on original serene horizon and caption-friendly open composition; narrator states a source-backed meaningful conclusion, no commercial song lyrics or invented deity dialogue.",
+        "The six-episode seasonal narrative now has an ending but this is only a written draft: no human-review, soundtrack, scene keyframes or final master exists."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.13",
+          "url": "https://vedabase.io/en/library/sb/8/4/13/"
+        },
+        {
+          "locator": "8.4.26",
+          "url": "https://vedabase.io/en/library/sb/8/4/26/"
+        },
+        {
+          "locator": "8.4.14",
+          "url": "https://vedabase.io/en/library/sb/8/4/14/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S06-SH01",
+          "budget_seconds": 18,
+          "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict. Narration L001–L003. On Garuda, the approved Narayana remains clearly identifiable, exactly four arms, stable crown and emblems, bird/head anatomy coherent. Distinct Gajendra liberated form accompanies, not an ordinary elephant or duplicate Vishnu.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S06-SH02",
+          "budget_seconds": 19,
+          "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict. Narration L004–L006. SB 8.4.13 says the Lord returns to His abode riding Garuda and TAKES Gajendra. The precise seating/flight blocking is editorial; use a physically readable composition.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S06-SH03",
+          "budget_seconds": 18,
+          "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict. Narration L007–L008. Huhu already returned to Gandharvaloka in S02; do not include him as a fourth passenger or another crocodile.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "S01E06-S01-L001",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "When Hari delivered Gajendra, the devas rejoiced.",
+      "text": {
+        "te": "గజేంద్రుడిని హరి రక్షించినప్పుడు దేవతలు సంతోషించారు.",
+        "hi": "जब हरि ने गजेन्द्र को बचाया, देवता प्रसन्न हुए।",
+        "en": "When Hari delivered Gajendra, the devas rejoiced."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S01-L002",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Sages and Gandharvas praised the Lord.",
+      "text": {
+        "te": "మహర్షులు, గంధర్వులు కూడా భగవంతుడిని స్తుతించారు.",
+        "hi": "ऋषियों और गंधर्वों ने भी भगवान की स्तुति की।",
+        "en": "Sages and Gandharvas praised the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S01-L003",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "Flowers showered down from the sky.",
+      "text": {
+        "te": "ఆకాశం నుంచి పూల వర్షం కురిసింది.",
+        "hi": "आकाश से फूलों की वर्षा हुई।",
+        "en": "Flowers showered down from the sky."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S01-L004",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "Everyone honored the Lord's compassion.",
+      "text": {
+        "te": "భగవంతుడి కరుణకు అందరూ కృతజ్ఞత చెప్పారు.",
+        "hi": "सबने भगवान की करुणा की प्रशंसा की।",
+        "en": "Everyone honored the Lord's compassion."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S01-L005",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Heavenly kettledrums sounded.",
+      "text": {
+        "te": "దివ్యమైన దుందుభులు మోగాయి.",
+        "hi": "दिव्य नगाड़े बज उठे।",
+        "en": "Heavenly kettledrums sounded."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.2"
+      }
+    },
+    {
+      "id": "S01E06-S01-L006",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "The Gandharvas sang and danced with joy.",
+      "text": {
+        "te": "గంధర్వులు ఆనందంతో పాడారు, నాట్యం చేశారు.",
+        "hi": "गंधर्व खुशी से गाने और नाचने लगे।",
+        "en": "The Gandharvas sang and danced with joy."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.2"
+      }
+    },
+    {
+      "id": "S01E06-S01-L007",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "The Siddhas and Charanas praised the Supreme.",
+      "text": {
+        "te": "సిద్ధులు, చారణులు కూడా పరమాత్మను స్తుతించారు.",
+        "hi": "सिद्ध और चारण भी परम भगवान की स्तुति करने लगे।",
+        "en": "The Siddhas and Charanas praised the Supreme."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.2"
+      }
+    },
+    {
+      "id": "S01E06-S01-L008",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Their joy celebrated Gajendra's wonderful deliverance.",
+      "text": {
+        "te": "ఈ ఆనందం గజేంద్రుడి గొప్ప విముక్తిని గుర్తుచేసింది.",
+        "hi": "यह उल्लास गजेन्द्र के अद्भुत उद्धार का उत्सव था।",
+        "en": "Their joy celebrated Gajendra's wonderful deliverance."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original short interpretive closing narration connecting the scripture's praise and flowers (8.4.1–2) to Gajendra's deliverance; not an additional quoted verse."
+      }
+    },
+    {
+      "id": "S01E06-S02-L001",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "Huhu had regained his Gandharva form.",
+      "text": {
+        "te": "హూహూ తన గంధర్వ రూపాన్ని తిరిగి పొందాడు.",
+        "hi": "हूहू ने अपना गंधर्व रूप वापस पा लिया।",
+        "en": "Huhu had regained his Gandharva form."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L002",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Narayana's mercy had ended his curse.",
+      "text": {
+        "te": "నారాయణుడి కరుణ వల్ల అతని శాపం ముగిసింది.",
+        "hi": "नारायण की दया से उसका श्राप समाप्त हुआ।",
+        "en": "Narayana's mercy had ended his curse."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L003",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "Huhu respectfully circled the Lord.",
+      "text": {
+        "te": "హూహూ భక్తితో భగవంతుని చుట్టూ ప్రదక్షిణ చేశాడు.",
+        "hi": "हूहू ने श्रद्धा से भगवान की परिक्रमा की।",
+        "en": "Huhu respectfully circled the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L004",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "Then he bowed his head.",
+      "text": {
+        "te": "తరువాత తల వంచి నమస్కరించాడు.",
+        "hi": "फिर सिर झुकाकर प्रणाम किया।",
+        "en": "Then he bowed his head."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L005",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "With the devas looking on, he returned to Gandharvaloka.",
+      "text": {
+        "te": "దేవతలు చూస్తుండగా అతను గంధర్వలోకానికి తిరిగి వెళ్లాడు.",
+        "hi": "देवताओं के सामने वह गंधर्व लोक लौट गया।",
+        "en": "With the devas looking on, he returned to Gandharvaloka."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L006",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "He was freed from the burden of his former curse.",
+      "text": {
+        "te": "తన తప్పు వల్ల వచ్చిన బంధనం నుంచి విముక్తి పొందాడు.",
+        "hi": "वह अपने पुराने बंधन से मुक्त हो गया।",
+        "en": "He was freed from the burden of his former curse."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L007",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "He was restored to his original place.",
+      "text": {
+        "te": "ఇప్పుడు అతను మళ్లీ తన అసలు స్థానంలో ఉన్నాడు.",
+        "hi": "अब वह फिर अपने मूल लोक में था।",
+        "en": "He was restored to his original place."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L008",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Thus Huhu's earlier-life story reached its resolution.",
+      "text": {
+        "te": "అలా హూహూ పూర్వజన్మ కథ ముగిసింది.",
+        "hi": "इस तरह हूहू की पिछली जन्म की कथा पूरी हुई।",
+        "en": "Thus Huhu's earlier-life story reached its resolution."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original serial narrative closure of Huhu's source-grounded gratitude and departure from 8.4.5; not independently quoted scriptural speech."
+      }
+    },
+    {
+      "id": "S01E06-S03-L001",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "Gajendra's deliverance brought a deeper spiritual gift.",
+      "text": {
+        "te": "గజేంద్రుడి విముక్తికి మరో దివ్యమైన ఫలితం ఉంది.",
+        "hi": "गजेन्द्र के उद्धार का एक और दिव्य फल था।",
+        "en": "Gajendra's deliverance brought a deeper spiritual gift."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L002",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "By Narayana's touch, his ignorance was removed.",
+      "text": {
+        "te": "నారాయణుడి స్పర్శతో అతని అజ్ఞానం తొలగిపోయింది.",
+        "hi": "नारायण के स्पर्श से उसका अज्ञान मिट गया।",
+        "en": "By Narayana's touch, his ignorance was removed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L003",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "He was freed from material bondage too.",
+      "text": {
+        "te": "భౌతిక బంధనాల నుంచి కూడా అతను విముక్తి పొందాడు.",
+        "hi": "वह भौतिक बंधनों से भी मुक्त हो गया।",
+        "en": "He was freed from material bondage too."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L004",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "This liberation is called sārūpya-mukti.",
+      "text": {
+        "te": "ఈ విముక్తిని సారూప్య ముక్తి అంటారు.",
+        "hi": "इस मुक्ति को सारूप्य-मुक्ति कहते हैं।",
+        "en": "This liberation is called sārūpya-mukti."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L005",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "He received a divine form with four arms.",
+      "text": {
+        "te": "అతనికి నాలుగు చేతులున్న దివ్య రూపం లభించింది.",
+        "hi": "उसे चार भुजाओं वाला दिव्य रूप मिला।",
+        "en": "He received a divine form with four arms."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L006",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "Dressed in yellow, his spiritual form resembled the Lord's.",
+      "text": {
+        "te": "పసుపు వస్త్రాలు ధరించిన ఆ రూపం భగవంతునికి సాదృశ్యం కలిగి ఉంది.",
+        "hi": "पीले वस्त्रों वाला वह रूप भगवान के समान दिव्य था।",
+        "en": "Dressed in yellow, his spiritual form resembled the Lord's."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L007",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "It was no longer an ordinary elephant body.",
+      "text": {
+        "te": "అది సాధారణ ఏనుగు రూపం కాదు.",
+        "hi": "वह साधारण हाथी का शरीर नहीं था।",
+        "en": "It was no longer an ordinary elephant body."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L008",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Gajendra became a spiritual associate of Narayana.",
+      "text": {
+        "te": "నారాయణుడి సేవకు గజేంద్రుడు దివ్య సహచరుడయ్యాడు.",
+        "hi": "गजेन्द्र भगवान नारायण का दिव्य सहचर बन गया।",
+        "en": "Gajendra became a spiritual associate of Narayana."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "Hari, pleased with Gajendra, spoke blessings.",
+      "text": {
+        "te": "హరి సంతోషించి గజేంద్రుడిని ఆశీర్వదించాడు.",
+        "hi": "हरि प्रसन्न होकर गजेन्द्र को आशीर्वाद देने लगे।",
+        "en": "Hari, pleased with Gajendra, spoke blessings."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.16"
+      }
+    },
+    {
+      "id": "S01E06-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "He spoke of remembering His form, Gajendra and the lake.",
+      "text": {
+        "te": "తన దివ్య రూపాన్ని, గజేంద్రుడిని, ఆ సరస్సును స్మరించమని చెప్పారు.",
+        "hi": "उन्होंने अपने रूप, गजेन्द्र और उस झील को स्मरण करने को कहा।",
+        "en": "He spoke of remembering His form, Gajendra and the lake."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "He recalled Trikuta and its three great peaks.",
+      "text": {
+        "te": "త్రికూట పర్వతాన్ని, దాని మూడు శిఖరాలను కూడా గుర్తు చేశారు.",
+        "hi": "उन्होंने त्रिकूट पर्वत और उसकी तीन चोटियों का स्मरण कराया।",
+        "en": "He recalled Trikuta and its three great peaks."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The divine remembrance also included Sudarshana, Panchajanya and Garuda.",
+      "text": {
+        "te": "సుదర్శన చక్రం, పాంచజన్య శంఖం, గరుడుడి పేర్లు కూడా ఆయన దివ్య స్మరణలో ఉన్నాయి.",
+        "hi": "उन्होंने सुदर्शन चक्र, पाञ्चजन्य शंख और गरुड़ का भी स्मरण कराया।",
+        "en": "The divine remembrance also included Sudarshana, Panchajanya and Garuda."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "It also included devoted people, sages and sacred places.",
+      "text": {
+        "te": "అనేక భక్తులు, మహర్షులు, పవిత్ర స్థలాలు కూడా ఆ స్మరణలో ఉన్నాయి.",
+        "hi": "उस स्मरण में अनेक भक्त, ऋषि और पवित्र स्थान भी आते हैं।",
+        "en": "It also included devoted people, sages and sacred places."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "He spoke of the blessing of remembering Him attentively in the morning.",
+      "text": {
+        "te": "తెల్లవారుజామున మనసు నిలిపి భగవంతుడిని స్మరించడం పుణ్యమని చెప్పారు.",
+        "hi": "उन्होंने कहा कि प्रातः मन लगाकर भगवान को याद करना पवित्र है।",
+        "en": "He spoke of the blessing of remembering Him attentively in the morning."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.17-24"
+      }
+    },
+    {
+      "id": "S01E06-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "He blessed such devotees with a spiritual destination.",
+      "text": {
+        "te": "అలాంటి భక్తులకు దివ్యమైన గతి లభిస్తుందని ఆశీర్వదించారు.",
+        "hi": "उन्होंने ऐसे भक्तों को अंत में दिव्य गति का आशीर्वाद दिया।",
+        "en": "He blessed such devotees with a spiritual destination."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.25"
+      }
+    },
+    {
+      "id": "S01E06-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Gajendra received those blessings with devotion.",
+      "text": {
+        "te": "గజేంద్రుడు ఆ కరుణామయమైన ఆశీర్వాదాలను భక్తితో స్వీకరించాడు.",
+        "hi": "गजेन्द्र ने उन करुणामय आशीर्वादों को श्रद्धा से ग्रहण किया।",
+        "en": "Gajendra received those blessings with devotion."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original natural reaction for the already scripted Lord-given blessings in 8.4.16–25; the numbered verses do not require a separate visible gesture or line by Gajendra."
+      }
+    },
+    {
+      "id": "S01E06-S05-L001",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "After the blessings, Hari lifted His conch.",
+      "text": {
+        "te": "ఆశీర్వాదాలు ఇచ్చిన తరువాత హరి తన శంఖాన్ని తీసుకున్నాడు.",
+        "hi": "आशीर्वाद देकर हरि ने अपना शंख उठाया।",
+        "en": "After the blessings, Hari lifted His conch."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L002",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "That conch was called Panchajanya.",
+      "text": {
+        "te": "ఆ శంఖం పేరు పాంచజన్యం.",
+        "hi": "उस शंख का नाम पाञ्चजन्य था।",
+        "en": "That conch was called Panchajanya."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L003",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "Narayana sounded Panchajanya.",
+      "text": {
+        "te": "నారాయణుడు పాంచజన్యాన్ని ఊదాడు.",
+        "hi": "नारायण ने पाञ्चजन्य शंख बजाया।",
+        "en": "Narayana sounded Panchajanya."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L004",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The divine sound delighted the devas.",
+      "text": {
+        "te": "దాని దివ్య నాదంతో దేవతలు సంతోషించారు.",
+        "hi": "उस दिव्य ध्वनि से देवता प्रसन्न हुए।",
+        "en": "The divine sound delighted the devas."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S05-L005",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Those gathered praised the Lord's rescue once more.",
+      "text": {
+        "te": "అక్కడ ఉన్నవారు భగవంతుని కార్యాన్ని మరోసారి స్తుతించారు.",
+        "hi": "वहाँ उपस्थित सबने भगवान के कार्य की फिर स्तुति की।",
+        "en": "Those gathered praised the Lord's rescue once more."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S05-L006",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "The celebration of flowers and praise filled the scene.",
+      "text": {
+        "te": "పూల వర్షం, స్తుతుల ఆనందం ఇంకా ఆ ప్రదేశంలో కనిపించింది.",
+        "hi": "फूलों और स्तुति का उत्सव उस स्थान पर जारी था।",
+        "en": "The celebration of flowers and praise filled the scene."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.1"
+      }
+    },
+    {
+      "id": "S01E06-S05-L007",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "Garuda gently opened his wings.",
+      "text": {
+        "te": "గరుడుడు తన రెక్కలను నెమ్మదిగా విప్పాడు.",
+        "hi": "गरुड़ ने धीरे से अपने पंख फैलाए।",
+        "en": "Garuda gently opened his wings."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original natural wing-opening anticipation before the scripture's remount (8.4.26), not a separately asserted verse event or audio recording."
+      }
+    },
+    {
+      "id": "S01E06-S05-L008",
+      "scene_id": "S05",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "The Lord was ready to mount Garuda again.",
+      "text": {
+        "te": "ఇప్పుడు భగవంతుడు గరుడుడిపై తిరిగి ఎక్కబోతున్నాడు.",
+        "hi": "अब भगवान फिर गरुड़ पर चढ़ने वाले थे।",
+        "en": "The Lord was ready to mount Garuda again."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S06-L001",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "After sounding Panchajanya, Hari mounted Garuda.",
+      "text": {
+        "te": "హరి పాంచజన్యం ఊది గరుడుడిపై ఎక్కాడు.",
+        "hi": "हरि ने पाञ्चजन्य बजाकर गरुड़ पर आरूढ़ हुए।",
+        "en": "After sounding Panchajanya, Hari mounted Garuda."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S06-L002",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Garuda carried the Lord upon his back.",
+      "text": {
+        "te": "గరుడుడు భగవంతుడిని తన వీపుపై మోశాడు.",
+        "hi": "गरुड़ ने भगवान को अपनी पीठ पर बिठाया।",
+        "en": "Garuda carried the Lord upon his back."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L003",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "Liberated Gajendra accompanied the Lord.",
+      "text": {
+        "te": "విముక్తి పొందిన గజేంద్రుడు కూడా భగవంతుడితో ఉన్నాడు.",
+        "hi": "मुक्त गजेन्द्र भी भगवान के साथ था।",
+        "en": "Liberated Gajendra accompanied the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L004",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The gathered beings praised Hari's wondrous deed.",
+      "text": {
+        "te": "అందరూ హరి చేసిన అద్భుత కార్యాన్ని స్తుతించారు.",
+        "hi": "सबने हरि के अद्भुत कार्य की प्रशंसा की।",
+        "en": "The gathered beings praised Hari's wondrous deed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L005",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Thus Narayana returned on Garuda to His divine abode.",
+      "text": {
+        "te": "అలా నారాయణుడు గరుడుడిపై తన దివ్య ధామానికి తిరిగివెళ్లాడు.",
+        "hi": "इस तरह नारायण गरुड़ पर अपने दिव्य धाम लौट गए।",
+        "en": "Thus Narayana returned on Garuda to His divine abode."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L006",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "Gajendra went with Him as His spiritual associate.",
+      "text": {
+        "te": "గజేంద్రుడు కూడా ఆయన దివ్య సహచరుడిగా వెళ్లాడు.",
+        "hi": "गजेन्द्र भी उनके दिव्य सहचर के रूप में साथ गया।",
+        "en": "Gajendra went with Him as His spiritual associate."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L007",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The scripture praises the good fortune of hearing Gajendra's deliverance.",
+      "text": {
+        "te": "ఈ గజేంద్ర మోక్ష కథను భక్తితో వినడం గొప్ప పుణ్యమని శాస్త్రం చెబుతుంది.",
+        "hi": "शास्त्र कहता है कि गजेन्द्र मोक्ष की कथा श्रद्धा से सुनना कल्याणकारी है।",
+        "en": "The scripture praises the good fortune of hearing Gajendra's deliverance."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.14"
+      }
+    },
+    {
+      "id": "S01E06-S06-L008",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "The lake's struggle had ended through the Lord's mercy in liberation.",
+      "text": {
+        "te": "ఆ సరస్సు వద్ద మొదలైన కష్టం, భగవంతుని కరుణతో విముక్తిలో ముగిసింది.",
+        "hi": "झील में शुरू हुआ वह संकट भगवान की कृपा से मुक्ति में समाप्त हुआ।",
+        "en": "The lake's struggle had ended through the Lord's mercy in liberation."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original final episode narrative summation of scriptural rescue and sārūpya-mukti; no extra event after Hari's return or literal English scripture quotation is implied."
+      }
+    }
+  ],
+  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S04: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio. S05: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio. S06: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio.",
+  "timing_note": "Complete 6-scene E06 script with 48 NARRATOR lines / 144 aligned te/hi/en spoken strings, 18 shot specs (6×55 = 330) PROVISIONAL seconds. Not timed by humans or any generated voice/audio/images/motion/video; DRAFT FOR FUTURE TABLE READ, no production approval."
+}

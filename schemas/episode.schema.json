@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:srihari:gajendra-moksham:episode:1.0-dialogue",
+  "title": "Gajendra Moksham — partial or complete trilingual episode source",
+  "description": "Source authoring contract, not a media or native-language approval. Offline semantic checks are in scripts/content_model.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "season_id", "episode_id", "episode_number", "slug", "title", "status", "logline", "target_runtime_seconds", "source", "adaptation", "characters", "scenes", "dialogue", "performance_notes", "timing_note"],
+  "properties": {
+    "schema_version": {"const": "1.0-dialogue"},
+    "season_id": {"const": "S01"},
+    "episode_id": {"type": "string", "pattern": "^S01E0[1-6]$"},
+    "episode_number": {"type": "integer", "minimum": 1, "maximum": 6},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "title": {"$ref": "#/$defs/languageText"},
+    "status": {"enum": ["partial_scene_draft", "draft_for_table_read"]},
+    "logline": {"type": "string", "minLength": 1},
+    "target_runtime_seconds": {
+      "type": "object", "additionalProperties": false,
+      "required": ["min", "preferred", "max"],
+      "properties": {
+        "min": {"type": "integer", "minimum": 1},
+        "preferred": {"type": "integer", "minimum": 1},
+        "max": {"type": "integer", "minimum": 1}
+      }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["edition", "url", "source_locator", "verification_notes"],
+      "properties": {
+        "edition": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "pattern": "^https://"},
+        "source_locator": {"type": "string", "minLength": 1},
+        "verification_notes": {"type": "string", "minLength": 1}
+      }
+    },
+    "adaptation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["core_preserved", "changes", "fidelity_note"],
+      "properties": {
+        "core_preserved": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "changes": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "fidelity_note": {"type": "string", "minLength": 1}
+      }
+    },
+    "characters": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "name", "description", "voice_direction"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Z][A-Z_]*$"},
+          "name": {"$ref": "#/$defs/languageText"},
+          "description": {"type": "string", "minLength": 1},
+          "voice_direction": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "scenes": {
+      "type": "array", "minItems": 1, "maxItems": 6,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "title", "setting", "action", "duration_budget_seconds", "nonverbal_beats", "source_anchors", "shots"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^S0[1-6]$"},
+          "title": {"type": "string", "minLength": 1},
+          "setting": {"type": "string", "minLength": 1},
+          "action": {"type": "string", "minLength": 1},
+          "duration_budget_seconds": {"type": "integer", "minimum": 1},
+          "nonverbal_beats": {"type": "array", "items": {"type": "string", "minLength": 1}},
+          "source_anchors": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/anchor"}},
+          "shots": {
+            "type": "array", "minItems": 3, "maxItems": 3,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["id", "budget_seconds", "action", "camera", "sound"],
+              "properties": {
+                "id": {"type": "string", "pattern": "^S01E0[1-6]-S0[1-6]-SH0[1-3]$"},
+                "budget_seconds": {"type": "integer", "minimum": 1},
+                "action": {"type": "string", "minLength": 1},
+                "camera": {"type": "string", "minLength": 1},
+                "sound": {"type": "string", "minLength": 1}
+              }
+            }
+          }
+        }
+      }
+    },
+    "dialogue": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "scene_id", "speaker", "audio_owner", "performance_mode", "lip_sync_target", "delivery", "intent", "text", "source_attribution"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^S01E0[1-6]-S0[1-6]-L[0-9]{3}$"},
+          "scene_id": {"type": "string", "pattern": "^S0[1-6]$"},
+          "speaker": {"type": "string", "pattern": "^[A-Z][A-Z_]*$"},
+          "audio_owner": {"type": "string", "pattern": "^[A-Z][A-Z_]*$"},
+          "performance_mode": {"enum": ["spoken", "narration", "offscreen_voiceover", "inner_prayer_voiceover"]},
+          "lip_sync_target": {"type": ["string", "null"]},
+          "delivery": {"type": "string", "minLength": 1},
+          "intent": {"type": "string", "minLength": 1},
+          "text": {"$ref": "#/$defs/languageText"},
+          "source_attribution": {"$ref": "#/$defs/attribution"}
+        }
+      }
+    },
+    "performance_notes": {"type": "string"},
+    "timing_note": {"type": "string"}
+  },
+  "allOf": [{
+    "if": {"properties": {"status": {"const": "draft_for_table_read"}}, "required": ["status"]},
+    "then": {"properties": {"scenes": {"minItems": 6}}}
+  }],
+  "$defs": {
+    "languageText": {
+      "type": "object", "additionalProperties": false,
+      "required": ["te", "hi", "en"],
+      "properties": {
+        "te": {"type": "string", "minLength": 1},
+        "hi": {"type": "string", "minLength": 1},
+        "en": {"type": "string", "minLength": 1}
+      }
+    },
+    "anchor": {
+      "type": "object", "additionalProperties": false,
+      "required": ["locator", "url"],
+      "properties": {
+        "locator": {"type": "string", "pattern": "^8\\.[234]\\.[0-9]+"},
+        "url": {"type": "string", "pattern": "^https://"}
+      }
+    },
+    "attribution": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": {"enum": ["scripture_paraphrase", "original_dramatization"]},
+        "locator": {"type": "string"},
+        "note": {"type": "string"}
+      },
+      "oneOf": [
+        {"properties": {"kind": {"const": "scripture_paraphrase"}}, "required": ["kind", "locator"]},
+        {"properties": {"kind": {"const": "original_dramatization"}}, "required": ["kind", "note"]}
+      ]
+    }
+  }
+}

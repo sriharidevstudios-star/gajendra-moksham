@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0-production-study",
+  "batch": "GM-PROD-003",
+  "date": "2026-11-22",
+  "job_id": "GM-KF-001",
+  "episode": "S01E04",
+  "shot_id": "S01E04-S02-SH01",
+  "episode_blob_sha": "2fff1273636d37e3684ba06a530de2170f9c5bc4",
+  "canonical_source": "SB 8.3.31",
+  "goal": "Narayana four-armed mounted on Garuda in real wing-powered flight, with locked owner-approved character identity and 16:9 framing",
+  "input_registry": {
+    "approved_cast_sheet_sha256": "389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06",
+    "approved_archive_sha256": "97231bc30058dce3dff97a36e39c973182fce20ae0d7eb0a2c8e29d81deb8323",
+    "NARAYANA": {
+      "panel_sha256": "40ae8b356f07ab1ebe22cbb4a6c05fa5c197174e7cf9f324bf0cedb858193060",
+      "byte_hash_verified_in_workspace": true
+    },
+    "GARUDA": {
+      "panel_sha256": "7dc73b27cb9672eddedd2d9e5c0829703e2f173fdcc8ecef2fc1584851089f59",
+      "byte_hash_verified_in_workspace": true
+    }
+  },
+  "candidates": [
+    {
+      "kind": "POSETARGET_GENERATIVE_STUDY",
+      "library_path": "/Gajendra Moksham/Artwork/Candidates/GM-KF-001-F01-PoseStudy-UNVERIFIED-IDENTITY.png",
+      "library_file_id": "libfile_fde3_f-e2d2a6535fc48191a6a8a18092dea9f6_6312ba47cb408191b476e6a1a7ec6849",
+      "library_content_sha256": "ae77baf29db961cf5e7b4eb1e4340b2467a825d90ef414cd773f1449cf1c4f96",
+      "size_bytes": 3358286,
+      "width": 1920,
+      "height": 1080,
+      "produced_from": "Image-generation output resized from 1672×941 to 1920×1080 by Pillow LANCZOS",
+      "source_generation": {
+        "tool": "ChatGPT image generation",
+        "generation_id": "f0ae7763-9040-4095-9d02-17892b8cda5f",
+        "source_png_sha256": "3de2fd4e60bdbac3d82a3355a858471a86087c3490f4e18b5dd04a5c64dba32e",
+        "model_version": null,
+        "seed": null,
+        "exact_backend_prompt": null,
+        "edit_op": null,
+        "parent_gen_id": null
+      },
+      "reference_conditioning": {
+        "actual_approved_panel_bytes_in_model_input": "UNVERIFIED",
+        "reason": "Returned image tool metadata did not establish that source PNG pixels were used as image references; cannot infer reference-conditioning from visual resemblance or author request"
+      },
+      "visual_findings": {
+        "mounted_flight_pose": "IMPROVED: Lord visibly astride airborne Garuda with spread wings",
+        "four_armed_Narayana": "VISIBLE",
+        "divine_emblems": "VISIBLE",
+        "approved_GARUDA_appearance": "FAIL: white-headed eagle design replaces the locked golden humanoid bird face and dark hair",
+        "approved_style": "FAIL_OR_NEEDS_REWORK: highly rendered realistic lighting instead of the owner's warmer illustrated character sheet",
+        "artwork_status": "POSE_GUIDE_NOT_ACCEPTED_KEYFRAME"
+      },
+      "upload_verified": {
+        "sha256_roundtrip": true,
+        "actual_bytes_verified": true
+      },
+      "accepted_as_canonical_F01": false
+    },
+    {
+      "kind": "SOURCE_PIXEL_GEOMETRY_STUDY",
+      "library_path": "/Gajendra Moksham/Artwork/Candidates/GM-KF-001-F01-ApprovedPixels-WarpStudy-UNAPPROVED.png",
+      "library_file_id": "libfile_fde3_f-5721297758f881919a94e0ff0befdc31_6312ba47cb408191b476e6a1a7ec6849",
+      "library_content_sha256": "d3eb3ee7c5016017ec831b9fb01c9647b894d5cf7a86979611762549b72fe8fc",
+      "size_bytes": 1443689,
+      "width": 1920,
+      "height": 1080,
+      "produced_from": "Verified approved panel PNG pixels, using existing extracted alpha mattes, geometric rescale/rotate and procedural sky",
+      "transforms": {
+        "GARUDA": {
+          "crop_sha256": "7dc73b27cb9672eddedd2d9e5c0829703e2f173fdcc8ecef2fc1584851089f59",
+          "source_matted_wh": [
+            299,
+            363
+          ],
+          "resized_width": 850,
+          "rotated_degrees_clockwise": 72,
+          "top_left_xy": [
+            560,
+            245
+          ]
+        },
+        "NARAYANA": {
+          "crop_sha256": "40ae8b356f07ab1ebe22cbb4a6c05fa5c197174e7cf9f324bf0cedb858193060",
+          "source_matted_wh": [
+            288,
+            363
+          ],
+          "resized_width": 420,
+          "top_left_xy": [
+            765,
+            145
+          ],
+          "lower_leg_alpha_fade_fraction_range": [
+            0.77,
+            0.93
+          ]
+        },
+        "sky": {
+          "method": "original numpy/SciPy multi-scale seeded procedural clouds",
+          "seed": 7866
+        }
+      },
+      "reference_conditioning": {
+        "actual_approved_source_pixels_used": true,
+        "model_pose_generation": false
+      },
+      "visual_findings": {
+        "GARUDA_appearance": "preserves approved golden head, crown and wing pixels",
+        "flight_pose": "IMPROVED: horizontal Garuda posture with feet trailing",
+        "mounted_seating": "FAIL: standing Nārāyaṇa cutout appears perched on a wing, not securely seated on the carrier",
+        "artwork_status": "GEOMETRY_EXPLORATION_NOT_ACCEPTED_KEYFRAME"
+      },
+      "upload_verified": {
+        "sha256_roundtrip": true,
+        "actual_bytes_verified": true
+      },
+      "accepted_as_canonical_F01": false
+    }
+  ],
+  "outcome": {
+    "human_visual_review": "NOT_REVIEWED",
+    "preliminary_visual_QC": "NEEDS_REVISION",
+    "source_identity_and_physical_pose_pass_in_one_image": false,
+    "approved_start_frame": "MISSING",
+    "approved_end_frame": "MISSING",
+    "motion": "MISSING",
+    "audio": "MISSING",
+    "final_video": "MISSING",
+    "source_character_approval": "UNCHANGED",
+    "github_binary_mirror": "NONE: the candidate PNG bytes are stored in user Library only; this GitHub commit stores audit metadata",
+    "production_tracker": "UNCHANGED"
+  },
+  "next_task": "GM-PROD-004: produce ONE corrected start frame by combining a convincingly seated flying pose with pixel-verified owner-approved Garuda's golden humanoid head and Narayana's exact visual identity; a true image-conditioned renderer or artist-grade manual re-pose must record usable exact input assets and output lineage. Then request an accountable human art-QC decision. Do not render F02/motion or mark F01 accepted prematurely."
+}

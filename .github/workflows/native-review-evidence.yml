@@ -1,0 +1,93 @@
+name: Native review evidence and source checks
+
+on:
+  push:
+    branches:
+      - production-artwork
+    paths:
+      - ".github/workflows/native-review-evidence.yml"
+      - "scripts/**"
+      - "tests/**"
+      - "seasons/season-01/**"
+      - "assets/**"
+      - "reviews/native/S01E01/**"
+      - "docs/NATIVE_REVIEW_EVIDENCE_CONTRACT.md"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/native-review-evidence.yml"
+      - "scripts/**"
+      - "tests/**"
+      - "seasons/season-01/**"
+      - "assets/**"
+      - "reviews/native/S01E01/**"
+      - "docs/NATIVE_REVIEW_EVIDENCE_CONTRACT.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Python 3.10 synthetic and source gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out exactly this commit
+        uses: actions/checkout@v7
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.10"
+
+      - name: Run full Python regression suite
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Confirm honest nonapproval and source states
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import subprocess
+          import sys
+
+          checks = (
+              ("Native review receipt absent", 
+               ("scripts/validate_native_review_evidence.py",), 2, "NOT_REVIEWED"),
+              ("Authored S01E01/S06 scoped source", 
+               ("scripts/validate_content.py", "--episode", "S01E01", "--scene", "S06"),
+               0, "SCOPED_READY"),
+              ("Incomplete six-episode season", 
+               ("scripts/validate_content.py",), 2, "NOT_READY"),
+          )
+          for name, args, expected_exit, expected_status in checks:
+              result = subprocess.run(
+                  (sys.executable, *args), capture_output=True, text=True, check=False
+              )
+              print(f"--- {name} ---")
+              print(result.stdout)
+              if result.stderr:
+                  print(result.stderr, file=sys.stderr)
+              if result.returncode != expected_exit:
+                  raise SystemExit(
+                      f"{name}: expected exit {expected_exit}, received {result.returncode}"
+                  )
+              try:
+                  report = json.loads(result.stdout)
+              except json.JSONDecodeError as exc:
+                  raise SystemExit(f"{name}: output is not JSON: {exc}") from exc
+              if report.get("status") != expected_status:
+                  raise SystemExit(
+                      f"{name}: expected {expected_status}, got {report.get('status')}"
+                  )
+              if expected_status == "NOT_REVIEWED":
+                  if report.get("approved") is not False:
+                      raise SystemExit("Missing human receipt must not be approved")
+                  if report.get("reviewed_roles") != []:
+                      raise SystemExit("No native reviewer roles can be claimed")
+              print(f"CONFIRMED: {name} -> {expected_status} (exit {expected_exit})")
+
+          print("Source/receipt state assertions passed; NO HUMAN APPROVAL inferred.")
+          PY

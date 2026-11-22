@@ -1,0 +1,23 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+# Model working state, unreviewed generated outputs and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+tmp/
+temp/
+work/
+workspace/
+renders/
+out/
+pipeline/state/
+*.log
+.DS_Store
