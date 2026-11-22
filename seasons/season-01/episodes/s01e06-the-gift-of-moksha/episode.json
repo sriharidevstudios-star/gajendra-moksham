@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4; originally worded contemporary Telugu/Hindi/English child-friendly narration, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.1–2,5–6,13–26",
-    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture."
+    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture."
   },
   "adaptation": {
     "core_preserved": [
@@ -38,7 +38,8 @@
       "Source lists many sacred names/locations at 8.4.17–24; age-accessible condensed narrator wording explicitly not a literal mantra or a replacement for exact recitation.",
       "No fabricated direct speech from Huhu, Gajendra or Narayana in the sourced narrator-only script; optional later direct speaking portraits would need new authorized lines.",
       "S01: title Flowers and songs of praise; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
-      "S02: title Hūhū's gratitude and departure; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses."
+      "S02: title Hūhū's gratitude and departure; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
+      "S03: title Gajendra's spiritual transformation; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses."
     ],
     "fidelity_note": "Original trilingual paraphrase retains mercy, freedom from ignorance, sārūpya-mukti, morning remembrance and departure order. Chronology of divine touch is not rewritten by the editorial flashback/reveal sequence."
   },
@@ -190,6 +191,49 @@
           "id": "S01E06-S02-SH03",
           "budget_seconds": 18,
           "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5). Narration L007–L008. He circumambulates the Lord and bows, then returns to Gandharvaloka; do not portray him permanently trapped or morally monstrous.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Gajendra's spiritual transformation",
+      "setting": "The rescued Gajendra's liberation is now shown as a distinct spiritual event in an explanatory sequence, chronologically tied to the Lord's touch at the rescue (8.4.6), even though the present episode follows E05's flashback narration.",
+      "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Be explicit in narration this occurred THROUGH HARI'S TOUCH at rescue (not suddenly after weeks spent as an elephant following E05). E05 was a retrospective flashback, not a gap in his liberation.",
+        "Start with a brief visual recall of approved quadrupedal Gajendra being touched; transition non-graphically to approved SEPARATE GAJENDRA_LIBERATED full-body identity, four arms, yellow garments.",
+        "The spiritual associate must not look like an elephant with extra hands; not the same face/body as Narayana, keep distinguishable owner-approved character.",
+        "Conch, chakra, mace, lotus on spiritual form are iconographic details already approved only in concept; check four-arm count, head and crown.",
+        "No physical injury, no magical duplicate Narayana emerging, and no animal speaking lip-sync."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.6",
+          "url": "https://vedabase.io/en/library/sb/8/4/6/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S03-SH01",
+          "budget_seconds": 18,
+          "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6). Narration L001–L003. Be explicit in narration this occurred THROUGH HARI'S TOUCH at rescue (not suddenly after weeks spent as an elephant following E05). E05 was a retrospective flashback, not a gap in his liberation.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S03-SH02",
+          "budget_seconds": 19,
+          "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6). Narration L004–L006. Start with a brief visual recall of approved quadrupedal Gajendra being touched; transition non-graphically to approved SEPARATE GAJENDRA_LIBERATED full-body identity, four arms, yellow garments.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S03-SH03",
+          "budget_seconds": 18,
+          "action": "By the Lord's touch, Gajendra is immediately freed from ignorance and material bondage and receives sārūpya-mukti, appearing in yellow robes with four arms, a distinct spiritual associate (8.4.6). Narration L007–L008. The spiritual associate must not look like an elephant with extra hands; not the same face/body as Narayana, keep distinguishable owner-approved character.",
           "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
           "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
         }
@@ -500,8 +544,160 @@
         "kind": "original_dramatization",
         "note": "Original serial narrative closure of Huhu's source-grounded gratitude and departure from 8.4.5; not independently quoted scriptural speech."
       }
+    },
+    {
+      "id": "S01E06-S03-L001",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "Gajendra's deliverance brought a deeper spiritual gift.",
+      "text": {
+        "te": "గజేంద్రుడి విముక్తికి మరో దివ్యమైన ఫలితం ఉంది.",
+        "hi": "गजेन्द्र के उद्धार का एक और दिव्य फल था।",
+        "en": "Gajendra's deliverance brought a deeper spiritual gift."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L002",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "By Narayana's touch, his ignorance was removed.",
+      "text": {
+        "te": "నారాయణుడి స్పర్శతో అతని అజ్ఞానం తొలగిపోయింది.",
+        "hi": "नारायण के स्पर्श से उसका अज्ञान मिट गया।",
+        "en": "By Narayana's touch, his ignorance was removed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L003",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "He was freed from material bondage too.",
+      "text": {
+        "te": "భౌతిక బంధనాల నుంచి కూడా అతను విముక్తి పొందాడు.",
+        "hi": "वह भौतिक बंधनों से भी मुक्त हो गया।",
+        "en": "He was freed from material bondage too."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L004",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "This liberation is called sārūpya-mukti.",
+      "text": {
+        "te": "ఈ విముక్తిని సారూప్య ముక్తి అంటారు.",
+        "hi": "इस मुक्ति को सारूप्य-मुक्ति कहते हैं।",
+        "en": "This liberation is called sārūpya-mukti."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L005",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "He received a divine form with four arms.",
+      "text": {
+        "te": "అతనికి నాలుగు చేతులున్న దివ్య రూపం లభించింది.",
+        "hi": "उसे चार भुजाओं वाला दिव्य रूप मिला।",
+        "en": "He received a divine form with four arms."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L006",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "Dressed in yellow, his spiritual form resembled the Lord's.",
+      "text": {
+        "te": "పసుపు వస్త్రాలు ధరించిన ఆ రూపం భగవంతునికి సాదృశ్యం కలిగి ఉంది.",
+        "hi": "पीले वस्त्रों वाला वह रूप भगवान के समान दिव्य था।",
+        "en": "Dressed in yellow, his spiritual form resembled the Lord's."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L007",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "It was no longer an ordinary elephant body.",
+      "text": {
+        "te": "అది సాధారణ ఏనుగు రూపం కాదు.",
+        "hi": "वह साधारण हाथी का शरीर नहीं था।",
+        "en": "It was no longer an ordinary elephant body."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
+    },
+    {
+      "id": "S01E06-S03-L008",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Gajendra became a spiritual associate of Narayana.",
+      "text": {
+        "te": "నారాయణుడి సేవకు గజేంద్రుడు దివ్య సహచరుడయ్యాడు.",
+        "hi": "गजेन्द्र भगवान नारायण का दिव्य सहचर बन गया।",
+        "en": "Gajendra became a spiritual associate of Narayana."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.6"
+      }
     }
   ],
-  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio.",
-  "timing_note": "E06 2/6 scenes authored, 16 narrator records, 110/330 provisional seconds; no reading or media files."
+  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio.",
+  "timing_note": "E06 3/6 scenes authored, 24 narrator records, 165/330 provisional seconds; no reading or media files."
 }
