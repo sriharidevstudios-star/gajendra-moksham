@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E01",
+  "episode_number": 1,
+  "slug": "the-lake-at-trikuta",
+  "title": {
+    "te": "త్రికూట పర్వతంలోని సరస్సు",
+    "hi": "त्रिकूट पर्वत की झील",
+    "en": "The Lake at Trikūṭa"
+  },
+  "status": "partial_scene_draft",
+  "logline": "Before the elephants reach the lake, the sacred account opens on Trikūṭa, a vast mountain in the Ocean of Milk with gold, silver and iron peaks.",
+  "target_runtime_seconds": {
+    "min": 330,
+    "preferred": 360,
+    "max": 390
+  },
+  "source": {
+    "edition": "Śrīmad-Bhāgavatam, Canto 8; passage checked against Vedabase verse pages (copyrighted translation not reused)",
+    "url": "https://vedabase.io/en/library/sb/8/2/",
+    "source_locator": "SB 8.2.1–28",
+    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes."
+  },
+  "adaptation": {
+    "core_preserved": [
+      "Śukadeva addresses a king while describing Trikūṭa, a large mountain surrounded by the Ocean of Milk (SB 8.2.1).",
+      "Trikūṭa has three principal peaks of gold, silver and iron, plus mineral- and jewel-rich secondary peaks, trees, vines, shrubs and waterfalls (SB 8.2.2–3).",
+      "Waves of the Ocean of Milk wash the foot of the mountain where emeralds make the ground green (SB 8.2.4)."
+    ],
+    "changes": [
+      "The narrator speaks an original accessible retelling rather than directly quoting Śukadeva or a modern published English translation.",
+      "The gold-left, silver-center, iron-right arrangement, aerial camera moves, ambient sound and transitions are original visual staging decisions; scripture does not assign peak positions.",
+      "The cosmic scale is conveyed pictorially without asserting a literal real-world map. No later garden, animals, lake or crocodile events are moved into S01."
+    ],
+    "fidelity_note": "Scripture-grounded geographic prologue with no dialogue ascribed to the king, Gajendra or a deity. All eight spoken lines are newly phrased paraphrases of cited verses. No new plot incident or moral has been added."
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": {
+        "te": "కథకుడు",
+        "hi": "कथावाचक",
+        "en": "Narrator"
+      },
+      "description": "Offscreen voice for the scriptural geographic prologue; not a visually present human or Śukadeva impersonation.",
+      "voice_direction": "Calm, clear and warmly curious, naming the three peaks distinctly and allowing waterfall and shoreline sounds to breathe; no voice actor has been selected."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "The three peaks of Trikūṭa",
+      "setting": "An island mountain surrounded by the Ocean of Milk: distant three-peak skyline, gem-studded smaller slopes, waterfalls and emerald-colored foothills. The garden, herd and freshwater lake are not shown yet.",
+      "action": "A narrated opening vista moves from the Ocean of Milk and the immense mountain, through its three defining gold/silver/iron peaks, to the forested, waterfall-filled slopes and emerald shoreline. No named character appears on screen; later scenes will establish the separate Ṛtumat garden and the lake.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Begin with a quiet, wide expanse of the Ocean of Milk before revealing Trikūṭa rising from it.",
+        "Read the three principal peaks in one silhouette; for a stable editorial screen map, stage gold left, silver center, iron right. Their screen positions are an original staging decision, not claimed as a verse detail.",
+        "Use one sustained rushing-water sound transition from jewel-bearing smaller peaks to waterfalls.",
+        "Finish with waves meeting emerald-green foothills. Do not show the Ṛtumat garden, Gajendra, herd, crocodile or the later freshwater lake yet."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.1",
+          "url": "https://vedabase.io/en/library/sb/8/2/1/"
+        },
+        {
+          "locator": "8.2.2-3",
+          "url": "https://vedabase.io/en/library/sb/8/2/2-3/"
+        },
+        {
+          "locator": "8.2.4",
+          "url": "https://vedabase.io/en/library/sb/8/2/4/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E01-S01-SH01",
+          "budget_seconds": 18,
+          "action": "Open on an immense milky ocean, tilt up to Trikūṭa rising from its island; use offscreen narration L001–L002. No people or animals.",
+          "camera": "Extreme-wide 16:9 aerial establishing shot, slow rise; preserve mountain center and ocean around it.",
+          "sound": "Ocean surf underneath narrator; a restrained original ambient musical bed. No voices besides NARRATOR."
+        },
+        {
+          "id": "S01E01-S01-SH02",
+          "budget_seconds": 18,
+          "action": "Reveal the three primary peaks together and distinguish gold, silver and iron while narrator says L003–L004. Gold/silver/iron left-to-right is continuity staging only.",
+          "camera": "Wide frontal composition and slow lateral drift; keep all three peaks in a single stable view.",
+          "sound": "Wind at altitude and delicate, non-diegetic atmosphere under the narration."
+        },
+        {
+          "id": "S01E01-S01-SH03",
+          "budget_seconds": 24,
+          "action": "Move past smaller gem-bearing peaks, trees, vines, shrubs and waterfalls, ending at emerald-green foothills touched by Ocean of Milk waves; narration L005–L008. No lake, elephant, crocodile or invented incident.",
+          "camera": "Slow descending travel shot with gentle cut to shoreline; do not treat the ocean as the freshwater lake.",
+          "sound": "Distinct waterfall wash, then waves; leave a brief wordless tail for the transition to later S02."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "S01E01-S01-L001",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle opening; pronounce Trikūṭa clearly",
+      "intent": "Open the ancient setting through a calm, grounded narrator.",
+      "text": {
+        "te": "శుక మహర్షి ఒక రాజుకు ఓ అద్భుతమైన పర్వతం గురించి చెప్పారు. దాని పేరు త్రికూటం.",
+        "hi": "शुकदेव मुनि ने एक राजा को एक अद्भुत पर्वत के बारे में बताया। उसका नाम था त्रिकूट।",
+        "en": "Śukadeva told a king about a magnificent mountain called Trikūṭa."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.1"
+      }
+    },
+    {
+      "id": "S01E01-S01-L002",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Wonder at the mountain’s scale",
+      "intent": "Establish the mythic ocean and mountain scale.",
+      "text": {
+        "te": "దాని చుట్టూ క్షీరసాగరం ఉంది. ఆ సముద్రం మధ్య త్రికూటం ఎంతో ఎత్తుగా నిలిచింది.",
+        "hi": "उसके चारों ओर क्षीरसागर था। उस समुद्र के बीच त्रिकूट बहुत ऊँचा खड़ा था।",
+        "en": "The Ocean of Milk surrounded it, and Trikūṭa rose high above the waves."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.1"
+      }
+    },
+    {
+      "id": "S01E01-S01-L003",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Name each distinct material without rushing",
+      "intent": "Differentiate the three defining peaks.",
+      "text": {
+        "te": "త్రికూటానికి మూడు ప్రధాన శిఖరాలు ఉన్నాయి. ఒకటి బంగారంతో, ఒకటి వెండితో, మరొకటి ఇనుముతో.",
+        "hi": "त्रिकूट की तीन मुख्य चोटियाँ थीं—एक सोने की, एक चाँदी की और एक लोहे की।",
+        "en": "Trikūṭa had three great peaks: one of gold, one of silver and one of iron."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.2-3"
+      }
+    },
+    {
+      "id": "S01E01-S01-L004",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Light, spacious wonder",
+      "intent": "Hold on the complete three-peak silhouette.",
+      "text": {
+        "te": "ఆ మూడు శిఖరాలు ఆకాశానికీ, చుట్టూ ఉన్న దిక్కులకీ అందం తెచ్చాయి.",
+        "hi": "वे तीनों चोटियाँ आकाश और चारों दिशाओं की शोभा बढ़ाती थीं।",
+        "en": "Those three peaks made the sky and every direction more beautiful."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.2-3"
+      }
+    },
+    {
+      "id": "S01E01-S01-L005",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Grounded detail rather than hype",
+      "intent": "Move from the main peaks to the smaller jewel-rich slopes.",
+      "text": {
+        "te": "ఇతర శిఖరాల్లో రత్నాలు, ఎన్నో రకాల ఖనిజాలు మెరిసేవి.",
+        "hi": "दूसरी चोटियों पर तरह-तरह के रत्न और खनिज चमकते थे।",
+        "en": "Other peaks held precious stones and many kinds of minerals."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.2-3"
+      }
+    },
+    {
+      "id": "S01E01-S01-L006",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Easy conversational description",
+      "intent": "Reveal the vegetation without adding new characters or events.",
+      "text": {
+        "te": "చెట్లు, తీగలు, పొదలు ఆ కొండలంతా విస్తరించాయి.",
+        "hi": "पेड़, बेलें और झाड़ियाँ उन ढलानों पर फैली थीं।",
+        "en": "Trees, climbing vines and shrubs spread across the slopes."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.2-3"
+      }
+    },
+    {
+      "id": "S01E01-S01-L007",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Flowing, with a slight pause for the water sound",
+      "intent": "Let the waterfall sound bridge into the final shoreline view.",
+      "text": {
+        "te": "జలపాతాలు కిందికి పారుతూ, ఆ పర్వతమంతా నీటి శబ్దంతో మారుమోగేలా చేశాయి.",
+        "hi": "झरने नीचे बहते थे, और उनके पानी की आवाज़ पूरे पहाड़ पर गूँजती थी।",
+        "en": "Waterfalls poured down, and the sound of rushing water echoed across the mountain."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.2-3"
+      }
+    },
+    {
+      "id": "S01E01-S01-L008",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft landing; allow ambient tail",
+      "intent": "Complete the geographical reveal at the emerald-green foothills.",
+      "text": {
+        "te": "పర్వతం అడుగున క్షీరసాగరపు అలలు తాకుతున్నాయి. అక్కడి నేల పచ్చని మరకత రాళ్లతో మెరిసింది.",
+        "hi": "पहाड़ की तलहटी को क्षीरसागर की लहरें छूती थीं। वहाँ की धरती हरे पन्नों से चमकती थी।",
+        "en": "At the mountain’s foot, the ocean waves washed the shore, where green emeralds gleamed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.4"
+      }
+    }
+  ],
+  "performance_notes": "Eight original narration lines with 1:1 Telugu/Hindi/English meaning and stable IDs. NARRATOR owns every line; offscreen narration has lip_sync_target null. No character or animal vocalization in this scene. Pronunciation and natural language pacing require native-speaker table reads; no voices or recordings are approved.",
+  "timing_note": "Scene 1 is a provisional 60 seconds split into three editorial shots of 18, 18 and 24 seconds. Eight English narration lines have a combined length appropriate for a scenic opening with pauses, but actual durations in Telugu/Hindi/English have not been recorded or measured. Five later scenes (S02–S06) remain unwritten; the 360-second episode target is not a measured runtime."
+}
