@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E03",
+  "episode_number": 3,
+  "slug": "the-prayer-from-the-heart",
+  "title": {
+    "te": "హృదయం నుంచి వచ్చిన ప్రార్థన",
+    "hi": "हृदय से निकली प्रार्थना",
+    "en": "The Prayer from the Heart"
+  },
+  "status": "partial_scene_draft",
+  "logline": "Still trapped after the thousand-year struggle, Gajendra remembers a prayer through divine grace and turns his mind to the Supreme Lord.",
+  "target_runtime_seconds": {
+    "min": 330,
+    "preferred": 330,
+    "max": 390
+  },
+  "source": {
+    "edition": "Śrīmad-Bhāgavatam 8.3.1–29 original te/hi/en retelling; third-party modern translations not copied",
+    "url": "https://vedabase.io/en/library/sb/8/3/",
+    "source_locator": "SB 8.3.1–29",
+    "verification_notes": "S01 anchors exactly 8.3.1: Gajendra fixed his intelligence/mind and remembered a prayer learned in a previous life by divine grace. The previous king's name is intentionally withheld until later source-authored reveal, not denied. L002's exact quiet water sound is original staging. No Sanskrit phrase, Gajendra human lips, or early divine manifestation is authored. Actual prayers 8.3.2–29 belong to S02–S06. Checked 2026-11-22."
+  },
+  "adaptation": {
+    "core_preserved": [
+      "Gajendra fixes mind and intelligence in his heart and remembers a mantra learned in a previous lifetime by the grace of the Lord (SB 8.3.1)."
+    ],
+    "changes": [
+      "Episode 3 continues from E02's decision without duplicating a new bite, release or millennium montage.",
+      "Previous-life visual reveal is reserved for Episode 5 while honestly identifying the prayer's earlier-life origin here.",
+      "Subdued water sounds, close eye/trunk reaction and visual quiet are original screenplay staging, not scripture incidents.",
+      "The source's Sanskrit chant is NOT auto-created, substituted, or claimed recorded. Spoken lines are original child-friendly paraphrases under NARRATOR."
+    ],
+    "fidelity_note": "Direct meaning of SB 8.3.1 is retained, especially grace and remembered prayer. No copyrighted modern translation, invented elephant dialogue, new deity arrival or premature lotus offering."
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": {
+        "te": "కథకుడు",
+        "hi": "कथावाचक",
+        "en": "Narrator"
+      },
+      "description": "Only offscreen trilingual spoken owner in a retelling of Gajendra's inner prayer.",
+      "voice_direction": "Tender contemplative tone; native/rights/voice approval pending."
+    },
+    {
+      "id": "GAJENDRA",
+      "name": {
+        "te": "గజేంద్రుడు",
+        "hi": "गजेन्द्र",
+        "en": "Gajendra"
+      },
+      "description": "Approved full-body decorated elephant, still physically caught, expressing remembrance through natural eye/trunk posture only.",
+      "voice_direction": "No human mouth-synced speaking or yet-authorized Gajendra voice ID."
+    },
+    {
+      "id": "CROCODILE",
+      "name": {
+        "te": "మొసలి",
+        "hi": "मगरमच्छ",
+        "en": "Crocodile"
+      },
+      "description": "Approved olive stylized crocodile still holding the exact chosen left foreleg, no extra violent action.",
+      "voice_direction": "Non-speaking, natural future animal/SFX only."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "Stillness amid the struggle",
+      "setting": "Same lotus lake after the prolonged contest, waterline and the established crocodile left-foreleg grip unchanged.",
+      "action": "Gajendra steadies his mind, and through divine grace a prayer learned in a previous life comes back. The narrator carries the spiritual meaning; visuals show natural quiet body posture without lipsync or premature revelation.",
+      "duration_budget_seconds": 45,
+      "nonverbal_beats": [
+        "Start exactly after E02/S06 with Gajendra still caught; no second new bite or immediate release.",
+        "Use approved Gajendra and crocodile identities exactly; no photo-real animal textures, no facial identity shifts, no mouth words.",
+        "A quiet focus on Gajendra's eyes/trunk represents remembering; this is cinematic staging not an audible verse.",
+        "Earlier-life knowledge is stated as scripture but the flashback king's identity is not visually shown until E05.",
+        "No 8.3.30–33 divine arrival; scene ends on remembered prayer before it is expressed in S02."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.1",
+          "url": "https://vedabase.io/en/library/sb/8/3/1/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E03-S01-SH01",
+          "budget_seconds": 15,
+          "action": "Continue from E02/S06: trapped approved Gajendra holds still while his mind turns inward; narration L001–L002; quiet camera focus is original cinematography.",
+          "camera": "16:9 natural elephant full-body silhouette and medium look with unchanged left-foreleg crocodile hold; no mouth-sync, no new attack.",
+          "sound": "Only narrator speech as future audio owner; restrained lake/water effects and quiet are PLANNED."
+        },
+        {
+          "id": "S01E03-S01-SH02",
+          "budget_seconds": 15,
+          "action": "Gajendra remembers an old devotional prayer, without showing previous king's physical identity yet; narration L003–L004. No fabricated flashback conversation.",
+          "camera": "16:9 reserved face/eye/trunk reaction, optionally gentle abstract glow as cinematographic indication, not a deity apparition.",
+          "sound": "Offscreen NARRATOR only; no chanting track manufactured or third-party music."
+        },
+        {
+          "id": "S01E03-S01-SH03",
+          "budget_seconds": 15,
+          "action": "Divine grace allows remembered prayer to return; Gajendra holds the thought quietly while still caught; narration L005–L006. Prayer words begin in S02.",
+          "camera": "16:9 warm lake surface and the established elephant silhouette in one stable bank-axis composition.",
+          "sound": "NARRATOR only with future soft ambient tail; no audible Sanskrit claim."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "S01E03-S01-L001",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Steady and tender",
+      "intent": "Though still caught, Gajendra steadied his mind.",
+      "text": {
+        "te": "గజేంద్రుడు ఇంకా మొసలి పట్టులోనే ఉన్నా, తన మనసును నిలిపాడు.",
+        "hi": "गजेन्द्र अब भी मगरमच्छ की पकड़ में था, फिर भी उसने अपना मन स्थिर किया।",
+        "en": "Though still caught, Gajendra steadied his mind."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.1"
+      }
+    },
+    {
+      "id": "S01E03-S01-L002",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slow contemplative pause",
+      "intent": "Amid the struggle, his attention turned inward.",
+      "text": {
+        "te": "పోరాట శబ్దాల మధ్య అతని ధ్యానం లోపలికి తిరిగింది.",
+        "hi": "संघर्ष के बीच उसका ध्यान अपने भीतर गया।",
+        "en": "Amid the struggle, his attention turned inward."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original quiet visual staging: Gajendra's attention turning inward amid existing water sounds. SB 8.3.1 states he fixed his mind and remembered prayer, but does not prescribe this precise soundscape or camera."
+      }
+    },
+    {
+      "id": "S01E03-S01-L003",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Clear devotional warmth",
+      "intent": "A prayer he had learned long ago returned to him.",
+      "text": {
+        "te": "ఎప్పుడో నేర్చుకున్న ఒక ప్రార్థన అతనికి గుర్తొచ్చింది.",
+        "hi": "उसे बहुत पहले सीखी हुई एक प्रार्थना याद आने लगी।",
+        "en": "A prayer he had learned long ago returned to him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.1"
+      }
+    },
+    {
+      "id": "S01E03-S01-L004",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Steady and tender",
+      "intent": "It came from his devotion in an earlier life.",
+      "text": {
+        "te": "ఆ ప్రార్థన అతని గత జన్మలోని భక్తికి సంబంధించినది.",
+        "hi": "वह प्रार्थना उसके पिछले जन्म की भक्ति से जुड़ी थी।",
+        "en": "It came from his devotion in an earlier life."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.1"
+      }
+    },
+    {
+      "id": "S01E03-S01-L005",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slow contemplative pause",
+      "intent": "By the Lord's grace, the remembered prayer returned.",
+      "text": {
+        "te": "భగవంతుడి కృపతో ఆ మాటలు మళ్లీ అతని మనసులో మెదిలాయి.",
+        "hi": "भगवान की कृपा से वे शब्द उसके मन में फिर जाग उठे।",
+        "en": "By the Lord's grace, the remembered prayer returned."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.1"
+      }
+    },
+    {
+      "id": "S01E03-S01-L006",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Clear devotional warmth",
+      "intent": "Gajendra held his mind on that prayer.",
+      "text": {
+        "te": "గజేంద్రుడు ఆ ప్రార్థనపై తన మనసును నిలిపాడు.",
+        "hi": "गजेन्द्र ने अपना मन उसी प्रार्थना पर टिकाया।",
+        "en": "Gajendra held his mind on that prayer."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.1"
+      }
+    }
+  ],
+  "performance_notes": "Six S01 narrator-owned te/hi/en lines with null lip_sync_target. No human/crocodile speech; no actual Sanskrit chanting audio, TTS or reviewed pronunciation. Approved character identity is in Library but reference binary not on GitHub.",
+  "timing_note": "Only E03/S01 is authored with three 15-second editorial shots (45 seconds provisional, not measured); S02–S06 remain unwritten. E03 preferred 330s and status partial_scene_draft."
+}

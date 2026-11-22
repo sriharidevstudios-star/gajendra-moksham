@@ -19,7 +19,7 @@
     "preferred": 360,
     "max": 390
   },
-  "status": "two_episode_sources_four_missing_e02_draft_unapproved",
+  "status": "three_episode_sources_three_missing_e02_draft_e03_partial",
   "source": "Srimad Bhagavatam Canto 8 Chapters 2–4",
   "episodes": [
     {
@@ -50,7 +50,7 @@
       "episode_id": "S01E03",
       "release_order": 3,
       "path": "episodes/s01e03-the-prayer-from-the-heart",
-      "status": "planned_no_episode_source",
+      "status": "partial_scene_draft",
       "title": {
         "en": "The Prayer from the Heart",
         "te": "హృదయం నుంచి వచ్చిన ప్రార్థన",
