@@ -19,7 +19,7 @@
     "preferred": 360,
     "max": 390
   },
-  "status": "partial_first_episode_draft_five_sources_missing",
+  "status": "partial_two_episode_drafts_four_sources_missing",
   "source": "Srimad Bhagavatam Canto 8 Chapters 2–4",
   "episodes": [
     {
@@ -38,7 +38,7 @@
       "episode_id": "S01E02",
       "release_order": 2,
       "path": "episodes/s01e02-the-battle-no-one-could-win",
-      "status": "planned_no_episode_source",
+      "status": "partial_scene_draft",
       "title": {
         "en": "The Battle No One Could Win",
         "te": "ఎవ్వరూ గెలవలేని పోరాటం",

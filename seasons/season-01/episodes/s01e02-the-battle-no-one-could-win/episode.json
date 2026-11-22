@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E02",
+  "episode_number": 2,
+  "slug": "the-battle-no-one-could-win",
+  "title": {
+    "te": "ఎవ్వరూ గెలవలేని పోరాటం",
+    "hi": "वह संघर्ष जिसे कोई जीत न सका",
+    "en": "The Battle No One Could Win"
+  },
+  "status": "partial_scene_draft",
+  "logline": "The herd tries and fails to free Gajendra from the crocodile; the extraordinary struggle and his eventual spiritual decision follow in later scenes.",
+  "target_runtime_seconds": {
+    "min": 330,
+    "preferred": 330,
+    "max": 390
+  },
+  "source": {
+    "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 2; original trilingual paraphrase, not copied English translation",
+    "url": "https://vedabase.io/en/library/sb/8/2/",
+    "source_locator": "SB 8.2.27–33",
+    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22."
+  },
+  "adaptation": {
+    "core_preserved": [
+      "Other elephants grasp Gajendra from behind but cannot rescue him from the strong crocodile (SB 8.2.28).",
+      "Female elephants cry out in distress (SB 8.2.28).",
+      "The unsuccessful rescue leaves Gajendra still trapped before the long struggle (8.2.28–29)."
+    ],
+    "changes": [
+      "Continue directly from E01/S06; no second new attack.",
+      "Exact left foreleg, shore orientation and helper staging are original 16:9 continuity decisions.",
+      "L003 surface ripples are original staging, not another scripture event.",
+      "No named herd character or human-spoken elephant/crocodile lines; no gore or fabricated rescue.",
+      "Future S02–S06 contain the ongoing contest, thousand years, changing advantage and turn to divine refuge; none are authored yet."
+    ],
+    "fidelity_note": "Independent simple child-friendly Telugu/Hindi/English paraphrase of SB 8.2.28. The physical failed pull from behind and female elephants' cries are source events; all water staging is clearly differentiated and unrecorded."
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": {
+        "te": "కథకుడు",
+        "hi": "कथावाचक",
+        "en": "Narrator"
+      },
+      "description": "Only offscreen spoken owner in the nine-line trilingual scene.",
+      "voice_direction": "Warm serious plain Telugu/Hindi/English, future human timing needed; no selected actor or TTS."
+    },
+    {
+      "id": "GAJENDRA",
+      "name": {
+        "te": "గజేంద్రుడు",
+        "hi": "गजेन्द्र",
+        "en": "Gajendra"
+      },
+      "description": "User-approved decorated grey Indian elephant visual identity, naturally quadrupedal and unable to free his left foreleg.",
+      "voice_direction": "No human-spoken mouth line, only future nonverbal elephant SFX."
+    },
+    {
+      "id": "CROCODILE",
+      "name": {
+        "te": "మొసలి",
+        "hi": "मगरमच्छ",
+        "en": "Crocodile"
+      },
+      "description": "User-approved stylized slightly fierce olive crocodile retaining one jaw and tail, consistent scale and hold.",
+      "voice_direction": "No human-spoken words or lip sync, future natural water/animal SFX only."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "The herd rushes to help",
+      "setting": "Immediate continuation of S01E01/S06 at the same Ṛtumat freshwater lotus lake: established near bank to the editorial left, deeper lake to the right; crocodile still holding Gajendra's chosen left foreleg, which is a continuity choice not specified in scripture.",
+      "action": "Adult elephants now actually take hold of Gajendra from behind and pull to free him. The crocodile remains firmly attached; female elephants cry, other elephants cannot rescue him. This fulfills SB 8.2.28, not merely the approach shown in E01/S06. No long-time montage, new attack, injury, magic or escape.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Start precisely where E01/S06 stops; show the same approved decorated grey Gajendra and stylized fierce olive crocodile at the same scale, with natural quadruped anatomy.",
+        "Adult herd elephants approach the rear of Gajendra. Calves remain behind larger adults; this is original staging, not new narrated scripture.",
+        "Clearly stage adult elephants grasping from behind and trying to draw Gajendra free, as SB 8.2.28 says; the attempt fails.",
+        "Retain the crocodile grip on the chosen left foreleg and unchanged shore/deeper-water geography; no blood, wound, horror effect, additional jaws or tails.",
+        "Gentle normal water ripples in L003 are separately disclosed original cinematography. Animal calls are nonverbal PLANNED SFX, not generated recordings or spoken dialogue.",
+        "End after the unsuccessful rescue, with grip unresolved. The thousand-year struggle of SB 8.2.29 belongs to subsequent scenes."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.28",
+          "url": "https://vedabase.io/en/library/sb/8/2/28/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E02-S01-SH01",
+          "budget_seconds": 18,
+          "action": "Establish the same bank-facing trapped Gajendra/crocodile and adult elephants now gathering behind him; narration L001–L003. Only normal ripples as a disclosed original visual insert.",
+          "camera": "16:9 medium-wide full-body master, near bank left and deeper water right; do not give every herd elephant Gajendra's unique headpiece.",
+          "sound": "NARRATOR owns spoken lines; gentle splashes and elephant movement PLANNED, not present."
+        },
+        {
+          "id": "S01E02-S01-SH02",
+          "budget_seconds": 24,
+          "action": "Other elephants take hold from behind and visibly pull together. Their combined effort fails against the crocodile's hold; narration L004–L006. Show the source's actual rescue attempt.",
+          "camera": "16:9 stable side/three-quarter full-body composition with left foreleg contact and helper elephants physically behind Gajendra; no axis reversal or injury closeup.",
+          "sound": "NARRATOR with future restrained water effort and elephant calls as unproduced SFX."
+        },
+        {
+          "id": "S01E02-S01-SH03",
+          "budget_seconds": 18,
+          "action": "Female elephants cry; all recognize that even together they cannot free their leader. End on Gajendra still restrained; narration L007–L009. No passage of many years yet.",
+          "camera": "Return to 16:9 bank-facing wide shot with calves behind adults; keep natural elephant and crocodile silhouette and scale.",
+          "sound": "Gentle animal calls and environmental tail PLANNED. No human mouth-synced dialogue or finished sound."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "S01E02-S01-L001",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Concerned continuity; no new attack",
+      "intent": "Introduce adults reaching Gajendra",
+      "text": {
+        "te": "మొసలి పట్టులో ఉన్న గజేంద్రుడి దగ్గరకు మిగతా ఏనుగులు చేరుకున్నాయి.",
+        "hi": "मगरमच्छ की पकड़ में फँसे गजेन्द्र के पास बाकी हाथी आ गए।",
+        "en": "The other elephants reached Gajendra, still caught by the crocodile."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    },
+    {
+      "id": "S01E02-S01-L002",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm cooperation",
+      "intent": "Position the herd for the source's rear-body rescue",
+      "text": {
+        "te": "తమ నాయకుడికి సాయం చేయడానికి అవి అతని వెనుక వైపు చేరాయి.",
+        "hi": "अपने नेता की मदद के लिए वे उसके पीछे इकट्ठा हुए।",
+        "en": "They gathered behind their leader, ready to help."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    },
+    {
+      "id": "S01E02-S01-L003",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Brief neutral visual transition",
+      "intent": "Disclose original surface-wave staging",
+      "text": {
+        "te": "అవి కదులుతుండగా సరస్సు నీళ్లలో చిన్న అలలు వచ్చాయి.",
+        "hi": "उनके हिलने से झील के पानी में छोटी-छोटी लहरें उठीं।",
+        "en": "Small waves spread as the elephants moved through the shallows."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original gentle water-ripple movement around elephants entering the established shallows. SB 8.2.28 recounts their failed help, not a separate rippling-water incident."
+      }
+    },
+    {
+      "id": "S01E02-S01-L004",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Clear action; no fear exaggeration",
+      "intent": "Depict the rear-body grasp stated in 8.2.28",
+      "text": {
+        "te": "అవి గజేంద్రుడిని వెనుక నుంచి పట్టుకున్నాయి.",
+        "hi": "उन्होंने गजेन्द्र को पीछे से पकड़ लिया।",
+        "en": "They took hold of Gajendra from behind."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    },
+    {
+      "id": "S01E02-S01-L005",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Measured effort",
+      "intent": "Depict the collective rescue attempt",
+      "text": {
+        "te": "అన్నీ కలిసి తమ బలమంతా పెట్టి లాగాయి.",
+        "hi": "सबने मिलकर पूरी ताकत से खींचा।",
+        "en": "Together, they pulled with all their strength."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    },
+    {
+      "id": "S01E02-S01-L006",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Serious but non-graphic",
+      "intent": "Narrate failure of the rescue",
+      "text": {
+        "te": "కానీ మొసలి పట్టు చాలా బలంగా ఉండడంతో గజేంద్రుడి కాలు విడిపోలేదు.",
+        "hi": "लेकिन मगरमच्छ की पकड़ इतनी मज़बूत थी कि गजेन्द्र का पैर नहीं छूटा।",
+        "en": "But the crocodile's grip was too strong to break."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    },
+    {
+      "id": "S01E02-S01-L007",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Empathetic",
+      "intent": "Describe sorrow without invented speech",
+      "text": {
+        "te": "ఆడ ఏనుగులు బాధతో గట్టిగా ఘీంకరించాయి.",
+        "hi": "हथिनियाँ दुःख से पुकारने लगीं।",
+        "en": "The female elephants cried out in distress."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    },
+    {
+      "id": "S01E02-S01-L008",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Quiet acknowledgement",
+      "intent": "Restate the source's unsuccessful rescue",
+      "text": {
+        "te": "గుంపంతా తమ నాయకుడిని రక్షించడానికి ప్రయత్నించింది. అయినా సాధ్యపడలేదు.",
+        "hi": "झुंड ने अपने नेता को बचाने की कोशिश की, मगर वे सफल नहीं हुए।",
+        "en": "The herd had tried to rescue its leader. It could not."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    },
+    {
+      "id": "S01E02-S01-L009",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unresolved ending; short quiet tail",
+      "intent": "Conclude scene with grip unchanged",
+      "text": {
+        "te": "ఎంత ప్రయత్నించినా గజేంద్రుడు మొసలి పట్టులోనే చిక్కుకుని ఉన్నాడు.",
+        "hi": "इतनी कोशिशों के बाद भी गजेन्द्र मगरमच्छ की पकड़ में फँसे रहे।",
+        "en": "Gajendra remained caught, even after all their efforts."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.28"
+      }
+    }
+  ],
+  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes.",
+  "timing_note": "The authored first scene has 18+24+18=60 seconds of provisional editorial allocations. Five other scenes are not yet written; the E02 preferred 330-second runtime has not been measured or claimed. Source status partial_scene_draft."
+}

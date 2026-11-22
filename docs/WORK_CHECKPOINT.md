@@ -1,15 +1,11 @@
-# Work checkpoint — GM-REF-001: approved visual identity intake
+# Work checkpoint — GM-STY-007 / S01E02/S01
 
-**Date:** 2026-11-22 · repo `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1.
+**2026-11-22 · Repo `sriharidevstudios-star/gajendra-moksham`, branch `production-artwork`, draft PR #1**. Starting head `9b01b435e05e2ce4ae4c1bb1b03eb3bc99fbd232`.
 
-## Owner-approved character lock
+- Authored E02 partial `seasons/season-01/episodes/s01e02-the-battle-no-one-could-win/episode.json`: **S01 only** (“The herd rushes to help”), nine exact ID-aligned te/hi/en NARRATOR lines, **8 source paraphrases of SB 8.2.28 + 1 explicitly disclosed ripple staging line**, 3 picture/audio-owned 16:9 shot specs totaling **18+24+18=60 provisional seconds**.
+- Fulfilled actual failed **pull from behind** in verse 28 rather than repeating only approaching helpers from E01/S06; female elephants' distress and still-trapped outcome preserved. No millennium montage, successful rescue, animal human dialogue or gore.
+- Added `docs/S01E02_S01_COVERAGE_MAP.md` with 9 ownership rows, six future frame requirements, missing audio/visual flags. The locked 9-identity cast sheet/9 crops are owner-approved and Library-backed, but original PNGs not mirrored as Git blobs. No unapproved herd character sheet fabricated.
+- Updated season E02 status from `planned_no_episode_source` to `partial_scene_draft`; root descriptive status `partial_two_episode_drafts_four_sources_missing`. E01 and E03–E06 sources/cast/production records unchanged; whole season NOT_READY.
+- **Checks:** in-process canonical 9 IDs, 27 strings, three shots, 60s, source attribution and narrator ownership PASS; checked-in Python/E02 validator **UNRUN** without a checked-out executable copy. Do not equate CI source checks with human script or audio approvals.
 
-- User explicitly approved the **last revised full-body character overview**. Original exact PNG: 1536×1024 / 2,779,513 bytes / SHA-256 `389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06`, generation ID `3691b3b1-45ba-4cd1-9331-e954442a810c`.
-- Uploaded original unchanged, nine lossless per-character panel crops, provenance JSON and downloadable ZIP to the user's ChatGPT Library `/Gajendra Moksham/References/`. GitHub now records the nine locked character identities and 10 metadata asset entries with individual hashes, dimensions, crop boxes, library-backed paths, owner approval scope and unknown model/seed honestly null.
-- **Important binary limitation:** the GitHub connection accepts text/tree blobs but cannot read the model's local image bytes; actual approved PNGs are **not mirrored to GitHub**. Metadata remains publicly readable; downstream pipeline must ingest approved bytes from Library/bundle and verify SHA-256 before image-to-image generation. Do not claim GitHub has approved image bytes.
-- User explicitly requested **production first**, so stop allocating routine batches to CI/reviewer-infrastructure polish. Unnamed herd elephants and calves still require dedicated visual references; none was falsely marked approved.
-- Original episode S01E01 unchanged, 54 narration lines, six scenes, 18 shot descriptions, 330-second preferred, all human narrator/script approvals remain NOT REVIEWED / NOT APPROVED. No scene keyframes, TTS or motion created by this registry batch.
-
-## Next production batch
-
-**GM-STY-007:** create canonical **S01E02/S01**, “The herd rushes to help,” with exact SB 8.2.28 failed rear-body pull, te/hi/en narrator lines, 3 16:9 source-owned shot specs, continuity of original crocodile grip, still-resolved-later timeline. Update season index from `planned_no_episode_source` to `partial_scene_draft` and root descriptor to reflect **two partial episode sources, four absent**, without promoting script/media/approval. Continue scene by scene rather than reviewer/tooling-only increments. See `docs/NEXT_CHAT_PROMPT.md`.
+**Next: GM-STY-008** S01E02/S02 “Gajendra strains toward land” — continue source/shot work, not CI infrastructure.
