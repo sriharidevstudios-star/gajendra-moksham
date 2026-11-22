@@ -1,41 +1,41 @@
-# Work checkpoint — GM-NATIVE-005
+# Work checkpoint — GM-NATIVE-006
 
-**Date:** 2026-11-22  
-**Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
-**Verified starting commit/tree:** `bd535b56e28ecdd538cd5be217e6c3a7abf810f3` / `521ec366a65d26aaf0bbd7c6c5af47d8d21d8909`  
-**Scope:** S01E01/S05 **future trilingual human table-read packet preparation only**. Next: GM-NATIVE-006.
+**Date:** 2026-11-22 · **Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1  
+**Verified starting HEAD/tree:** `603917c3d389fd2432d6d1116ae76e4a4fc42de2` / `db80bf655f210dba651ff6b589650552aaa7f46f`  
+**Scope:** prepare S01E01/S06 human trilingual narrator read packet only. **Next:** GM-NATIVE-007.
 
-## Bounded delivery
+## Completed
 
-- Created `docs/S01E01_S05_NATIVE_READ_PACKET.md` with **four unique S05 canonical narration IDs** and **12 exact, unchanged te/hi/en spoken strings**, their `delivery` cues and source attribution. **L001 `scripture_paraphrase` SB 8.2.26**; **L002, L003, L004 `original_dramatization`**, with all **three full canonical `source_attribution.note` disclosures** faithfully recorded, no fabricated verse locators. Every line remains `speaker=audio_owner=NARRATOR`, `performance_mode=narration`, `lip_sync_target=null`.
-- Verified the actual three shot groups: `L001 → S01E01-S05-SH01 (10s)`, `L002 → SH02 (10s)`, `L003–L004 → SH03 (10s)` — total **30 seconds of provisional editorial budgets, not measured narration**. SH03's two lines plus natural closing tail require later timed te/hi/en reads.
-- Included **blank** reviewer, date, source SHA verified by human, per-line/per-shot durations, pronunciation/diction/meaning corrections, theological/source notes, and signoff for te/hi/en. All session/shot/line states **NOT REVIEWED / NOT APPROVED**.
-- Flagged the **DEFERRED S05/L001 family-care repetition of S04/L011** for future human table read without deleting or renumbering anything. Clarified that calf/mother blocking, final trunk droplets and ordinary lotus ripples are original editorial staging, **not** scripture-described suspense, a crocodile approach or an extra verse event. First crocodile grip is S06.
-- Preserved exact current `seasons/season-01/episodes/s01e01-the-lake-at-trikuta/episode.json` blob `885da53d89900aed431b541654971f997054b91d`, all 54 canonical narration objects, six scenes/18 shots/330s E01 preferred; S01–S04 human-read packets, coverage and native-listener checklist, `season.json` root `partial_first_episode_draft_five_sources_missing`, production tracker `canonical_story_written=false`, voice approvals false and asset registry empty. **No media or human review**. E02–E06 sources missing; season **NOT_READY**.
+- Created `docs/S01E01_S06_NATIVE_READ_PACKET.md` with all **nine** S06 stable canonical IDs and **27 exact te/hi/en narration strings**, unchanged delivery cues and correct source ownership. **Eight** `scripture_paraphrase` IDs point to SB 8.2.27–28 (L009 continuing the verse-27 grip after verse-28 cries); **one** `original_dramatization` line `S01E01-S06-L006` retains the entire existing original non-graphic water-splash disclosure, **without a fabricated verse locator**.
+- Verified line-to-shot allocation: `L001–L002 → S01E01-S06-SH01 (18s)`, `L003–L006 → SH02 (22s)`, `L007–L009 → SH03 (20s)` = **60s provisional**. All lines have `speaker=audio_owner=NARRATOR`, `performance_mode=narration`, `lip_sync_target=null`.
+- Included blank te/hi/en reviewer identity, date, independently checked Git SHA, per-line/per-shot measured speech seconds, pronunciation and source notes, devotional review and approvals; **all sessions, lines and shots remain NOT REVIEWED / NOT APPROVED**. Natural water/animal effects remain ungenerated plans. No named narrator, voice ID, timing result, recorded audio, image, video or motion created.
+- Child-safe source guidance preserves the sudden **first** crocodile grip only in S06, Gajendra's natural quadruped anatomy, female-elephant nonverbal calls, still-trapped ending, left foreleg as *editorial choice not verse*, and actual failed rear-pulling effort of 8.2.28 plus 8.2.29's thousand-year struggle **deferred in the adaptation** to S01E02.
+- Preserved all 54 source lines, six scenes, 18 shot IDs and 330s preferred episode budget, S01–S05 native-read packets and prior coverage maps, unchecked native listener and language audit, season root `partial_first_episode_draft_five_sources_missing`, voice cast, `production_tracker.json.canonical_story_written=false`, and empty asset registry. Whole season **NOT_READY**.
 
-## Checks and limits
+## Validation and limits
 
-| Gate | Result |
+| Gate | Status |
 |---|---|
-| Canonical S05 line/shot/source ownership, 1 paraphrase + 3 original notes | **PASS**, in-process |
-| All 12 exact te/hi/en scripts and canonical `delivery` text, 10+10+10=30s | **PASS**, in-process |
-| Future session/line/shot review and no fabricated audio/art/media | **NOT PERFORMED / MISSING** |
-| `python3 -m unittest discover -s tests -v` | **UNRUN** — remote GitHub connection cannot execute code |
-| `python3 scripts/validate_content.py --episode S01E01 --scene S05` | **UNRUN**, no executed `SCOPED_READY` |
-| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05` / `--check` | **UNRUN**, no exports built |
+| In-process nine canonical lines, 27 verbatim te/hi/en texts, nine exact delivery cues | **PASS** |
+| Source ownership 8 scripture + 1 disclosed original, verse URLs and shot groups | **PASS** |
+| 18+22+20=60 shot budget; 54/6/18/330 unchanged | **PASS** |
+| Human read, source/native approval and audio/art/media | **NOT PERFORMED / MISSING** |
+| `python3 -m unittest discover -s tests -v` | **UNRUN**, GitHub connector cannot execute checked-in Python |
+| `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**, no executed SCOPED_READY |
+| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06` and `--check` | **UNRUN**, no exports |
 | Whole-season `python3 scripts/validate_content.py` | **UNRUN**, expected NOT_READY |
-| Guarded non-force push, exact three changed docs and Git blob SHAs | Verify post-push |
+| Guarded commit/remote paths and blobs/draft PR | Verify post-push |
 
 ### Commands for an executable repository
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S05
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S05 --check
+python3 scripts/validate_content.py --episode S01E01 --scene S06
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
 python3 scripts/validate_content.py  # expected NOT_READY / exit 2
 ```
 
-## Next bounded task
+## Next
 
-**GM-NATIVE-006:** one future human read packet for S01E01/S06's nine lines and 8+1 attribution, no reviewed performances. Exact instructions saved in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-NATIVE-007:** one docs-only cross-scene native-read-packet reconciliation of all six prepared packets, 54 canonical line IDs and three-language text/source versions, without human listening or production actions. Exact prompt in `docs/NEXT_CHAT_PROMPT.md`.
