@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "job_id": "GM-KF-001",
-  "next_batch": "GM-PROD-002",
-  "state": "PLANNED_NO_MEDIA_GENERATED",
+  "next_batch": "GM-PROD-003",
+  "state": "REFERENCE_PIXEL_COMPOSITE_CANDIDATE_NEEDS_REPOSE",
   "shot": "S01E04-S02-SH01",
   "episode_path": "seasons/season-01/episodes/s01e04-the-lotus-and-the-rescue/episode.json",
   "episode_blob_sha": "2fff1273636d37e3684ba06a530de2170f9c5bc4",
@@ -62,9 +62,21 @@
     "seed": null,
     "prompt": null,
     "output_sha256": null,
-    "receipt": null,
+    "receipt": "assets/artwork/receipts/GM-PROD-002_GM-KF-001-F01-composite-candidate.json",
     "visual_qc": "NOT_REVIEWED",
-    "motion": null
+    "motion": null,
+    "layout_candidate": {
+      "library_path": "/Gajendra Moksham/Artwork/Candidates/S01E04-S02-SH01-F01_reference-composite-candidate.png",
+      "library_file_id": "libfile_fde3_f-97f232e1e5e48191a6d4a12e118f10f3_6312ba47cb408191b476e6a1a7ec6849",
+      "sha256": "9e907f7c06e5f208f0312317ced192386efd9d7fcc5382ceac37cb1206bec5fb",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1198542,
+      "method": "verified approved pixel compositing, not reference-conditioned pose generation",
+      "pose_qc": "NEEDS_REVISION",
+      "human_qc": "NOT_REVIEWED",
+      "accepted_as_start_frame": false
+    }
   },
   "gates": [
     "Source PNG byte hashes and source episode blob independently rechecked",
@@ -93,5 +105,6 @@
       ],
       "blocker": "Real accepted stills and temporal continuity first"
     }
-  ]
+  ],
+  "last_batch_note": "GM-PROD-002 produced and uploaded a real 1920x1080 pixel-derived layout candidate using exact verified owner-approved Narayana/Garuda panels. Human visual approval missing; mounting pose fails preliminary layout inspection. Actual accepted canonical start frame and F02 remain MISSING, GitHub PNG mirror absent; see receipt. Do not treat candidate as a deliverable final production frame."
 }

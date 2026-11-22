@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0-actual-candidate-receipt",
+  "batch_id": "GM-PROD-002",
+  "job_id": "GM-KF-001",
+  "shot_id": "S01E04-S02-SH01",
+  "canonical_episode_path": "seasons/season-01/episodes/s01e04-the-lotus-and-the-rescue/episode.json",
+  "canonical_episode_blob_sha": "2fff1273636d37e3684ba06a530de2170f9c5bc4",
+  "created_at_utc": "2026-11-22T22:29:15Z",
+  "output": {
+    "name": "S01E04-S02-SH01-F01_reference-composite-candidate.png",
+    "repository_output_path": "NOT_MIRRORED",
+    "library_path": "/Gajendra Moksham/Artwork/Candidates/S01E04-S02-SH01-F01_reference-composite-candidate.png",
+    "library_file_id": "libfile_fde3_f-97f232e1e5e48191a6d4a12e118f10f3_6312ba47cb408191b476e6a1a7ec6849",
+    "sha256": "9e907f7c06e5f208f0312317ced192386efd9d7fcc5382ceac37cb1206bec5fb",
+    "size_bytes": 1198542,
+    "mime_type": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "aspect_ratio": "16:9",
+    "source_upload_verified_by_roundtrip": true,
+    "method": "reference-pixel-derived static compositing; NOT a diffusion/reference-conditioned image-to-image generation",
+    "candidate_role": "LAYOUT_PROOF_NOT_AN_ACCEPTED_KEYFRAME",
+    "exists_in_github_binary_tree": false
+  },
+  "verified_inputs": [
+    {
+      "asset_id": "REF_GM_NARAYANA_FULL_BODY_V1",
+      "library_path": "/Gajendra Moksham/References/narayana-approved-panel-crop-v1.png",
+      "sha256": "40ae8b356f07ab1ebe22cbb4a6c05fa5c197174e7cf9f324bf0cedb858193060",
+      "source_bytes_verified": true
+    },
+    {
+      "asset_id": "REF_GM_GARUDA_FULL_BODY_V1",
+      "library_path": "/Gajendra Moksham/References/garuda-approved-panel-crop-v1.png",
+      "sha256": "7dc73b27cb9672eddedd2d9e5c0829703e2f173fdcc8ecef2fc1584851089f59",
+      "source_bytes_verified": true
+    }
+  ],
+  "approved_reference_sheet_sha256": "389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06",
+  "input_archive_sha256": "97231bc30058dce3dff97a36e39c973182fce20ae0d7eb0a2c8e29d81deb8323",
+  "render_method": {
+    "name": "Python 3 + OpenCV GrabCut/hand-refined alpha matte + Pillow RGBA layers + SciPy procedural sky",
+    "packages": {
+      "Pillow": "12.3.0",
+      "OpenCV": "4.13.0",
+      "SciPy": "1.17.0"
+    },
+    "rng_seed": 7866,
+    "art_reference_conditioning": "The actual approved Narayana and Garuda PNG pixels are directly extracted and layered; this is not a verified image-model reference-conditioned re-pose.",
+    "steps": [
+      "SHA-256 check exact ZIP and extracted approved panel bytes",
+      "Matte crop characters from their original approved cast-sheet panel backgrounds, locally refine conch/crown/feet masks",
+      "Procedurally synthesize original soft-cloud sky from seeded multiscale noise, no copyrighted background",
+      "Lanczos scale actual pixel-derived character cutouts; layer Narayana behind Garuda at documented composition positions",
+      "Store original 1920x1080 PNG in persistent Library; materialize it again and recheck output SHA-256"
+    ],
+    "composition_positions": {
+      "NARAYANA": {
+        "source_wh": [
+          288,
+          363
+        ],
+        "target_width": 420,
+        "top_left": [
+          858,
+          68
+        ]
+      },
+      "GARUDA": {
+        "source_wh": [
+          299,
+          363
+        ],
+        "target_width": 665,
+        "top_left": [
+          660,
+          244
+        ]
+      }
+    }
+  },
+  "visual_qc": {
+    "automated": {
+      "resolution_16_9": "PASS",
+      "input_byte_hashes": "PASS",
+      "output_byte_roundtrip": "PASS",
+      "canonical_shot_match": "PASS_SOURCE_ID_ONLY"
+    },
+    "manual_descriptive_inspection": {
+      "owner_approved_character_pixels": "DERIVED_FROM_EXACT_SOURCE_REFERENCES",
+      "four_armed_narayana_and_emblems": "PRESENT_IN_SOURCE_COMPOSITE",
+      "garuda_wings_and_beak": "PRESENT_IN_SOURCE_COMPOSITE",
+      "narayana_seated_on_flying_garuda": "NEEDS_REVISION — the static Narayana cutout appears above/behind upright Garuda, not physically seated; Garuda retains standing legs rather than a believable airborne posture",
+      "background_match": "NEEDS_ART_REVIEW — procedural sky and crisp card-source cutouts have different rendering texture",
+      "mask_edges": "NEEDS_ART_REVIEW — minor matte/mask edges may require manual cleanup",
+      "overall": "NOT_READY_FOR_HERO_KEYFRAME_ACCEPTANCE"
+    },
+    "human_reviewer": null,
+    "human_review_date": null,
+    "human_decision": "NOT_REVIEWED",
+    "owner_approval": "NOT_REQUESTED"
+  },
+  "excluded_explorations": "Two image-generation experiments without independently verifiable exact-ref image-model input lineage were not used, registered or passed as source-conditioned production frames.",
+  "other_media": {
+    "canonical_start_frame": "MISSING_ACCEPTED_QC",
+    "end_frame": "MISSING",
+    "motion": "MISSING",
+    "narration": "MISSING",
+    "video": "MISSING"
+  },
+  "next_action": "GM-PROD-003: re-pose actual approved NARAYANA and GARUDA image identities into a physically convincing mounted-flight pose using a real reference-conditioned renderer or manual approved redraw; produce a corrected candidate with source/prompt/model/output hashes; seek actual human visual decision before accepting F01. Do NOT produce F02 or motion yet."
+}
