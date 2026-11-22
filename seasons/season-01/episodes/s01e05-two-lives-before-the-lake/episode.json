@@ -1,0 +1,317 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E05",
+  "episode_number": 5,
+  "slug": "two-lives-before-the-lake",
+  "title": {
+    "en": "Two Lives Before the Lake",
+    "te": "సరస్సుకు ముందు రెండు జీవితాలు",
+    "hi": "झील से पहले के दो जीवन"
+  },
+  "status": "partial_scene_draft",
+  "logline": "After the rescue, Hūhū regains his Gandharva form. The narrator reveals how Devala's curse led him to the crocodile body and how King Indradyumna, cursed by Agastya while absorbed in worship, became Gajendra.",
+  "target_runtime_seconds": {
+    "min": 330,
+    "preferred": 330,
+    "max": 390
+  },
+  "source": {
+    "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4 original child-friendly Telugu/Hindi/English retelling; no copied published translation",
+    "url": "https://vedabase.io/en/library/sb/8/4/",
+    "source_locator": "SB 8.4.3–12",
+    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention."
+  },
+  "adaptation": {
+    "core_preserved": [
+      "Hūhū's crocodile existence ended in the Lord's rescue; Devala's curse is broken as he regains original Gandharva form (8.4.3–4).",
+      "Hūhū honors the Lord, but the exact aftermath departure is reserved to E06 (8.4.5).",
+      "The chapter overview recounts the incident involving Hūhū, sage Devala and a playful pull on the sage's leg in water; this is a backstory, not a new event at Gajendra's lake.",
+      "King Indradyumna of Pāṇḍya/Draviḍa was a devout Vaiṣṇava who retired to the Malaya Hills and observed a silent vow in worship (8.4.7–8).",
+      "Agastya visited with disciples, interpreted silence as disrespect, cursed Indradyumna to an elephant body (8.4.9–10).",
+      "The king accepted the curse, and due to devotion remembered prayer in the elephant life (8.4.11–12)."
+    ],
+    "changes": [
+      "Episode 5's flashbacks are editorial retelling of earlier lives AFTER the rescue; no crocodile appears alive in the present lake after its animal life ends.",
+      "Hūhū and Devala's former water interaction is separate in time/place from Gajendra's lake attack; original shot continuity with no manufactured companions or human speech.",
+      "The camera's visual storytelling and Huhu's reaction/movements are original staging, never claimed as specific verse wording.",
+      "Indradyumna's silent vow does not justify portraying him as evil or Agastya as a grotesque monster.",
+      "The spiritual final Gajendra four-armed form appears in E06, not during the narrated curse flashback. Characters remain identical to owner-approved nine-panel art.",
+      "S01: flashback camera and narrative background separated from exact verse statements, no invented character dialogue."
+    ],
+    "fidelity_note": "Source-checked SB 8.4.3–12 and the chapter's historical summary. All scripture paraphrases are newly worded, and details only in the chapter's prose overview or invented camera staging are explicitly disclosed as original dramatization. The two curses remain historically distinct."
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": {
+        "te": "కథకుడు",
+        "hi": "कथावाचक",
+        "en": "Narrator"
+      },
+      "description": "Offscreen storyteller delivering all original te/hi/en narration in present restoration and past flashbacks.",
+      "voice_direction": "Respectful and child-clear in all languages, no casting or native review yet."
+    },
+    {
+      "id": "HUHU",
+      "name": {
+        "te": "హూహూ",
+        "hi": "हूहू",
+        "en": "Huhu"
+      },
+      "description": "Approved full-body bright-costumed Gandharva king with ornate purple-gold dress and expressive face; former cursed crocodile, distinguish body identity from the animal.",
+      "voice_direction": "No directly written spoken lines; narrated description only."
+    },
+    {
+      "id": "DEVALA",
+      "name": {
+        "te": "దేవల మహర్షి",
+        "hi": "देवल ऋषि",
+        "en": "Sage Devala"
+      },
+      "description": "Approved pale-robed older bearded sage with staff, distinct from Agastya's orange robes; involved only in Huhu's past water incident.",
+      "voice_direction": "No invented directly quoted curse/dialogue; narrator carries it."
+    },
+    {
+      "id": "INDRADYUMNA",
+      "name": {
+        "te": "ఇంద్రద్యుమ్నుడు",
+        "hi": "इन्द्रद्युम्न",
+        "en": "Indradyumna"
+      },
+      "description": "Approved dark-haired former king in humble ascetic forest dress and natural prayer posture, distinct from ordinary elephant Gajendra.",
+      "voice_direction": "Silent vow is honored; no invented dialogue."
+    },
+    {
+      "id": "AGASTYA",
+      "name": {
+        "te": "అగస్త్య మహర్షి",
+        "hi": "अगस्त्य ऋषि",
+        "en": "Sage Agastya"
+      },
+      "description": "Approved orange-robed, white-bearded older sage with staff, clearly separate from Devala.",
+      "voice_direction": "A formal curse is paraphrased by narrator rather than invented mouth-synced words."
+    },
+    {
+      "id": "GAJENDRA",
+      "name": {
+        "te": "గజేంద్రుడు",
+        "hi": "गजेन्द्र",
+        "en": "Gajendra"
+      },
+      "description": "Owner-approved decorated grey Indian elephant, physically an elephant until future distinct spiritual transformation, no human lip-sync.",
+      "voice_direction": "Natural nonverbal future calls only; remembered prayer as narrator."
+    },
+    {
+      "id": "CROCODILE",
+      "name": {
+        "te": "మొసలి",
+        "hi": "मगरमच्छ",
+        "en": "Crocodile"
+      },
+      "description": "Locked olive-green fierce but stylized former cursed animal form of Huhu, used only in retrospective brief continuity; not shown surviving Lord's disc.",
+      "voice_direction": "No speaking animal."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "A Gandharva emerges: Hūhū",
+      "setting": "Immediately after the non-graphic crocodile ending, present-day lake and compassionate Lord; Huhu's released Gandharva identity appears distinct from his dead crocodile form.",
+      "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Keep chronology: the crocodile did not survive as a natural crocodile; its Gandharva previous identity is released after divine intervention.",
+        "Use owner-approved young humanlike Huhu with jewel-toned purple/gold dress, NOT an anthropomorphic crocodile wearing clothes.",
+        "Keep Narayana four-armed and Garuda present as established in E04; no extra deity design.",
+        "Transformation effect is illustrated as restrained light/cutaway, an original visual staging decision rather than a gruesome detail.",
+        "The flashback explanation follows after the restored Huhu first appears; do not start the flashback with the present attack a second time."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.3-4",
+          "url": "https://vedabase.io/en/library/sb/8/4/3-4/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S01-SH01",
+          "budget_seconds": 18,
+          "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4). Narration L001–L003; beat Keep chronology: the crocodile did not survive as a natural crocodile; its Gandharva previous identity is released after divine intervention.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S01-SH02",
+          "budget_seconds": 19,
+          "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4). Narration L004–L006; beat Use owner-approved young humanlike Huhu with jewel-toned purple/gold dress, NOT an anthropomorphic crocodile wearing clothes.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        },
+        {
+          "id": "S01E05-S01-SH03",
+          "budget_seconds": 18,
+          "action": "The crocodile's former identity is revealed as Gandharva King Huhu. After the disc ends the animal life, the curse of Devala is released and Huhu returns to beautiful Gandharva form, offering respect to Hari (SB 8.4.3–4). Narration L007–L008; beat Keep Narayana four-armed and Garuda present as established in E04; no extra deity design.",
+          "camera": "16:9 warm hand-painted storybook; approved full-body character identity, stable anatomy and distinct current/flashback location.",
+          "sound": "Offscreen NARRATOR te/hi/en; background ambience/voice/music only PLANNED, no recorded track."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "S01E05-S01-L001",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "The crocodile had once been a Gandharva.",
+      "text": {
+        "te": "ఆ మొసలి పూర్వజన్మలో ఒక గంధర్వుడు.",
+        "hi": "वह मगरमच्छ पहले एक गंधर्व था।",
+        "en": "The crocodile had once been a Gandharva."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L002",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "His name was Huhu.",
+      "text": {
+        "te": "అతని పేరు హూహూ.",
+        "hi": "उसका नाम हूहू था।",
+        "en": "His name was Huhu."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L003",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "He had been a king among the Gandharvas.",
+      "text": {
+        "te": "అతను గంధర్వులలో ఒక రాజు.",
+        "hi": "वह गंधर्वों में एक राजा था।",
+        "en": "He had been a king among the Gandharvas."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L004",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "Sage Devala's curse had given him crocodile form.",
+      "text": {
+        "te": "దేవల మహర్షి శాపం వల్ల అతనికి మొసలి రూపం వచ్చింది.",
+        "hi": "देवल ऋषि के श्राप से वह मगरमच्छ बना था।",
+        "en": "Sage Devala's curse had given him crocodile form."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L005",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "By Narayana's mercy, the curse was lifted.",
+      "text": {
+        "te": "నారాయణుడి కృపతో ఆ శాపం తొలగిపోయింది.",
+        "hi": "नारायण की कृपा से वह श्राप समाप्त हुआ।",
+        "en": "By Narayana's mercy, the curse was lifted."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L006",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural child-friendly narration",
+      "intent": "Huhu regained his original Gandharva form.",
+      "text": {
+        "te": "హూహూ తన అసలు గంధర్వ రూపాన్ని తిరిగి పొందాడు.",
+        "hi": "हूहू को अपना असली गंधर्व रूप वापस मिला।",
+        "en": "Huhu regained his original Gandharva form."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    },
+    {
+      "id": "S01E05-S01-L007",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story discovery",
+      "intent": "He stood respectfully near the lake.",
+      "text": {
+        "te": "గజేంద్రుడి సరస్సు దగ్గర అతను భక్తితో నిలిచాడు.",
+        "hi": "गजेन्द्र की झील के पास वह श्रद्धा से खड़ा हुआ।",
+        "en": "He stood respectfully near the lake."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original simple blocking of restored Huhu beside the established lake during his source-described honor to Hari. SB 8.4.3-4 does not define this precise standing position or camera."
+      }
+    },
+    {
+      "id": "S01E05-S01-L008",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Careful respectful meaning",
+      "intent": "He bowed his head to Hari.",
+      "text": {
+        "te": "హరికి తల వంచి నమస్కరించాడు.",
+        "hi": "उसने हरि को सिर झुकाकर प्रणाम किया।",
+        "en": "He bowed his head to Hari."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.3-4"
+      }
+    }
+  ],
+  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation.",
+  "timing_note": "E05 1/6 scenes authored, 8 narration IDs, 55/330 provisional seconds; other scenes missing."
+}
