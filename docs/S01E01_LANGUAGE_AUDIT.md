@@ -12,6 +12,17 @@ All **54 of 54** ordered S01E01 line IDs were examined across **Telugu (te), Hin
 
 **Audit disposition:** 2 priority **P1** source-precision items, 7 **P2** semantic/idiom/continuity items, 7 **P3** language or pacing polish items; **38** other lines have no specific model-observed issue. P1–P3 are editorial review priorities, not proof that the current source is unusable. The words in `episode.json` were **not edited** in this batch. All proposed wording requires Telugu/Hindi native-listener review and preservation of stable IDs.
 
+## GM-LANG-002 — two P1 corrections applied (native signoff pending)
+
+**Correction date:** 2026-11-22. **Status:** APPLIED to canonical `episode.json`; review is text/source based and **NOT** native-speaker approval, recorded table read, subtitle signoff, or audio production. The original GM-LANG-001 findings and baseline wording remain in the tables and historical metrics below.
+
+| Line ID | Original issue (historical) | Applied update in te / hi / en | Evidence |
+|---|---|---|---|
+| `S01E01-S02-L002` | Gem-like **stones** were incorrectly substituted for genuine gems | Each language now states that real tiny gems glitter along clear rivers/lakeshores, comparable in size to sand grains. Only `text.te`, `text.hi`, `text.en` changed. | [ŚB 8.2.8](https://vedabase.io/en/library/sb/8/2/8/) |
+| `S01E01-S02-L010` | Free-floating/fallen pollen obscured the **fish-and-tortoise-caused stirring** | Each language now names fish/tortoise movement stirring the lake water and its lotus pollen. Only `text.te`, `text.hi`, `text.en` changed. | [ŚB 8.2.14–19](https://vedabase.io/en/library/sb/8/2/14-19/) |
+
+**Historical P1 count:** 2 found in GM-LANG-001; **2 now applied**, none awaiting a written source correction within this P1 scope. Both remain **pending native Telugu/Hindi/English spoken review**. Unaddressed P2=7 and P3=7 remain proposed, **not approved**. The previous word counts and rate estimates below are a **GM-LANG-001 baseline snapshot before the six string corrections**, not new measured GM-LANG-002 narration timings. Recalculate and perform a listening check before audio casting.
+
 ## Priority guide
 
 - **P1** — Source meaning/material detail should be corrected before recording.
@@ -23,8 +34,8 @@ All **54 of 54** ordered S01E01 line IDs were examined across **Telugu (te), Hin
 
 | Priority | Line ID | Model finding | Next correction/review action |
 |---|---|---|---|
-| P1 | `S01E01-S02-L002` | 8.2.8 describes shores with actual tiny gems comparable to grains of sand, but all three scripts call them stones *like* jewels. This reverses the distinction between gems and ordinary stones. [Source](https://vedabase.io/en/library/sb/8/2/8/) | Propose true tiny gems on the shores in all three languages; keep child-friendly phrasing, e.g. English 'Tiny gems sparkled along the sandy shore.' Check Telugu/Hindi natural equivalents. |
-| P1 | `S01E01-S02-L010` | 8.2.17 describes fish and tortoises agitating the water carrying lotus pollen. English 'fallen pollen drifted' is less causal, Hindi presents pollen moving, and Telugu stresses fish/tortoise motion. The three versions should share a clear water-stirring cause. [Source](https://vedabase.io/en/library/sb/8/2/14-19/) | Align all three to fish/tortoise movement stirring pollen-mixed water; avoid the unsupported word 'fallen' and avoid treating lotus pollen as a separate floating prop. |
+| P1 — APPLIED (native signoff pending) | `S01E01-S02-L002` | 8.2.8 describes shores with actual tiny gems comparable to grains of sand, but all three scripts call them stones *like* jewels. This reverses the distinction between gems and ordinary stones. [Source](https://vedabase.io/en/library/sb/8/2/8/) | Propose true tiny gems on the shores in all three languages; keep child-friendly phrasing, e.g. English 'Tiny gems sparkled along the sandy shore.' Check Telugu/Hindi natural equivalents. |
+| P1 — APPLIED (native signoff pending) | `S01E01-S02-L010` | 8.2.17 describes fish and tortoises agitating the water carrying lotus pollen. English 'fallen pollen drifted' is less causal, Hindi presents pollen moving, and Telugu stresses fish/tortoise motion. The three versions should share a clear water-stirring cause. [Source](https://vedabase.io/en/library/sb/8/2/14-19/) | Align all three to fish/tortoise movement stirring pollen-mixed water; avoid the unsupported word 'fallen' and avoid treating lotus pollen as a separate floating prop. |
 | P2 | `S01E01-S02-L001` | 'త్రికూటం పచ్చని కొండల కింద' is awkward/ambiguous, as if Trikūṭa were multiple ordinary green hills rather than one mountain with lower slopes. [Source](https://vedabase.io/en/library/sb/8/2/7/) | Prefer a naturally spoken construction such as 'త్రికూట పర్వతం దిగువనున్న పచ్చని లోయల్లో...' in Telugu; retain the same meaning. |
 | P2 | `S01E01-S02-L009` | Hindi 'हंस और सारस पानी पर तैरते हुए' makes cranes swim with swans. Cranes are better represented calling/wading near water; Telugu and English do not require them to float. [Source](https://vedabase.io/en/library/sb/8/2/14-19/) | Separate actions in Hindi: swans on water and cranes calling at the water's edge; retain verse-supported bird species. |
 | P2 | `S01E01-S03-L007` | The scripts convey smaller animals living without fear, but 8.2.22 explicitly attributes this to the elephant's mercy/restraint. The absent causal idea weakens the contrast with fierce animals fleeing in L005–L006. [Source](https://vedabase.io/en/library/sb/8/2/22/) | Consider a short, source-grounded phrase recognizing Gajendra's forbearance toward smaller animals. Avoid an invented dialogue or sentimental incident. |
@@ -60,7 +71,7 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S01 | `S01E01-S01-L007` | — |
 | S01 | `S01E01-S01-L008` | — |
 | S02 | `S01E01-S02-L001` | P2 |
-| S02 | `S01E01-S02-L002` | P1 |
+| S02 | `S01E01-S02-L002` | P1 — APPLIED (native signoff pending) |
 | S02 | `S01E01-S02-L003` | — |
 | S02 | `S01E01-S02-L004` | — |
 | S02 | `S01E01-S02-L005` | — |
@@ -68,7 +79,7 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S02 | `S01E01-S02-L007` | — |
 | S02 | `S01E01-S02-L008` | P3 |
 | S02 | `S01E01-S02-L009` | P2 |
-| S02 | `S01E01-S02-L010` | P1 |
+| S02 | `S01E01-S02-L010` | P1 — APPLIED (native signoff pending) |
 | S02 | `S01E01-S02-L011` | — |
 | S03 | `S01E01-S03-L001` | — |
 | S03 | `S01E01-S03-L002` | — |
@@ -143,7 +154,7 @@ All of these are **planning warnings**, not failures of recorded performances. M
 ## Acceptance and next-stage gates
 
 - **Authored source integrity:** all 54 IDs and three-language fields were checked; no structural speaker/lip-sync or missing-language issues observed.
-- **Source issues to resolve first:** `S01E01-S02-L002` and `S01E01-S02-L010` should be the **next narrow correction batch**, preserving all other lines, source URLs, IDs and production state.
+- **GM-LANG-002 P1 changes applied, native signoff pending:** `S01E01-S02-L002` and `S01E01-S02-L010` now contain source-corrected te/hi/en strings. Their original audit findings above remain retained as historical evidence. No remaining line or metadata was edited. The seven P2 and seven P3 findings are open for later batches.
 - **Native approval:** **NOT OBTAINED** for Telugu, Hindi or English; a fluent native-speaker review should record reviewer/date/line IDs, especially after proposed text changes.
 - **Audio/visual approval:** **NOT OBTAINED**. No voice casting, TTS, keyframes, artwork, recordings, captions or video were produced.
 - **Current project state:** S01E01 remains `partial_scene_draft`; S01E02–S01E06 still lack canonical episode sources, so the whole season remains **NOT_READY**.

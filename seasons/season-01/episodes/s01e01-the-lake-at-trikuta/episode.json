@@ -581,9 +581,9 @@
       "delivery": "Warm, flowing description",
       "intent": "Show clear water and jewel-like shorelines",
       "text": {
-        "te": "అక్కడ స్వచ్ఛమైన నీళ్లు మెరిసేవి. వాటి ఒడ్డున చిన్న రత్నాల్లా కనిపించే రాళ్లు ఉండేవి.",
-        "hi": "वहाँ साफ़ पानी चमकता था, और उसके किनारे छोटे रत्नों जैसे पत्थर बिखरे थे।",
-        "en": "Clear water shone nearby, with little stones like jewels along its banks."
+        "te": "అక్కడ నదులు, సరస్సుల్లో నీళ్లు ఎంతో స్వచ్ఛంగా ఉండేవి. వాటి ఒడ్డున ఇసుక రేణువుల్లాంటి చిన్న రత్నాలు మెరిసేవి.",
+        "hi": "वहाँ नदियों और झीलों का पानी एकदम साफ़ था। उनके किनारों पर रेत के कणों जैसे छोटे-छोटे रत्न चमकते थे।",
+        "en": "Clear rivers and lakes shimmered there. Their shores glittered with tiny gems, as small as grains of sand."
       },
       "source_attribution": {
         "kind": "scripture_paraphrase",
@@ -733,9 +733,9 @@
       "delivery": "Calm, observant",
       "intent": "Describe fish, turtles and moving lotus pollen",
       "text": {
-        "te": "నీళ్లలో చేపలు, తాబేళ్లు కదులుతుంటే, తామర పుప్పొడి నీటిపై తేలుతూ కదిలేది.",
-        "hi": "नीचे मछलियाँ और कछुए चलते तो कमल का पराग पानी पर धीरे-धीरे हिलता।",
-        "en": "As fish and tortoises moved below, fallen lotus pollen drifted on the water."
+        "te": "చేపలు, తాబేళ్లు కదలడంతో సరస్సు నీళ్లు అలలయ్యాయి. అందులో కలిసిన తామర పుప్పొడి కూడా కదిలింది.",
+        "hi": "मछलियों और कछुओं की हलचल से झील का पानी लहराने लगा। उसमें मिला कमल का पराग भी घूमने लगा।",
+        "en": "Fish and tortoises stirred the lake water, swirling lotus pollen through the ripples."
       },
       "source_attribution": {
         "kind": "scripture_paraphrase",
