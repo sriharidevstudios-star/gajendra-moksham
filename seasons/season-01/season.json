@@ -19,7 +19,7 @@
     "preferred": 360,
     "max": 390
   },
-  "status": "five_episode_sources_one_missing_e02_e03_e04_draft_e05_partial",
+  "status": "five_episode_sources_one_missing_e02_e03_e04_e05_draft_unapproved",
   "source": "Srimad Bhagavatam Canto 8 Chapters 2–4",
   "episodes": [
     {
@@ -74,7 +74,7 @@
       "episode_id": "S01E05",
       "release_order": 5,
       "path": "episodes/s01e05-two-lives-before-the-lake",
-      "status": "partial_scene_draft",
+      "status": "draft_for_table_read",
       "title": {
         "en": "Two Lives Before the Lake",
         "te": "సరస్సుకు ముందు రెండు జీవితాలు",

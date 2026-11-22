@@ -9,7 +9,7 @@
     "te": "సరస్సుకు ముందు రెండు జీవితాలు",
     "hi": "झील से पहले के दो जीवन"
   },
-  "status": "partial_scene_draft",
+  "status": "draft_for_table_read",
   "logline": "After the rescue, Hūhū regains his Gandharva form. The narrator reveals how Devala's curse led him to the crocodile body and how King Indradyumna, cursed by Agastya while absorbed in worship, became Gajendra.",
   "target_runtime_seconds": {
     "min": 330,
@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4 original child-friendly Telugu/Hindi/English retelling; no copied published translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.3–12",
-    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S03: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S04: source SB 8.4.7, 8.4.8; original adaptation staging explicitly distinguished from cited verse actions. S05: source SB 8.4.9, 8.4.10; original adaptation staging explicitly distinguished from cited verse actions."
+    "verification_notes": "Verses 8.4.3–4 explicitly describe crocodile Hūhū regaining Gandharva form and honoring Hari, after Devala cursed him; chapter overview provides the background that Huhu pulled Devala's leg during a water prank, sought forgiveness and was granted eventual release. Exact prank blocking is noted original dramatization rather than a new verse quotation. Verse 8.4.5 records restored Huhu's departure, which is reserved for E06/S02. Verses 7–8 identify devout Pāṇḍya king Indradyumna and his Malaya Hills hermitage/quiet vow; 8.4.9–10 Agastya arrives with pupils, receives no greeting and curses him to become an elephant; 8.4.11–12 the king accepts fate and later remembers devotion by grace. Gajendra's four-armed spiritual liberation is at 8.4.6 and is reserved for E06. We preserve original distinct Devala/Huhu vs Agastya/Indradyumna pairings. S01: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S02: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S03: SB 8.4.3-4; Huhu-Devala chapter-summary flashbacks explicitly disclosed as original dramatization rather than verse invention. S04: source SB 8.4.7, 8.4.8; original adaptation staging explicitly distinguished from cited verse actions. S05: source SB 8.4.9, 8.4.10; original adaptation staging explicitly distinguished from cited verse actions. S06: source SB 8.4.11-12; original adaptation staging explicitly distinguished from cited verse actions."
   },
   "adaptation": {
     "core_preserved": [
@@ -31,7 +31,8 @@
       "Agastya visited with disciples, interpreted silence as disrespect, cursed Indradyumna to an elephant body (8.4.9–10).",
       "The king accepted the curse, and due to devotion remembered prayer in the elephant life (8.4.11–12).",
       "S04: The narrator identifies Gajendra's earlier life as devout Pāṇḍya king Indradyumna. He retires from royal life to a small Malaya Hills hermitage, wearing matted locks and absorbed in silent worship of Hari (8.4.7–8).",
-      "S05: Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty."
+      "S05: Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty.",
+      "S06: After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12)."
     ],
     "changes": [
       "Episode 5's flashbacks are editorial retelling of earlier lives AFTER the rescue; no crocodile appears alive in the present lake after its animal life ends.",
@@ -336,6 +337,49 @@
           "id": "S01E05-S05-SH03",
           "budget_seconds": 18,
           "action": "Agastya visits while King Indradyumna is deeply absorbed in worship and observing silence, receives no formal welcome and becomes angry. He pronounces a curse that the king should take an elephant body (8.4.9–10), without equating silence with deliberate cruelty. Narration L007–L008. Indradyumna continues silent meditation rather than purposefully ignoring a person out of malice; source records Agastya interpreted lack of reception as offense.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "An elephant birth and devotion remembered",
+      "setting": "Flashback transitions from the Malaya Hills into the next elephant birth, then returns to known Trikuta lake memory of devotion (no crocodile return from death or physical re-enactment of the long fight).",
+      "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Agastya departs with the same disciples, no added revenge dialogue or cruelty. Indradyumna as king stays spiritually devoted.",
+        "An editorial dissolve links old Indradyumna hermit to newly born elephant, but source states a next BIRTH rather than an instant live magical morph.",
+        "The elephant identity in the present story is the exact approved Gajendra full-body animal, not an elephant head attached to the human Indradyumna.",
+        "Source says prior worldly memory was lost but memory of worship remained; depict Gajendra's remembered prayer with respectful atmospheric cues only.",
+        "Return to source context of rescue, not an impossible claim the crocodile lives after the disc. Four-arm sārūpya and spiritual departure belong to E06."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.11-12",
+          "url": "https://vedabase.io/en/library/sb/8/4/11-12/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E05-S06-SH01",
+          "budget_seconds": 18,
+          "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12). Narration L001–L003. Agastya departs with the same disciples, no added revenge dialogue or cruelty. Indradyumna as king stays spiritually devoted.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S06-SH02",
+          "budget_seconds": 19,
+          "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12). Narration L004–L006. An editorial dissolve links old Indradyumna hermit to newly born elephant, but source states a next BIRTH rather than an instant live magical morph.",
+          "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
+          "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
+        },
+        {
+          "id": "S01E05-S06-SH03",
+          "budget_seconds": 18,
+          "action": "After Agastya left, the king accepted his fate with devotional steadiness. He later took elephant birth and lost ordinary memories, yet the effect of Lord Hari's worship let him recall his prayer during his plight (8.4.11–12). Narration L007–L008. The elephant identity in the present story is the exact approved Gajendra full-body animal, not an elephant head attached to the human Indradyumna.",
           "camera": "16:9 clean full-body warm storybook compositions; use approved owner-locked exact cast identities and consistent distinct flashback scenery.",
           "sound": "Offscreen NARRATOR sole spoken source; calm ambience and sound effects PLANNED not recorded."
         }
@@ -1102,8 +1146,160 @@
         "kind": "original_dramatization",
         "note": "Original gentle closing observation for the scriptural Agastya curse of 8.4.10; narrator calls it a turning point, not an additional distinct incident."
       }
+    },
+    {
+      "id": "S01E05-S06-L001",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "Agastya and his disciples departed.",
+      "text": {
+        "te": "అగస్త్య మహర్షి శిష్యులతో ఆశ్రమాన్ని విడిచి వెళ్లారు.",
+        "hi": "अगस्त्य ऋषि शिष्यों के साथ आश्रम से चले गए।",
+        "en": "Agastya and his disciples departed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L002",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "Indradyumna accepted what had happened with a calm heart.",
+      "text": {
+        "te": "ఇంద్రద్యుమ్నుడు జరిగినదాన్ని ప్రశాంతంగా అంగీకరించాడు.",
+        "hi": "इन्द्रद्युम्न ने हुई बात को शांत मन से स्वीकार किया।",
+        "en": "Indradyumna accepted what had happened with a calm heart."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L003",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "His devotion to the Lord did not fade.",
+      "text": {
+        "te": "భగవంతుడిపై అతని భక్తి మాత్రం తగ్గలేదు.",
+        "hi": "भगवान में उसकी भक्ति कम नहीं हुई।",
+        "en": "His devotion to the Lord did not fade."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L004",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "In his next life, he was born as an elephant.",
+      "text": {
+        "te": "తరువాతి జన్మలో అతను ఏనుగుగా జన్మించాడు.",
+        "hi": "अगले जन्म में वह हाथी बनकर जन्मा।",
+        "en": "In his next life, he was born as an elephant."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L005",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "He lost his ordinary memories of that earlier life.",
+      "text": {
+        "te": "అప్పుడు తన పాత జీవితం గురించి జ్ఞాపకం కోల్పోయాడు.",
+        "hi": "तब वह अपने पिछले जीवन की स्मृतियाँ भूल गया।",
+        "en": "He lost his ordinary memories of that earlier life."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L006",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent modern cadence",
+      "intent": "Yet the effect of his worship of Hari remained within him.",
+      "text": {
+        "te": "కానీ హరి ఆరాధన ఫలితంగా అతనిలో భక్తి జ్ఞాపకం మిగిలింది.",
+        "hi": "लेकिन हरि की आराधना के प्रभाव से भक्ति की स्मृति बनी रही।",
+        "en": "Yet the effect of his worship of Hari remained within him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L007",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm story clarity",
+      "intent": "In danger from the crocodile, Gajendra remembered that prayer.",
+      "text": {
+        "te": "మొసలి కష్టంలో ఉన్నప్పుడు ఆ ప్రార్థన గజేంద్రుడికి గుర్తొచ్చింది.",
+        "hi": "मगरमच्छ के संकट में गजेन्द्र को वही प्रार्थना याद आई।",
+        "en": "In danger from the crocodile, Gajendra remembered that prayer."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.11-12"
+      }
+    },
+    {
+      "id": "S01E05-S06-L008",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle explanatory emphasis",
+      "intent": "So the two earlier lives were linked to Gajendra's deliverance.",
+      "text": {
+        "te": "ఈ విధంగా రెండు పూర్వజన్మల కథలకు గజేంద్ర మోక్షంతో సంబంధం ఉంది.",
+        "hi": "इस तरह दोनों पिछली जन्मों की कथाएँ गजेन्द्र के उद्धार से जुड़ी थीं।",
+        "en": "So the two earlier lives were linked to Gajendra's deliverance."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original serial-narrative summary connecting the distinct Huhu-Devala and Indradyumna-Agastya histories already explained; not an extra quoted verse."
+      }
     }
   ],
-  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation. S03 authored 8 narrator-only trilingual lines, no recorded voice/animation. S04 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement. S05 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement.",
-  "timing_note": "E05 5/6 scenes authored, 275/330 provisional seconds, 40 lines, further scenes missing."
+  "performance_notes": "Entire E05 written as original te/hi/en NARRATOR paraphrase with separate verified scripture-verse attribution or source-summary-based screenplay insert. No dialogue animation or approved recorded voice. User-approved full-body cast identity is Library-backed with GitHub approval/provenance metadata, but GitHub does not contain PNG bits. Characters remain the two distinct curse pairs. S01 authored 8 narrator-only trilingual lines, no recorded voice/animation. S02 authored 8 narrator-only trilingual lines, no recorded voice/animation. S03 authored 8 narrator-only trilingual lines, no recorded voice/animation. S04 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement. S05 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement. S06 eight narrator-only modern three-language lines, no voiced characters or human-like elephant mouth movement.",
+  "timing_note": "Full E05 source draft: 6 scenes, 18 planned shots, 48 aligned NARRATOR lines in te/hi/en, 330 unmeasured provisional editorial seconds (6x55). A complete written source draft FOR future table read; not pronunciation/script/native/voice/visual/motion/media approved."
 }
