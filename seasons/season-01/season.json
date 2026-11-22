@@ -19,7 +19,7 @@
     "preferred": 360,
     "max": 390
   },
-  "status": "six_episode_sources_e01_e06_partial_four_drafts_unapproved",
+  "status": "six_episode_sources_five_full_drafts_e01_partial_all_media_unapproved",
   "source": "Srimad Bhagavatam Canto 8 Chapters 2–4",
   "episodes": [
     {
@@ -86,7 +86,7 @@
       "episode_id": "S01E06",
       "release_order": 6,
       "path": "episodes/s01e06-the-gift-of-moksha",
-      "status": "partial_scene_draft",
+      "status": "draft_for_table_read",
       "title": {
         "en": "The Gift of Moksha",
         "te": "మోక్షం అనే దివ్య వరం",

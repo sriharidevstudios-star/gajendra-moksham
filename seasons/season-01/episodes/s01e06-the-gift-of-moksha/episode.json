@@ -9,7 +9,7 @@
     "te": "మోక్షం అనే దివ్య వరం",
     "hi": "मोक्ष का दिव्य वरदान"
   },
-  "status": "partial_scene_draft",
+  "status": "draft_for_table_read",
   "logline": "The devas celebrate Gajendra's deliverance; Huhu returns home, Gajendra receives four-armed sārūpya-mukti through Hari's touch, and after speaking blessings the Lord sounds Pāñcajanya and departs on Garuḍa with Gajendra.",
   "target_runtime_seconds": {
     "min": 330,
@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4; originally worded contemporary Telugu/Hindi/English child-friendly narration, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.1–2,5–6,13–26",
-    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture. S04 source SB 8.4.16, 8.4.17-24, 8.4.25; The Lord's blessings and remembrance; specific gestures/camera notes attributed original. S05 source SB 8.4.26, 8.4.1, 8.4.2; The Pāñcajanya conch; specific gestures/camera notes attributed original."
+    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture. S03: SB 8.4.6 straightforward original paraphrase, staging separated from scripture. S04 source SB 8.4.16, 8.4.17-24, 8.4.25; The Lord's blessings and remembrance; specific gestures/camera notes attributed original. S05 source SB 8.4.26, 8.4.1, 8.4.2; The Pāñcajanya conch; specific gestures/camera notes attributed original. S06 source SB 8.4.13, 8.4.26, 8.4.14; Garuda carries the Lord and Gajendra home; specific gestures/camera notes attributed original."
   },
   "adaptation": {
     "core_preserved": [
@@ -41,7 +41,8 @@
       "S02: title Hūhū's gratitude and departure; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
       "S03: title Gajendra's spiritual transformation; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
       "S04: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval.",
-      "S05: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval."
+      "S05: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval.",
+      "S06: source-faithful child-friendly editing; no unauthorized published translation, new vocal track, or automatic approval."
     ],
     "fidelity_note": "Original trilingual paraphrase retains mercy, freedom from ignorance, sārūpya-mukti, morning remembrance and departure order. Chronology of divine touch is not rewritten by the editorial flashback/reveal sequence."
   },
@@ -338,6 +339,57 @@
           "id": "S01E06-S05-SH03",
           "budget_seconds": 18,
           "action": "Hari sounds His Panchajanya conch, pleasing the assembled devas, then prepares to mount Garuda (SB 8.4.26). Stage the musical moment visually without inventing audio files. Narration L007–L008. The listening devas' happiness is scripture; musical waveform, sound design and animated air/flower swirls are original staging and remain unproduced.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "Garuda carries the Lord and Gajendra home",
+      "setting": "The same Trikūṭa lotus-lake shore with approved four-armed Nārāyaṇa, approved winged Garuda and distinct liberated four-armed Gajendra; spiritually resolved Huhu already returned to Gandharvaloka.",
+      "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "On Garuda, the approved Narayana remains clearly identifiable, exactly four arms, stable crown and emblems, bird/head anatomy coherent. Distinct Gajendra liberated form accompanies, not an ordinary elephant or duplicate Vishnu.",
+        "SB 8.4.13 says the Lord returns to His abode riding Garuda and TAKES Gajendra. The precise seating/flight blocking is editorial; use a physically readable composition.",
+        "Huhu already returned to Gandharvaloka in S02; do not include him as a fourth passenger or another crocodile.",
+        "End on original serene horizon and caption-friendly open composition; narrator states a source-backed meaningful conclusion, no commercial song lyrics or invented deity dialogue.",
+        "The six-episode seasonal narrative now has an ending but this is only a written draft: no human-review, soundtrack, scene keyframes or final master exists."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.13",
+          "url": "https://vedabase.io/en/library/sb/8/4/13/"
+        },
+        {
+          "locator": "8.4.26",
+          "url": "https://vedabase.io/en/library/sb/8/4/26/"
+        },
+        {
+          "locator": "8.4.14",
+          "url": "https://vedabase.io/en/library/sb/8/4/14/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S06-SH01",
+          "budget_seconds": 18,
+          "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict. Narration L001–L003. On Garuda, the approved Narayana remains clearly identifiable, exactly four arms, stable crown and emblems, bird/head anatomy coherent. Distinct Gajendra liberated form accompanies, not an ordinary elephant or duplicate Vishnu.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S06-SH02",
+          "budget_seconds": 19,
+          "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict. Narration L004–L006. SB 8.4.13 says the Lord returns to His abode riding Garuda and TAKES Gajendra. The precise seating/flight blocking is editorial; use a physically readable composition.",
+          "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
+          "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
+        },
+        {
+          "id": "S01E06-S06-SH03",
+          "budget_seconds": 18,
+          "action": "Hari mounts Garuda following the conch, then leaves for His divine abode with sārūpya-liberated Gajendra as His associate while celestial beings praise Him (8.4.13,26). End with the narrative's remembrance blessing, no invented subsequent conflict. Narration L007–L008. Huhu already returned to Gandharvaloka in S02; do not include him as a fourth passenger or another crocodile.",
           "camera": "16:9 clean devotional storybook; exact nine-character approved reference identity and four-arm count; no silhouettes that invent new named roles.",
           "sound": "Only NARRATOR is a planned spoken owner; instrument, conch, wings, water, score and music are not recorded."
         }
@@ -1104,8 +1156,160 @@
         "kind": "scripture_paraphrase",
         "locator": "8.4.26"
       }
+    },
+    {
+      "id": "S01E06-S06-L001",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "After sounding Panchajanya, Hari mounted Garuda.",
+      "text": {
+        "te": "హరి పాంచజన్యం ఊది గరుడుడిపై ఎక్కాడు.",
+        "hi": "हरि ने पाञ्चजन्य बजाकर गरुड़ पर आरूढ़ हुए।",
+        "en": "After sounding Panchajanya, Hari mounted Garuda."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.26"
+      }
+    },
+    {
+      "id": "S01E06-S06-L002",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Garuda carried the Lord upon his back.",
+      "text": {
+        "te": "గరుడుడు భగవంతుడిని తన వీపుపై మోశాడు.",
+        "hi": "गरुड़ ने भगवान को अपनी पीठ पर बिठाया।",
+        "en": "Garuda carried the Lord upon his back."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L003",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "Liberated Gajendra accompanied the Lord.",
+      "text": {
+        "te": "విముక్తి పొందిన గజేంద్రుడు కూడా భగవంతుడితో ఉన్నాడు.",
+        "hi": "मुक्त गजेन्द्र भी भगवान के साथ था।",
+        "en": "Liberated Gajendra accompanied the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L004",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The gathered beings praised Hari's wondrous deed.",
+      "text": {
+        "te": "అందరూ హరి చేసిన అద్భుత కార్యాన్ని స్తుతించారు.",
+        "hi": "सबने हरि के अद्भुत कार्य की प्रशंसा की।",
+        "en": "The gathered beings praised Hari's wondrous deed."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L005",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "Thus Narayana returned on Garuda to His divine abode.",
+      "text": {
+        "te": "అలా నారాయణుడు గరుడుడిపై తన దివ్య ధామానికి తిరిగివెళ్లాడు.",
+        "hi": "इस तरह नारायण गरुड़ पर अपने दिव्य धाम लौट गए।",
+        "en": "Thus Narayana returned on Garuda to His divine abode."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L006",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried final-story cadence",
+      "intent": "Gajendra went with Him as His spiritual associate.",
+      "text": {
+        "te": "గజేంద్రుడు కూడా ఆయన దివ్య సహచరుడిగా వెళ్లాడు.",
+        "hi": "गजेन्द्र भी उनके दिव्य सहचर के रूप में साथ गया।",
+        "en": "Gajendra went with Him as His spiritual associate."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.13"
+      }
+    },
+    {
+      "id": "S01E06-S06-L007",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm, thoughtful and gentle",
+      "intent": "The scripture praises the good fortune of hearing Gajendra's deliverance.",
+      "text": {
+        "te": "ఈ గజేంద్ర మోక్ష కథను భక్తితో వినడం గొప్ప పుణ్యమని శాస్త్రం చెబుతుంది.",
+        "hi": "शास्त्र कहता है कि गजेन्द्र मोक्ष की कथा श्रद्धा से सुनना कल्याणकारी है।",
+        "en": "The scripture praises the good fortune of hearing Gajendra's deliverance."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.14"
+      }
+    },
+    {
+      "id": "S01E06-S06-L008",
+      "scene_id": "S06",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent source-aware clarity",
+      "intent": "The lake's struggle had ended through the Lord's mercy in liberation.",
+      "text": {
+        "te": "ఆ సరస్సు వద్ద మొదలైన కష్టం, భగవంతుని కరుణతో విముక్తిలో ముగిసింది.",
+        "hi": "झील में शुरू हुआ वह संकट भगवान की कृपा से मुक्ति में समाप्त हुआ।",
+        "en": "The lake's struggle had ended through the Lord's mercy in liberation."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original final episode narrative summation of scriptural rescue and sārūpya-mukti; no extra event after Hari's return or literal English scripture quotation is implied."
+      }
     }
   ],
-  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S04: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio. S05: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio.",
-  "timing_note": "E06 5/6 scenes authored and 275/330 unmeasured seconds, 40 lines, S06 not complete yet, partial_scene_draft."
+  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S03: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S04: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio. S05: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio. S06: eight trilingual narrator-only lines, no recorded direct Narayana/Huhu speech or Sanskrit/conch audio.",
+  "timing_note": "Complete 6-scene E06 script with 48 NARRATOR lines / 144 aligned te/hi/en spoken strings, 18 shot specs (6×55 = 330) PROVISIONAL seconds. Not timed by humans or any generated voice/audio/images/motion/video; DRAFT FOR FUTURE TABLE READ, no production approval."
 }
