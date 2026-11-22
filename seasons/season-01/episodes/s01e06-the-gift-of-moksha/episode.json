@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 4; originally worded contemporary Telugu/Hindi/English child-friendly narration, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/4/",
     "source_locator": "SB 8.4.1–2,5–6,13–26",
-    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture."
+    "verification_notes": "8.4.1–2: devas, sages and Gandharvas praise Hari, flowers/kettledrums, songs and dancing; no recordings are sourced. 8.4.5: restored Huhu circumambulates Lord, bows and returns to Gandharvaloka; restoration itself at 8.4.3–4 was already narrated in E05. 8.4.6: Hari's touch immediately frees Gajendra from ignorance and bestows spiritual four-armed, yellow-robed sārūpya (distinct from both original quadrupedal elephant and Hari). 8.4.13: after Gajendra liberation, Lord goes to His abode riding Garuda with liberated Gajendra. 8.4.14–15: hearing/story remembrance blessings. 8.4.16 and 17–24: Hari addresses Gajendra and praises recollection of Him and sacred sites/attributes, summarized not verbatim. 8.4.25: morning prayer/eternal spiritual benefit described, without claiming universal modern material reward. 8.4.26: Lord sounds Pāñcajanya and mounts Garuda to depart. Episode sequences the later explanation/flashback E05 before showing spiritual form E06 as editorial disclosure; this does NOT claim Gajendra's sārūpya was delayed from the original touch. S01: SB 8.4.1, 8.4.2 straightforward original paraphrase, staging separated from scripture. S02: SB 8.4.5 straightforward original paraphrase, staging separated from scripture."
   },
   "adaptation": {
     "core_preserved": [
@@ -37,7 +37,8 @@
       "Celestial flowers, praise and drums are verse-grounded but voice/musical performances are not generated/approved; any original score cues remain future plans.",
       "Source lists many sacred names/locations at 8.4.17–24; age-accessible condensed narrator wording explicitly not a literal mantra or a replacement for exact recitation.",
       "No fabricated direct speech from Huhu, Gajendra or Narayana in the sourced narrator-only script; optional later direct speaking portraits would need new authorized lines.",
-      "S01: title Flowers and songs of praise; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses."
+      "S01: title Flowers and songs of praise; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses.",
+      "S02: title Hūhū's gratitude and departure; exactly three shot concepts and nonvoiced narrator-only wording, original cinematic holds not extra verses."
     ],
     "fidelity_note": "Original trilingual paraphrase retains mercy, freedom from ignorance, sārūpya-mukti, morning remembrance and departure order. Chronology of divine touch is not rewritten by the editorial flashback/reveal sequence."
   },
@@ -146,6 +147,49 @@
           "id": "S01E06-S01-SH03",
           "budget_seconds": 18,
           "action": "Devas, sages and Gandharvas shower flowers, rejoice, praise Hari; heavenly drums and dance accompany the deliverance according to 8.4.1–2, but no actual soundtrack exists. Narration L007–L008. Distant unnamed celestial beings should not be drawn as approved named characters without future reference; keep small silhouettes and approved Narayana/Garuda/Gajendra in foreground.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Hūhū's gratitude and departure",
+      "setting": "Present-day sacred lake immediately after Huhu regains his previously humanlike Gandharva form as told in E05; no present living crocodile remains. Owner-approved Huhu faces approved Narayana respectfully.",
+      "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5).",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Huhu's restored original Gandharva form and relationship to Devala were already fully explained in E05; do not re-stage the curse or the slaying of the crocodile.",
+        "Depict user-approved Huhu's purple/gold outfit and same youthful Gandharva face/crown exactly, no crocodile head on human body.",
+        "He circumambulates the Lord and bows, then returns to Gandharvaloka; do not portray him permanently trapped or morally monstrous.",
+        "Any visual dissolving transition to distant Gandharva sky is original cutaway, not a new escape incident.",
+        "Narayana's four-arm costume and Garuda remain consistent; no new voiced duet or actor."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.4.5",
+          "url": "https://vedabase.io/en/library/sb/8/4/5/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E06-S02-SH01",
+          "budget_seconds": 18,
+          "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5). Narration L001–L003. Huhu's restored original Gandharva form and relationship to Devala were already fully explained in E05; do not re-stage the curse or the slaying of the crocodile.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S02-SH02",
+          "budget_seconds": 19,
+          "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5). Narration L004–L006. Depict user-approved Huhu's purple/gold outfit and same youthful Gandharva face/crown exactly, no crocodile head on human body.",
+          "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
+          "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
+        },
+        {
+          "id": "S01E06-S02-SH03",
+          "budget_seconds": 18,
+          "action": "Huhu, relieved by the Lord's mercy, respectfully circles the Lord, bows and returns to Gandharvaloka in view of assembled devas (8.4.5). Narration L007–L008. He circumambulates the Lord and bows, then returns to Gandharvaloka; do not portray him permanently trapped or morally monstrous.",
           "camera": "16:9 stable full-body devotional Indian storybook frame using user-approved cast identity and consistent scale/limb count.",
           "sound": "NARRATOR only spoken owner, future score/ambient/flowers or conch sounds PLANNED and unproduced."
         }
@@ -304,8 +348,160 @@
         "kind": "original_dramatization",
         "note": "Original short interpretive closing narration connecting the scripture's praise and flowers (8.4.1–2) to Gajendra's deliverance; not an additional quoted verse."
       }
+    },
+    {
+      "id": "S01E06-S02-L001",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "Huhu had regained his Gandharva form.",
+      "text": {
+        "te": "హూహూ తన గంధర్వ రూపాన్ని తిరిగి పొందాడు.",
+        "hi": "हूहू ने अपना गंधर्व रूप वापस पा लिया।",
+        "en": "Huhu had regained his Gandharva form."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L002",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Narayana's mercy had ended his curse.",
+      "text": {
+        "te": "నారాయణుడి కరుణ వల్ల అతని శాపం ముగిసింది.",
+        "hi": "नारायण की दया से उसका श्राप समाप्त हुआ।",
+        "en": "Narayana's mercy had ended his curse."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L003",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "Huhu respectfully circled the Lord.",
+      "text": {
+        "te": "హూహూ భక్తితో భగవంతుని చుట్టూ ప్రదక్షిణ చేశాడు.",
+        "hi": "हूहू ने श्रद्धा से भगवान की परिक्रमा की।",
+        "en": "Huhu respectfully circled the Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L004",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "Then he bowed his head.",
+      "text": {
+        "te": "తరువాత తల వంచి నమస్కరించాడు.",
+        "hi": "फिर सिर झुकाकर प्रणाम किया।",
+        "en": "Then he bowed his head."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L005",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "With the devas looking on, he returned to Gandharvaloka.",
+      "text": {
+        "te": "దేవతలు చూస్తుండగా అతను గంధర్వలోకానికి తిరిగి వెళ్లాడు.",
+        "hi": "देवताओं के सामने वह गंधर्व लोक लौट गया।",
+        "en": "With the devas looking on, he returned to Gandharvaloka."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L006",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unhurried child-friendly reverence",
+      "intent": "He was freed from the burden of his former curse.",
+      "text": {
+        "te": "తన తప్పు వల్ల వచ్చిన బంధనం నుంచి విముక్తి పొందాడు.",
+        "hi": "वह अपने पुराने बंधन से मुक्त हो गया।",
+        "en": "He was freed from the burden of his former curse."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L007",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Graceful celebratory tone",
+      "intent": "He was restored to his original place.",
+      "text": {
+        "te": "ఇప్పుడు అతను మళ్లీ తన అసలు స్థానంలో ఉన్నాడు.",
+        "hi": "अब वह फिर अपने मूल लोक में था।",
+        "en": "He was restored to his original place."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.4.5"
+      }
+    },
+    {
+      "id": "S01E06-S02-L008",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle spiritual clarity",
+      "intent": "Thus Huhu's earlier-life story reached its resolution.",
+      "text": {
+        "te": "అలా హూహూ పూర్వజన్మ కథ ముగిసింది.",
+        "hi": "इस तरह हूहू की पिछली जन्म की कथा पूरी हुई।",
+        "en": "Thus Huhu's earlier-life story reached its resolution."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original serial narrative closure of Huhu's source-grounded gratitude and departure from 8.4.5; not independently quoted scriptural speech."
+      }
     }
   ],
-  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio.",
-  "timing_note": "E06 1/6 scenes authored, 8 narrator records, 55/330 provisional seconds; no reading or media files."
+  "performance_notes": "All six scenes are narrated original, source-aware modern te/hi/en language with NARRATOR ownership and lip_sync_target=null. Heavenly music, conch, chants, divine speech, character voices and whole episode audio are not recorded. Owner-approved nine-identity reference art exists in the user Library with GitHub metadata and SHA-256; GitHub contains no image blobs yet. S01: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio. S02: 8 NARRATOR text lines in three languages, all lip_sync_target=null, no actual studio audio.",
+  "timing_note": "E06 2/6 scenes authored, 16 narrator records, 110/330 provisional seconds; no reading or media files."
 }
