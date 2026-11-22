@@ -658,7 +658,7 @@
       "intent": "Show a few representative tree species listed in scripture",
       "text": {
         "te": "మామిడి, కొబ్బరి చెట్ల మధ్య అశోక, సంపెంగ పూల చెట్లు కూడా ఉండేవి.",
-        "hi": "आम और नारियल के पेड़ों के बीच अशोक और चंपा के फूल भी खिले रहते थे।",
+        "hi": "आम और नारियल के पेड़ों के बीच अशोक और चंपा के फूलदार पेड़ भी थे।",
         "en": "Mango and coconut trees stood near flowering aśoka and campaka trees."
       },
       "source_attribution": {
@@ -696,7 +696,7 @@
       "intent": "Distinguish other water lilies from golden lotus",
       "text": {
         "te": "ఆ తామరల మధ్య ఎన్నో రకాల కలువపూలు వికసించేవి.",
-        "hi": "उन कमलों के बीच कई तरह के जल-फूल खिले थे।",
+        "hi": "उन कमलों के बीच कई तरह की कुमुदिनियाँ भी खिली थीं।",
         "en": "Other kinds of water lilies bloomed between the lotus leaves."
       },
       "source_attribution": {
@@ -1132,7 +1132,7 @@
       "delivery": "Lively naturalistic action",
       "intent": "Sprinkle nearby females and calves with the trunk",
       "text": {
-        "te": "తొండంతో నీళ్లు చల్లి ఆడ ఏనుగుల్నీ పిల్ల ఏనుగుల్నీ తడిపాడు.",
+        "te": "తొండంతో ఆడ ఏనుగులపైనా, పిల్ల ఏనుగులపైనా నీళ్లు చల్లాడు.",
         "hi": "उसने सूँड से हथिनियों और छोटे हाथियों पर पानी छिड़का।",
         "en": "With his trunk, he sprinkled the female elephants and calves."
       },
@@ -1265,8 +1265,8 @@
       "delivery": "Sudden but clear, no horror delivery",
       "intent": "Introduce the crocodile's first attack from the verse",
       "text": {
-        "te": "అప్పుడే నీళ్లలో ఉన్న బలమైన మొసలి ఒక్కసారిగా గజేంద్రుడి కాలును గట్టిగా పట్టుకుంది.",
-        "hi": "उसी पल पानी में एक ताकतवर मगरमच्छ ने अचानक गजेन्द्र का पैर कसकर पकड़ लिया।",
+        "te": "నీళ్లలో ఉన్న బలమైన మొసలి ఒక్కసారిగా గజేంద్రుడి కాలును గట్టిగా పట్టుకుంది.",
+        "hi": "पानी में एक ताकतवर मगरमच्छ ने अचानक गजेन्द्र का पैर कसकर पकड़ लिया।",
         "en": "All at once, a powerful crocodile seized Gajendra's leg in the water."
       },
       "source_attribution": {

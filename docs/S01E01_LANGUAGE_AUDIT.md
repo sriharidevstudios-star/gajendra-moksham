@@ -43,6 +43,26 @@ All **54 of 54** ordered S01E01 line IDs were examined across **Telugu (te), Hin
 
 **Remaining:** P1 corrections are preserved (two already applied); P3 issues remain seven; no native listener signoff, cast approval, audio, TTS, image or video. Episode status stays `partial_scene_draft`, 54 IDs, six scenes, 330 seconds of provisional budgets.
 
+## GM-LANG-004 — P3 wording and listening disposition (2026-11-22)
+
+**Current written editorial state:** 4 source-compatible wording changes **APPLIED** to four line IDs, totaling **5** changed language strings (Telugu 2, Hindi 3, English 0). Three P3 items **DEFERRED** until a human listener/table read. All seven items still **NEED NATIVE SIGNOFF** and no audio or human review has been performed. The original P3 findings below are retained as historical evidence. Previously applied P1/P2 text fixes and the S06/L008 rescue handoff are unchanged.
+
+| Canonical line ID | Disposition | Language strings changed | Specific decision and evidence |
+|---|---|---|---|
+| `S01E01-S02-L006` | **APPLIED — NEEDS NATIVE SIGNOFF** | hi | Name aśoka and campaka as flowering trees in Hindi, matching the tree species in SB 8.2.9–13 and the already-written te/en. [Source](https://vedabase.io/en/library/sb/8/2/9-13/) |
+| `S01E01-S02-L008` | **APPLIED — NEEDS NATIVE SIGNOFF** | hi | Replace generic 'जल-फूल' with the familiar Hindi water-lily term कुमुदिनी; the source names kumuda and other aquatic flowers. [Source](https://vedabase.io/en/library/sb/8/2/14-19/) |
+| `S01E01-S03-L009` | **DEFERRED — NEEDS NATIVE LISTENER** | None | Bee onomatopoeia in Telugu is understandable but auditory naturalness, emphasis, and consistency cannot be approved from text alone; review both S02/L009 and S03/L009 aloud. [Source](https://vedabase.io/en/library/sb/8/2/23-24/) |
+| `S01E01-S04-L006` | **DEFERRED — NEEDS TABLE READ** | None | The line can describe continuation of bathing after drinking; adding 'again' would assert an extra bath not stated independently in 8.2.25. Human editorial review of S04/SH01–SH02 should decide any sequencing change. [Source](https://vedabase.io/en/library/sb/8/2/25/) |
+| `S01E01-S04-L009` | **APPLIED — NEEDS NATIVE SIGNOFF** | te | Use the ordinary verb for sprinkling water instead of a potentially stronger 'soaking' implication; preserve the same female-elephant/calf referents. [Source](https://vedabase.io/en/library/sb/8/2/26/) |
+| `S01E01-S05-L001` | **DEFERRED — NEEDS TABLE READ** | None | The reminder about caring for the herd repeats S04/L011 but S05 is deliberately 30 seconds. Do not delete, renumber, or extend a shot without a timed three-language reading and approved edit. [Source](https://vedabase.io/en/library/sb/8/2/26/) |
+| `S01E01-S06-L001` | **APPLIED — NEEDS NATIVE SIGNOFF** | te, hi | Use a single immediacy marker in Telugu and Hindi; keep the crocodile's sudden first grip and unaltered English wording/source attribution. [Source](https://vedabase.io/en/library/sb/8/2/27/) |
+
+**Native-language and timing holds:** The onomatopoeia in S03/L009 requires Telugu listening, S04/L006 needs an actual timed S04/SH01–SH02 table read, and S05/L001 should be tested for unnecessary repetition before any line deletion or audio decision. S06/L001's shorter Telugu/Hindi still requires human approval. Do not mark any narrator voice, accent or TTS pronunciation approved.
+
+**Devotional/continuity holds:** S04/L011's family-attachment/māyā nuance remains open for devotional review. In S01E02/S01, show the failed rescue described in 8.2.28; S01E01-S06-L008 remains unchanged. Do not pre-show the crocodile or add gore.
+
+**Line-by-line human listening plan:** See `docs/S01E01_NATIVE_LISTENER_CHECKLIST.md`. It has all 54 canonical stable IDs and unchecked te/hi/en listening fields, explicit missing reviewers/dates and approval status. The GM-LANG-001 word counts further below are baseline snapshots and must be recalculated using the now-updated script before timing/recording.
+
 ## Priority guide
 
 - **P1** — Source meaning/material detail should be corrected before recording.
@@ -95,9 +115,9 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S02 | `S01E01-S02-L003` | — |
 | S02 | `S01E01-S02-L004` | — |
 | S02 | `S01E01-S02-L005` | — |
-| S02 | `S01E01-S02-L006` | P3 |
+| S02 | `S01E01-S02-L006` | P3 — APPLIED — NEEDS NATIVE SIGNOFF |
 | S02 | `S01E01-S02-L007` | — |
-| S02 | `S01E01-S02-L008` | P3 |
+| S02 | `S01E01-S02-L008` | P3 — APPLIED — NEEDS NATIVE SIGNOFF |
 | S02 | `S01E01-S02-L009` | P2 — APPLIED — native signoff pending |
 | S02 | `S01E01-S02-L010` | P1 — APPLIED (native signoff pending) |
 | S02 | `S01E01-S02-L011` | — |
@@ -109,7 +129,7 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S03 | `S01E01-S03-L006` | — |
 | S03 | `S01E01-S03-L007` | P2 — APPLIED — native signoff pending |
 | S03 | `S01E01-S03-L008` | — |
-| S03 | `S01E01-S03-L009` | P3 |
+| S03 | `S01E01-S03-L009` | P3 — DEFERRED — NEEDS NATIVE LISTENER |
 | S03 | `S01E01-S03-L010` | — |
 | S03 | `S01E01-S03-L011` | — |
 | S04 | `S01E01-S04-L001` | — |
@@ -117,17 +137,17 @@ Every row below refers to the **existing unchanged** source line ID, not a repla
 | S04 | `S01E01-S04-L003` | P2 — APPLIED — native signoff pending |
 | S04 | `S01E01-S04-L004` | — |
 | S04 | `S01E01-S04-L005` | — |
-| S04 | `S01E01-S04-L006` | P3 |
+| S04 | `S01E01-S04-L006` | P3 — DEFERRED — NEEDS TABLE READ |
 | S04 | `S01E01-S04-L007` | — |
 | S04 | `S01E01-S04-L008` | — |
-| S04 | `S01E01-S04-L009` | P3 |
+| S04 | `S01E01-S04-L009` | P3 — APPLIED — NEEDS NATIVE SIGNOFF |
 | S04 | `S01E01-S04-L010` | — |
 | S04 | `S01E01-S04-L011` | P2 — APPLIED — devotional nuance pending |
-| S05 | `S01E01-S05-L001` | P3 |
+| S05 | `S01E01-S05-L001` | P3 — DEFERRED — NEEDS TABLE READ |
 | S05 | `S01E01-S05-L002` | — |
 | S05 | `S01E01-S05-L003` | — |
 | S05 | `S01E01-S05-L004` | — |
-| S06 | `S01E01-S06-L001` | P3 |
+| S06 | `S01E01-S06-L001` | P3 — APPLIED — NEEDS NATIVE SIGNOFF |
 | S06 | `S01E01-S06-L002` | — |
 | S06 | `S01E01-S06-L003` | — |
 | S06 | `S01E01-S06-L004` | — |
@@ -174,7 +194,7 @@ All of these are **planning warnings**, not failures of recorded performances. M
 ## Acceptance and next-stage gates
 
 - **Authored source integrity:** all 54 IDs and three-language fields were checked; no structural speaker/lip-sync or missing-language issues observed.
-- **Current status after GM-LANG-003:** Both earlier P1 fixes are preserved. Six P2 text changes are APPLIED, S06/L008 is DEFERRED pending S01E02/S01, and all seven P3 items are OPEN. Native-language and devotional review are still pending. Original GM-LANG-001 findings remain as historical evidence.
+- **Current status after GM-LANG-004:** Both P1 and six applied P2 fixes are preserved; the S06/L008 rescue dependency remains DEFERRED to S01E02. Of seven P3 issues, four have wording **APPLIED (not human approved)** and three are **DEFERRED for listening/table read**. All 54 lines still require native-language review and any needed devotional signoff. Original historical findings remain below.
 - **Native approval:** **NOT OBTAINED** for Telugu, Hindi or English; a fluent native-speaker review should record reviewer/date/line IDs, especially after proposed text changes.
 - **Audio/visual approval:** **NOT OBTAINED**. No voice casting, TTS, keyframes, artwork, recordings, captions or video were produced.
 - **Current project state:** S01E01 remains `partial_scene_draft`; S01E02–S01E06 still lack canonical episode sources, so the whole season remains **NOT_READY**.

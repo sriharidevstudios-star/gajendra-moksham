@@ -1,34 +1,43 @@
-# Work checkpoint — GM-LANG-003
+# Work checkpoint — GM-LANG-004
 
 **Date:** 2026-11-22  
-**Repository:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
-**Verified starting head:** `88b0b1cfe26e7cc302368eff15c990cab352ed20` (GM-LANG-002).  
-**Scope:** seven P2 audit issues; **six justified wording corrections, one deferred unchanged**. Next GM-LANG-004.
+**Repository:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1 into `main`  
+**Verified starting remote head:** `5fd700c1e30916e3cab6b417f386633059cb7867` (GM-LANG-003).  
+**Batch:** Seven bounded P3 dispositions + native-listener checklist; next GM-COV-001 (S01E01/S01 source ownership mapping).
 
-## Bounded delivery and unaltered owners
+## GM-LANG-004 completed scope
 
-- Applied corrections to **only six line IDs**, changing exactly **10 text strings** (Telugu **5**, Hindi **3**, English **2**): `S01E01-S02-L001` te; `S01E01-S02-L009` hi; `S01E01-S03-L007` te/hi/en; `S01E01-S04-L003` te/hi/en; `S01E01-S04-L011` te; `S01E01-S06-L006` te.
-- Source checks: [8.2.7](https://vedabase.io/en/library/sb/8/2/7/), [8.2.14–19](https://vedabase.io/en/library/sb/8/2/14-19/), [8.2.22](https://vedabase.io/en/library/sb/8/2/22/), [8.2.25](https://vedabase.io/en/library/sb/8/2/25/), [8.2.26](https://vedabase.io/en/library/sb/8/2/26/), [8.2.27–28](https://vedabase.io/en/library/sb/8/2/27/). Wording is original and does not reproduce the source translation.
-- `S01E01-S06-L008` **DEFERRED unchanged**: verse 8.2.28 includes the failed rear-grasping rescue that is scheduled for S01E02/S01. Preserve the handoff.
-- S04/L011's Telugu referent improved; **devotional interpretation of family attachment/māyā needs expert review**, not approved or supplied by inference.
-- Preserved both earlier P1 lines, the other **48 unchanged full dialogue objects**, all 54 stable IDs, all non-text fields of the six changed lines, 50 verse citations/4 marked original dramatizations, all scene/shot/cast/source objects, 330-second preferred episode target, and S01E01 `partial_scene_draft`.
-- Updated the historical 54-line `docs/S01E01_LANGUAGE_AUDIT.md` with six APPLIED and one DEFERRED statuses; **seven P3 items** remain open. No native language reviewer has approved the corrections; no voice, images or media were produced.
-- `season.json` unchanged: S01E02–S01E06 still have no canonical source. Whole season remains **NOT_READY**.
+- Reviewed all **seven P3 findings** in the existing 54-line S01E01 audit against canonical text and original source passages [SB 8.2.9–13](https://vedabase.io/en/library/sb/8/2/9-13/), [8.2.14–19](https://vedabase.io/en/library/sb/8/2/14-19/), [8.2.25](https://vedabase.io/en/library/sb/8/2/25/), [8.2.26](https://vedabase.io/en/library/sb/8/2/26/) and [8.2.27](https://vedabase.io/en/library/sb/8/2/27/). All new writing is original, not copied translation.
+- **Applied four** line-level wording improvements affecting **five spoken strings**: `S01E01-S02-L006` (hi; explicit flowering trees), `S01E01-S02-L008` (hi; kumudinī/water-lily terminology), `S01E01-S04-L009` (te; natural sprinkling rather than drenching), `S01E01-S06-L001` (te, hi; single urgency cue). All are **pending native-speaker signoff**.
+- **Deferred three without changing dialogue:** `S01E01-S03-L009` Telugu bee sound (needs pronunciation listening), `S01E01-S04-L006` second-bathing/shot-order timing (needs table read), and `S01E01-S05-L001` repeated family-care narration (needs timed editorial listening).
+- Preserved both P1 text fixes, all applied P2 lines, the deferred S06/L008 rescue handoff, **the other 50 dialogue objects**, all 54 IDs, their audio/source ownership, 50 verse paraphrases + 4 labeled original dramatizations, all six scenes/18 shots/cast, and 330-second episode preferred target. Episode stays `partial_scene_draft`.
+- Updated `docs/S01E01_LANGUAGE_AUDIT.md` with 4 APPLIED and 3 DEFERRED P3 decisions while preserving all previous findings and the original 54-row ledger.
+- Created `docs/S01E01_NATIVE_LISTENER_CHECKLIST.md` with **54 unchecked te/hi/en line entries**, 18 planned shot-to-line ranges, blank reviewer/date/evidence fields, terminology checks, source/scene continuity and timing holds, all explicitly **NOT APPROVED**.
+- No human narrator, native listener or devotional specialist has approved anything; no TTS, audio, voices, images or video have been produced. Season metadata unchanged; S01E02–E06 still have no canonical sources. Global season **NOT_READY**.
 
-## Validation record
+## Verification and honest limits
 
-| Gate | Result |
+| Gate | Outcome |
 |---|---|
-| In-process exact JSON diff, ID/source/audio/budget audit | **PASS** — only permitted text strings changed |
-| Native Telugu/Hindi/English review, devotional source signoff | **NOT PERFORMED** |
-| `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector has no Python execution |
-| `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**, expected `SCOPED_READY` but not asserted |
-| `python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06` and `--check` | **UNRUN**, no generated text or media committed |
-| `python3 scripts/validate_content.py` | **UNRUN**, expected `NOT_READY` because 5 episode sources remain missing |
-| Guarded non-force GitHub commit, remote branch/PR and hashes | Verify after commit; exact 4 scoped file paths only |
+| In-process exact-change, 54-line IDs, 18 shots, language/source/audio ownership, 330-second runtime | **PASS**: only the four permitted spoken-text objects changed, 5 language strings total |
+| Original scripture cross-check | **CHECKED** from live Vedabase passages; no new plot added |
+| Unit tests `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector cannot execute checked-in Python |
+| Scoped `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**; no claim of executed SCOPED_READY |
+| Deterministic draft text builder/`--check` | **UNRUN**; no generated text exports or media committed |
+| Whole-season `python3 scripts/validate_content.py` | **UNRUN**; expected `NOT_READY` due five missing episode sources |
+| Native review / recorded timing / approvals | **NOT PERFORMED** |
+| Remote commit/branch/PR/file blobs | Verify after guarded non-force push |
 
-Run the above Python commands in a repository environment; none have passed in this connected session.
+Local gate commands for an environment with the repository:
 
-## Next
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/validate_content.py --episode S01E01 --scene S06
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
+python3 scripts/validate_content.py  # expected NOT_READY / exit 2
+```
 
-**GM-LANG-004:** Seven P3 language/pacing findings and native-listener readiness checklist; only justified changes, no false approval. Full operating prompt in `docs/NEXT_CHAT_PROMPT.md`.
+## Next bounded task
+
+**GM-COV-001:** map only S01E01/S01's eight canonical narrator lines to the three existing editorial shots, explicit audio ownership and honest future image/start-end-frame requirements, with no new stills, images, recordings or animation. Preserve all previous source and native-review status. Full handoff in `docs/NEXT_CHAT_PROMPT.md`.
