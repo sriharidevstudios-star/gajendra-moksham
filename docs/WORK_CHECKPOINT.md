@@ -1,9 +1,3 @@
-# Work checkpoint — GM-STY-018 / E03/S06
+# Work checkpoint — GM-STY-019 / E04/S01
 
-**2026-11-22 · production-first; `sriharidevstudios-star/gajendra-moksham` `production-artwork`, draft PR #1. Initial HEAD `95a1cade9a8b7972f3d1957b808aafae07fb4a8d`.**
-
-Authored E03/S06 “A heartfelt final appeal”, 6 new source-aligned te/hi/en NARRATOR rows, 8.3.25, 8.3.26, 8.3.27, 8.3.28, 8.3.29 verse links, three planned 16:9 shots totaling 45 unmeasured editorial seconds. SB 8.3.25–29 completes Gajendra's plea for release from ignorance and respectful surrender to the transcendent protector. Lord/Garuda appear only in 8.3.30–33 in following episode. Added `docs/S01E03_S06_COVERAGE_MAP.md` with exact line ownership, frame/audio still MISSING.
-
-Episode 3 now 6 scenes, 48 canonical narration lines, 330/330 seconds; status `draft_for_table_read`. E02 and E03 now six-scene complete written drafts, both only for future table read; E04–E06 source files absent, full season NOT_READY. Human theistic/Sanskrit/native review and voice/audio/art/motion absent, approved cast Library source not yet binary-mirrored to GitHub. Do not divert into generic CI polish.
-
-**Next GM-STY-019 / S01E04/S01:** Start Episode 4's canonical source: divine compassion and first response to Gajendra's prayer, SB 8.3.30–31, without introducing a lotus before Narayana appears.
+**2026-11-22, production-first, draft PR #1**. Previous HEAD `bbb3d22864bd514b8bcd4bd930abbce7b81ab218`. E04/S01 “Heaven hears the sincere prayer” source-authored with 6 exact trilingual narrator lines (all lip_sync_target null), 8.3.30, 8.3.31 verse links and three 16:9 shot specifications totaling 30 provisional seconds. Original screenplay staging explicitly sourced. E04 now 1 scenes, 6 lines, 30/300 seconds, still partial source draft. All six media frame requirements per scene MISSING. Library-backed owner-approved cast identities remain locked, not PNG mirrored on GitHub. No TTS, script signoff, audio/video, motion or keyframes. Preserve S01E01–E03 and production approvals. Next GM-STY-020: E04/S02 — Garuda crosses the sky.

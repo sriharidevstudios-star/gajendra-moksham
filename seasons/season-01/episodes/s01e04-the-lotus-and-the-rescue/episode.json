@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0-dialogue",
+  "season_id": "S01",
+  "episode_id": "S01E04",
+  "episode_number": 4,
+  "slug": "the-lotus-and-the-rescue",
+  "title": {
+    "en": "The Lotus and the Rescue",
+    "te": "పద్మం మరియు రక్షణ",
+    "hi": "कमल और उद्धार"
+  },
+  "status": "partial_scene_draft",
+  "logline": "Moved by Gajendra's prayer, Hari arrives swiftly on Garuḍa. Seeing the Lord, Gajendra raises a lotus; Nārāyaṇa lifts both struggling creatures from the lake, ends the crocodile's animal life with His disc and saves Gajendra.",
+  "target_runtime_seconds": {
+    "min": 270,
+    "preferred": 300,
+    "max": 390
+  },
+  "source": {
+    "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 3, original Telugu/Hindi/English devotional retelling; copyrighted published English translation not reproduced",
+    "url": "https://vedabase.io/en/library/sb/8/3/",
+    "source_locator": "SB 8.3.30–33",
+    "verification_notes": "SB 8.3.30: Gajendra appeals to Supreme rather than specific devas; Hari responds. 8.3.31: He reaches distressed Gajendra quickly mounted on Garuda with disc and other divine attributes, surrounded by praising devas. 8.3.32: only AFTER seeing Lord approaching on Garuda, Gajendra raises a lotus with trunk and offers a respectful address. 8.3.33: Hari alights, lifts Gajendra together WITH the crocodile from the lake, and severs the crocodile's mouth with His disc; the animal life ends and the elephant is saved. We use a non-graphic cutaway, not a changed outcome. Huhu's former Gandharva identity and Gajendra's sārūpya appear in 8.4 and later episodes. The six visual scenes extend just four verses through deliberate unmeasured art/camera holds, not fabricated incidents. S01: SB 8.3.30, 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines."
+  },
+  "adaptation": {
+    "core_preserved": [
+      "Gajendra's prayer is to the Supreme Lord, and Hari responds rather than a summoned ordinary deva (SB 8.3.30).",
+      "Hari rapidly arrives ON GARUDA with his Sudarshana and divine emblems as heavenly beings offer praise (SB 8.3.31).",
+      "Gajendra raises the lotus in his TRUNK only AFTER seeing the Lord coming; he reverently addresses Narayana (SB 8.3.32).",
+      "The Lord dismounts and lifts Gajendra ALONG WITH THE CROCODILE out of the lake (SB 8.3.33).",
+      "Hari's disc severs the crocodile's mouth; the animal life ends, and Gajendra is rescued (SB 8.3.33)."
+    ],
+    "changes": [
+      "S01–S06 are editorial subdivisions of four scripture verses. Staged camera travel, wind, light, reaction holds and water motion are original cinematography, not additional scripture episodes.",
+      "The screen-locked stylized Gajendra, fierce olive crocodile, four-armed Narayana and golden Garuda must match the user-approved composite without reinterpreting creature anatomy.",
+      "The source does not specify exact shore side or a left foreleg. The project keeps those chosen geography details for consistency, with no fabricated wound.",
+      "The disc's documented violent outcome is truthfully narrated but depicted by a tasteful bright cutaway, omitting gore, severed flesh and injury closeups.",
+      "Huhu's Gandharva restoration and Gajendra's spiritual four-armed sārūpya are not moved into this rescue moment; the following chapters and episodes explain them.",
+      "S01: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events."
+    ],
+    "fidelity_note": "Source-checked 8.3.30–33 with separate screenplay staging. No invented mantra audio, pre-arrival lotus offering, natural crocodile survival, or premature Huhu/Gajendra liberated form. Family-safe render approach keeps the text factually correct."
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": {
+        "te": "కథకుడు",
+        "hi": "कथावाचक",
+        "en": "Narrator"
+      },
+      "description": "Sole owner of complete E04 te/hi/en narration; no narrator appearance.",
+      "voice_direction": "Gentle devotion, surprise at Lord's compassion, restrained non-graphic action; audition/reading not yet done."
+    },
+    {
+      "id": "GAJENDRA",
+      "name": {
+        "te": "గజేంద్రుడు",
+        "hi": "गजेन्द्र",
+        "en": "Gajendra"
+      },
+      "description": "Approved full-body royal Indian elephant with grey skin, red-gold ceremonial cloth and fixed tusks. Injured in source but no gore on screen; no lipsync human speech.",
+      "voice_direction": "Nonverbal elephant calls only as future SFX; human-style sacred words rendered through narration."
+    },
+    {
+      "id": "CROCODILE",
+      "name": {
+        "te": "మొసలి",
+        "hi": "मगरमच्छ",
+        "en": "Crocodile"
+      },
+      "description": "Approved olive-green fierce but stylized crocodile, same single jaw and tail, left foreleg grip until the disc acts; not shown reverting to Huhu until later reveal.",
+      "voice_direction": "Animal sounds only, no dubbed villain lines."
+    },
+    {
+      "id": "NARAYANA",
+      "name": {
+        "te": "నారాయణుడు",
+        "hi": "नारायण",
+        "en": "Narayana"
+      },
+      "description": "User-approved compassionate four-armed blue divine Lord in yellow garments with correct chakra, shankha, gada and lotus attributes, consistent face/crown.",
+      "voice_direction": "No direct spoken part in this episode's written script. Narrator carries events."
+    },
+    {
+      "id": "GARUDA",
+      "name": {
+        "te": "గరుడుడు",
+        "hi": "गरुड़",
+        "en": "Garuda"
+      },
+      "description": "User-approved golden bird-bodied carrier with humanlike torso and stable wings, beak and royal ornaments, suited to bear Narayana.",
+      "voice_direction": "No spoken role; wing sounds only planned."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "Heaven hears the sincere prayer",
+      "setting": "Gajendra's unchanged Ṛtumat lake after his sincere prayer; distant celestial light is a gentle edited transition, not a newly described divine council.",
+      "action": "The prayer is directed to the Supreme Lord; the other devas do not independently respond to that request. Hari hears the appeal and acts, with the actual Garuda-mounted arrival saved for S02.",
+      "duration_budget_seconds": 30,
+      "nonverbal_beats": [
+        "No fabricated meeting where Brahma, Shiva and Indra decide Gajendra's fate; SB 8.3.30 says they do not approach when the prayer seeks the Supreme.",
+        "Hold Gajendra trapped and hopeful, with natural elephant anatomy and chosen left foreleg crocodile grip.",
+        "Keep actual Narayana/Garuda visible arrival for S02; S01 visualized with peaceful lake/celestial sky, not a pre-arrival lotus offering.",
+        "Any light swelling or heavenly cutaway is original nonverbal staging, not a supernatural event claimed in verse.",
+        "Show no new named demigod or invented speaking role."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.30",
+          "url": "https://vedabase.io/en/library/sb/8/3/30/"
+        },
+        {
+          "locator": "8.3.31",
+          "url": "https://vedabase.io/en/library/sb/8/3/31/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E04-S01-SH01",
+          "budget_seconds": 10,
+          "action": "Still trapped, Gajendra has prayed to the Supreme rather than a specific deva; L001–L002.",
+          "camera": "16:9 wide lake master, quiet sky; bank left and deeper water right; same approved Gajendra and crocodile.",
+          "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
+        },
+        {
+          "id": "S01E04-S01-SH02",
+          "budget_seconds": 10,
+          "action": "The devas do not descend to rescue on their own; Hari is the one addressed; L003–L004.",
+          "camera": "16:9 still lake, restrained heavenly distance with no anthropomorphic devas gathering.",
+          "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
+        },
+        {
+          "id": "S01E04-S01-SH03",
+          "budget_seconds": 10,
+          "action": "The Lord hears the distress and compassion begins to answer; L005–L006.",
+          "camera": "16:9 calm celestial sky/water transition; Narayana's actual Garuda arrival begins next scene.",
+          "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
+        }
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "S01E04-S01-L001",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity, child-friendly",
+      "intent": "Gajendra's prayer was directed to the Supreme Lord.",
+      "text": {
+        "te": "గజేంద్రుడి ప్రార్థన ఏ ఒక్క దేవతకూ కాక, పరమాత్మకే చేరింది.",
+        "hi": "गजेन्द्र की प्रार्थना किसी एक देवता से नहीं, परम भगवान से थी।",
+        "en": "Gajendra's prayer was directed to the Supreme Lord."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.30"
+      }
+    },
+    {
+      "id": "S01E04-S01-L002",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slow visual-read cadence",
+      "intent": "So the other devas did not come separately to free him.",
+      "text": {
+        "te": "అందుకే వేరే దేవతలు స్వయంగా వచ్చి అతన్ని విడిపించలేదు.",
+        "hi": "इसीलिए दूसरे देवता स्वयं उसे छुड़ाने नहीं आए।",
+        "en": "So the other devas did not come separately to free him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.30"
+      }
+    },
+    {
+      "id": "S01E04-S01-L003",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle wonder without shrill urgency",
+      "intent": "Gajendra sought the Lord who sustains everyone.",
+      "text": {
+        "te": "గజేంద్రుడు అందరికీ ఆధారమైన పరమాత్మనే ఆశ్రయించాడు.",
+        "hi": "गजेन्द्र ने सबके आधार परम भगवान की ही शरण ली।",
+        "en": "Gajendra sought the Lord who sustains everyone."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.30"
+      }
+    },
+    {
+      "id": "S01E04-S01-L004",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm devotional clarity, child-friendly",
+      "intent": "His heartfelt prayer reached Lord Hari.",
+      "text": {
+        "te": "అతని భక్తితో నిండిన ప్రార్థన హరికి చేరింది.",
+        "hi": "उसकी भक्ति-भरी प्रार्थना भगवान हरि तक पहुँची।",
+        "en": "His heartfelt prayer reached Lord Hari."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.31"
+      }
+    },
+    {
+      "id": "S01E04-S01-L005",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slow visual-read cadence",
+      "intent": "Hari understood Gajendra's suffering.",
+      "text": {
+        "te": "హరి గజేంద్రుడు పడుతున్న బాధను తెలుసుకున్నాడు.",
+        "hi": "हरि ने गजेन्द्र की पीड़ा को समझा।",
+        "en": "Hari understood Gajendra's suffering."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.31"
+      }
+    },
+    {
+      "id": "S01E04-S01-L006",
+      "scene_id": "S01",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle wonder without shrill urgency",
+      "intent": "The Lord moved swiftly to help him.",
+      "text": {
+        "te": "అతనికి సాయం చేయడానికి భగవంతుడు వెంటనే బయలుదేరాడు.",
+        "hi": "उसकी सहायता के लिए भगवान तुरंत चले।",
+        "en": "The Lord moved swiftly to help him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.31"
+      }
+    }
+  ],
+  "performance_notes": "E04's all three-language scripture paraphrases are delivered by offscreen NARRATOR, not human mouth-sync animals. Deity and Garuda are visible after arrival; no accepted audio/TTS/character turnaround beyond owner-approved full-body cast overview in Library. Names/costumes stay matched. All original cutaway/metaphor actions explicitly distinguished from scripture events. S01: 6 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans.",
+  "timing_note": "E04 1/6 scenes authored; 30/300 provisional seconds, 6 trilingual narrator rows. Remaining scenes and actual time unmeasured, status partial_scene_draft."
+}
