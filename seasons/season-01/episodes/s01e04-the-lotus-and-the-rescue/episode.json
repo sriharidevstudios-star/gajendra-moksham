@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 3, original Telugu/Hindi/English devotional retelling; copyrighted published English translation not reproduced",
     "url": "https://vedabase.io/en/library/sb/8/3/",
     "source_locator": "SB 8.3.30–33",
-    "verification_notes": "SB 8.3.30: Gajendra appeals to Supreme rather than specific devas; Hari responds. 8.3.31: He reaches distressed Gajendra quickly mounted on Garuda with disc and other divine attributes, surrounded by praising devas. 8.3.32: only AFTER seeing Lord approaching on Garuda, Gajendra raises a lotus with trunk and offers a respectful address. 8.3.33: Hari alights, lifts Gajendra together WITH the crocodile from the lake, and severs the crocodile's mouth with His disc; the animal life ends and the elephant is saved. We use a non-graphic cutaway, not a changed outcome. Huhu's former Gandharva identity and Gajendra's sārūpya appear in 8.4 and later episodes. The six visual scenes extend just four verses through deliberate unmeasured art/camera holds, not fabricated incidents. S01: SB 8.3.30, 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S02: SB 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S03: SB 8.3.32 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines."
+    "verification_notes": "SB 8.3.30: Gajendra appeals to Supreme rather than specific devas; Hari responds. 8.3.31: He reaches distressed Gajendra quickly mounted on Garuda with disc and other divine attributes, surrounded by praising devas. 8.3.32: only AFTER seeing Lord approaching on Garuda, Gajendra raises a lotus with trunk and offers a respectful address. 8.3.33: Hari alights, lifts Gajendra together WITH the crocodile from the lake, and severs the crocodile's mouth with His disc; the animal life ends and the elephant is saved. We use a non-graphic cutaway, not a changed outcome. Huhu's former Gandharva identity and Gajendra's sārūpya appear in 8.4 and later episodes. The six visual scenes extend just four verses through deliberate unmeasured art/camera holds, not fabricated incidents. S01: SB 8.3.30, 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S02: SB 8.3.31 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S03: SB 8.3.32 with canon-to-shot audiovisual continuity; original staging disclosed on relevant lines. S04: SB8.3.33 original safe visual editing is disclosed; the elephant+crocodile lift and the crocodile mouth-disc outcome remain accurate."
   },
   "adaptation": {
     "core_preserved": [
@@ -38,7 +38,8 @@
       "Huhu's Gandharva restoration and Gajendra's spiritual four-armed sārūpya are not moved into this rescue moment; the following chapters and episodes explain them.",
       "S01: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events.",
       "S02: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events.",
-      "S03: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events."
+      "S03: deliberately paced cinematic subdivision with 3 editorial shots, no new scripture events.",
+      "S04 close safe imagery is editorial technique, never a new verse or a claim crocodile survived."
     ],
     "fidelity_note": "Source-checked 8.3.30–33 with separate screenplay staging. No invented mantra audio, pre-arrival lotus offering, natural crocodile survival, or premature Huhu/Gajendra liberated form. Family-safe render approach keeps the text factually correct."
   },
@@ -225,6 +226,49 @@
           "action": "Gajendra lifts lotus and offers a respectful greeting, still physically trapped; L006–L007.",
           "camera": "16:9 tender wide showing held lotus, four-armed Lord in sky, no early rescue or animal lip-sync.",
           "sound": "Future natural ambient/wing/lotus/water SFX only, offscreen NARRATOR sole spoken owner; no sound file yet."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Nārāyaṇa descends to the water",
+      "setting": "Same lotus lake with Garuda beside it, approved four-armed Narayana dismounts while Gajendra and the crocodile are still joined by the established grip.",
+      "action": "Moved by compassion, Hari dismounts Garuda, approaches and lifts Gajendra together WITH the gripping crocodile out of the lake, exactly the sequence in 8.3.33, without splitting the two before the disc event.",
+      "duration_budget_seconds": 55,
+      "nonverbal_beats": [
+        "Immediately after Gajendra raises the lotus in S03, Hari descends from Garuda; the flower offering is not re-staged as a newly invented second action.",
+        "Keep Hari's exactly four arms, blue face/crown and recognized conch/chakra/mace/lotus design from approved cast, with physically consistent reach.",
+        "Show Garuda stationary nearby after Hari dismounts, same golden-brown bird-person carrier identity, no independent extra Narayana figure.",
+        "Lift the elephant and CROCODILE TOGETHER out of the water; do not show the crocodile letting go before Hari uses the disc.",
+        "Use stable 16:9 wide compositions and a restrained cinematic splash, without injury closeups or extra crocodile anatomical parts."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.3.33",
+          "url": "https://vedabase.io/en/library/sb/8/3/33/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E04-S04-SH01",
+          "budget_seconds": 20,
+          "action": "Narayana dismounts Garuda when he sees how much Gajendra suffers; narration L001–L003.",
+          "camera": "16:9 wide lake bank with Garuda at stable scale, Narayana full-body exactly four arms, no duplicate deity.",
+          "sound": "NARRATOR is only spoken owner; future soft original sound and controlled respectful visuals PLANNED, no produced media."
+        },
+        {
+          "id": "S01E04-S04-SH02",
+          "budget_seconds": 15,
+          "action": "The compassionate Lord moves to Gajendra who is still trapped, getting ready to lift; narration L004–L005.",
+          "camera": "16:9 readable lake-waterline medium-wide showing all three subject identities and left foreleg grip.",
+          "sound": "NARRATOR is only spoken owner; future soft original sound and controlled respectful visuals PLANNED, no produced media."
+        },
+        {
+          "id": "S01E04-S04-SH03",
+          "budget_seconds": 20,
+          "action": "Hari lifts Gajendra AND crocodile together out of the lake, with grip intact until disc; narration L006–L008.",
+          "camera": "16:9 gentle full-scene elevation, physically coherent animals, no gore, no magically absent crocodile.",
+          "sound": "NARRATOR is only spoken owner; future soft original sound and controlled respectful visuals PLANNED, no produced media."
         }
       ]
     }
@@ -647,8 +691,160 @@
         "kind": "scripture_paraphrase",
         "locator": "8.3.32"
       }
+    },
+    {
+      "id": "S01E04-S04-L001",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent, calm and clear",
+      "intent": "Seeing Gajendra's suffering, Narayana descended from Garuda.",
+      "text": {
+        "te": "గజేంద్రుడి బాధను చూసి నారాయణుడు గరుడుడి మీద నుంచి దిగాడు.",
+        "hi": "गजेन्द्र की पीड़ा देखकर नारायण गरुड़ से उतर आए।",
+        "en": "Seeing Gajendra's suffering, Narayana descended from Garuda."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S04-L002",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft emphasis; no gore/horror",
+      "intent": "The Lord approached him with great compassion.",
+      "text": {
+        "te": "భగవంతుడు ఎంతో కరుణతో గజేంద్రుడి వైపు వచ్చాడు.",
+        "hi": "भगवान बड़ी करुणा से गजेन्द्र के पास आए।",
+        "en": "The Lord approached him with great compassion."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S04-L003",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Let original image pauses breathe",
+      "intent": "The crocodile still held Gajendra's leg.",
+      "text": {
+        "te": "ఆ సమయంలో కూడా మొసలి గజేంద్రుడి కాలును పట్టుకుని ఉంది.",
+        "hi": "उस समय भी मगरमच्छ ने गजेन्द्र का पैर पकड़ा हुआ था।",
+        "en": "The crocodile still held Gajendra's leg."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S04-L004",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent, calm and clear",
+      "intent": "Narayana came close to help Gajendra.",
+      "text": {
+        "te": "నారాయణుడు గజేంద్రుడికి సాయం చేయడానికి చేరుకున్నాడు.",
+        "hi": "नारायण गजेन्द्र की सहायता के लिए आगे बढ़े।",
+        "en": "Narayana came close to help Gajendra."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S04-L005",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft emphasis; no gore/horror",
+      "intent": "His compassionate attention stayed on Gajendra's distress.",
+      "text": {
+        "te": "ఆయన కరుణకు గజేంద్రుడి కష్టం కనిపించింది.",
+        "hi": "उनकी करुणामयी दृष्टि में गजेन्द्र का कष्ट था।",
+        "en": "His compassionate attention stayed on Gajendra's distress."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original gentle visual attention/eye-line staging of Narayana's scripture-confirmed mercy; 8.3.33 reports His compassion, but not the exact gaze/camera moment."
+      }
+    },
+    {
+      "id": "S01E04-S04-L006",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Let original image pauses breathe",
+      "intent": "The Lord raised Gajendra out of the lake.",
+      "text": {
+        "te": "భగవంతుడు గజేంద్రుడిని సరస్సు నుంచి పైకి ఎత్తాడు.",
+        "hi": "भगवान ने गजेन्द्र को झील से ऊपर उठाया।",
+        "en": "The Lord raised Gajendra out of the lake."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S04-L007",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Reverent, calm and clear",
+      "intent": "He lifted the crocodile along with Gajendra.",
+      "text": {
+        "te": "గజేంద్రుడిని పట్టుకున్న మొసలినీ అతనితోపాటే ఎత్తాడు.",
+        "hi": "गजेन्द्र को पकड़े हुए मगरमच्छ को भी साथ उठाया।",
+        "en": "He lifted the crocodile along with Gajendra."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
+    },
+    {
+      "id": "S01E04-S04-L008",
+      "scene_id": "S04",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Soft emphasis; no gore/horror",
+      "intent": "Both emerged from the water while the grip still held.",
+      "text": {
+        "te": "ఇద్దరూ నీళ్ల నుంచి బయటకు వచ్చారు. మొసలి పట్టు ఇంకా విడలేదు.",
+        "hi": "दोनों पानी से बाहर आए, लेकिन मगरमच्छ की पकड़ अभी बनी थी।",
+        "en": "Both emerged from the water while the grip still held."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.3.33"
+      }
     }
   ],
-  "performance_notes": "E04's all three-language scripture paraphrases are delivered by offscreen NARRATOR, not human mouth-sync animals. Deity and Garuda are visible after arrival; no accepted audio/TTS/character turnaround beyond owner-approved full-body cast overview in Library. Names/costumes stay matched. All original cutaway/metaphor actions explicitly distinguished from scripture events. S01: 6 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S02: 9 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S03: 7 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans.",
-  "timing_note": "E04 3/6 scenes authored; 130/300 provisional seconds, 22 trilingual narrator rows. Remaining scenes and actual time unmeasured, status partial_scene_draft."
+  "performance_notes": "E04's all three-language scripture paraphrases are delivered by offscreen NARRATOR, not human mouth-sync animals. Deity and Garuda are visible after arrival; no accepted audio/TTS/character turnaround beyond owner-approved full-body cast overview in Library. Names/costumes stay matched. All original cutaway/metaphor actions explicitly distinguished from scripture events. S01: 6 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S02: 9 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S03: 7 original te/hi/en narrator strings with no approved audio or mouth-sync; only future 16:9 plans. S04: only NARRATOR te/hi/en speech, no animal human mouth-sync, audio missing.",
+  "timing_note": "E04 4/6 scenes authored, 185/300 provisional sec, 30 narration IDs, still partial_scene_draft."
 }

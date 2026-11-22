@@ -1,3 +1,9 @@
-# Work checkpoint — GM-STY-021 / E04/S03
+# Work checkpoint — GM-STY-022 / E04/S04
 
-**2026-11-22, production-first, draft PR #1**. Previous HEAD `53ec05ab48d1b5bdbd10ed1e012811b476c72517`. E04/S03 “Gajendra raises a lotus” source-authored with 7 exact trilingual narrator lines (all lip_sync_target null), 8.3.32 verse links and three 16:9 shot specifications totaling 45 provisional seconds. Original screenplay staging explicitly sourced. E04 now 3 scenes, 22 lines, 130/300 seconds, still partial source draft. All six media frame requirements per scene MISSING. Library-backed owner-approved cast identities remain locked, not PNG mirrored on GitHub. No TTS, script signoff, audio/video, motion or keyframes. Preserve S01E01–E03 and production approvals. Next GM-STY-022: E04/S04 — Narayana descends to water.
+**2026-11-22 · production-first · sriharidevstudios-star/gajendra-moksham production-artwork · draft PR #1. Initial HEAD 65d231f292208629d3a812c1f6970c52169034b9.**
+
+Authored E04/S04 “Nārāyaṇa descends to the water” with 8 complete aligned te/hi/en NARRATOR rows, SB 8.3.33 with explicit original non-graphic staging notes, three 16:9 source-owned editorial shots and 55 unmeasured seconds. Moved by compassion, Hari dismounts Garuda, approaches and lifts Gajendra together WITH the gripping crocodile out of the lake, exactly the sequence in 8.3.33, without splitting the two before the disc event.
+
+E04 totals 4 scenes / 30 NARRATOR IDs / 185 provisional seconds; status `partial_scene_draft` (partial only). All frames/speech/motion/media missing. User-approved cast IDs and SHA-256 remain locked with original PNG in Library, not GitHub tree. No CI reviewer infrastructure work or false voice approvals. The whole six-episode season remains NOT_READY.
+
+**Next GM-STY-023**: Continue the same rescue sequence in the next E04 shot scene, matching approved cast and source 8.3.33.
