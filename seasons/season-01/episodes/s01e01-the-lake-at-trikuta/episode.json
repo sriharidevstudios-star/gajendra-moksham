@@ -10,7 +10,7 @@
     "en": "The Lake at Trikūṭa"
   },
   "status": "partial_scene_draft",
-  "logline": "On Trikūṭa, gold, silver and iron peaks rise above the Ocean of Milk; in a valley below lies Varuṇa's Ṛtumat garden and its golden-lotus lake.",
+  "logline": "On Trikūṭa, three great peaks rise above the Ocean of Milk. Below, Varuṇa's Ṛtumat garden surrounds a lotus lake; the mighty elephant leader Gajendra guides his herd toward its bank.",
   "target_runtime_seconds": {
     "min": 330,
     "preferred": 360,
@@ -20,7 +20,7 @@
     "edition": "Śrīmad-Bhāgavatam, Canto 8; passage checked against Vedabase verse pages (copyrighted translation not reused)",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.1–28",
-    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes. S02 paraphrases the separate bird-rich valleys and clear waters (8.2.7–8), Varuṇa's garden Ṛtumat with year-round fruit and flowers (8.2.9–13), and its golden-lotus lake with other water lilies, bees, water birds, fish, tortoises and flowering banks (8.2.14–19). Waterway and shoreline blocking are editorial staging, not claimed scripture; Gajendra and the crocodile are reserved for later scenes."
+    "verification_notes": "S01 uses only 8.2.1–4. Verse 1 identifies Śukadeva speaking to a king and Trikūṭa amid the Ocean of Milk; verses 2–3 describe the three gold, silver and iron peaks, other gem-rich peaks, vegetation and waterfalls; verse 4 describes ocean waves and emerald-colored foothills. These are originally written spoken paraphrases, not verbatim verse translations. Verse-level anchors point to the combined 8.2.2–3 page where appropriate. The subsequent garden, herd and lake are reserved for S02 and later scenes. S02 paraphrases the separate bird-rich valleys and clear waters (8.2.7–8), Varuṇa's garden Ṛtumat with year-round fruit and flowers (8.2.9–13), and its golden-lotus lake with other water lilies, bees, water birds, fish, tortoises and flowering banks (8.2.14–19). Waterway and shoreline blocking are editorial staging, not claimed scripture; Gajendra and the crocodile are reserved for later scenes. S03 retells SB 8.2.20 (elephant leader and thorny forest), 8.2.21 (fierce animals flee from his scent), 8.2.22 (smaller animals roam without fear), and the combined 8.2.23–24 (female elephants, calves, heavy steps, heat, bees, thirst and lotus-pollen breeze leading to the lake bank). Each line is independently phrased and verse-attributed. No water entry or attack is moved into S03."
   },
   "adaptation": {
     "core_preserved": [
@@ -29,7 +29,10 @@
       "Waves of the Ocean of Milk wash the foot of the mountain where emeralds make the ground green (SB 8.2.4).",
       "The wooded valleys and clear, gem-edged waters below Trikūṭa are described before Ṛtumat garden (SB 8.2.7–8).",
       "Ṛtumat belongs to Varuṇa and includes trees that fruit and flower across seasons, including mango, coconut, aśoka and campaka (SB 8.2.9–13).",
-      "The garden lake has golden lotuses, other water lilies, bees, swans, cranes, fish, tortoises and abundant flowering banks (SB 8.2.14–19)."
+      "The garden lake has golden lotuses, other water lilies, bees, swans, cranes, fish, tortoises and abundant flowering banks (SB 8.2.14–19).",
+      "A powerful leader walks with female elephants through thorny, overgrown forest and breaks branches (SB 8.2.20).",
+      "Lions, tigers, rhinoceroses and large snakes flee, but elsewhere deer, rabbits, monkeys and other small animals are not afraid (SB 8.2.21–22).",
+      "Female elephants and young follow the perspiring leader; bees circle near him, and the scent of lotus pollen travels from the lake as the thirsty herd reaches its bank (SB 8.2.23–24)."
     ],
     "changes": [
       "The narrator speaks an original accessible retelling rather than directly quoting Śukadeva or a modern published English translation.",
@@ -37,9 +40,12 @@
       "The cosmic scale is conveyed pictorially without asserting a literal real-world map. No later garden, animals, lake or crocodile events are moved into S01.",
       "S02 condenses the long scriptural plant and bird lists into a few representative species; it does not invent an incident or named animal character.",
       "The camera path from the previously established emerald foothills into the valley garden, the approach bank and the lake's on-screen geography are original staging decisions rather than stated map directions.",
-      "All S02 dialogue is original narrator paraphrase. Varuṇa is identified as owner but not depicted giving newly invented dialogue; Gajendra, the herd and the crocodile do not appear before their later scene."
+      "All S02 dialogue is original narrator paraphrase. Varuṇa is identified as owner but not depicted giving newly invented dialogue; Gajendra, the herd and the crocodile do not appear before their later scene.",
+      "Gajendra is visually identified with the scriptural elephant leader; his narrated name is an identification, not a new incident. The full zoological lists are selectively condensed.",
+      "The elephant and herd remain non-speaking. Forest positions, specific plants broken by the walk, Gajendra's trunk gesture at the breeze, and exact approach-bank blocking are production staging decisions, not verbatim verse facts.",
+      "The 60-second scene ends with the herd at the bank because 8.2.23–24 already places them there; entering the water, drinking, bathing and the crocodile attack are deliberately reserved for later scenes."
     ],
-    "fidelity_note": "S01 and S02 contain original, meaning-aligned narrator paraphrases grounded in SB 8.2.1–4 and 8.2.7–19 respectively. Screen positions, sound and shot transitions are declared original staging, not textual quotations. The crocodile encounter and Gajendra's later arrival are not moved into these scenes."
+    "fidelity_note": "S01–S03 use new, meaning-aligned Telugu, Hindi and English narration grounded in Śrīmad-Bhāgavatam 8.2.1–4, 8.2.7–19 and 8.2.20–24 respectively. Scenic geography, camera positions and sound effects are disclosed original staging; no new named animals or human-spoken elephant dialogue are invented."
   },
   "characters": [
     {
@@ -51,6 +57,16 @@
       },
       "description": "Offscreen voice for the scriptural geographic prologue; not a visually present human or Śukadeva impersonation.",
       "voice_direction": "Calm, clear and warmly curious, naming the three peaks distinctly and allowing waterfall and shoreline sounds to breathe; no voice actor has been selected."
+    },
+    {
+      "id": "GAJENDRA",
+      "name": {
+        "te": "గజేంద్రుడు",
+        "hi": "गजेन्द्र",
+        "en": "Gajendra"
+      },
+      "description": "The enormous naturally quadrupedal leader of the Trikūṭa elephant herd, visually introduced in S03; no crown, human actions, or spoken animal lines. Preserve approved character-bible anatomy in future visual work.",
+      "voice_direction": "No dialogue or voice casting in S01–S03. Natural animal calls belong in ambience/SFX; a later inner-prayer voiceover requires its own explicit source and performance approval."
     }
   ],
   "scenes": [
@@ -156,6 +172,62 @@
           "action": "Reveal the broad freshwater lake covered with golden lotuses and other water lilies; track bees above the flowers, swans and cranes across the surface, and fish/tortoises disturbing pollen below. Narrator L007–L011; end on stable approach-bank geography for S03 and S04.",
           "camera": "Wide lake opening to water-level medium inserts without changing the bank/center relationship. Fish/tortoise shots are separate intentional inserts when frames are authored later.",
           "sound": "Bees, swans/cranes, soft rippling water and a short wordless closing tail; no elephant, crocodile or speaking-face lip-sync."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Gajendra Leads the Herd",
+      "setting": "A forest trail on Trikūṭa's lower slopes approaching the established Ṛtumat garden and its freshwater lotus lake. The tree-lined approach bank, broad golden-lotus zone and deeper lake center remain geographically consistent with S02.",
+      "action": "Introduce the elephant leader Gajendra in his natural form, accompanied by female elephants and younger elephants. His enormous body forces a path through thorny thickets; powerful animals withdraw while smaller creatures roam safely farther away. By late heat, perspiration and thirst show in the group. Bees gather near the leader, and a breeze carries the scent of lotus pollen; the herd follows him to the bank without yet entering the water.",
+      "duration_budget_seconds": 60,
+      "nonverbal_beats": [
+        "Reveal Gajendra as a naturally moving, four-legged Indian elephant with stable trunk, ears and tusks; no crown, clothing, human hands, speaking-mouth animation or visual reference approval implied.",
+        "The herd includes adult females and small calves. Keep calves naturally proportioned and sheltered among adults without inventing named friends or spoken replies.",
+        "Bamboo, thorny cane, creepers and clustered shrubs bend and break as Gajendra presses forward. Show the movement as a source-grounded consequence of his size, not unnecessary violence.",
+        "Show fierce animals, including lions or tigers, withdrawing in distant background shots; elsewhere deer, rabbits and monkeys move unafraid. Do not suggest all forest creatures flee in terror.",
+        "As the elephants grow hot and thirsty, bees hum near Gajendra's temple area and the lotus-scented breeze moves toward the herd; do not attribute supernatural power to the breeze.",
+        "End with the elephants arriving at the same approach bank established in S02. No drinking, bathing, spraying, underwater menace or crocodile appears before S04–S06."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.20",
+          "url": "https://vedabase.io/en/library/sb/8/2/20/"
+        },
+        {
+          "locator": "8.2.21",
+          "url": "https://vedabase.io/en/library/sb/8/2/21/"
+        },
+        {
+          "locator": "8.2.22",
+          "url": "https://vedabase.io/en/library/sb/8/2/22/"
+        },
+        {
+          "locator": "8.2.23-24",
+          "url": "https://vedabase.io/en/library/sb/8/2/23-24/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E01-S03-SH01",
+          "budget_seconds": 18,
+          "action": "Introduce Gajendra leading female elephants and calves through thorny cane and thick creepers in Trikūṭa's forest; branches part as the herd advances. Narration L001–L004; keep body shape and forest geography consistent.",
+          "camera": "16:9 wide tracking profile into a low three-quarter view of the elephant leader; hold him quadrupedal with identifiable trunk and tusks; no human-like mouth or portrait lip-sync.",
+          "sound": "Natural heavy footfalls, dry leaves, snapped twigs and distant bird calls under offscreen NARRATOR; no elephant speech."
+        },
+        {
+          "id": "S01E01-S03-SH02",
+          "budget_seconds": 20,
+          "action": "From a safe distant view, lions, tigers, rhinoceroses and serpents withdraw from the elephant's path while small deer and rabbits continue peacefully elsewhere; cut to the herd's massive footfalls. Narration L005–L008.",
+          "camera": "Intercut a readable broad forest map, retreating powerful animals and a separate calm forest clearing. Never crop a fleeing animal into the elephant's exact location or imply attacks.",
+          "sound": "Underbrush rustle, retreating pawsteps and subdued forest ambience; use no invented dialogue or frightening animal confrontation."
+        },
+        {
+          "id": "S01E01-S03-SH03",
+          "budget_seconds": 22,
+          "action": "Heat and thirst affect the moving herd. Bees circle near Gajendra's temples; the leader lifts his trunk to scent lotus pollen on a breeze and the elephants hurry to the established approach bank. Hold at the shore before water entry. Narration L009–L011.",
+          "camera": "Medium close-up of natural trunk and head, then wide follow shot from behind toward the recognizable lotus lake. Preserve the S02 bank/center/lotus-zone relationship for S04.",
+          "sound": "Bees near the elephant, warm breeze, approaching lake birds and gentle water ambience. Offscreen NARRATOR; end with a brief environmental tail before S04."
         }
       ]
     }
@@ -521,8 +593,217 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.14-19"
       }
+    },
+    {
+      "id": "S01E01-S03-L001",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Calm introduction with scale",
+      "intent": "Name the mighty elephant leader without staging a coronation",
+      "text": {
+        "te": "త్రికూటం అడవుల్లో గజేంద్రుడు అనే బలమైన ఏనుగు తన గుంపుకు ముందుగా నడిచేవాడు.",
+        "hi": "त्रिकूट के जंगलों में गजेन्द्र नाम का एक विशाल हाथी अपने झुंड के आगे चलता था।",
+        "en": "In Trikūṭa's forest, a mighty elephant named Gajendra led his herd."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.20"
+      }
+    },
+    {
+      "id": "S01E01-S03-L002",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warm observation",
+      "intent": "Establish females and calves following their leader",
+      "text": {
+        "te": "ఆడ ఏనుగులు అతని పక్కనే నడిచేవి. చిన్న ఏనుగులు వాటి వెనక వచ్చేవి.",
+        "hi": "हथिनियाँ उसके साथ चलती थीं और छोटे हाथी उनके पीछे-पीछे आते थे।",
+        "en": "Female elephants walked beside him, and the young ones followed behind."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.23-24"
+      }
+    },
+    {
+      "id": "S01E01-S03-L003",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Steady and descriptive",
+      "intent": "Show the thorny obstacles in the path",
+      "text": {
+        "te": "దారంతా ముళ్ల తీగలు, దట్టమైన పొదలతో నిండిపోయింది.",
+        "hi": "रास्ता काँटेदार बेलों और घनी झाड़ियों से भरा हुआ था।",
+        "en": "Thorny vines and thick bushes crowded the path ahead."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.20"
+      }
+    },
+    {
+      "id": "S01E01-S03-L004",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Slight movement in the voice",
+      "intent": "Show the elephant breaking vegetation as the source describes",
+      "text": {
+        "te": "గజేంద్రుడు ముందుకు సాగుతుంటే కొమ్మలు, పొదలు విరిగిపోయాయి.",
+        "hi": "गजेन्द्र आगे बढ़ा तो टहनियाँ और झाड़ियाँ टूटती चली गईं।",
+        "en": "As Gajendra pushed ahead, branches and shrubs snapped in his way."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.20"
+      }
+    },
+    {
+      "id": "S01E01-S03-L005",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Sense of power without aggression",
+      "intent": "Show lions and tigers retreating at his scent",
+      "text": {
+        "te": "అతని వాసన తగలగానే సింహాలు, పులులు కూడా భయపడి దూరంగా పారిపోయాయి.",
+        "hi": "उसकी गंध पाकर शेर और बाघ भी डरकर दूर भाग गए।",
+        "en": "Even lions and tigers fled when they caught his scent."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.21"
+      }
+    },
+    {
+      "id": "S01E01-S03-L006",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Understated grandeur",
+      "intent": "Other powerful animals leave the elephant's way",
+      "text": {
+        "te": "ఖడ్గమృగాలు, పెద్ద పాములు కూడా అతని దారి నుంచి తప్పుకున్నాయి.",
+        "hi": "गैंडे और बड़े साँप भी उसके रास्ते से हट गए।",
+        "en": "Rhinoceroses and great snakes moved away from him too."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.21"
+      }
+    },
+    {
+      "id": "S01E01-S03-L007",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Gentle contrast",
+      "intent": "Keep smaller animals safe and unafraid elsewhere in the forest",
+      "text": {
+        "te": "కానీ అడవిలో మరోవైపు జింకలు, కుందేళ్లు, కోతులు భయపడకుండా తిరిగేవి.",
+        "hi": "लेकिन जंगल की दूसरी ओर हिरन, खरगोश और बंदर बिना डरे घूमते रहे।",
+        "en": "Elsewhere, deer, rabbits and monkeys roamed without fear of him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.22"
+      }
+    },
+    {
+      "id": "S01E01-S03-L008",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Low, spacious emphasis",
+      "intent": "Communicate the elephant's astonishing weight and strength",
+      "text": {
+        "te": "అతని బరువైన అడుగులకు కొండంతా కంపించినట్టుగా అనిపించింది.",
+        "hi": "उसके भारी कदमों से मानो पूरा पहाड़ काँप उठा।",
+        "en": "His heavy steps seemed to make the mountain tremble."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.23-24"
+      }
+    },
+    {
+      "id": "S01E01-S03-L009",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Warmth and fatigue rather than distress",
+      "intent": "Show heat, perspiration, bees and thirst without sensationalism",
+      "text": {
+        "te": "ఎండకి గజేంద్రుడికి చెమట పట్టింది. గుంపంతా దాహంతో ఉంది. అతని చుట్టూ తేనెటీగలు గుయ్యిమన్నాయి.",
+        "hi": "गर्मी में गजेन्द्र को पसीना आ रहा था। पूरे झुंड को प्यास लगी थी और उसके पास भँवरे गुनगुना रहे थे।",
+        "en": "The heat made Gajendra sweat. The herd was thirsty, and bees hummed around him."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.23-24"
+      }
+    },
+    {
+      "id": "S01E01-S03-L010",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Invite the audience to notice the change in the wind",
+      "intent": "Reveal lotus pollen scent from the established freshwater lake",
+      "text": {
+        "te": "అప్పుడే సరస్సు నుంచి తామరపూల పుప్పొడి సువాసన గాలిలో తేలి వచ్చింది.",
+        "hi": "तभी झील की ओर से हवा में कमल के पराग की सुगंध आने लगी।",
+        "en": "Then a breeze carried the scent of lotus pollen from the lake."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.23-24"
+      }
+    },
+    {
+      "id": "S01E01-S03-L011",
+      "scene_id": "S03",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Forward momentum, then gentle end pause",
+      "intent": "Finish at the familiar lake bank without beginning bathing",
+      "text": {
+        "te": "ఆ వాసన వైపు గజేంద్రుడు త్వరగా నడిచాడు. అతని గుంపంతా సరస్సు ఒడ్డుకు చేరుకుంది.",
+        "hi": "गजेन्द्र उस सुगंध की ओर तेज़ी से बढ़ा और उसका पूरा झुंड झील के किनारे पहुँच गया।",
+        "en": "Gajendra hurried toward that scent, and his herd reached the lake's edge."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.23-24"
+      }
     }
   ],
-  "performance_notes": "Nineteen ordered, original narrator lines: S01 L001–L008 unchanged and S02 L001–L011 new, each with aligned natural Telugu, Hindi and English. All audio_owner values are NARRATOR and all offscreen lip_sync_target values are null. Pronunciation of Ṛtumat, Varuṇa, aśoka and campaka and per-language pacing need native-speaker table-read approval; no voice IDs or recordings are approved.",
-  "timing_note": "Two provisional 60-second scenes currently authored, totaling 120 of the preferred 360 seconds; S01 shot budgets remain 18+18+24 and S02 uses 18+18+24. These are editorial timing budgets, not measured spoken/audio runtimes. S03–S06 and a complete episode remain unwritten, and other episodes remain planned-only."
+  "performance_notes": "Thirty original trilingual lines across S01 (8), S02 (11) and S03 (11), all offscreen NARRATOR narration with explicit matching audio ownership and lip_sync_target=null. The visually present GAJENDRA has no voiced dialogue. Nature/animal calls are not TTS lines. Telugu/Hindi pronunciation and timing require independent native-language table reads; no voice IDs or recordings are selected or approved.",
+  "timing_note": "Three provisional 60-second editorial scenes now total 180 of the preferred 360 seconds. Shot splits: S01 18+18+24; S02 18+18+24; S03 18+20+22. S04–S06 are still unwritten. Timings have not been measured in recorded Telugu, Hindi or English; no audio, images or animation exist."
 }

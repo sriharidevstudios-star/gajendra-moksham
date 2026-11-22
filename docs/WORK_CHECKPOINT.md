@@ -1,43 +1,43 @@
-# Work checkpoint — GM-STY-002
+# Work checkpoint — GM-STY-003
 
 **Date:** 2026-11-22  
-**Repo:** `sriharidevstudios-star/gajendra-moksham` · branch `production-artwork` · draft PR #1 into `main`  
-**Verified starting remote head:** `861d85434e39e01bdad47f11dc459599e988fa63` (GM-STY-001).  
-**Next item:** GM-STY-003, only S01E01/S03.
+**Repo:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1 targeting `main`  
+**Verified starting head:** `1f69cac21fad4ce579997cc401e4f674a522acb4` (GM-STY-002)  
+**Batch:** GM-STY-003 only S01E01/S03; **next:** GM-STY-004 only S01E01/S04.
 
-## Bounded delivery
+## Bounded changes
 
-- Appended only **S01E01/S02**, “Ṛtumat Garden and the Lotus Lake,” to the canonical `episode.json`. S01's original scene and eight lines were preserved without modification, including IDs, shot budgets and source anchors.
-- S02 includes **11 new** aligned `te/hi/en` spoken narration lines, `S01E01-S02-L001` through `L011`; every line has `audio_owner=NARRATOR`, `performance_mode=narration`, `lip_sync_target=null` and a concrete `scripture_paraphrase` anchor.
-- S02 contains **three shots**, 18 + 18 + 24 = **60 seconds provisional**; the complete authored S01+S02 episode budget is 120 seconds, not a recorded runtime.
-- Source anchors: [8.2.7](https://vedabase.io/en/library/sb/8/2/7/), [8.2.8](https://vedabase.io/en/library/sb/8/2/8/), [8.2.9–13](https://vedabase.io/en/library/sb/8/2/9-13/), [8.2.14–19](https://vedabase.io/en/library/sb/8/2/14-19/). The garden belongs to Varuṇa, blooms and fruits year-round, and borders a golden-lotus freshwater lake with water lilies, birds, fish and tortoises.
-- S02 staging introduces a consistent lake approach bank for subsequent shots. Gajendra, his herd and the crocodile are intentionally not scripted or pictured here; no invented incident, deity speech or animal human lip-sync.
-- `season.json` and the `S01E02–S01E06` index statuses remain unchanged; `S01E01` stays `partial_scene_draft`. S03–S06 are still **missing**.
+- Appended one scene **S01E01/S03 — Gajendra Leads the Herd**, grounded in [8.2.20](https://vedabase.io/en/library/sb/8/2/20/), [8.2.21](https://vedabase.io/en/library/sb/8/2/21/), [8.2.22](https://vedabase.io/en/library/sb/8/2/22/), and combined [8.2.23–24](https://vedabase.io/en/library/sb/8/2/23-24/).
+- Added **11 aligned, original Telugu/Hindi/English narration lines** with IDs `S01E01-S03-L001` through `L011`, all `speaker=NARRATOR`, `audio_owner=NARRATOR`, `performance_mode=narration`, `lip_sync_target=null`, each with an in-scene verse anchor. This is a child-friendly original retelling, not a quotation of a modern translation.
+- Added three editorial shots **18 + 20 + 22 = 60 seconds provisional**, visualizing thorny forest, contrasting wild-animal reactions, heat, female elephants and calves, bees, lotus fragrance and **arrival at the established lake bank**. Gajendra stays a natural elephant without human speech/lip-sync.
+- Added **GAJENDRA** as a visual-only cast member (no voice, no approved portrait), referencing the pre-existing character bible. All original S01/S02 scene, shot and line objects are unchanged. Only episode-level logline/source/adaptation/performance/timing annotations were extended.
+- Canonical episode now has **3/6 ordered scenes**, **30 trilingual lines**, **180 seconds of editorial scene budgets**. Bathing, water spraying and crocodile encounter remain to be written later. `season.json` stays untouched, `S01E01=partial_scene_draft`; all other episodes remain planned, no media exists.
 
-## Validation and limitations
+## Tests and provenance
 
-| Gate | Result |
+| Gate | Status |
 | --- | --- |
-| Scripture research | **CHECKED** against the cited Vedabase chapter/passage text; wording original, not copied translation |
-| In-process structural/source audit | **PASS:** JSON serializes, 2 ordered scenes, 19 unique lines, te/hi/en text per line, owned audio, source range coverage, 3 shots per scene and shot totals |
-| S01 preservation | **PASS:** original S01 scene and eight dialogue objects serialized identically in the in-process comparison |
-| Python regression suite `python3 -m unittest discover -s tests -v` | **UNRUN THIS BATCH**: GitHub connector can read/write but cannot execute the checked-out repo; prior 24/24 result belongs to GM-ARCH-001, not this edit |
-| Python scoped validator `python3 scripts/validate_content.py --episode S01E01 --scene S02` | **UNRUN THIS BATCH**; structural audit is not a substitute for executing repo validator |
-| Python draft builder and `--check` | **UNRUN THIS BATCH**; no generated text output committed or claimed |
-| Whole-season gate | **NOT_READY (by source inventory):** S01E01 has 2/6 scenes, S01E02–E06 source files absent; Python whole-season command not executed |
-| Voice/image/audio/motion | **MISSING**; no generation or approval represented |
-| Remote commit / file proof | See current `production-artwork` branch and draft PR #1 after this batch; verify exact commit, changed paths and blob SHAs |
+| Verse check | **CHECKED**: SB 8.2.20–24. Fierce animals flee, smaller animals remain unafraid, and the thirsty herd reaches the bank in 8.2.23–24. |
+| In-process JS audit (GitHub canonical data) | **PASS**: prior S01/S02 objects unchanged; three ordered scenes; 30 unique line IDs; each new line te/hi/en, owned narrator audio and an in-range verse; three shots/scene and correct 180-second total; season planning status preserved. |
+| Regression unit tests | **24 PASS** with `python3 -m unittest discover -s tests -q` in isolated prior scaffold, whose validator/builder/test file Git blob SHAs match GitHub. Fixture tests are synthetic and do not validate the new canonical scene itself. |
+| Python compilation | **PASS** in isolated scaffold (`python3 -m compileall -q scripts`). |
+| Python scoped validation on new canonical `S03` | **UNRUN** in this batch; GitHub connector does not execute the remote checked-in scene. Run locally using commands below. |
+| Python deterministic build and --check on new `S03` | **UNRUN**; no text export committed, no TTS/audio created. |
+| Python whole-season command | **UNRUN**; expected `NOT_READY` because E01 has 3/6 scenes and E02–E06 lack canonical sources. |
+| JSON Schema package validation | **UNRUN**; in-process structural checks are not a substitute. |
+| Media/voices/references | **MISSING**; no image/audio/video calls or approvals. |
+| Guarded non-force remote commit | Verify branch head, PR #1, exactly three changed paths, and blob SHAs from the GitHub commit/branch after push. |
 
-### Commands for local Python verification (not yet run on this batch)
+### Run on a real checkout when available
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S02
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S02 --check
-python3 scripts/validate_content.py  # expected NOT_READY, exit 2
+python3 scripts/validate_content.py --episode S01E01 --scene S03
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S03
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S03 --check
+python3 scripts/validate_content.py  # expect NOT_READY / exit 2 until full season exists
 ```
 
-## Next
+## Next work item
 
-**GM-STY-003:** Write only **S01E01/S03** (the elephant king leads the herd toward the lake; source SB 8.2.20–24), with fresh stable S03 line IDs, three shots and explicit narrator ownership. Preserve all S01/S02 objects and all previous statuses/accepted assets. Full copy-ready operating instructions are in `docs/NEXT_CHAT_PROMPT.md`.
+**GM-STY-004:** Author **S01E01/S04** (first drinking/bathing/relief at the lake) using SB 8.2.25–26, preserving S01–S03 and letting S05/S06 handle any later danger. Read `docs/NEXT_CHAT_PROMPT.md`.
