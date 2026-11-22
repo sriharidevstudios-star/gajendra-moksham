@@ -1,6 +1,262 @@
 {
   "schema_version": "1.0",
-  "status": "empty_no_media_generated",
-  "assets": [],
-  "verification_note": "No references, image frames, audio, motion clips, prompt receipts or hashes exist in this new project."
+  "status": "owner_approved_reference_artwork_library_backed_binary_not_in_github",
+  "assets": [
+    {
+      "asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "kind": "character_cast_overview",
+      "status": "owner_approved_visual_identity",
+      "mime_type": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "byte_count": 2779513,
+      "sha256": "389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06",
+      "uri": "library:/Gajendra Moksham/References/approved-cast-overview-v1.png",
+      "repository_binary_status": "NOT_MIRRORED",
+      "generation": {
+        "tool": "ChatGPT image generation",
+        "generation_id": "3691b3b1-45ba-4cd1-9331-e954442a810c",
+        "actual_model": null,
+        "actual_seed": null,
+        "actual_timestamp": null
+      },
+      "approval": {
+        "status": "user_approved",
+        "scope": "locked visual appearance of the nine full-body character identities",
+        "date": "2026-11-22",
+        "evidence": "User confirmed the last full-body character sheet looks good and is the locked reference set in this ChatGPT conversation"
+      },
+      "publication": {
+        "storage": "ChatGPT Library /Gajendra Moksham/References",
+        "package": "approved-character-references-v1.zip",
+        "github_source_binary": "absent"
+      }
+    },
+    {
+      "asset_id": "REF_GM_GAJENDRA_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "GAJENDRA",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 335,
+      "height": 427,
+      "byte_count": 250286,
+      "sha256": "e38a58f30ed258abe9d25f22fd3639fff86215fa26e25655d3bece90cac46c64",
+      "uri": "library:/Gajendra Moksham/References/gajendra-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        15,
+        88,
+        350,
+        515
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_CROCODILE_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "CROCODILE",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 300,
+      "height": 427,
+      "byte_count": 218715,
+      "sha256": "558b80797ff17bef8ed58a52933bc3719bddfcc6632bff546dd80431db1f6b74",
+      "uri": "library:/Gajendra Moksham/References/crocodile-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        353,
+        88,
+        653,
+        515
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_NARAYANA_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "NARAYANA",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 288,
+      "height": 427,
+      "byte_count": 210219,
+      "sha256": "40ae8b356f07ab1ebe22cbb4a6c05fa5c197174e7cf9f324bf0cedb858193060",
+      "uri": "library:/Gajendra Moksham/References/narayana-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        653,
+        88,
+        941,
+        515
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_GARUDA_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "GARUDA",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 299,
+      "height": 427,
+      "byte_count": 230965,
+      "sha256": "7dc73b27cb9672eddedd2d9e5c0829703e2f173fdcc8ecef2fc1584851089f59",
+      "uri": "library:/Gajendra Moksham/References/garuda-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        942,
+        88,
+        1241,
+        515
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_HUHU_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "HUHU",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 282,
+      "height": 427,
+      "byte_count": 202244,
+      "sha256": "f9627df8c0944e437bf5e1a3c5aa95e9050c9d0f58de0f8b72d04c5b30c0022b",
+      "uri": "library:/Gajendra Moksham/References/huhu-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        1242,
+        88,
+        1524,
+        515
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_DEVALA_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "DEVALA",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 302,
+      "height": 468,
+      "byte_count": 224071,
+      "sha256": "4989db447fb1efb84f973c8876c74b022d7b9d6e10c7cd6e49eb63afb7bd4018",
+      "uri": "library:/Gajendra Moksham/References/devala-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        138,
+        521,
+        440,
+        989
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_INDRADYUMNA_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "INDRADYUMNA",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 274,
+      "height": 468,
+      "byte_count": 201841,
+      "sha256": "d83f8c1faa6b443a9779af4cce438d1fe54d95078edc243b6acedf89c66db5bc",
+      "uri": "library:/Gajendra Moksham/References/indradyumna-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        443,
+        521,
+        717,
+        989
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_AGASTYA_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "AGASTYA",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 295,
+      "height": 468,
+      "byte_count": 214735,
+      "sha256": "659cc3d4781a70da4d49dfd9480110c8e11056f2692c703110683ecdf0dbacf5",
+      "uri": "library:/Gajendra Moksham/References/agastya-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        717,
+        521,
+        1012,
+        989
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    },
+    {
+      "asset_id": "REF_GM_GAJENDRA_LIBERATED_FULL_BODY_V1",
+      "kind": "approved_cast_panel_crop",
+      "character_id": "GAJENDRA_LIBERATED",
+      "status": "derived_from_user_approved_overview",
+      "mime_type": "image/png",
+      "width": 368,
+      "height": 468,
+      "byte_count": 278884,
+      "sha256": "b8d49f876817511f31d631362cb30325d9ef295caacec262ebb6efa199a484b1",
+      "uri": "library:/Gajendra Moksham/References/gajendra_liberated-approved-panel-crop-v1.png",
+      "source_asset_id": "REF_GM_CAST_OVERVIEW_V1",
+      "crop_box_xyxy": [
+        1011,
+        521,
+        1379,
+        989
+      ],
+      "derivation": "lossless crop without character redesign; not independently reviewed 3-view turnaround",
+      "approval": {
+        "status": "covered_by_overview_visual_identity_approval",
+        "date": "2026-11-22"
+      },
+      "repository_binary_status": "NOT_MIRRORED"
+    }
+  ],
+  "verification_note": "11-22-2026 user-approved final 9-character composite and 9 lossless panel crops exist in the user's ChatGPT Library with SHA-256, size, crop boxes and generation ID. GitHub commit stores approval/provenance metadata only; the actual PNG binaries are not present in this git tree. No scene/keyframe/audio/motion/video asset has been produced."
 }

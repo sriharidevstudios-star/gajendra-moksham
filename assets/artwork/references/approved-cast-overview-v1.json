@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "series": "Gajendra Moksham",
+  "status": "owner_locked_visual_identity_library_backed",
+  "source_approved_sheet": {
+    "sha256": "389568f7590fe2230892c0de3aaafde88f256f4a50e4e4a54ddd65071e4cab06",
+    "bytes": 2779513,
+    "width": 1536,
+    "height": 1024,
+    "filename": "approved-cast-overview-v1.png",
+    "generation_id": "3691b3b1-45ba-4cd1-9331-e954442a810c",
+    "tool": "OpenAI image generation",
+    "model_version": null,
+    "seed": null,
+    "uploaded_library_path": "/Gajendra Moksham/References/approved-cast-overview-v1.png"
+  },
+  "approval": {
+    "date": "2026-11-22",
+    "actor": "series owner (direct user approval in this ChatGPT conversation)",
+    "scope": "nine depicted full-body cast identities are locked for the series",
+    "excluded": "no script language, speaking portrait, environment, motion or video approval"
+  },
+  "storage": {
+    "canonical_media_location": "ChatGPT Library /Gajendra Moksham/References/",
+    "download_bundle": "gajendra_approved_character_references_v1.zip",
+    "repository_mirror_status": "not_mirrored_binary; GitHub metadata is not a copy of the image bytes"
+  },
+  "panel_asset_ids": [
+    "REF_GM_GAJENDRA_FULL_BODY_V1",
+    "REF_GM_CROCODILE_FULL_BODY_V1",
+    "REF_GM_NARAYANA_FULL_BODY_V1",
+    "REF_GM_GARUDA_FULL_BODY_V1",
+    "REF_GM_HUHU_FULL_BODY_V1",
+    "REF_GM_DEVALA_FULL_BODY_V1",
+    "REF_GM_INDRADYUMNA_FULL_BODY_V1",
+    "REF_GM_AGASTYA_FULL_BODY_V1",
+    "REF_GM_GAJENDRA_LIBERATED_FULL_BODY_V1"
+  ],
+  "continuity": {
+    "style": "Prahlada warm illustrative painted storybook style",
+    "crocodile": "stylized fierce olive crocodile with expressive narrowed eyes, teeth visible but no graphic injury",
+    "elephant": "approved decorated Gajendra silhouette; quadrupedal; no anatomically impossible anthropomorphism",
+    "liberated": "approved visually separate four-arm spiritual Gajendra"
+  },
+  "no_inference": "No individual multi-angle turnaround exists. Future renders require the approved pixels plus reproducible receipt and human visual QC; no invented reference files."
+}
