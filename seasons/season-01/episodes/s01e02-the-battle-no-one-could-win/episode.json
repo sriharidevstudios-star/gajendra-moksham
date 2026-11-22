@@ -20,20 +20,22 @@
     "edition": "Śrīmad-Bhāgavatam Canto 8 Chapter 2; original trilingual paraphrase, not copied English translation",
     "url": "https://vedabase.io/en/library/sb/8/2/",
     "source_locator": "SB 8.2.27–33",
-    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22."
+    "verification_notes": "Scene S01 preserves the actual failed pull from behind in SB 8.2.28, distinct from the helpers' mere approach ending S01E01. Eight original spoken paraphrases and one separately disclosed original ripple insert. SB 8.2.29's thousand-year struggle is reserved for later S01E02 scenes. The chosen left foreleg and bank orientation are screen geography, not verse details. Verified against 8.2.27–29 on 2026-11-22. S02 uses SB 8.2.27 for Gajendra's continued effort and SB 8.2.29 for opposing land/water pulling. L002 and L008 are disclosed original shore-footing/trunk blocking; do not imply a 1000-year duration before S04."
   },
   "adaptation": {
     "core_preserved": [
       "Other elephants grasp Gajendra from behind but cannot rescue him from the strong crocodile (SB 8.2.28).",
       "Female elephants cry out in distress (SB 8.2.28).",
-      "The unsuccessful rescue leaves Gajendra still trapped before the long struggle (8.2.28–29)."
+      "The unsuccessful rescue leaves Gajendra still trapped before the long struggle (8.2.28–29).",
+      "Gajendra exerts strength to escape his caught foot (8.2.27), and the elephant and crocodile pull against one another toward and away from the water (8.2.29)."
     ],
     "changes": [
       "Continue directly from E01/S06; no second new attack.",
       "Exact left foreleg, shore orientation and helper staging are original 16:9 continuity decisions.",
       "L003 surface ripples are original staging, not another scripture event.",
       "No named herd character or human-spoken elephant/crocodile lines; no gore or fabricated rescue.",
-      "Future S02–S06 contain the ongoing contest, thousand years, changing advantage and turn to divine refuge; none are authored yet."
+      "Future S02–S06 contain the ongoing contest, thousand years, changing advantage and turn to divine refuge; none are authored yet.",
+      "In S02, the exact near-bank foothold and raised-trunk gesture are original cinema staging; the thousand-year duration is reserved for S04."
     ],
     "fidelity_note": "Independent simple child-friendly Telugu/Hindi/English paraphrase of SB 8.2.28. The physical failed pull from behind and female elephants' cries are source events; all water staging is clearly differentiated and unrecorded."
   },
@@ -111,6 +113,53 @@
           "action": "Female elephants cry; all recognize that even together they cannot free their leader. End on Gajendra still restrained; narration L007–L009. No passage of many years yet.",
           "camera": "Return to 16:9 bank-facing wide shot with calves behind adults; keep natural elephant and crocodile silhouette and scale.",
           "sound": "Gentle animal calls and environmental tail PLANNED. No human mouth-synced dialogue or finished sound."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Gajendra strains toward land",
+      "setting": "Same near-shallow shore at Ṛtumat lake after failed herd rescue in S01; Gajendra's selected left foreleg remains caught by same olive crocodile. His own effort now becomes the focus.",
+      "action": "Gajendra repeatedly attempts to reach firm ground while the crocodile resists and pulls back toward water, as SB 8.2.27 and the in/out-water contest of 8.2.29 establish. Do not yet claim one thousand years pass; S04 owns that narration.",
+      "duration_budget_seconds": 45,
+      "nonverbal_beats": [
+        "Start precisely after the failed herd pull of S01, with no new arrival or grip event.",
+        "The landward-footing detail and raised trunk are original visual staging, not separate scripture incidents.",
+        "Use only the owner's full-body approved Gajendra and slightly fierce storybook crocodile design; no realistic horror, no skin injury or human mouth motion.",
+        "Alternate the physically understandable shoreward and waterward force without changing which left foreleg is gripped, the position of the near bank, or the identity scale.",
+        "Hold the unfinished contest before explaining the crocodile's aquatic advantage in S03 or the thousand years in S04."
+      ],
+      "source_anchors": [
+        {
+          "locator": "8.2.27",
+          "url": "https://vedabase.io/en/library/sb/8/2/27/"
+        },
+        {
+          "locator": "8.2.29",
+          "url": "https://vedabase.io/en/library/sb/8/2/29/"
+        }
+      ],
+      "shots": [
+        {
+          "id": "S01E02-S02-SH01",
+          "budget_seconds": 15,
+          "action": "Gajendra, after his herd could not rescue him, braces toward the near bank, struggling against the same left-foreleg crocodile grip; narration L001–L003. Bank-footing detail is original staging.",
+          "camera": "16:9 side medium-wide, show full natural quadruped, bank left, deeper water right, keep exact approved costume.",
+          "sound": "NARRATOR only; subdued water and effort sounds remain PLANNED SFX."
+        },
+        {
+          "id": "S01E02-S02-SH02",
+          "budget_seconds": 15,
+          "action": "Two opposing pulls at the waterline as Gajendra tries toward shore and crocodile back toward lake; narration L004–L006. No second surprise bite or successful separation.",
+          "camera": "16:9 static three-quarter at existing waterline; visible single left-leg attachment and one crocodile tail; avoid rapid camera cuts.",
+          "sound": "NARRATOR only with future natural water displacement; no invented animal words."
+        },
+        {
+          "id": "S01E02-S02-SH03",
+          "budget_seconds": 15,
+          "action": "Crocodile draws Gajendra slightly back toward deeper water; elephant braces and lifts trunk; grip unchanged; narration L007–L009. Trunk gesture is disclosed original blocking.",
+          "camera": "16:9 stable full-body wide side; maintain existing left-bank/deeper-right geography and scale.",
+          "sound": "NARRATOR only, gentle water movement and brief unmeasured hold."
         }
       ]
     }
@@ -286,8 +335,179 @@
         "kind": "scripture_paraphrase",
         "locator": "8.2.28"
       }
+    },
+    {
+      "id": "S01E02-S02-L001",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Determined, no panic",
+      "intent": "Gajendra kept trying to free his trapped leg.",
+      "text": {
+        "te": "గజేంద్రుడు తన కాలును విడిపించుకోవడానికి మళ్లీ ప్రయత్నించాడు.",
+        "hi": "गजेन्द्र अपना फँसा हुआ पैर छुड़ाने की कोशिश करता रहा।",
+        "en": "Gajendra kept trying to free his trapped leg."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.27"
+      }
+    },
+    {
+      "id": "S01E02-S02-L002",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Physical shoreline blocking, calm and clear",
+      "intent": "He tried to plant his feet in the shallows near the bank.",
+      "text": {
+        "te": "ఒడ్డుకు దగ్గరలోని లోతు తక్కువ నీళ్లలో నిలబడేందుకు ప్రయత్నించాడు.",
+        "hi": "उसने किनारे के पास उथले पानी में पैर जमाने की कोशिश की।",
+        "en": "He tried to plant his feet in the shallows near the bank."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original clear physical blocking at the shallow bank: Gajendra planting his feet is a cinematic interpretation, not a separate incident in SB 8.2.27–29."
+      }
+    },
+    {
+      "id": "S01E02-S02-L003",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Show Gajendra's own effort",
+      "intent": "With great effort, he pulled toward solid ground.",
+      "text": {
+        "te": "ఎంతో కష్టపడి ఒడ్డువైపు లాగాడు.",
+        "hi": "बहुत ज़ोर लगाकर वह किनारे की ओर खिंचा।",
+        "en": "With great effort, he pulled toward solid ground."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.27"
+      }
+    },
+    {
+      "id": "S01E02-S02-L004",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Describe opposing forces without horror",
+      "intent": "The crocodile pulled back toward the water.",
+      "text": {
+        "te": "మొసలి అతన్ని నీళ్లవైపు తిరిగి లాగింది.",
+        "hi": "मगरमच्छ उसे वापस पानी की ओर खींचने लगा।",
+        "en": "The crocodile pulled back toward the water."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S02-L005",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Natural opposing force",
+      "intent": "The two powerful creatures tugged in opposite directions.",
+      "text": {
+        "te": "ఆ రెండు బలమైన జంతువులు చెరో వైపు లాగుకున్నాయి.",
+        "hi": "दोनों ताकतवर जीव विपरीत दिशाओं में खींच रहे थे।",
+        "en": "The two powerful creatures tugged in opposite directions."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S02-L006",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Simple alternating movement",
+      "intent": "At moments, Gajendra drew closer to the shore.",
+      "text": {
+        "te": "కొన్నిసార్లు గజేంద్రుడు ఒడ్డుకు కాస్త దగ్గరయ్యాడు.",
+        "hi": "कभी गजेन्द्र किनारे के थोड़ा पास आ जाता।",
+        "en": "At moments, Gajendra drew closer to the shore."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S02-L007",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Continuity in lake geography",
+      "intent": "At others, the crocodile drew him back toward deeper water.",
+      "text": {
+        "te": "మరికొన్నిసార్లు మొసలి అతన్ని మళ్లీ లోతు నీళ్లవైపు లాగింది.",
+        "hi": "कभी मगरमच्छ उसे फिर गहरे पानी की ओर खींच ले जाता।",
+        "en": "At others, the crocodile drew him back toward deeper water."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.29"
+      }
+    },
+    {
+      "id": "S01E02-S02-L008",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Visible nonverbal physical staging",
+      "intent": "Gajendra braced himself and raised his trunk.",
+      "text": {
+        "te": "గజేంద్రుడు కాళ్లు బిగించి, తొండాన్ని పైకెత్తాడు.",
+        "hi": "गजेन्द्र ने अपने पैर जमाए और सूँड ऊपर उठाई।",
+        "en": "Gajendra braced himself and raised his trunk."
+      },
+      "source_attribution": {
+        "kind": "original_dramatization",
+        "note": "Original natural raised-trunk bracing gesture for visual continuity; the scripture does not specify this precise trunk movement."
+      }
+    },
+    {
+      "id": "S01E02-S02-L009",
+      "scene_id": "S02",
+      "speaker": "NARRATOR",
+      "audio_owner": "NARRATOR",
+      "performance_mode": "narration",
+      "lip_sync_target": null,
+      "delivery": "Unresolved quiet beat",
+      "intent": "Yet his leg remained in the crocodile's grip.",
+      "text": {
+        "te": "అయినా అతని కాలు మొసలి పట్టులోనే ఉంది.",
+        "hi": "फिर भी उसका पैर मगरमच्छ की पकड़ में था।",
+        "en": "Yet his leg remained in the crocodile's grip."
+      },
+      "source_attribution": {
+        "kind": "scripture_paraphrase",
+        "locator": "8.2.27"
+      }
     }
   ],
-  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes.",
-  "timing_note": "The authored first scene has 18+24+18=60 seconds of provisional editorial allocations. Five other scenes are not yet written; the E02 preferred 330-second runtime has not been measured or claimed. Source status partial_scene_draft."
+  "performance_notes": "S01E02/S01 currently has nine NARRATOR-owned lines with all te/hi/en text and no animal lip-sync. Native-speaker review, voice casting and actual timings are not completed. Approved user cast overview is kept in the Library, with GitHub provenance metadata but no mirrored PNG bytes. S02 adds nine narration-only lines, all three languages aligned and no human mouth animation on animals.",
+  "timing_note": "S01 60s + S02 45s = 105 provisional seconds authored; later S03–S06 missing. Full preferred 330s, unmeasured and unapproved."
 }
