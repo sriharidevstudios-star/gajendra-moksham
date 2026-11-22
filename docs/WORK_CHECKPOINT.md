@@ -1,43 +1,42 @@
-# Work checkpoint — GM-LANG-004
+# Work checkpoint — GM-COV-001
 
 **Date:** 2026-11-22  
-**Repository:** `sriharidevstudios-star/gajendra-moksham` · `production-artwork` · draft PR #1 into `main`  
-**Verified starting remote head:** `5fd700c1e30916e3cab6b417f386633059cb7867` (GM-LANG-003).  
-**Batch:** Seven bounded P3 dispositions + native-listener checklist; next GM-COV-001 (S01E01/S01 source ownership mapping).
+**Repository:** `sriharidevstudios-star/gajendra-moksham`, branch `production-artwork`, draft PR #1 to `main`  
+**Verified starting head:** `0e828cbb7b113efe95557ab7d514e75e6a4de8a6` (GM-LANG-004)  
+**Scope:** S01E01/S01 source/shot/audio ownership mapping only. **Next:** GM-COV-002 (S01E01/S02).
 
-## GM-LANG-004 completed scope
+## Delivery
 
-- Reviewed all **seven P3 findings** in the existing 54-line S01E01 audit against canonical text and original source passages [SB 8.2.9–13](https://vedabase.io/en/library/sb/8/2/9-13/), [8.2.14–19](https://vedabase.io/en/library/sb/8/2/14-19/), [8.2.25](https://vedabase.io/en/library/sb/8/2/25/), [8.2.26](https://vedabase.io/en/library/sb/8/2/26/) and [8.2.27](https://vedabase.io/en/library/sb/8/2/27/). All new writing is original, not copied translation.
-- **Applied four** line-level wording improvements affecting **five spoken strings**: `S01E01-S02-L006` (hi; explicit flowering trees), `S01E01-S02-L008` (hi; kumudinī/water-lily terminology), `S01E01-S04-L009` (te; natural sprinkling rather than drenching), `S01E01-S06-L001` (te, hi; single urgency cue). All are **pending native-speaker signoff**.
-- **Deferred three without changing dialogue:** `S01E01-S03-L009` Telugu bee sound (needs pronunciation listening), `S01E01-S04-L006` second-bathing/shot-order timing (needs table read), and `S01E01-S05-L001` repeated family-care narration (needs timed editorial listening).
-- Preserved both P1 text fixes, all applied P2 lines, the deferred S06/L008 rescue handoff, **the other 50 dialogue objects**, all 54 IDs, their audio/source ownership, 50 verse paraphrases + 4 labeled original dramatizations, all six scenes/18 shots/cast, and 330-second episode preferred target. Episode stays `partial_scene_draft`.
-- Updated `docs/S01E01_LANGUAGE_AUDIT.md` with 4 APPLIED and 3 DEFERRED P3 decisions while preserving all previous findings and the original 54-row ledger.
-- Created `docs/S01E01_NATIVE_LISTENER_CHECKLIST.md` with **54 unchecked te/hi/en line entries**, 18 planned shot-to-line ranges, blank reviewer/date/evidence fields, terminology checks, source/scene continuity and timing holds, all explicitly **NOT APPROVED**.
-- No human narrator, native listener or devotional specialist has approved anything; no TTS, audio, voices, images or video have been produced. Season metadata unchanged; S01E02–E06 still have no canonical sources. Global season **NOT_READY**.
+- Created **`docs/S01E01_S01_COVERAGE_MAP.md`** for the eight canonical S01 narration lines and three existing shots: `S01E01-S01-L001–L002` → `SH01` **18s**, `L003–L004` → `SH02` **18s**, `L005–L008` → `SH03` **24s**. All eight are assigned exactly once, with `NARRATOR` owning te/hi/en and `lip_sync_target=null`, plus exact scripture anchors.
+- Described **planned**, not created, start/end composition requirements for all three shots; environment/three-peak geography, appropriate motion, background/ambient sound, and especially the Ocean of Milk vs the later *separate* freshwater garden/lake continuity.
+- Verified repository inventory at tree `955d3bfcefcbdbb93975224baaf63e8315450f6e` (**no media blobs**), `assets/asset_registry.json` (**empty**), `seasons/season-01/voice_cast.json` (**no approved NARRATOR voices**), `seasons/season-01/production_tracker.json` (**no media files/approved keyframes or audio**), and `assets/shot_spec_policy.json` (text **policy**, not compiled per-shot specs). Start/end images, SFX and motions all **MISSING**; requirements are **PLANNED** only. No fabricated filenames/frame IDs, outputs, media hashes, receipts or approvals.
+- The planning-only tracker still has `canonical_story_written=false` despite the actual six-scene partial canonical episode source. This inconsistency was noted honestly, not modified in a coverage docs-only batch; the authoritative episode still has `partial_scene_draft` status and 54 script lines.
+- **No changes** to canonical story, six scenes, 18 shot objects and budgets, any line IDs/text, season target (330s episode / 360s season preference), audio/voice approvals, asset registries, scripts, native-listener checklist or production data. No image/TTS/audio/video calls.
 
-## Verification and honest limits
+## Validation
 
-| Gate | Outcome |
+| Gate | Result |
 |---|---|
-| In-process exact-change, 54-line IDs, 18 shots, language/source/audio ownership, 330-second runtime | **PASS**: only the four permitted spoken-text objects changed, 5 language strings total |
-| Original scripture cross-check | **CHECKED** from live Vedabase passages; no new plot added |
-| Unit tests `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector cannot execute checked-in Python |
-| Scoped `python3 scripts/validate_content.py --episode S01E01 --scene S06` | **UNRUN**; no claim of executed SCOPED_READY |
-| Deterministic draft text builder/`--check` | **UNRUN**; no generated text exports or media committed |
-| Whole-season `python3 scripts/validate_content.py` | **UNRUN**; expected `NOT_READY` due five missing episode sources |
-| Native review / recorded timing / approvals | **NOT PERFORMED** |
-| Remote commit/branch/PR/file blobs | Verify after guarded non-force push |
+| GitHub remote S01 source, registry, cast, tracker and policy | **CHECKED** from `0e828cbb7b113efe95557ab7d514e75e6a4de8a6` |
+| In-process S01 ownership coverage | **PASS**: 8/8 lines mapped once to the three real shot IDs, all source locators anchored, 18+18+24s total 60s |
+| Audio, te/hi/en fields, null lip sync | **PASS**: all 8 canonical `NARRATOR` |
+| Media existence / approval | **MISSING**: 0 tracked image/audio/video artifacts, no approved voice/reference |
+| Python `python3 -m unittest discover -s tests -v` | **UNRUN** — GitHub connector does not execute checked-in Python |
+| Scoped `python3 scripts/validate_content.py --episode S01E01 --scene S01` | **UNRUN**; no SCOPED_READY claimed as an executed result |
+| Text builder/`--check` | **UNRUN**; no exports created |
+| Full season validator | **UNRUN**; expected `NOT_READY`, S01E02–E06 absent |
+| Guarded commit and remote file/PR verification | Verify post-push against branch, exactly three changed paths and blob SHAs |
 
-Local gate commands for an environment with the repository:
+## Commands for future executable Python environment
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/validate_content.py --episode S01E01 --scene S06
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06
-python3 scripts/build_season_dialogue.py --episode S01E01 --scene S06 --check
+python3 scripts/validate_content.py --episode S01E01 --scene S01
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S01
+python3 scripts/build_season_dialogue.py --episode S01E01 --scene S01 --check
 python3 scripts/validate_content.py  # expected NOT_READY / exit 2
 ```
 
-## Next bounded task
+## Next
 
-**GM-COV-001:** map only S01E01/S01's eight canonical narrator lines to the three existing editorial shots, explicit audio ownership and honest future image/start-end-frame requirements, with no new stills, images, recordings or animation. Preserve all previous source and native-review status. Full handoff in `docs/NEXT_CHAT_PROMPT.md`.
+GM-COV-002: S01E01/S02's 11-line ownership and planned visuals, no media calls; exact handoff in `docs/NEXT_CHAT_PROMPT.md`.
